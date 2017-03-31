@@ -1,0 +1,301 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,article,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+
+
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{changepage}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{PSLab} % Your first name
+\familyname{} % Your last name
+
+\title{Technical Specifications}
+\email{Mfd by. csparkresearch@gmail.com}
+\address{www.fossasia.org}{}
+\photo[100pt][0pt]{pictures/logo.png} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%----------------------------------------------------------------------------------------
+\setlength\arrayrulewidth{.4pt}
+\setlength\tabcolsep{6pt}
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+
+
+
+\chapter{\color{blue!50!green}\LARGE\bfseries Introduction}
+\vspace{5mm}
+\\.
+\setlength{\parindent}{1cm}
+\textit{\color{blue!20!black!80}PSLab provides an array of test equipment that includes an oscilloscope, waveform generators, frequency counters, Programmable voltage sources and many more for the curious ones among us. The measurement/control functions are accessible from the Python programming language and GUI applications are also available for a variety of science and engineering experiments. } .\\
+\setlength{\parindent}{0cm}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	Pin definition section
+%----------------------------------------------------------------------------------------
+
+\vspace{20pt}
+\chapter{\color{blue!50!green}\LARGE\bfseries Pin Definitions and Functions}
+\section{Analog Inputs - Measure Voltages with 12-bit resolution}
+\cventry{CH1}{Range:$\pm$ 16}{}{ Gain:up to 32x.}{ }{}{}
+\cventry{CH2}{Range:$\pm$ 16}{}{ Gain:up to 32x.}{ }{}{}{}
+\cventry{CH3}{Range:$\pm$ 3.3V}{}{}{}{*manual gain control by grounding Rg via resistor R  . $gain = 1 + \frac{10K}{R_g}$}{}
+\cventry{MIC}{Range: $\pm15mV$}{}{}{ Gain:200x.}{}{}
+\cventry{SEN}{Range: $0 - 3.3V$}{}{}{ Internally Pulled up to 3.3V via 5.1KOhm resistor}{}{}
+
+\section{Analog Outputs}
+\subsection{Waveform Generators}
+\cventry{WG1}{5Hz to 5KHz Arbitrary Waveform Generator}{Range: $ \pm 3V$ .Attenuable}{}{}{}{}
+\cventry{WG2}{5Hz to 5KHz Waveform Generator}{Range: $ \pm 3V$  }{}{}{}{}
+\subsection{Programmable Voltage and Current Sources (12-bit)}
+\cventry{PVS1}{Range: $ \pm 5V$}{}{Up to 10mA}{}{}{}
+\cventry{PVS2}{Range: $ \pm 3.3V$}{}{Up to 10mA}{}{}{}
+\cventry{PVS3}{Range: $0 - 3.3V$}{}{Up to 10mA}{}{}{}
+\cventry{PCS}{Range: $0 - 3.3mA$}{}{}{}{Subject to Load resistance. Up to 3.3V voltage drop}{}
+
+
+\section{Digital Inputs - Measure Logic Levels with 15nS resolution}
+\subsection{Logic Analyzer, Frequency Counter, Timing Functions}
+\cventry{ID1}{Range: $0 - 5V$}{}{0-32MHz}{}{}{}
+\cventry{ID2}{Range: $0 - 5V$}{}{0-32MHz}{}{}{}
+\cventry{ID3}{Range: $0 - 5V$}{}{0-32MHz}{}{}{}
+\cventry{ID4}{Range: $0 - 5V$}{}{0-32MHz}{}{}{}
+\cventry{Fin}{Range: Up to $\pm5V$}{}{0-16MHz}{}{}{}
+
+\section{Digital Outputs }
+\subsection{4x PWM output with 15nS frequency, phase, and DCycle control}
+\cventry{SQR1}{Range: $0 - 5V$}{}{}{}{}{}
+\cventry{SQR2}{Range: $0 - 5V$}{}{}{}{}{}
+\cventry{SQR3}{Range: $0 - 5V$}{}{}{}{}{}
+\cventry{SQR4}{Range: $0 - 5V$}{}{}{}{}{}
+
+
+\section{Data Buses - I2C , SPI, UART}
+\subsection{I2C (Inter-Integrated Circuit) Master: Up to 4MHz Clock speed}
+\cventry{Vdd}{3.3V Power output}{}{}{}{}{}
+\cventry{GND}{Return path}{}{}{}{}{}
+\cventry{SCL}{I2C Clock Output}{}{}{}{}{}
+\cventry{SDA}{I2C Data Line}{}{}{}{}{}
+
+
+
+
+\subsection{SPI(Serial-Peripheral Interface) Master: Available on the 20-pin Expansion Slot. Supports all four modes of operation.}
+\cventry{SCK}{SPI Clock Output}{}{Tested Up To 16MHz}{}{}{}
+\cventry{SDO}{SPI Data Output (MOSI)}{}{}{}{}{}
+\cventry{SDI}{SPI Data Input (MISO)}{}{}{}{}{}
+\cventry{CS1}{Chip Select 1}{}{}{}{}{}
+\cventry{CS2}{Chip Select 2}{}{}{}{}{}
+
+
+\section{A Few Definitions For The Expansion slot}
+\cventry{CLK}{16MHz , 0-3.3V TTL output}{}{This is also the reference clock for the 0-2MHz sine/triangle wave generator, and can be used to create phase correlated wavegen add-ons}{}{}{}
+\cventry{AN8}{Analog Input}{}{Range: $0 - 3.3V$}{}{}{}
+
+\section{Additional Nomenclature }
+\cventry{GND}{Short for GROUND.}{}{This is the reference voltage, and is taken as 0 volts}{}{It is also connected to the ground level of the power source (power adapter)}{}
+\cventry{V+/V-}{Power Outputs}{}{$\pm 9V$ . Current limit 20mA per channel}{}{}{}
+
+\pagebreak
+\vspace{20pt}
+\chapter{\color{blue!50!green}\LARGE\bfseries Sensors and Add ons}\\
+
+\section{Plug and Play Sensors}
+
+\begin{adjustwidth}{7em}{0pt}
+
+\begin{itemize}
+\item MPU6050 : 3-Axis Accelerometer , 3-Axis GyroScope, temperature sensor
+\item HMC5883L : 3-Axis Magnetometer with adjustable ranges
+\item MLX90614 : Passive IR temperature sensor
+\item BMP180 : Pressure , Temperature and Altitude module.
+\item TSL2561 : Luminosity measurements up to 40K Lux
+\item BH1750 : Luminosity measurements up to 40K Lux
+\item SHT21 , Si7021 : Ambient Temperature and Humidity Module
+\item SSD1306 : 128x64 OLED Display
+\item HCSR501 : Passive IR module for motion sensing
+\item AD9833 : 28-bit DDS function generator
+\item PT100 temperature sensor, MQ Series Gas sensors
+\item DSM501 : PM2.5 Dust Sensor
+\item YL-69 : Hygrometer for soil humidity measurements
+\item WS2812B RGB LED with 16 million shades 
+\item HX711 24-bit differential ADC with 128x PGA
+\item MFRC522 : RFID Reader
+\item HB100 : 10.25GHz Doppler Radar
+\end{itemize}
+\end{adjustwidth}
+
+
+\section{Wireless Subunits : 3-Byte addresses [ Purchase separately]}
+
+PSLab has an On-board Transceiver (2-way radio link) Capable of communicating with multiple wireless nodes to control and receive sensor data payloads.\\ These wireless nodes are drop-in replacements for sensors, and have a typical line of sight range of 50 meters.
+
+\begin{center}
+
+%  \includegraphics[width=0.6\linewidth]{pictures/node_case.jpg}
+
+\end{center}
+
+\cventry{I2C}{Data bus for Interfacing with commonly available sensors.}{ Measure physical parameters with minimal mechanical interference}{}{}{}
+\cventry{SPI}{Two Chip select pins}{}{}{}{}
+\cventry{RGB out}{Control WS2812B arrays }{}{Daisy chained RGB LEDs with 16 million shades each}{}{}{}
+
+
+\section{Control And Measurement Equipment Specifications}
+
+\textit{\color{blue!50!green}Calibrated Against Professional equipment for high accuracy}\\
+\begin{tabular}{|l|l|l|l}
+\hline
+\multicolumn{1}{|c|}{{\color[HTML]{9A0000} \textbf{Feature}}}          & \multicolumn{1}{c|}{{\color[HTML]{9A0000} \textbf{Description}}}                                                                                                                                                                                                                                                                                                             & \multicolumn{1}{c|}{{\color[HTML]{9A0000} \textbf{Socket Labels}}}                            & \multicolumn{1}{c}{{\color[HTML]{9A0000} \textbf{Range}}}                                                                                                            \\ \hline
+\textbf{Analog Inputs}                                                 & \begin{tabular}[c]{@{}l@{}}Up to 6 analog inputs with various voltage ranges.\\ Programmable gain control.\\ 12-bit voltage measurement. Up-to 2MSPS sampling.\\ $3.3V$ Voltage Reference\\ \\ .\end{tabular}                                                                                                                                                    & \begin{tabular}[c]{@{}l@{}}CH1, CH2\\ CH3\\ MIC\\ SEN\end{tabular}                            & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}$\pm16 Volts$\\ $\pm3.3 Volts$\\ $\pm15m V V$\\ $0-3.3 V$\end{tabular}}                                               \\ \hline
+\textbf{Analog Outputs}                                                & \begin{tabular}[c]{@{}l@{}}Programmable Voltage Sources (12-bit)\\ \\ \\ Programmable Constant Current Source\\ .\end{tabular}                                                                                                                                                                                                                                               & \begin{tabular}[c]{@{}l@{}}PVS1\\ PVS2\\ PVS3\\ PCS\\ .\end{tabular}                          & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}$\pm5 V$\\ $\pm3.3 V$\\ $0-3.3 V$\\ $0-3.3 mA$\\ .\end{tabular}}                                                      \\ \hline
+\textbf{Digital Inputs}                                                & \begin{tabular}[c]{@{}l@{}}4 x TTL compatible digital Inputs. \\ Logic Analyzer\\ Frequency Counter (0-16MHz), \\ time measurement routines\\ \textit\{$\pm30ppm , 12MHz$ Reference oscillator\}\end{tabular}                                                                                                                                                               & \begin{tabular}[c]{@{}l@{}}ID1 - ID4\\ \\ Fin\end{tabular}                                    & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}$0-5$ V\\ \\ $0-\pm5 V$\end{tabular}}                                                                                 \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Waveform\\ Generators \end{tabular}} & \begin{tabular}[c]{@{}l@{}}Wavegen 1 (Sine/Triangle/Arbitrary)\\ -Frequency\\ -Amplitude. Manually attenuable \\ \\ Wavegen 2 (Sine/Triangle/Arbitrary)\\ --Frequency\\ -Amplitude. Fixed\\ \\ 4 x Phase Correlated Square Waves\\ -Frequency\\ -Phase difference maximum resolution\\ -Duty Cycle maximum resolution\\ -Also functions as simple state selectable output.\\ -servo/stepper motor control supported\end{tabular} & \begin{tabular}[c]{@{}l@{}}W1\\ \\ \\ \\ W2\\ \\ \\ \\ SQ1 - SQ4\\ \\ \\ \\ \\ .\end{tabular} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}\\ $5-5K$Hz\\ $\pm3 V$\\ \\ \\ $5-5K$Hz\\ $\pm3 V$\\ \\ \ \\ $0-5 Volts$\\10Hz - 16MHz\\ 15nS\\ 15nS\\ \\ \\ .\end{tabular}} \\ \hline
+\textbf{Data Buses}                                                    & \begin{tabular}[c]{@{}l@{}}I2C : Master\\ Commonly Used by numerous sensor ICs\\ SPI : Master\\ -Chip Select pins\\ UART \\ .\end{tabular}                                                                                                                                                                                                                                   & \begin{tabular}[c]{@{}l@{}}SCL,SDA\\ \\ SCK,SDI,SDO\\ CS1 , CS2\\ \\ .\end{tabular}           & \multicolumn{1}{l|}{}                                                                                                                                                \\ \hline
+\textbf{Expansion Slot}                                                & \begin{tabular}[c]{@{}l@{}}20 - pin Socket designed to accommodate\\  add-on modules.\\ -Selection includes SPI,I2C,Analog input,Digital IO,\\ 16MHz TTL output, and a bipolar power supply.\end{tabular}                                                                                                                                                                       &                                                                                               & \multicolumn{1}{l|}{}                                                                                                                                                
+\\ \hline
+\textbf{Wireless Nodes}                                                & \begin{tabular}[c]{@{}l@{}}Battery Powered add-on units.\\ Power Source\\ -Acts as a wireless bridge for various sensors\\ 3 Byte unique address\\ -10 bit ADC , Digital I/O\\ .\end{tabular}                                                                                                                                                & \begin{tabular}[c]{@{}l@{}}.\\ Cell/Adapter\\ \\ \\ \\ .\end{tabular}                         & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}.\\ 3.7-4.2 V\\  \\  \\ \\ .\end{tabular}}                                                                            
+\\ \hline
+
+\end{tabular}
+
+
+
+\pagebreak
+
+%\section{Data acquisition and control software}
+%The Following is an evolving list of graphical applications that have been installed along with the Python module, and can accessed by launching applications->education->PSLab.\\
+%\cventry{1}{Oscilloscope}{}{Max 2MSPS, Up to 4-channel oscilloscope}{Features : Sine,Square fitting and overlay, Fourier transform, trigger selection, X-Y mode, gain control}{}
+%\cventry{2}{Data Streaming}{}{Generic data logger for functions defined in the Python library}{}{}
+%\cventry{3}{Sensor Data logger}{}{Data logger for plugged in add-on modules supported in the python library such as accelerometers, gyros and luminosity sensors}{}{For the complete list, refer to the Sensors and Add ons section}
+%\cventry{4}{Transistor CE}{}{Study common emitter characteristics of transistors}{}{}
+%\cventry{5}{Diode IV}{}{Study Current-Voltage characteristics of PN junctions}{}{}
+%\cventry{6}{servo motors}{}{Control up to 4 servo motors via the PWM outputs}{}{}
+%\cventry{7}{Stepper motors}{}{ Control 4-wire stepper motors.}{}{}
+%
+%
+%\pagebreak
+
+\chapter{\color{blue!50!green}\LARGE\bfseries \color{blue!50!black!80}Data Acquisition and control software}\\
+\\
+Launch the PSLab Application , launch the oscilloscope utility listed in the \textit{Test and Measurement} section
+\section{Control widgets  }
+\subsection{Voltage and current sources}
+\cventry{PVS1}{Range : $\pm5V$}{Set the output voltage on PVS1 socket.}{ Max Current 5mA}{}{}
+\cventry{PVS2}{Range : $\pm3.3V$}{Set the output voltage on PVS2 socket.}{ Max Current 5mA}{}{}
+\cventry{PVS3}{Range : $0-3V$}{Set the output voltage on PVS3 socket.}{ Max Current 5mA}{}{}
+\cventry{PCS}{Range : $0-3.3mA$}{Set the output current on PCS socket. Current subject to load resistance}{}{PCS and PVS3 are linked, and only one can be used at a time}{}
+
+\subsection{Arbitrary Waveform Generators (W1,W2)}
+\cventry{W1}{Range : $5Hz-5KHz$}{Set the output frequency of the waveform generator.}{}{Amplitude control($\pm1mV-\pm3V$) via physical knob located on the device}{}
+\cventry{W2}{Range : $5Hz-5KHz$}{Set the output frequency of the waveform generator.}{}{Fixed amplitude 3V}{}
+
+\subsection{Phase Correlated Square Waves (SQ1,SQ2,SQ3,SQ4)}
+
+\cventry{Frequency}{Range : $0-8MHz$}{Set the output frequency of all four square waves.}{ Resolution:$15nS$}{}{}
+\cventry{Output}{Select the Output socket to configure}{}{}{}{}
+\cventry{Phase}{Set the phase difference ($0-100\%$) }{}{between the selected waveform and SQ1}{}{}
+\cventry{Duty Cycle}{Set the Duty Cycle($0-100\%$)  }{}{of the selected waveform}{}{}
+
+\vspace{10mm}
+
+\chapter{\color{blue!50!green}\LARGE\bfseries \color{blue!50!black!80}Oscilloscope }\\
+\\
+From the PSLab Application , launch the oscilloscope utility listed in the \textit{Test and Measurement} section
+\subsection{Chan 1 : Channel 1 of the oscilloscope}
+\cventry{Remappable}{Not restricted to 'CH1' input socket.}{ This is a very flexible acquisition channel, and can be mapped to any of the analog inputs via a drop down menu located at the top corner}{}{}{}
+\subsection{Chan 2 : Channel 2 of the oscilloscope}
+\cventry{Fixed}{This channel can only record the signals input to the socket labelled CH2}{}{}{}{}
+
+\subsection{TRIGGER : Allows selecting the channel to trigger the oscilloscope}
+\cventry{Level}{The rotary dial sets the trigger level, and this is also reflected in a marker located on the plot}{}{}{}{}
+\cventry{Channel}{The drop down menu allows selecting the trigger channel}{}{}{If CH1 is selected, the trigger signal will be obtained from the channel it has been mapped to}{}
+
+\subsection{TimeBase : Specify the time scale for the data acquisition}
+\cventry{Dial}{Set the delay(in uS) between each successive data point}{}{}{}{}
+
+
+\subsection{Sine Fit :Uses Scipy to fit the data against a sine function}
+\cventry{Menu 1}{Select input data channel for fitting}{}{}{Uses Scipy.optimize and obtains frequency, amplitude, phase and offset values}{}
+\cventry{Menu 2}{Select a second input data channel for fitting}{}{}{}{}
+\cventry{checkbox}{Overlay the fitted results}{}{}{}{}
+\cventry{Results}{The fitted values: Amplitude, Freq, Phase( and phase difference), Offset are displayed in the message window at the bottom of the screen}{}{}{}{}
+
+\subsection{Lissajous : XY Plots}
+\cventry{Menu 1}{Select input data channel for X-axis}{}{}{}{}
+\cventry{Menu 2}{Select input data channel for Y-axis}{}{}{}{}
+
+\vspace{10mm}
+
+
+
+\pagebreak
+\chapter{\color{blue!50!green}\LARGE\bfseries \color{blue!50!black!80}Wireless Submodules}\\
+\\
+From the PSLab Application , launch the wireless-sensors utility listed in the \textit{Test and Measurement} section\\
+\begin{center}
+
+%  \includegraphics[width=\linewidth]{pictures/wireless-demo.png}
+%Screenshot of the wirelessDemo application
+\end{center}
+
+\section{Interfacing a new wireless submodule carrying a sensor}
+\cventry{1}{Plug in a supported sensor on to a wireless node by matching the pins labelled $Vdd,GND,SCL,SDA$ . These pins appear in the same order on most sensor modules, and no extra wires should be needed}{}{}{}{}
+\cventry{2}{}{}{Make sure that the option \textit{Listen for nodes} on the Application is selected}{}{}
+\cventry{3}{}{}{Plug In the Battery onto the wireless node/ Turn on the node.}{}{}
+\cventry{4}{}{}{Observe that the software has auto detected your wireless node as well as found out the address of the sensor you connected.}{}{}
+\cventry{5}{}{}{Unselect \textit{Register New Nodes}}{}{If you wish, you may move the cursor over a sensor's address and the software will guess its model number/type}
+\cventry{6}{Click on }{}{\textit{Refresh Node List}}{This loads a few controls for each wireless node, and also a drop down selection of the connected sensors}{}
+
+\section{Logging Data from a sensor}
+\cventry{1}{After Following the steps in the previous section}{}{Select the appropriate sensor and click on \textit{Go}}{The software will continuously plot values fetched from the sensor}{}
+\section{Changing sensor parameters}
+\cventry{1}{Open the auto-generated menu at the bottom left corner}{}{and change parameters.}{A few examples include gain, sampling rates, and datatype selection}{}
+
+\pagebreak
+\chapter{\color{blue!50!green}\LARGE\bfseries \color{blue!50!black!80} Data logger Application}\\
+\\
+This application plots the return values from any of the functions defined in the Python Module as long as they return integers or decimals.\\
+\\
+From the PSLab Application , launch the \textit{data streaming} utility listed in the \textit{Test and Measurement} section
+\begin{center}
+
+%  \includegraphics[width=\linewidth]{pictures/streamapp.png}
+%Screenshot of the streaming application.
+\end{center}
+
+\section{Choosing a command and starting the logger}
+\cventry{1}{Refer to the programmer's manual for a list of valid commands}{}{and pick the function you would like to monitor}{}{}
+\cventry{2}{Paste the command name with correct arguments into the application.}{}{And now click on \textit{Monitor}}{This app also includes a few common commands and appropriate arguments packed into a drop down menu linked to the command entry box}{}
+
+\section{Additional Functionality Accessible through menus}
+\cventry{Voltmeter}{Load Widgets that perform a single voltage measurement per click}{}{}{}{}
+\cventry{Amplifiers}{Load a widget to set the gain on the voltage input channels}{}{}{}{}
+\cventry{Wavegen}{Load a slider that allows setting the frequency of the sine wave output}{}{}{}{}
+\cventry{IV sources}{Load widgets that}{}{enable setting programmable voltage and current}{}{}
+\cventry{Timing}{Load time measurement widgets}{}{}{These include duty cycle and frequency}{}
+\cventry{Console}{Insert an iPython Console with init commands preloaded}{}{}{}{}
+\cventry{help}{Help menu that allows access to the programmer's manual as well as experiment specific HTML files}{}{}{}{}
+
+
+
+\end{document}

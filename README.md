@@ -1,8 +1,8 @@
 # pslab-hardware
 Repository for PSLab Hardware design files
 
+- Technical Reference Document : Latex files
 - Kicad Schematics , Layouts
-- Parts List
 - Dimension vectors
 - Label vectors
 

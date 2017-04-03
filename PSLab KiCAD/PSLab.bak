@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:PSLab-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,8 +29,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:conn
 LIBS:proto1
-LIBS:proto1-cache
-LIBS:PSLab-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1189,7 +1186,7 @@ $EndComp
 Text Label 3050 6500 0    60   ~ 0
 Vdd
 $Comp
-L Crystal X1
+L CRYSTAL X1
 U 1 1 55B8ABCA
 P 7050 3400
 F 0 "X1" H 6825 3325 60  0000 C CNN

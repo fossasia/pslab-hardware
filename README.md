@@ -88,6 +88,5 @@ One of the main features of PSLab is the 4-channel oscilloscope which can monito
 * Wireless Sensors ( Work in progress…)
 * logicanalyzer
 * Logic Analyzer
-=======
-- Accessory development files
+
 

@@ -1,12 +1,10 @@
 # pslab-hardware
 Repository for PSLab Hardware design files
 
-![KiCAD PCB front](./layout_front.png)
-![KiCAD PCB back](./layout_back.png)
+Pocket Science Lab Prototype |  Front Silk Design
+:---------------------------:|:-------------------------:
+![](./psl2.jpg)              |  ![](./pslabdesign.png)
 
-KiCAD PCB front-side       |  KiCAD PCB back-side
-:-------------------------:|:-------------------------:
-![](./layout_front.png)  |  ![](./layout_back.png)
 
 ## Content of Repository
 
@@ -22,6 +20,11 @@ KiCAD PCB front-side       |  KiCAD PCB back-side
 * IDE: [MPLABX IDE v3.35 (http://www.microchip.com/mplab/mplab-x-ide)] . Supported on Linux/Windows/Mac
 * Compiler: [MPLAB® XC16 Compiler (http://www.microchip.com/mplab/compilers)]
 * Programming Tool: [PICkit™ 3 In-Circuit Debugger/PICkit2 (http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=PG164130)]
+
+KiCAD PCB front-side       |  KiCAD PCB back-side
+:-------------------------:|:-------------------------:
+![](./layout_front.png)    |  ![](./layout_back.png)
+
 
 ## Parts list
 

@@ -1,6 +1,13 @@
 # pslab-hardware
 Repository for PSLab Hardware design files
 
+![KiCAD PCB front](./layout_front.png)
+![KiCAD PCB back](./layout_back.png)
+
+KiCAD PCB front-side       |  KiCAD PCB back-side
+:-------------------------:|:-------------------------:
+![](./layout_front.png)  |  ![](./layout_back.png)
+
 ## Content of Repository
 
 - Technical Reference Document: Latex files

@@ -69,7 +69,7 @@ One of the main features of PSLab is the 4-channel oscilloscope which can monito
 
 ### Voltage and Current Sources
 
-* 12-bit Constant Current source. Maximum current 3.3mA [subject to load resistance].
+* 12-bit Constant Current source. Maximum current 3.3mA (subject to load resistance).
 * PSLab has three 12-bit Programmable voltage sources/ +/-3.3V,+/-5V,0-3V . (PV1, PV2, PV3) controls
 
 ### Main Control Panel

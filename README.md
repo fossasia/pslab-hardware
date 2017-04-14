@@ -3,7 +3,7 @@ Repository for PSLab Hardware design files
 
 Pocket Science Lab Prototype |  Front Silk Design
 :---------------------------:|:-------------------------:
-![](./psl2.jpg)              |  ![](./pslabdesign.png)
+![](docs/images/psl2.jpg)              |  ![](docs/images/pslabdesign.png)
 
 
 ## Content of Repository
@@ -23,7 +23,7 @@ Pocket Science Lab Prototype |  Front Silk Design
 
 KiCAD PCB front-side       |  KiCAD PCB back-side
 :-------------------------:|:-------------------------:
-![](./layout_front.png)    |  ![](./layout_back.png)
+![](docs/images/layout_front.png)    |  ![](docs/images/layout_back.png)
 
 
 ## Parts list
@@ -44,13 +44,13 @@ KiCAD PCB front-side       |  KiCAD PCB back-side
 
 ## Hardware Specs
 
-* 4-Channel, up to 2MSPS Oscilloscope
+* 4-Channel, up to 2MSPS Oscilloscope. Software Selectable amplification stages
 * 12-bit Voltmeter. Programmable gain. Input ranges from +/-10mV to +/-16V
 * 3x 12-bit Programmable voltage sources/ +/-3.3V,+/-5V,0-3V
 * 12-bit Programmable current source. 0-3.3mA
 * Supports Advanced Plugins/Add-on Modules
-* 4-Channel, 4MHz, 15nS Logic Analyzer
-* 2x sine wave generators. 5Hz to 5KHz. Manual amplitude control
+* 4-Channel, 4MHz, Logic Analyzer
+* 2x sine wave generators. 5Hz to 5KHz. Manual amplitude control for W1
 * 4x PWM generators. 15nS resolution. Up to 8MHz
 * Capacitance Measurement. pF to uF range
 * I2C, SPI , UART data buses for Accel/gyros/humidity/temperature modules etc
@@ -99,4 +99,5 @@ One of the main features of PSLab is the 4-channel oscilloscope which can monito
 * logicanalyzer
 * Logic Analyzer
 
-
+### Block Diagram
+![](docs/images/blockdiag.png)

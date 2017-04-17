@@ -1,4 +1,8 @@
 # pslab-hardware
+
+[![Build Status](https://travis-ci.org/fossasia/pslab-hardware.svg?branch=master)](https://travis-ci.org/fossasia/pslab-hardware)
+[![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 Repository for PSLab Hardware design files
 
 Pocket Science Lab Prototype |  Front Silk Design

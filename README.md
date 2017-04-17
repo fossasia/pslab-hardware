@@ -1,6 +1,11 @@
 # pslab-hardware
 Repository for PSLab Hardware design files
 
+Pocket Science Lab Prototype |  Front Silk Design
+:---------------------------:|:-------------------------:
+![](docs/images/psl2.jpg)              |  ![](docs/images/pslabdesign.png)
+
+
 ## Content of Repository
 
 - Technical Reference Document: Latex files
@@ -15,6 +20,11 @@ Repository for PSLab Hardware design files
 * IDE: [MPLABX IDE v3.35 (http://www.microchip.com/mplab/mplab-x-ide)] . Supported on Linux/Windows/Mac
 * Compiler: [MPLAB® XC16 Compiler (http://www.microchip.com/mplab/compilers)]
 * Programming Tool: [PICkit™ 3 In-Circuit Debugger/PICkit2 (http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=PG164130)]
+
+KiCAD PCB front-side       |  KiCAD PCB back-side
+:-------------------------:|:-------------------------:
+![](docs/images/layout_front.png)    |  ![](docs/images/layout_back.png)
+
 
 ## Parts list
 
@@ -34,13 +44,13 @@ Repository for PSLab Hardware design files
 
 ## Hardware Specs
 
-* 4-Channel, up to 2MSPS Oscilloscope
+* 4-Channel, up to 2MSPS Oscilloscope. Software Selectable amplification stages
 * 12-bit Voltmeter. Programmable gain. Input ranges from +/-10mV to +/-16V
 * 3x 12-bit Programmable voltage sources/ +/-3.3V,+/-5V,0-3V
 * 12-bit Programmable current source. 0-3.3mA
 * Supports Advanced Plugins/Add-on Modules
-* 4-Channel, 4MHz, 15nS Logic Analyzer
-* 2x sine wave generators. 5Hz to 5KHz. Manual amplitude control
+* 4-Channel, 4MHz, Logic Analyzer
+* 2x sine wave generators. 5Hz to 5KHz. Manual amplitude control for W1
 * 4x PWM generators. 15nS resolution. Up to 8MHz
 * Capacitance Measurement. pF to uF range
 * I2C, SPI , UART data buses for Accel/gyros/humidity/temperature modules etc
@@ -69,7 +79,7 @@ One of the main features of PSLab is the 4-channel oscilloscope which can monito
 
 ### Voltage and Current Sources
 
-* 12-bit Constant Current source. Maximum current 3.3mA [subject to load resistance].
+* 12-bit Constant Current source. Maximum current 3.3mA (subject to load resistance).
 * PSLab has three 12-bit Programmable voltage sources/ +/-3.3V,+/-5V,0-3V . (PV1, PV2, PV3) controls
 
 ### Main Control Panel
@@ -89,4 +99,5 @@ One of the main features of PSLab is the 4-channel oscilloscope which can monito
 * logicanalyzer
 * Logic Analyzer
 
-
+### Block Diagram
+![](docs/images/blockdiag.png)

@@ -1244,7 +1244,7 @@ F 3 "" H 7450 3700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LM1117-3.3 U6
+L LM1117-3.3-RESCUE-PSLab U6
 U 1 1 55B81ABD
 P 1500 5775
 F 0 "U6" H 1300 5725 60  0000 C CNN
@@ -1605,7 +1605,7 @@ VR-
 Text GLabel 5050 7475 2    40   Input ~ 0
 VR+
 $Comp
-L LED D3
+L LED-RESCUE-PSLab D3
 U 1 1 5660DA81
 P 10250 5275
 F 0 "D3" H 10250 5375 50  0000 C CNN
@@ -1638,7 +1638,7 @@ F 3 "" H 10450 5275 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D4
+L LED-RESCUE-PSLab D4
 U 1 1 56612B89
 P 9050 6275
 F 0 "D4" H 9050 6375 50  0000 C CNN
@@ -1777,6 +1777,44 @@ F 3 "DOCUMENTATION" H 4950 3900 50  0001 C CNN
 $EndComp
 Text Notes 8900 600  0    60   ~ 0
 For WiFi Option
+Text Notes 650  600  0    60   ~ 0
+USB & Power Connector , USB-UART Convertor
+Text Notes 4175 575  0    60   ~ 0
+Programming Header
+Text Notes 7875 4925 0    60   ~ 0
+Bipolar Supply generators & filters
+Text Notes 7825 5150 0    60   ~ 0
+RGB & Status LED
+Text Notes 3050 6675 0    60   ~ 0
+I2C header\n
+Text Notes 1450 7150 0    60   ~ 0
+NRF transceiver connector\n
+Text Notes 4450 6600 0    60   ~ 0
+Expansion Slot
+$Comp
+L Battery Battery
+U 1 1 59210717
+P 12700 1400
+F 0 "Battery" H 12575 1250 50  0000 L CNN
+F 1 "12V" H 12775 1400 50  0000 L CNN
+F 2 "" V 12700 1460 50  0001 C CNN
+F 3 "" V 12700 1460 50  0001 C CNN
+	1    12700 1400
+	1    0    0    -1  
+$EndComp
+Text Label 12000 1750 1    60   ~ 0
+Output
+$Comp
+L ZENERsmall-RESCUE-proto1 D?
+U 1 1 59214AC0
+P 12350 1580
+F 0 "D?" H 12270 680 40  0000 C CNN
+F 1 "5V" V 12350 1480 30  0000 C CNN
+F 2 "" H 12350 1580 60  0000 C CNN
+F 3 "" H 12350 1580 60  0000 C CNN
+	1    12350 1580
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	3400 4400 3650 4400
 Wire Wire Line
@@ -2251,8 +2289,6 @@ Wire Notes Line
 	4075 2750 4075 500 
 Wire Notes Line
 	4075 500  525  500 
-Text Notes 650  600  0    60   ~ 0
-USB & Power Connector , USB-UART Convertor
 Wire Notes Line
 	4100 500  4100 1375
 Wire Notes Line
@@ -2261,8 +2297,6 @@ Wire Notes Line
 	5575 1375 5575 500 
 Wire Notes Line
 	5575 500  4100 500 
-Text Notes 4175 575  0    60   ~ 0
-Programming Header
 Wire Notes Line
 	7750 2350 11150 2350
 Wire Notes Line
@@ -2271,8 +2305,6 @@ Wire Notes Line
 	11150 4950 7750 4950
 Wire Notes Line
 	7750 4950 7750 2350
-Text Notes 7875 4925 0    60   ~ 0
-Bipolar Supply generators & filters
 Wire Notes Line
 	7750 5025 7750 6425
 Wire Notes Line
@@ -2281,12 +2313,33 @@ Wire Notes Line
 	11125 6425 11125 5025
 Wire Notes Line
 	11125 5025 7750 5025
-Text Notes 7825 5150 0    60   ~ 0
-RGB & Status LED
-Text Notes 3050 6675 0    60   ~ 0
-I2C header\n
-Text Notes 1450 7150 0    60   ~ 0
-NRF transceiver connector\n
-Text Notes 4450 6600 0    60   ~ 0
-Expansion Slot
+Wire Wire Line
+	11950 1775 12700 1775
+Wire Wire Line
+	12700 1775 12700 1600
+Wire Wire Line
+	12350 1050 12700 1050
+Wire Wire Line
+	12700 1050 12700 1200
+$Comp
+L R R1
+U 1 1 59216B79
+P 12350 1250
+F 0 "R1" H 12450 1250 50  0000 C CNN
+F 1 "100" V 12350 1250 50  0000 C CNN
+F 2 "" V 12280 1250 50  0001 C CNN
+F 3 "" H 12350 1250 50  0001 C CNN
+	1    12350 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 1400 12350 1480
+Wire Wire Line
+	12350 1100 12350 1050
+Wire Wire Line
+	12350 1680 12350 1775
+Connection ~ 12350 1775
+Wire Wire Line
+	12350 1425 11950 1425
+Connection ~ 12350 1425
 $EndSCHEMATC

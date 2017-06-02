@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:PSLab-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +30,8 @@ LIBS:contrib
 LIBS:valves
 LIBS:conn
 LIBS:proto1
+LIBS:proto1-cache
+LIBS:PSLab-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

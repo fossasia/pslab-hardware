@@ -6,31 +6,31 @@
 This repository holds [PSLab](http://pslab.fossasia.org/) Hardware design files. PSLab is a tiny pocket science lab that provides an array of equipment for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. The first version of hardware (V 1.0) is developed by [Jithin B P](https://github.com/jithinbp), a core developer of PSLab Project.
 
 ## Communication
-Our chat channel is on gitter here: https://gitter.im/fossasia/pslab 
+Our chat channel is on Gitter here: https://gitter.im/fossasia/pslab 
 
 Pocket Science Lab Prototype |  Front Silk Design
-:---------------------------:|:-------------------------:
-![](docs/images/psl2.jpg)              |  ![](docs/images/pslabdesign.png)
+ --------------------------- | ---------------------------------
+![](docs/images/psl2.jpg)    |  ![](docs/images/pslabdesign.png)
 
 
 ## Content of Repository
 
 - Technical Reference Document: Latex files
-- Kicad Schematics , Layouts
+- Kicad Schematics, Layouts
 - Dimension vectors
 - Label vectors
 - Accessory development files
 
 ## Platform
 
-* microcontroller Platform : [PIC24EP256GP204 (http://www.microchip.com/wwwproducts/en/PIC24EP256GP204)]
-* IDE: [MPLABX IDE v3.35 (http://www.microchip.com/mplab/mplab-x-ide)] . Supported on Linux/Windows/Mac
-* Compiler: [MPLAB® XC16 Compiler (http://www.microchip.com/mplab/compilers)]
-* Programming Tool: [PICkit™ 3 In-Circuit Debugger/PICkit2 (http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=PG164130)]
+* Microcontroller Platform : [PIC24EP256GP204](http://www.microchip.com/wwwproducts/en/PIC24EP256GP204)
+* IDE: [MPLABX IDE v3.35](http://www.microchip.com/mplab/mplab-x-ide) (Supported on Linux/Windows/Mac)
+* Compiler: [MPLAB® XC16 Compiler](http://www.microchip.com/mplab/compilers)
+* Programming Tool: [PICkit™ 3 In-Circuit Debugger/PICkit2](http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=PG164130)
 
-KiCAD PCB front-side       |  KiCAD PCB back-side
-:-------------------------:|:-------------------------:
-![](docs/images/layout_front.png)    |  ![](docs/images/layout_back.png)
+KiCAD PCB front-side              | KiCAD PCB back-side
+ -------------------------------- | ----------------------------------
+![](docs/images/layout_front.png) | ![](docs/images/layout_back.png)
 
 
 ## Parts list
@@ -42,25 +42,25 @@ KiCAD PCB front-side       |  KiCAD PCB back-side
 - [TC1240A](http://www.microchip.com/wwwproducts/en/TC1240A) - Charge Pump voltage doubler
 - [TL082](http://www.ti.com/product/TL082)   - 2 channel Op-Amp
 - [LM324](http://www.ti.com/product/LM324)   - 4 channel Op-Amp
-- [LM1117](http://www.ti.com/product/LM1117) 3.3V - 3.3Volt regulator
+- [LM1117](http://www.ti.com/product/LM1117) - 3.3 V regulator
 - [MCP2200](http://www.microchip.com/wwwproducts/en/MCP2200) - USB-UART Bridge
 - or [ESP8266 (ESP-12E)](https://www.adafruit.com/product/2491) - UART-TCP bridge
-- 0.5A Fuse
+- 0.5 A Fuse
 - 100K Potentiometer
-- Assorted resistors, capacitors, & diodes.
+- Assorted resistors, capacitors & diodes
 
 ## Hardware Specs
 
 * 4-Channel, up to 2MSPS Oscilloscope. Software Selectable amplification stages
-* 12-bit Voltmeter. Programmable gain. Input ranges from +/-10mV to +/-16V
-* 3x 12-bit Programmable voltage sources/ +/-3.3V,+/-5V,0-3V
-* 12-bit Programmable current source. 0-3.3mA
+* 12-bit Voltmeter. Programmable gain. Input ranges from +/-10 mV to +/-16 V
+* 3x 12-bit Programmable voltage sources/ +/-3.3 V,+/-5V,0-3 V
+* 12-bit Programmable current source. 0-3.3 mA
 * Supports Advanced Plugins/Add-on Modules
-* 4-Channel, 4MHz, Logic Analyzer
-* 2x sine wave generators. 5Hz to 5KHz. Manual amplitude control for W1
-* 4x PWM generators. 15nS resolution. Up to 8MHz
+* 4-Channel, 4 MHz, Logic Analyzer
+* 2x sine wave generators. 5 Hz to 5 KHz. Manual amplitude control for W1
+* 4x PWM generators. 15 nS resolution. Up to 8 MHz
 * Capacitance Measurement. pF to uF range
-* I2C, SPI , UART data buses for Accel/gyros/humidity/temperature modules etc
+* I2C, SPI, UART data buses for Accel/gyros/humidity/temperature modules etc
 
 ## Firmware
 
@@ -74,36 +74,35 @@ One of the main features of PSLab is the 4-channel oscilloscope which can monito
 
 ### Waveform Generators
 
-* W1 : 5Hz – 5KHz arbitrary waveform generator. Manual amplitude control up to +/-3Volts
-* W2 : 5Hz – 5KHz arbitrary waveform generator. Amplitude of +/-3Volts. Attenuable via software
-* PWM : There are four phase correlated PWM outputs with maximum frequency 32MHz, 15nano second duty cycle, and phase difference control.
+* W1 : 5 Hz – 5 KHz arbitrary waveform generator. Manual amplitude control up to +/-3 Volts
+* W2 : 5 Hz – 5 KHz arbitrary waveform generator. Amplitude of +/-3 Volts. Attenuable via software
+* PWM : There are four phase correlated PWM outputs with maximum frequency 32 MHz, 15 nano second duty cycle, and phase difference control.
 
 ### Measurement Functions
 
 * Frequency counter tested up to 16 MHz.
 * Capacitance Measurement. pF to uF range
-* PSLab has several 12-bit Analog inputs (function as voltmeters) with programmable gains, and maximum ranges varying from +/-5mV to +/-16V.
+* PSLab has several 12-bit Analog inputs (function as voltmeters) with programmable gains, and maximum ranges varying from +/-5 mV to +/-16 V.
 
 ### Voltage and Current Sources
 
-* 12-bit Constant Current source. Maximum current 3.3mA (subject to load resistance).
-* PSLab has three 12-bit Programmable voltage sources/ +/-3.3V,+/-5V,0-3V . (PV1, PV2, PV3) controls
+* 12-bit Constant Current source. Maximum current 3.3 mA (subject to load resistance).
+* PSLab has three 12-bit Programmable voltage sources/ +/-3.3 V,+/-5 V,0-3 V . (PV1, PV2, PV3) controls
 
 ### Main Control Panel
 
 ### Other useful tools
 
-* 4MHz, 4-channel Logic analyzer with 15nS resolution.Voltage and Current Sources
-* SPI,I2C,UART outputs
-* On-board 2.4GHz transceiver for wireless data acquisition. (Work in progress..)
+* 4MHz, 4-channel Logic analyzer with 15 nS resolution.Voltage and Current Sources
+* SPI, I2C, UART outputs
+* On-board 2.4 GHz transceiver for wireless data acquisition. (Work in progress..)
 * Graphical Interfaces for Oscilloscope, Logic Analyser, streaming data, wireless acquisition, and several experiments developed that use a common framework which drastically reduces code required to incorporate control and plotting widgets.
 * PSLab also has space for an ESP-12 module for WiFi access with access point / station mode.
 
 ### Advanced Controls
 * Advanced Controls with Oscilloscope
-* wirelesssensordataloger
-* Wireless Sensors ( Work in progress…)
-* logicanalyzer
+* Data Logger
+* Wireless Sensors (Work in progress…)
 * Logic Analyzer
 
 ### Block Diagram

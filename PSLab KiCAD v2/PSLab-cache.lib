@@ -92,16 +92,16 @@ ENDDEF
 #
 # CONN_01X01
 #
-DEF CONN_01X01 J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
+DEF CONN_01X01 P 0 40 Y N 1 F N
+F0 "P" 0 100 50 H V C CNN
 F1 "CONN_01X01" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
+ Pin_Header_Straight_1X01
+ Pin_Header_Angled_1X01
+ Socket_Strip_Straight_1X01
+ Socket_Strip_Angled_1X01
 $ENDFPLIST
 DRAW
 S -50 5 10 -5 0 1 0 N
@@ -112,16 +112,16 @@ ENDDEF
 #
 # CONN_01X02
 #
-DEF CONN_01X02 J 0 40 Y N 1 F N
-F0 "J" 0 150 50 H V C CNN
+DEF CONN_01X02 P 0 40 Y N 1 F N
+F0 "P" 0 150 50 H V C CNN
 F1 "CONN_01X02" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
 $ENDFPLIST
 DRAW
 S -50 -45 10 -55 0 1 0 N
@@ -134,16 +134,16 @@ ENDDEF
 #
 # CONN_01X03
 #
-DEF CONN_01X03 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
+DEF CONN_01X03 P 0 40 Y N 1 F N
+F0 "P" 0 200 50 H V C CNN
 F1 "CONN_01X03" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
+ Pin_Header_Straight_1X03
+ Pin_Header_Angled_1X03
+ Socket_Strip_Straight_1X03
+ Socket_Strip_Angled_1X03
 $ENDFPLIST
 DRAW
 S -50 -95 10 -105 0 1 0 N
@@ -158,16 +158,16 @@ ENDDEF
 #
 # CONN_01X04
 #
-DEF CONN_01X04 J 0 40 Y N 1 F N
-F0 "J" 0 250 50 H V C CNN
+DEF CONN_01X04 P 0 40 Y N 1 F N
+F0 "P" 0 250 50 H V C CNN
 F1 "CONN_01X04" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
+ Pin_Header_Straight_1X04
+ Pin_Header_Angled_1X04
+ Socket_Strip_Straight_1X04
+ Socket_Strip_Angled_1X04
 $ENDFPLIST
 DRAW
 S -50 -145 10 -155 0 1 0 N
@@ -184,16 +184,16 @@ ENDDEF
 #
 # CONN_01X06
 #
-DEF CONN_01X06 J 0 40 Y N 1 F N
-F0 "J" 0 350 50 H V C CNN
+DEF CONN_01X06 P 0 40 Y N 1 F N
+F0 "P" 0 350 50 H V C CNN
 F1 "CONN_01X06" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
+ Pin_Header_Straight_1X06
+ Pin_Header_Angled_1X06
+ Socket_Strip_Straight_1X06
+ Socket_Strip_Angled_1X06
 $ENDFPLIST
 DRAW
 S -50 -245 10 -255 0 1 0 N
@@ -214,16 +214,16 @@ ENDDEF
 #
 # CONN_01X07
 #
-DEF CONN_01X07 J 0 40 Y N 1 F N
-F0 "J" 0 400 50 H V C CNN
+DEF CONN_01X07 P 0 40 Y N 1 F N
+F0 "P" 0 400 50 H V C CNN
 F1 "CONN_01X07" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 $FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
+ Pin_Header_Straight_1X07
+ Pin_Header_Angled_1X07
+ Socket_Strip_Straight_1X07
+ Socket_Strip_Angled_1X07
 $ENDFPLIST
 DRAW
 S -50 -350 50 350 0 1 0 N
@@ -246,16 +246,16 @@ ENDDEF
 #
 # CONN_01X08
 #
-DEF CONN_01X08 J 0 40 Y N 1 F N
-F0 "J" 0 450 50 H V C CNN
+DEF CONN_01X08 P 0 40 Y N 1 F N
+F0 "P" 0 450 50 H V C CNN
 F1 "CONN_01X08" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
+ Pin_Header_Straight_1X08
+ Pin_Header_Angled_1X08
+ Socket_Strip_Straight_1X08
+ Socket_Strip_Angled_1X08
 $ENDFPLIST
 DRAW
 S -50 -400 50 400 0 1 0 N
@@ -280,16 +280,16 @@ ENDDEF
 #
 # CONN_01X10
 #
-DEF CONN_01X10 J 0 40 Y N 1 F N
-F0 "J" 0 550 50 H V C CNN
+DEF CONN_01X10 P 0 40 Y N 1 F N
+F0 "P" 0 550 50 H V C CNN
 F1 "CONN_01X10" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
+ Pin_Header_Straight_1X10
+ Pin_Header_Angled_1X10
+ Socket_Strip_Straight_1X10
+ Socket_Strip_Angled_1X10
 $ENDFPLIST
 DRAW
 S -50 -445 10 -455 0 1 0 N
@@ -318,17 +318,16 @@ ENDDEF
 #
 # CONN_02X04
 #
-DEF CONN_02X04 J 0 1 Y N 1 F N
-F0 "J" 0 250 50 H V C CNN
+DEF CONN_02X04 P 0 1 Y N 1 F N
+F0 "P" 0 250 50 H V C CNN
 F1 "CONN_02X04" 0 -250 50 H V C CNN
-F2 "" 0 -1200 50 H I C CNN
-F3 "" 0 -1200 50 H I C CNN
+F2 "" 0 -1200 50 H V C CNN
+F3 "" 0 -1200 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
- IDC_Header_Straight_*
+ Pin_Header_Straight_2X04
+ Pin_Header_Angled_2X04
+ Socket_Strip_Straight_2X04
+ Socket_Strip_Angled_2X04
 $ENDFPLIST
 DRAW
 S -100 -145 -50 -155 0 1 0 N
@@ -353,17 +352,16 @@ ENDDEF
 #
 # CONN_02X10
 #
-DEF CONN_02X10 J 0 1 Y N 1 F N
-F0 "J" 0 550 50 H V C CNN
+DEF CONN_02X10 P 0 1 Y N 1 F N
+F0 "P" 0 550 50 H V C CNN
 F1 "CONN_02X10" 0 0 50 V V C CNN
-F2 "" 0 -1200 50 H I C CNN
-F3 "" 0 -1200 50 H I C CNN
+F2 "" 0 -1200 50 H V C CNN
+F3 "" 0 -1200 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
- IDC_Header_Straight_*
+ Pin_Header_Straight_2X10
+ Pin_Header_Angled_2X10
+ Socket_Strip_Straight_2X10
+ Socket_Strip_Angled_2X10
 $ENDFPLIST
 DRAW
 S -100 -445 -50 -455 0 1 0 N
@@ -842,22 +840,6 @@ X SHELL1 6 500 200 100 L 50 50 1 1 P
 X SHELL2 7 500 100 100 L 50 50 1 1 P
 X SHELL3 8 500 -100 100 L 50 50 1 1 P
 X SHELL4 9 500 -200 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# WS2182
-#
-DEF WS2182 U 0 40 Y Y 1 F N
-F0 "U" 0 -100 50 H V C CNN
-F1 "WS2182" 0 350 50 H V C CNN
-F2 "MODULE" 0 200 50 H I C CNN
-F3 "DOCUMENTATION" 0 -200 50 H I C CNN
-DRAW
-S -250 -50 150 150 1 0 0 N
-X Vdd 1 -550 100 300 R 50 50 1 1 W
-X Dout 2 -550 0 300 R 50 50 1 1 B
-X GND 3 450 0 300 L 50 50 1 1 I
-X Din 4 450 100 300 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

@@ -60,17 +60,17 @@ $EndComp
 $Comp
 L R-RESCUE-proto1 R1
 U 1 1 542164DA
-P 5180 680
-F 0 "R1" V 5080 680 40  0000 C CNN
-F 1 "10K" V 5187 681 40  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 5110 680 30  0001 C CNN
-F 3 "" H 5180 680 30  0000 C CNN
-	1    5180 680 
+P 4855 815
+F 0 "R1" V 4755 815 40  0000 C CNN
+F 1 "10K" V 4862 816 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4785 815 30  0001 C CNN
+F 3 "" H 4855 815 30  0000 C CNN
+	1    4855 815 
 	0    1    1    0   
 $EndComp
-Text Label 4880 780  2    60   ~ 0
+Text Label 5105 815  0    60   ~ 0
 Vdd
-Text Label 4890 680  2    60   ~ 0
+Text Label 4605 815  2    60   ~ 0
 MCLR
 $Comp
 L C-RESCUE-proto1 C1
@@ -353,68 +353,68 @@ NoConn ~ 3050 2450
 $Comp
 L CONN_1 MH1
 U 1 1 542435DB
-P 9910 5240
-F 0 "MH1" H 9990 5240 40  0000 L CNN
-F 1 "M" H 9910 5295 30  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO14580_Pad" H 9910 5240 60  0001 C CNN
-F 3 "" H 9910 5240 60  0000 C CNN
-	1    9910 5240
-	-1   0    0    1   
+P 10020 5290
+F 0 "MH1" V 10080 5230 40  0000 L CNN
+F 1 "M" H 10020 5345 30  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO14580_Pad" H 10020 5290 60  0001 C CNN
+F 3 "" H 10020 5290 60  0000 C CNN
+	1    10020 5290
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_1 MH3
 U 1 1 54243FB2
-P 9910 5365
-F 0 "MH3" H 9990 5365 40  0000 L CNN
-F 1 "M" H 9910 5420 30  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO14580_Pad" H 9910 5365 60  0001 C CNN
-F 3 "" H 9910 5365 60  0000 C CNN
-	1    9910 5365
-	-1   0    0    1   
+P 10320 5290
+F 0 "MH3" V 10380 5225 40  0000 L CNN
+F 1 "M" H 10320 5345 30  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO14580_Pad" H 10320 5290 60  0001 C CNN
+F 3 "" H 10320 5290 60  0000 C CNN
+	1    10320 5290
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_1 MH4
 U 1 1 5424401D
-P 9910 5490
-F 0 "MH4" H 9990 5490 40  0000 L CNN
-F 1 "M" H 9910 5545 30  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO14580_Pad" H 9910 5490 60  0001 C CNN
-F 3 "" H 9910 5490 60  0000 C CNN
-	1    9910 5490
-	-1   0    0    1   
+P 10625 5290
+F 0 "MH4" V 10690 5245 40  0000 L CNN
+F 1 "M" H 10625 5345 30  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO14580_Pad" H 10625 5290 60  0001 C CNN
+F 3 "" H 10625 5290 60  0000 C CNN
+	1    10625 5290
+	0    -1   -1   0   
 $EndComp
 $Comp
 L GND-RESCUE-proto1 #PWR013
 U 1 1 54280304
-P 10060 5240
-F 0 "#PWR013" H 10060 5240 30  0001 C CNN
-F 1 "GND" H 10060 5170 30  0001 C CNN
-F 2 "" H 10060 5240 60  0000 C CNN
-F 3 "" H 10060 5240 60  0000 C CNN
-	1    10060 5240
-	0    -1   -1   0   
+P 10020 5440
+F 0 "#PWR013" H 10020 5440 30  0001 C CNN
+F 1 "GND" H 10020 5370 30  0001 C CNN
+F 2 "" H 10020 5440 60  0000 C CNN
+F 3 "" H 10020 5440 60  0000 C CNN
+	1    10020 5440
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND-RESCUE-proto1 #PWR014
 U 1 1 54280810
-P 10060 5365
-F 0 "#PWR014" H 10060 5365 30  0001 C CNN
-F 1 "GND" H 10060 5295 30  0001 C CNN
-F 2 "" H 10060 5365 60  0000 C CNN
-F 3 "" H 10060 5365 60  0000 C CNN
-	1    10060 5365
-	0    -1   -1   0   
+P 10320 5440
+F 0 "#PWR014" H 10320 5440 30  0001 C CNN
+F 1 "GND" H 10320 5370 30  0001 C CNN
+F 2 "" H 10320 5440 60  0000 C CNN
+F 3 "" H 10320 5440 60  0000 C CNN
+	1    10320 5440
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND-RESCUE-proto1 #PWR015
 U 1 1 542808B7
-P 10060 5490
-F 0 "#PWR015" H 10060 5490 30  0001 C CNN
-F 1 "GND" H 10060 5420 30  0001 C CNN
-F 2 "" H 10060 5490 60  0000 C CNN
-F 3 "" H 10060 5490 60  0000 C CNN
-	1    10060 5490
-	0    -1   -1   0   
+P 10625 5440
+F 0 "#PWR015" H 10625 5440 30  0001 C CNN
+F 1 "GND" H 10625 5370 30  0001 C CNN
+F 2 "" H 10625 5440 60  0000 C CNN
+F 3 "" H 10625 5440 60  0000 C CNN
+	1    10625 5440
+	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG016
@@ -744,7 +744,7 @@ U 1 1 55657766
 P 9870 4600
 F 0 "C19" H 9920 4700 40  0000 L CNN
 F 1 "33u" H 9920 4475 40  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow" H 9970 4450 30  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Reflow" H 9970 4450 30  0001 C CNN
 F 3 "" H 9870 4600 300 0000 C CNN
 	1    9870 4600
 	-1   0    0    1   
@@ -766,7 +766,7 @@ U 1 1 55657D48
 P 9925 2600
 F 0 "C12" H 9975 2700 40  0000 L CNN
 F 1 "33u" H 9975 2475 40  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow" H 10025 2450 30  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Reflow" H 10025 2450 30  0001 C CNN
 F 3 "" H 9925 2600 300 0000 C CNN
 	1    9925 2600
 	-1   0    0    1   
@@ -888,17 +888,17 @@ F 3 "" H 1255 7275 60  0000 C CNN
 	1    1255 7275
 	0    1    1    0   
 $EndComp
-Text Label 1955 7275 2    60   ~ 0
+Text Label 2030 7275 2    60   ~ 0
 Vdd
 Text Label 2030 7375 2    60   ~ 0
 CS.E2
 Text Label 880  7575 0    60   ~ 0
 SDO
-Text Label 1205 7375 2    60   ~ 0
+Text Label 875  7375 0    60   ~ 0
 CS.E1
-Text Label 1105 7475 2    60   ~ 0
+Text Label 880  7475 0    60   ~ 0
 SCK
-Text Label 1960 7475 2    60   ~ 0
+Text Label 2025 7475 2    60   ~ 0
 SDI
 $Comp
 L CONN_01X10 P3
@@ -955,7 +955,7 @@ F 3 "" H 1650 3950 60  0000 C CNN
 	1    1650 3950
 	0    1    1    0   
 $EndComp
-Text GLabel 2475 3350 1    40   Input ~ 0
+Text GLabel 2505 3210 2    40   Input ~ 0
 +5V
 Text Label 5455 6260 2    60   ~ 0
 +5V
@@ -975,7 +975,7 @@ L CAPAPOL C21
 U 1 1 556FAFE6
 P 1900 5875
 F 0 "C21" H 1950 5975 40  0000 L CNN
-F 1 "1u" H 1950 5750 40  0000 L CNN
+F 1 "10u" H 1950 5750 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 2000 5725 30  0001 C CNN
 F 3 "" H 1900 5875 300 0000 C CNN
 	1    1900 5875
@@ -1004,7 +1004,7 @@ Text Label 4550 2475 1    60   ~ 0
 RxD
 Text Label 4450 2475 1    60   ~ 0
 TxD
-Text Label 4580 7370 2    60   ~ 0
+Text Label 5155 7170 0    60   ~ 0
 Vdd
 $Comp
 L GND-RESCUE-proto1 #PWR036
@@ -1019,33 +1019,22 @@ F 3 "" H 9565 3575 60  0000 C CNN
 $EndComp
 Text GLabel 7125 5725 0    40   Input ~ 0
 CH3.GAIN
-$Comp
-L CONN_01X04 P6
-U 1 1 55B3FEAA
-P 3475 6350
-F 0 "P6" H 3475 6600 50  0000 C CNN
-F 1 "I2C" V 3575 6350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 3475 6350 60  0001 C CNN
-F 3 "" H 3475 6350 60  0000 C CNN
-	1    3475 6350
-	1    0    0    -1  
-$EndComp
-Text Label 3050 6300 0    60   ~ 0
+Text Label 2915 5720 2    60   ~ 0
 SDA
-Text Label 3050 6200 0    60   ~ 0
+Text Label 2915 5620 2    60   ~ 0
 SCL
 $Comp
 L GND-RESCUE-proto1 #PWR037
 U 1 1 55B40810
-P 3275 6400
-F 0 "#PWR037" H 3275 6400 30  0001 C CNN
-F 1 "GND" H 3275 6330 30  0001 C CNN
-F 2 "" H 3275 6400 60  0000 C CNN
-F 3 "" H 3275 6400 60  0000 C CNN
-	1    3275 6400
+P 3585 5615
+F 0 "#PWR037" H 3585 5615 30  0001 C CNN
+F 1 "GND" H 3585 5545 30  0001 C CNN
+F 2 "" H 3585 5615 60  0000 C CNN
+F 3 "" H 3585 5615 60  0000 C CNN
+	1    3585 5615
 	0    1    1    0   
 $EndComp
-Text Label 3050 6500 0    60   ~ 0
+Text Label 3585 5715 2    60   ~ 0
 Vdd
 $Comp
 L Crystal X1
@@ -1117,9 +1106,9 @@ Text GLabel 4550 5200 3    47   Input ~ 0
 CS.CH2
 Text GLabel 4450 5200 3    47   Input ~ 0
 CS.CH1
-Text GLabel 5025 1275 2    40   Input ~ 0
+Text GLabel 5025 1195 2    40   Input ~ 0
 PGC2
-Text GLabel 5025 1125 2    40   Input ~ 0
+Text GLabel 5020 1020 2    40   Input ~ 0
 PGD2
 Text GLabel 5495 6360 0    40   Input ~ 0
 PGD2
@@ -1208,7 +1197,7 @@ Text GLabel 11040 3125 3    60   Input ~ 0
 VR+
 Text GLabel 5495 6560 0    40   Input ~ 0
 RP41
-Text GLabel 5080 7370 2    40   Input ~ 0
+Text GLabel 5055 7170 0    40   Input ~ 0
 AN8
 $Comp
 L PWR_FLAG #FLG043
@@ -1266,9 +1255,9 @@ F 3 "" H 1670 6325 60  0000 C CNN
 $EndComp
 Text GLabel 1295 6325 0    47   Output ~ 0
 AVdd
-Text Label 7075 1400 1    60   ~ 0
+Text Label 7175 1375 1    60   ~ 0
 RxD
-Text Label 7175 1400 1    60   ~ 0
+Text Label 7075 1370 1    60   ~ 0
 TxD
 Text GLabel 3325 3875 0    40   Output ~ 0
 SQ4
@@ -1420,13 +1409,9 @@ Text Label 4650 6150 0    60   ~ 0
 FCin
 Text GLabel 4750 5200 3    47   Input ~ 0
 RP147
-Text Label 9300 2025 0    60   ~ 0
-ESPROG
-Text Label 10620 5790 0    60   ~ 0
-ESPROG
-Text GLabel 10685 6245 2    40   Input ~ 0
+Text GLabel 10710 6160 2    40   Input ~ 0
 VR-
-Text GLabel 10680 6070 2    40   Input ~ 0
+Text GLabel 10705 5985 2    40   Input ~ 0
 VR+
 $Comp
 L LED-RESCUE-PSLab D3
@@ -1497,17 +1482,6 @@ $EndComp
 Text GLabel 8175 5940 0    60   Input ~ 0
 +5V
 $Comp
-L CONN_01X02 P9
-U 1 1 56652B76
-P 7125 1675
-F 0 "P9" H 7125 1825 50  0000 C CNN
-F 1 "Tx-Rx" V 7225 1675 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 7125 1675 60  0001 C CNN
-F 3 "" H 7125 1675 60  0000 C CNN
-	1    7125 1675
-	0    1    1    0   
-$EndComp
-$Comp
 L R-RESCUE-proto1 R55
 U 1 1 566549A7
 P 6525 850
@@ -1562,29 +1536,27 @@ F 3 "DOCUMENTATION" H 4950 3900 50  0001 C CNN
 	1    4950 3900
 	1    0    0    -1  
 $EndComp
-Text Notes 8900 600  0    60   ~ 0
+Text Notes 9750 2140 0    60   ~ 0
 For WiFi Option
-Text Notes 650  600  0    60   ~ 0
+Text Notes 505  595  0    60   ~ 0
 USB & Power Connector , USB-UART Convertor
-Text Notes 4175 575  0    60   ~ 0
+Text Notes 4110 590  0    60   ~ 0
 Programming Header
-Text Notes 7875 4925 0    60   ~ 0
+Text Notes 7775 4925 0    60   ~ 0
 Bipolar Supply generators & filters
-Text Notes 7825 5150 0    60   ~ 0
-RGB & Status LED
-Text Notes 3050 6675 0    60   ~ 0
-I2C header\n
+Text Notes 7785 5145 0    60   ~ 0
+Status LED
 Text Notes 570  7030 0    60   ~ 0
 NRF transceiver connector\n
-Text GLabel 925  7375 0    60   Input ~ 0
+Text GLabel 875  7375 0    60   Input ~ 0
 CS.E1
 Text GLabel 2055 7375 2    60   Input ~ 0
 CS.E2
-Text GLabel 2055 7475 2    60   Input ~ 0
+Text GLabel 2055 7525 2    60   Input ~ 0
 SDI
-Text GLabel 2055 7250 2    60   Input ~ 0
+Text GLabel 2055 7225 2    60   Input ~ 0
 Vdd
-Text Label 5080 7270 0    60   ~ 0
+Text Label 4650 7175 2    60   ~ 0
 MCLR
 Text Notes 11095 5130 2    60   ~ 0
 Mounting Holes
@@ -1624,45 +1596,34 @@ $EndComp
 $Comp
 L GND-RESCUE-proto1 #PWR055
 U 1 1 55BBD950
-P 4580 7270
-F 0 "#PWR055" H 4580 7270 30  0001 C CNN
-F 1 "GND" H 4580 7200 30  0001 C CNN
-F 2 "" H 4580 7270 60  0000 C CNN
-F 3 "" H 4580 7270 60  0000 C CNN
-	1    4580 7270
-	0    1    1    0   
+P 4750 7175
+F 0 "#PWR055" H 4750 7175 30  0001 C CNN
+F 1 "GND" H 4750 7105 30  0001 C CNN
+F 2 "" H 4750 7175 60  0000 C CNN
+F 3 "" H 4750 7175 60  0000 C CNN
+	1    4750 7175
+	-1   0    0    1   
 $EndComp
 $Comp
 L Conn_01x01_Male J7
 U 1 1 5A2D855A
-P 10415 6245
-F 0 "J7" H 10355 6245 50  0000 C CNN
-F 1 "VR-" H 10550 6200 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10415 6245 50  0001 C CNN
-F 3 "" H 10415 6245 50  0001 C CNN
-	1    10415 6245
+P 10440 6160
+F 0 "J7" H 10380 6160 50  0000 C CNN
+F 1 "VR-" H 10575 6115 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10440 6160 50  0001 C CNN
+F 3 "" H 10440 6160 50  0001 C CNN
+	1    10440 6160
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x01_Male J9
 U 1 1 5A2D86DF
-P 10420 6070
-F 0 "J9" H 10360 6065 50  0000 C CNN
-F 1 "VR+" H 10545 6010 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10420 6070 50  0001 C CNN
-F 3 "" H 10420 6070 50  0001 C CNN
-	1    10420 6070
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x01_Male J8
-U 1 1 5A2DE27E
-P 10420 5790
-F 0 "J8" H 10350 5790 50  0000 C CNN
-F 1 "ESPROG" H 10465 5710 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 10420 5790 50  0001 C CNN
-F 3 "" H 10420 5790 50  0001 C CNN
-	1    10420 5790
+P 10445 5985
+F 0 "J9" H 10385 5980 50  0000 C CNN
+F 1 "VR+" H 10570 5925 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10445 5985 50  0001 C CNN
+F 3 "" H 10445 5985 50  0001 C CNN
+	1    10445 5985
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1685,17 +1646,6 @@ F 1 "PG_Pins" H 5815 6060 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5815 6360 50  0001 C CNN
 F 3 "" H 5815 6360 50  0001 C CNN
 	1    5815 6360
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x02_Odd_Even J4
-U 1 1 5A2E81E2
-P 4780 7270
-F 0 "J4" H 4830 7370 50  0000 C CNN
-F 1 "Expansion" H 4830 7070 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 4780 7270 50  0001 C CNN
-F 3 "" H 4780 7270 50  0001 C CNN
-	1    4780 7270
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1730,6 +1680,28 @@ F 2 "TO_SOT_Packages_SMD:SOT-23" H 10900 4160 50  0001 L CIN
 F 3 "" H 10700 4235 50  0001 L CNN
 	1    10700 4235
 	0    -1   -1   0   
+$EndComp
+$Comp
+L USB-MINI-B CON1
+U 1 1 556D8B03
+P 1360 1240
+F 0 "CON1" H 1060 1590 50  0000 C CNN
+F 1 "USB-MICRO-B" H 1210 890 50  0000 C CNN
+F 2 "Connectors:USB_Micro-B" H 1360 1140 50  0001 C CNN
+F 3 "" H 1360 1140 50  0000 C CNN
+	1    1360 1240
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x03 J8
+U 1 1 5A320F8A
+P 7175 2075
+F 0 "J8" H 7175 2275 50  0000 C CNN
+F 1 "TX_RX_ES" V 7285 2070 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7175 2075 50  0001 C CNN
+F 3 "" H 7175 2075 50  0001 C CNN
+	1    7175 2075
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3400 4400 3650 4400
@@ -1782,12 +1754,6 @@ Wire Wire Line
 	5250 2300 5250 2600
 Wire Wire Line
 	3550 800  4000 800 
-Wire Wire Line
-	4650 680  4930 680 
-Wire Wire Line
-	5430 680  5430 780 
-Wire Wire Line
-	5430 780  4650 780 
 Connection ~ 900  5625
 Wire Wire Line
 	8025 3325 8350 3325
@@ -1841,17 +1807,15 @@ Wire Wire Line
 Wire Wire Line
 	3550 4000 3650 4000
 Wire Wire Line
-	1255 7375 925  7375
+	1255 7375 875  7375
 Wire Wire Line
 	1255 7475 880  7475
 Wire Wire Line
 	1255 7575 880  7575
 Wire Wire Line
-	1755 7475 2055 7475
-Wire Wire Line
 	1755 7375 2055 7375
 Wire Wire Line
-	1755 7275 2030 7275
+	2030 7275 1755 7275
 Wire Wire Line
 	860  1040 860  1520
 Connection ~ 860  1440
@@ -1912,8 +1876,6 @@ Wire Wire Line
 Wire Wire Line
 	850  3750 1325 3750
 Wire Wire Line
-	2350 3350 2550 3350
-Wire Wire Line
 	1650 3650 1600 3650
 Wire Wire Line
 	1600 3650 1600 3350
@@ -1924,11 +1886,9 @@ Wire Wire Line
 Wire Wire Line
 	2475 3750 2350 3750
 Wire Wire Line
-	2475 3350 2475 3750
-Connection ~ 2475 3350
+	2475 3210 2475 3750
 Wire Wire Line
-	2475 3450 2350 3450
-Connection ~ 2475 3450
+	2350 3450 2475 3450
 Connection ~ 1600 3350
 Wire Wire Line
 	1325 3750 1325 3925
@@ -1962,12 +1922,6 @@ Wire Wire Line
 	9700 1925 8750 1925
 Wire Wire Line
 	4000 2450 3650 2450
-Wire Wire Line
-	3050 6300 3275 6300
-Wire Wire Line
-	3050 6200 3275 6200
-Wire Wire Line
-	3275 6500 3050 6500
 Wire Wire Line
 	6250 3700 7050 3700
 Wire Wire Line
@@ -2010,12 +1964,6 @@ Wire Wire Line
 	2850 825  2250 825 
 Wire Wire Line
 	2850 950  2850 825 
-Wire Wire Line
-	5025 1125 4750 1125
-Connection ~ 4750 1125
-Wire Wire Line
-	5025 1275 4650 1275
-Connection ~ 4650 1275
 Wire Wire Line
 	4550 2600 4550 2275
 Wire Wire Line
@@ -2072,13 +2020,7 @@ Wire Wire Line
 Wire Wire Line
 	6775 650  7525 650 
 Wire Wire Line
-	7075 1475 7075 650 
-Connection ~ 7075 650 
-Wire Wire Line
 	6775 850  7525 850 
-Connection ~ 7175 850 
-Wire Wire Line
-	7175 1475 7175 850 
 Wire Wire Line
 	6275 850  5800 850 
 Wire Wire Line
@@ -2090,23 +2032,19 @@ Wire Wire Line
 Wire Wire Line
 	9775 1425 9775 2025
 Wire Wire Line
-	9775 2025 9300 2025
+	9775 2025 8210 2025
 Wire Notes Line
 	8100 550  8100 2175
 Wire Notes Line
 	8100 2175 10500 2175
 Wire Notes Line
-	10500 2175 10500 600 
+	10500 2175 10500 550 
 Wire Notes Line
-	10500 600  8100 600 
-Wire Notes Line
-	525  500  525  2750
-Wire Notes Line
-	525  2750 4075 2750
+	500  2750 4075 2750
 Wire Notes Line
 	4075 2750 4075 500 
 Wire Notes Line
-	4075 500  525  500 
+	4075 500  500  500 
 Wire Notes Line
 	4100 500  4100 1375
 Wire Notes Line
@@ -2129,9 +2067,7 @@ Wire Wire Line
 	7050 3700 7050 3550
 Connection ~ 7050 3100
 Wire Wire Line
-	2055 7250 2030 7250
-Wire Wire Line
-	2030 7250 2030 7275
+	2030 7225 2030 7275
 Wire Notes Line
 	7750 5025 9405 5025
 Wire Notes Line
@@ -2166,13 +2102,13 @@ Wire Wire Line
 Wire Wire Line
 	9870 4800 9870 4830
 Wire Wire Line
-	4650 1275 4650 2600
+	4650 1195 4650 2600
 Wire Wire Line
-	4750 1125 4750 2600
+	4750 1020 4750 2600
 Wire Wire Line
-	10620 6070 10680 6070
+	10645 5985 10705 5985
 Wire Wire Line
-	10685 6245 10615 6245
+	10710 6160 10640 6160
 Wire Wire Line
 	1575 4450 1320 4450
 Wire Wire Line
@@ -2264,19 +2200,98 @@ Wire Wire Line
 	2035 1930 2035 1440
 Wire Wire Line
 	2035 1440 1860 1440
-$Comp
-L USB-MINI-B CON1
-U 1 1 556D8B03
-P 1360 1240
-F 0 "CON1" H 1060 1590 50  0000 C CNN
-F 1 "USB-MINI-B" H 1210 890 50  0000 C CNN
-F 2 "Connectors:USB_Micro-B" H 1360 1140 50  0001 C CNN
-F 3 "" H 1360 1140 50  0000 C CNN
-	1    1360 1240
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8875 5940 8870 5940
 Wire Wire Line
 	8175 5940 8375 5940
+Wire Wire Line
+	7275 1875 7275 1685
+Wire Wire Line
+	7275 1685 8210 1685
+Wire Wire Line
+	7175 1875 7175 650 
+Connection ~ 7175 650 
+Wire Wire Line
+	7075 1875 7075 850 
+Connection ~ 7075 850 
+$Comp
+L Conn_01x02 J10
+U 1 1 5A32486E
+P 3115 5620
+F 0 "J10" H 3115 5720 50  0000 C CNN
+F 1 "I2C-I" H 3115 5420 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3115 5620 50  0001 C CNN
+F 3 "" H 3115 5620 50  0001 C CNN
+	1    3115 5620
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J11
+U 1 1 5A324A11
+P 3785 5615
+F 0 "J11" H 3785 5715 50  0000 C CNN
+F 1 "I2C-II" H 3785 5415 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3785 5615 50  0001 C CNN
+F 3 "" H 3785 5615 50  0001 C CNN
+	1    3785 5615
+	1    0    0    -1  
+$EndComp
+Text Notes 3550 6185 0    60   ~ 0
+I2C header\n
+Wire Notes Line
+	2540 5345 4085 5345
+Wire Notes Line
+	4085 5345 4085 6230
+Wire Notes Line
+	4085 6230 2540 6230
+Wire Notes Line
+	2540 6230 2540 5345
+Wire Notes Line
+	10500 550  8100 550 
+$Comp
+L Conn_01x02 J4
+U 1 1 5A329939
+P 4750 7375
+F 0 "J4" H 4750 7475 50  0000 C CNN
+F 1 "Ex-I" V 4840 7315 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4750 7375 50  0001 C CNN
+F 3 "" H 4750 7375 50  0001 C CNN
+	1    4750 7375
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x02 J12
+U 1 1 5A329B3E
+P 5155 7370
+F 0 "J12" H 5155 7470 50  0000 C CNN
+F 1 "Ex-II" V 5245 7320 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5155 7370 50  0001 C CNN
+F 3 "" H 5155 7370 50  0001 C CNN
+	1    5155 7370
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	500  500  500  2750
+Wire Wire Line
+	5025 1195 4650 1195
+Wire Wire Line
+	5020 1020 4750 1020
+Wire Wire Line
+	2505 3210 2475 3210
+Wire Wire Line
+	2350 3350 2550 3350
+Connection ~ 2475 3350
+Connection ~ 2475 3450
+Wire Wire Line
+	1755 7475 2025 7475
+Wire Wire Line
+	2025 7475 2025 7525
+Wire Wire Line
+	2025 7525 2055 7525
+Wire Wire Line
+	2055 7225 2030 7225
+Wire Wire Line
+	8210 1685 8210 2025
+Text Label 7485 1685 0    60   ~ 0
+ESPROG
 $EndSCHEMATC

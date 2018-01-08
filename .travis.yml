@@ -1,0 +1,8 @@
+sudo: required
+
+before_install:
+- git clone https://github.com/KiCad/kicad-library-utils /home/travis/build/kicad-library-utils
+
+script:
+- sudo bash /home/travis/build/kicad-library-utils/pcb/travis/check_all.sh $TRAVIS_BUILD_DIR
+

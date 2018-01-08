@@ -3,7 +3,7 @@
   (general
     (links 339)
     (no_connects 0)
-    (area 102.332999 70.5864 183.800001 127.09)
+    (area 110.799999 70.949999 183.800001 124.650001)
     (thickness 1.6)
     (drawings 32)
     (tracks 1827)
@@ -410,7 +410,7 @@
     (fp_text reference U3 (at -5.775 -5.6 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value PIC24EP64GP204 (at 0 7.45 90) (layer F.Fab)
+    (fp_text value PIC24EP256GP204 (at 0 7.45 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)

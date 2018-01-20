@@ -3,10 +3,10 @@
 [![Build Status](https://travis-ci.org/fossasia/pslab-hardware.svg?branch=master)](https://travis-ci.org/fossasia/pslab-hardware)
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-This repository holds [PSLab](http://pslab.fossasia.org/) Hardware design files. PSLab is a tiny pocket science lab that provides an array of equipment for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. The first version of hardware (V 1.0) is developed by [Jithin B P](https://github.com/jithinbp), a core developer of PSLab Project.
+This repository holds [PSLab](http://pslab.fossasia.org/) hardware design files. PSLab is a tiny pocket science lab that provides an array of equipment for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. The first version of hardware (V 1.0) is developed by [Jithin B P](https://github.com/jithinbp), a core developer of PSLab Project.
 
 ## Communication
-Our chat channel is on Gitter here: https://gitter.im/fossasia/pslab 
+Our chat channel is on Gitter here at [pslab](https://gitter.im/fossasia/pslab)
 
 Pocket Science Lab Prototype |  Front Silk Design
  --------------------------- | ---------------------------------
@@ -16,22 +16,35 @@ Pocket Science Lab Prototype |  Front Silk Design
 ## Content of Repository
 
 - Technical Reference Document: Latex files
-- Kicad Schematics, Layouts
+- Kicad Schematics, Layouts, Pinouts
 - Dimension vectors
 - Label vectors
 - Accessory development files
+
+## Version Information
+
+| Version Folder | Content | Preview |
+| -------------- | ------- | ------- |
+| PSLab KiCAD    | Original version with `SEELABLET` schematics and layout files | ![](docs/images/pslab_version_previews/PSLab_v1.png) |
+| PSLab KiCAD v2 | Developed version with new additions (Voltage regulator, Oscillator) | ![](docs/images/pslab_version_previews/PSLab_v2.png) |
+| PSLab KiCAD v3 | Device layout changed to Arduino Uno form factor | ![](docs/images/pslab_version_previews/PSLab_v3.png) |
+| PSLab KiCAD v4 | Assembly optimized version with Arduino Mega form factor having components mounted only on top side | ![](docs/images/pslab_version_previews/PSLab_v4.png) |
+
 
 ## Platform
 
 * Microcontroller Platform : [PIC24EP256GP204](http://www.microchip.com/wwwproducts/en/PIC24EP256GP204)
 * IDE: [MPLABX IDE v3.35](http://www.microchip.com/mplab/mplab-x-ide) (Supported on Linux/Windows/Mac)
 * Compiler: [MPLAB® XC16 Compiler](http://www.microchip.com/mplab/compilers)
-* Programming Tool: [PICkit™ 3 In-Circuit Debugger/PICkit2](http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=PG164130)
+* Programming Tool: [PICkit™ 3 In-Circuit Debugger](http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=PG164130)
 
 KiCAD PCB front-side              | KiCAD PCB back-side
  -------------------------------- | ----------------------------------
-![](docs/images/layout_front.png) | ![](docs/images/layout_back.png)
+![](docs/images/PSLab_v4_top.png) | ![](docs/images/PSLab_v4_bottom.png)
 
+
+## Pin-outs
+Find the pinout diagram of PSLab v4 [here](PSLab_Pinout.pdf)!
 
 ## Parts list
 
@@ -87,7 +100,7 @@ One of the main features of PSLab is the 4-channel oscilloscope which can monito
 ### Voltage and Current Sources
 
 * 12-bit Constant Current source. Maximum current 3.3 mA (subject to load resistance).
-* PSLab has three 12-bit Programmable voltage sources/ +/-3.3 V,+/-5 V,0-3 V . (PV1, PV2, PV3) controls
+* PSLab has three 12-bit Programmable voltage sources/ +/-3.3 V,+/-5 V,0-3 V. (PV1, PV2, PV3) controls
 
 ### Main Control Panel
 
@@ -96,14 +109,14 @@ One of the main features of PSLab is the 4-channel oscilloscope which can monito
 * 4MHz, 4-channel Logic analyzer with 15 nS resolution.Voltage and Current Sources
 * SPI, I2C, UART outputs
 * On-board 2.4 GHz transceiver for wireless data acquisition. (Work in progress..)
-* Graphical Interfaces for Oscilloscope, Logic Analyser, streaming data, wireless acquisition, and several experiments developed that use a common framework which drastically reduces code required to incorporate control and plotting widgets.
-* PSLab also has space for an ESP-12 module for WiFi access with access point / station mode.
+* Graphical Interfaces for Oscilloscope, Logic Analyser, streaming data, wireless acquisition and several experiments developed that use a common framework which drastically reduces code required to incorporate control and plotting widgets.
+* PSLab also has space for an ESP-12 module for WiFi access with access point/ station mode.
 
 ### Advanced Controls
 * Advanced Controls with Oscilloscope
 * Data Logger
-* Wireless Sensors (Work in progress…)
 * Logic Analyzer
+* Wireless Sensors (Work in progress…)
 
 ### Block Diagram
 ![](docs/images/blockdiag.png)

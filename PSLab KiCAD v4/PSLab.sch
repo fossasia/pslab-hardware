@@ -801,7 +801,7 @@ U 1 1 556C7CF0
 P 1505 7425
 F 0 "P7" H 1505 7675 50  0000 C CNN
 F 1 "NRF" H 1505 7175 50  0000 C CNN
-F 2 "Custom_Components:nRF24L01_Breakout_2" H 1505 6225 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 1505 6225 60  0001 C CNN
 F 3 "" H 1505 6225 60  0000 C CNN
 	1    1505 7425
 	1    0    0    -1  
@@ -1013,9 +1013,9 @@ Text GLabel 5025 1195 2    40   Input ~ 0
 PGC2
 Text GLabel 5020 1020 2    40   Input ~ 0
 PGD2
-Text GLabel 4670 7005 0    40   Input ~ 0
-PGD2
 Text GLabel 4670 7105 0    40   Input ~ 0
+PGD2
+Text GLabel 4670 7205 0    40   Input ~ 0
 PGC2
 $Comp
 L GND-RESCUE-proto1 #PWR036
@@ -1488,15 +1488,15 @@ Vdd
 $Comp
 L GND-RESCUE-proto1 #PWR048
 U 1 1 5A56D115
-P 4670 6805
-F 0 "#PWR048" H 4670 6805 30  0001 C CNN
-F 1 "GND" H 4670 6735 30  0001 C CNN
-F 2 "" H 4670 6805 60  0000 C CNN
-F 3 "" H 4670 6805 60  0000 C CNN
-	1    4670 6805
+P 4670 7005
+F 0 "#PWR048" H 4670 7005 30  0001 C CNN
+F 1 "GND" H 4670 6935 30  0001 C CNN
+F 2 "" H 4670 7005 60  0000 C CNN
+F 3 "" H 4670 7005 60  0000 C CNN
+	1    4670 7005
 	0    1    1    0   
 $EndComp
-Text GLabel 4670 7205 0    40   Input ~ 0
+Text GLabel 4670 6805 0    40   Input ~ 0
 MCLR
 Text GLabel 4545 815  0    40   Input ~ 0
 MCLR

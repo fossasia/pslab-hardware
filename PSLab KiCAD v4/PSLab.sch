@@ -2260,4 +2260,37 @@ Wire Wire Line
 Wire Wire Line
 	1550 5355 1550 4450
 Connection ~ 1550 4450
+$Comp
+L TEST TP3
+U 1 1 5A66A817
+P 850 1930
+F 0 "TP3" H 850 2230 50  0000 C BNN
+F 1 "TEST" H 850 2180 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 850 1930 50  0001 C CNN
+F 3 "" H 850 1930 50  0001 C CNN
+	1    850  1930
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP4
+U 1 1 5A66B7F8
+P 2285 1925
+F 0 "TP4" H 2285 2225 50  0000 C BNN
+F 1 "TEST" H 2285 2175 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2285 1925 50  0001 C CNN
+F 3 "" H 2285 1925 50  0001 C CNN
+	1    2285 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-proto1 #PWR056
+U 1 1 5A66B8E0
+P 2285 1925
+F 0 "#PWR056" H 2285 1925 30  0001 C CNN
+F 1 "GND" H 2285 1855 30  0001 C CNN
+F 2 "" H 2285 1925 60  0000 C CNN
+F 3 "" H 2285 1925 60  0000 C CNN
+	1    2285 1925
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

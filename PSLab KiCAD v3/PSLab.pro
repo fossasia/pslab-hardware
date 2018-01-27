@@ -1,4 +1,4 @@
-update=Wed 13 Dec 2017 02:34:38 PM +0530
+update=2018-01-24 10:45:39 +0530
 version=1
 last_client=kicad
 [cvpcb]
@@ -64,3 +64,13 @@ LibName29=valves
 LibName30=conn
 LibName31=proto1
 LibName32=proto1-cache
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

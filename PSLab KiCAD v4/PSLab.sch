@@ -341,7 +341,6 @@ NoConn ~ 3650 950
 NoConn ~ 3550 2450
 NoConn ~ 3450 2450
 NoConn ~ 3350 2450
-NoConn ~ 3050 2450
 $Comp
 L CONN_1 MH1
 U 1 1 542435DB
@@ -944,8 +943,8 @@ L Crystal X1
 U 1 1 55B8ABCA
 P 7050 3400
 F 0 "X1" H 6825 3325 60  0000 C CNN
-F 1 "12MHz" H 7050 3250 60  0000 C CNN
-F 2 "Crystals:Crystal_HC49-U_Vertical" H 7050 3400 60  0001 C CNN
+F 1 "8MHz" H 7050 3250 60  0000 C CNN
+F 2 "Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm" H 7050 3400 60  0001 C CNN
 F 3 "" H 7050 3400 60  0000 C CNN
 	1    7050 3400
 	0    1    1    0   
@@ -1140,7 +1139,7 @@ U 1 1 55C0F620
 P 1670 6325
 F 0 "L1" H 1670 6425 50  0000 C CNN
 F 1 "10uH" H 1670 6275 50  0000 C CNN
-F 2 "Inductors_SMD:L_0805" H 1670 6325 60  0001 C CNN
+F 2 "Inductors_SMD:L_0603" H 1670 6325 60  0001 C CNN
 F 3 "" H 1670 6325 60  0000 C CNN
 	1    1670 6325
 	1    0    0    -1  
@@ -1153,7 +1152,6 @@ Text Label 7075 1370 1    60   ~ 0
 TxD
 Text GLabel 3325 3875 0    40   Output ~ 0
 SQ4
-NoConn ~ 2950 2450
 $Comp
 L GND-RESCUE-proto1 #PWR041
 U 1 1 5564F446
@@ -1212,10 +1210,6 @@ Text GLabel 6250 4400 2    40   Input ~ 0
 AN4
 Text GLabel 1755 7575 2    40   Input ~ 0
 AN4
-Text GLabel 7475 2950 2    40   Output ~ 0
-12MHz
-Text GLabel 2850 2450 3    40   Input ~ 0
-12MHz
 Text GLabel 2800 3550 2    40   Output ~ 0
 SQ3
 $Comp
@@ -1248,7 +1242,7 @@ U 1 1 5660DA81
 P 9070 5520
 F 0 "D3" H 9070 5620 50  0000 C CNN
 F 1 "LED" H 9070 5420 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 9070 5520 60  0001 C CNN
+F 2 "LEDs:LED_0603" H 9070 5520 60  0001 C CNN
 F 3 "" H 9070 5520 60  0000 C CNN
 	1    9070 5520
 	-1   0    0    1   
@@ -1281,7 +1275,7 @@ U 1 1 56612B89
 P 9070 5940
 F 0 "D4" H 9070 6040 50  0000 C CNN
 F 1 "LED" H 9070 5840 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 9070 5940 60  0001 C CNN
+F 2 "LEDs:LED_0603" H 9070 5940 60  0001 C CNN
 F 3 "" H 9070 5940 60  0000 C CNN
 	1    9070 5940
 	-1   0    0    1   
@@ -1421,17 +1415,6 @@ F 3 "" H 10700 4235 50  0001 L CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L USB-MINI-B CON1
-U 1 1 556D8B03
-P 1360 1240
-F 0 "CON1" H 1060 1590 50  0000 C CNN
-F 1 "USB-MICRO-B" H 1210 890 50  0000 C CNN
-F 2 "Connectors:USB_Micro-B" H 1360 1140 50  0001 C CNN
-F 3 "" H 1360 1140 50  0000 C CNN
-	1    1360 1240
-	-1   0    0    1   
-$EndComp
-$Comp
 L Conn_01x03 J8
 U 1 1 5A320F8A
 P 7175 2075
@@ -1563,8 +1546,6 @@ F 3 "" H 810 3945 60  0000 C CNN
 	1    810  3945
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 9855 5840
-NoConn ~ 10775 5835
 $Comp
 L Conn_02x03_Odd_Even J12
 U 1 1 5A57C9B9
@@ -1775,9 +1756,6 @@ Wire Wire Line
 Wire Wire Line
 	2030 7275 1755 7275
 Wire Wire Line
-	860  1040 860  1520
-Connection ~ 860  1440
-Wire Wire Line
 	1375 3450 1650 3450
 Wire Wire Line
 	1500 3750 1650 3750
@@ -1927,10 +1905,6 @@ Wire Wire Line
 	2525 3850 2350 3850
 Wire Wire Line
 	1420 6325 1295 6325
-Wire Wire Line
-	7050 2950 7050 3250
-Wire Wire Line
-	7050 2950 7475 2950
 Connection ~ 2700 3550
 Wire Wire Line
 	4650 5200 4650 5650
@@ -2001,7 +1975,6 @@ Wire Notes Line
 	7750 5025 7750 6425
 Wire Wire Line
 	7050 3700 7050 3550
-Connection ~ 7050 3100
 Wire Wire Line
 	2030 7225 2030 7275
 Wire Notes Line
@@ -2083,11 +2056,9 @@ Wire Wire Line
 Wire Wire Line
 	2390 1340 1860 1340
 Wire Wire Line
-	865  1340 860  1340
-Connection ~ 860  1340
+	860  1340 865  1340
 Wire Wire Line
 	865  1140 860  1140
-Connection ~ 860  1140
 Wire Wire Line
 	1605 1930 2035 1930
 Wire Wire Line
@@ -2291,6 +2262,196 @@ F 1 "GND" H 2285 1855 30  0001 C CNN
 F 2 "" H 2285 1925 60  0000 C CNN
 F 3 "" H 2285 1925 60  0000 C CNN
 	1    2285 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB-MINI-B CON1
+U 1 1 5A6CB48C
+P 1360 1240
+F 0 "CON1" H 1060 1590 50  0000 C CNN
+F 1 "USB-MINI-B" H 1210 890 50  0000 C CNN
+F 2 "Connectors:USB_Micro-B" H 1360 1140 50  0001 C CNN
+F 3 "" H 1360 1140 50  0000 C CNN
+	1    1360 1240
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	860  1040 860  1520
+Connection ~ 860  1440
+Connection ~ 860  1340
+Connection ~ 860  1140
+$Comp
+L R R48
+U 1 1 5A6CD97F
+P 3265 2600
+F 0 "R48" V 3345 2600 50  0000 C CNN
+F 1 "4.7k" V 3265 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3195 2600 50  0001 C CNN
+F 3 "" H 3265 2600 50  0001 C CNN
+	1    3265 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 2450 3050 2600
+Wire Wire Line
+	3050 2600 3115 2600
+Text Label 3470 2600 0    60   ~ 0
+Vdd
+Wire Wire Line
+	3415 2600 3630 2600
+$Comp
+L Crystal Y1
+U 1 1 5A6D25F9
+P 1715 2155
+F 0 "Y1" H 1715 2305 50  0000 C CNN
+F 1 "12MHz" H 1715 2005 50  0000 C CNN
+F 2 "Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm" H 1715 2155 50  0001 C CNN
+F 3 "" H 1715 2155 50  0001 C CNN
+	1    1715 2155
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5A6D2A55
+P 1425 2365
+F 0 "C3" H 1450 2465 50  0000 L CNN
+F 1 "22p" H 1450 2265 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1463 2215 50  0001 C CNN
+F 3 "" H 1425 2365 50  0001 C CNN
+	1    1425 2365
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C43
+U 1 1 5A6D2B78
+P 1965 2370
+F 0 "C43" H 1990 2470 50  0000 L CNN
+F 1 "22p" H 1990 2270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2003 2220 50  0001 C CNN
+F 3 "" H 1965 2370 50  0001 C CNN
+	1    1965 2370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1865 2155 2050 2155
+Wire Wire Line
+	1965 2155 1965 2220
+$Comp
+L GND-RESCUE-proto1 #PWR057
+U 1 1 5A6D3C13
+P 1695 2665
+F 0 "#PWR057" H 1695 2665 30  0001 C CNN
+F 1 "GND" H 1695 2595 30  0001 C CNN
+F 2 "" H 1695 2665 60  0000 C CNN
+F 3 "" H 1695 2665 60  0000 C CNN
+	1    1695 2665
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1380 2155 1565 2155
+Wire Wire Line
+	1425 2155 1425 2215
+Wire Wire Line
+	1425 2515 1425 2595
+Wire Wire Line
+	1425 2595 1965 2595
+Wire Wire Line
+	1965 2595 1965 2520
+Wire Wire Line
+	1695 2665 1695 2595
+Connection ~ 1695 2595
+Text GLabel 1380 2155 0    39   Input ~ 0
+OS1
+Text GLabel 2050 2155 2    39   Input ~ 0
+OS2
+Connection ~ 1965 2155
+Connection ~ 1425 2155
+Text GLabel 2850 2480 3    39   Input ~ 0
+OS1
+Wire Wire Line
+	2850 2480 2850 2450
+Text GLabel 2950 2480 3    39   Input ~ 0
+OS2
+Wire Wire Line
+	2950 2480 2950 2450
+Wire Wire Line
+	7050 3250 7050 3100
+$Comp
+L TEST_1P J13
+U 1 1 5A6F40E4
+P 2085 1020
+F 0 "J13" H 2165 1155 50  0000 C CNN
+F 1 "D+" H 2090 970 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 2285 1020 50  0001 C CNN
+F 3 "" H 2285 1020 50  0001 C CNN
+	1    2085 1020
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J14
+U 1 1 5A6F42FD
+P 2525 1005
+F 0 "J14" H 2605 1135 50  0000 C CNN
+F 1 "D-" H 2525 950 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 2725 1005 50  0001 C CNN
+F 3 "" H 2725 1005 50  0001 C CNN
+	1    2525 1005
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2525 1005 2390 1005
+Connection ~ 2390 1005
+Wire Wire Line
+	2085 1020 2250 1020
+Connection ~ 2250 1020
+$Comp
+L TEST_1P J11
+U 1 1 5A6F5463
+P 1850 1875
+F 0 "J11" H 1850 2145 50  0000 C CNN
+F 1 "Vbus" H 1850 2075 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 2050 1875 50  0001 C CNN
+F 3 "" H 2050 1875 50  0001 C CNN
+	1    1850 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J10
+U 1 1 5A6F58A7
+P 690 1220
+F 0 "J10" H 690 1490 50  0000 C CNN
+F 1 "GND" H 690 1420 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 890 1220 50  0001 C CNN
+F 3 "" H 890 1220 50  0001 C CNN
+	1    690  1220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	690  1220 860  1220
+Connection ~ 860  1220
+Wire Wire Line
+	1850 1875 1850 1930
+Connection ~ 1850 1930
+$Comp
+L GND-RESCUE-proto1 #PWR058
+U 1 1 5A6F58C4
+P 10775 5835
+F 0 "#PWR058" H 10775 5835 30  0001 C CNN
+F 1 "GND" H 10775 5765 30  0001 C CNN
+F 2 "" H 10775 5835 60  0000 C CNN
+F 3 "" H 10775 5835 60  0000 C CNN
+	1    10775 5835
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-proto1 #PWR059
+U 1 1 5A6F5AA9
+P 9855 5840
+F 0 "#PWR059" H 9855 5840 30  0001 C CNN
+F 1 "GND" H 9855 5770 30  0001 C CNN
+F 2 "" H 9855 5840 60  0000 C CNN
+F 3 "" H 9855 5840 60  0000 C CNN
+	1    9855 5840
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

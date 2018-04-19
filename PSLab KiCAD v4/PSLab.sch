@@ -913,23 +913,21 @@ Text Label 4450 2475 1    60   ~ 0
 TxD
 Text GLabel 6080 7150 0    40   Input ~ 0
 CH3.GAIN
-Text Label 4640 7355 2    60   ~ 0
+Text Label 4760 7385 2    60   ~ 0
 SDA
-Text Label 4640 7255 2    60   ~ 0
+Text Label 4760 7285 2    60   ~ 0
 SCL
 $Comp
 L GND-RESCUE-proto1 #PWR033
 U 1 1 55B40810
-P 4640 7055
-F 0 "#PWR033" H 4640 7055 30  0001 C CNN
-F 1 "GND" H 4640 6985 30  0001 C CNN
-F 2 "" H 4640 7055 60  0000 C CNN
-F 3 "" H 4640 7055 60  0000 C CNN
-	1    4640 7055
+P 4760 7085
+F 0 "#PWR033" H 4760 7085 30  0001 C CNN
+F 1 "GND" H 4760 7015 30  0001 C CNN
+F 2 "" H 4760 7085 60  0000 C CNN
+F 3 "" H 4760 7085 60  0000 C CNN
+	1    4760 7085
 	0    1    1    0   
 $EndComp
-Text Label 4640 7155 2    60   ~ 0
-Vdd
 $Comp
 L Crystal X1
 U 1 1 55B8ABCA
@@ -1004,9 +1002,9 @@ Text GLabel 5025 1195 2    40   Input ~ 0
 PGC2
 Text GLabel 5020 1020 2    40   Input ~ 0
 PGD2
-Text GLabel 5280 7365 0    40   Input ~ 0
+Text GLabel 5370 7380 0    40   Input ~ 0
 PGD2
-Text GLabel 5280 7465 0    40   Input ~ 0
+Text GLabel 5370 7480 0    40   Input ~ 0
 PGC2
 $Comp
 L GND-RESCUE-proto1 #PWR036
@@ -1089,7 +1087,7 @@ Text GLabel 11030 4245 3    60   Input ~ 0
 VR-
 Text GLabel 11040 3125 3    60   Input ~ 0
 VR+
-Text GLabel 5280 6965 0    40   Input ~ 0
+Text GLabel 5370 6980 0    40   Input ~ 0
 RP41
 Text GLabel 6970 5065 1    40   Input ~ 0
 AN8
@@ -1138,9 +1136,9 @@ F 3 "" H 2660 5970 60  0000 C CNN
 $EndComp
 Text GLabel 3210 5970 2    47   Output ~ 0
 AVdd
-Text Label 7175 1375 1    60   ~ 0
+Text Label 7075 1390 1    60   ~ 0
 RxD
-Text Label 7075 1370 1    60   ~ 0
+Text Label 6975 1395 1    60   ~ 0
 TxD
 Text GLabel 3325 3875 0    40   Output ~ 0
 SQ4
@@ -1406,17 +1404,6 @@ F 3 "" H 10700 4235 50  0001 L CNN
 	1    10700 4235
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Conn_01x03 J8
-U 1 1 5A320F8A
-P 7175 2075
-F 0 "J8" H 7175 2275 50  0000 C CNN
-F 1 "TX_RX_ES" V 7285 2070 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7175 2075 50  0001 C CNN
-F 3 "" H 7175 2075 50  0001 C CNN
-	1    7175 2075
-	0    1    1    0   
-$EndComp
 Text Label 7485 1685 0    60   ~ 0
 ESPROG
 $Comp
@@ -1448,28 +1435,26 @@ $EndComp
 $Comp
 L Conn_01x06 J1
 U 1 1 5A56B55E
-P 5480 7165
-F 0 "J1" H 5480 7465 50  0000 C CNN
-F 1 "Programmer" H 5485 6775 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 5480 7165 50  0001 C CNN
-F 3 "" H 5480 7165 50  0001 C CNN
-	1    5480 7165
+P 5570 7180
+F 0 "J1" H 5570 7480 50  0000 C CNN
+F 1 "Programmer" H 5575 6790 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 5570 7180 50  0001 C CNN
+F 3 "" H 5570 7180 50  0001 C CNN
+	1    5570 7180
 	1    0    0    -1  
 $EndComp
-Text Label 5070 7165 0    60   ~ 0
-Vdd
 $Comp
 L GND-RESCUE-proto1 #PWR048
 U 1 1 5A56D115
-P 5280 7265
-F 0 "#PWR048" H 5280 7265 30  0001 C CNN
-F 1 "GND" H 5280 7195 30  0001 C CNN
-F 2 "" H 5280 7265 60  0000 C CNN
-F 3 "" H 5280 7265 60  0000 C CNN
-	1    5280 7265
+P 5370 7280
+F 0 "#PWR048" H 5370 7280 30  0001 C CNN
+F 1 "GND" H 5370 7210 30  0001 C CNN
+F 2 "" H 5370 7280 60  0000 C CNN
+F 3 "" H 5370 7280 60  0000 C CNN
+	1    5370 7280
 	0    1    1    0   
 $EndComp
-Text GLabel 5280 7065 0    40   Input ~ 0
+Text GLabel 5370 7080 0    40   Input ~ 0
 MCLR
 Text GLabel 4545 815  0    40   Input ~ 0
 MCLR
@@ -1539,12 +1524,12 @@ $EndComp
 $Comp
 L Conn_01x04 J6
 U 1 1 5A584DF9
-P 4840 7155
-F 0 "J6" H 4840 7355 50  0000 C CNN
-F 1 "I2C" H 4840 6855 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4840 7155 50  0001 C CNN
-F 3 "" H 4840 7155 50  0001 C CNN
-	1    4840 7155
+P 4960 7185
+F 0 "J6" H 4960 7385 50  0000 C CNN
+F 1 "I2C-1" H 4960 6885 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4960 7185 50  0001 C CNN
+F 3 "" H 4960 7185 50  0001 C CNN
+	1    4960 7185
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1590,36 +1575,6 @@ F 2 "" H 645 5450 60  0000 C CNN
 F 3 "" H 645 5450 60  0000 C CNN
 	1    645  5450
 	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x04 J9
-U 1 1 5A57CD2F
-P 4195 7170
-F 0 "J9" H 4195 7370 50  0000 C CNN
-F 1 "Test_Vs" H 4195 6870 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4195 7170 50  0001 C CNN
-F 3 "" H 4195 7170 50  0001 C CNN
-	1    4195 7170
-	1    0    0    -1  
-$EndComp
-Text GLabel 3995 7070 0    40   Input ~ 0
-V-
-Text GLabel 3995 7170 0    40   Input ~ 0
-VR-
-Text GLabel 3995 7270 0    40   Input ~ 0
-V+
-Text GLabel 3995 7370 0    40   Input ~ 0
-VR+
-$Comp
-L Conn_01x05 J3
-U 1 1 5A595092
-P 910 4550
-F 0 "J3" H 910 4850 50  0000 C CNN
-F 1 "LA" H 910 4250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 910 4550 50  0001 C CNN
-F 3 "" H 910 4550 50  0001 C CNN
-	1    910  4550
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3400 4400 3650 4400
@@ -2019,15 +1974,9 @@ Wire Wire Line
 Wire Wire Line
 	8175 5940 8375 5940
 Wire Wire Line
-	7275 1875 7275 1685
+	7275 1685 7275 1895
 Wire Wire Line
 	7275 1685 8210 1685
-Wire Wire Line
-	7175 1875 7175 650 
-Connection ~ 7175 650 
-Wire Wire Line
-	7075 1875 7075 850 
-Connection ~ 7075 850 
 Wire Notes Line
 	10500 550  8100 550 
 Wire Notes Line
@@ -2067,8 +2016,6 @@ Wire Wire Line
 Connection ~ 6630 7150
 Wire Wire Line
 	6780 7250 6780 7285
-Wire Wire Line
-	5280 7165 5070 7165
 Wire Wire Line
 	4605 815  4545 815 
 Wire Wire Line
@@ -2384,8 +2331,6 @@ Wire Wire Line
 Wire Wire Line
 	695  5405 645  5405
 Wire Wire Line
-	645  4175 645  5450
-Wire Wire Line
 	645  5105 695  5105
 Wire Wire Line
 	695  5205 645  5205
@@ -2395,12 +2340,6 @@ Wire Wire Line
 Connection ~ 645  5305
 Connection ~ 645  5405
 Connection ~ 645  5105
-Wire Wire Line
-	1110 4350 1155 4350
-Wire Wire Line
-	1155 4350 1155 4175
-Wire Wire Line
-	1155 4175 645  4175
 Wire Wire Line
 	1110 4450 1955 4450
 Wire Wire Line
@@ -2439,4 +2378,83 @@ Wire Wire Line
 Wire Wire Line
 	1485 5105 1195 5105
 Connection ~ 1485 5050
+Text Label 4760 7185 2    60   ~ 0
+Vdd
+Wire Wire Line
+	5370 7180 5160 7180
+Text Label 5160 7180 0    60   ~ 0
+Vdd
+$Comp
+L Conn_01x04 J16
+U 1 1 5AD47B2C
+P 4395 7180
+F 0 "J16" H 4395 7380 50  0000 C CNN
+F 1 "I2C-2" H 4395 6880 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4395 7180 50  0001 C CNN
+F 3 "" H 4395 7180 50  0001 C CNN
+	1    4395 7180
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-proto1 #PWR059
+U 1 1 5AD48170
+P 4195 7080
+F 0 "#PWR059" H 4195 7080 30  0001 C CNN
+F 1 "GND" H 4195 7010 30  0001 C CNN
+F 2 "" H 4195 7080 60  0000 C CNN
+F 3 "" H 4195 7080 60  0000 C CNN
+	1    4195 7080
+	0    1    1    0   
+$EndComp
+Text Label 4195 7180 2    60   ~ 0
+Vdd
+Text Label 4195 7280 2    60   ~ 0
+SCL
+Text Label 4195 7380 2    60   ~ 0
+SDA
+$Comp
+L Conn_01x07 J8
+U 1 1 5AD486BC
+P 6975 2095
+F 0 "J8" H 6975 2495 50  0000 C CNN
+F 1 "Conn_01x07" V 7070 2070 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 6975 2095 50  0001 C CNN
+F 3 "" H 6975 2095 50  0001 C CNN
+	1    6975 2095
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6975 1895 6975 850 
+Connection ~ 6975 850 
+Wire Wire Line
+	7075 1895 7075 650 
+Connection ~ 7075 650 
+$Comp
+L GND-RESCUE-proto1 #PWR060
+U 1 1 5AD4BD5F
+P 6875 1895
+F 0 "#PWR060" H 6875 1895 30  0001 C CNN
+F 1 "GND" H 6875 1825 30  0001 C CNN
+F 2 "" H 6875 1895 60  0000 C CNN
+F 3 "" H 6875 1895 60  0000 C CNN
+	1    6875 1895
+	-1   0    0    1   
+$EndComp
+Text GLabel 6775 1895 1    40   Input ~ 0
++5V
+NoConn ~ 7175 1895
+NoConn ~ 6675 1895
+$Comp
+L Conn_01x04 J3
+U 1 1 5AD4C0DD
+P 910 4650
+F 0 "J3" H 910 4850 50  0000 C CNN
+F 1 "LA" H 910 4350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 910 4650 50  0001 C CNN
+F 3 "" H 910 4650 50  0001 C CNN
+	1    910  4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	645  5105 645  5450
 $EndSCHEMATC

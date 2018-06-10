@@ -25,10 +25,11 @@ Pocket Science Lab Prototype |  Front Silk Design
 
 | Version Folder | Content | Preview |
 | -------------- | ------- | ------- |
-| PSLab KiCAD    | Original version with `SEELABLET` schematics and layout files | ![](docs/images/pslab_version_previews/PSLab_v1.png) |
+| PSLab KiCAD v1   | Original version with `SEELABLET` schematics and layout files | ![](docs/images/pslab_version_previews/PSLab_v1.png) |
 | PSLab KiCAD v2 | Developed version with new additions (Voltage regulator, Oscillator) | ![](docs/images/pslab_version_previews/PSLab_v2.png) |
 | PSLab KiCAD v3 | Device layout changed to Arduino Uno form factor | ![](docs/images/pslab_version_previews/PSLab_v3.png) |
 | PSLab KiCAD v4 | Assembly optimized version with Arduino Mega form factor having components mounted only on top side | ![](docs/images/pslab_version_previews/PSLab_v4.png) |
+| PSLab KiCAD v5 | Added socket for external bluetooth module and silk screen with pin description | ![](docs/images/pslab_version_previews/PSLab_v5.png) |
 
 
 ## Platform
@@ -40,11 +41,12 @@ Pocket Science Lab Prototype |  Front Silk Design
 
 KiCAD PCB front-side              | KiCAD PCB back-side
  -------------------------------- | ----------------------------------
-![](docs/images/PSLab_v4_top.png) | ![](docs/images/PSLab_v4_bottom.png)
+![](docs/images/PSLab_v5_top.png) | ![](docs/images/PSLab_v5_bottom.png)
 
 
 ## Pin-outs
-Find the pinout diagram of PSLab v4 [here](PSLab_Pinout.pdf)!
+Find the pinout diagram of PSLab v4 [here](docs/pin_layouts/PSLab_Pin_Layout_v4.pdf)!
+Find the pinout diagram of PSLab v5 [here](docs/pin_layouts/PSLab_Pin_Layout_v5.pdf)!
 
 ## Parts list
 

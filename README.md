@@ -3,34 +3,30 @@
 [![Build Status](https://travis-ci.org/fossasia/pslab-hardware.svg?branch=master)](https://travis-ci.org/fossasia/pslab-hardware)
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-This repository holds [PSLab](http://pslab.fossasia.org/) hardware design files. PSLab is a tiny pocket science lab that provides an array of equipment for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. The first version of hardware (V 1.0) is developed by [Jithin B P](https://github.com/jithinbp), a core developer of PSLab Project.
+This repository holds [PSLab](http://pslab.fossasia.org/) hardware design files. PSLab is a tiny pocket science lab that provides an array of equipment for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. The first version of hardware (v1) was developed by [Jithin B P](https://github.com/jithinbp), a core developer of PSLab Project. Later versions were developed by [Padmal](https://github.com/CloudyPadmal).
 
 ## Communication
-Our chat channel is on Gitter here at [pslab](https://gitter.im/fossasia/pslab)
-
-Pocket Science Lab Prototype |  Front Silk Design
- --------------------------- | ---------------------------------
-![](docs/images/psl2.jpg)    |  ![](docs/images/pslabdesign.png)
-
+Our chat channel is on Gitter here at [PSLab](https://gitter.im/fossasia/pslab)
 
 ## Content of Repository
 
-- Technical Reference Document: Latex files
-- Kicad Schematics, Layouts, Pinouts
-- Dimension vectors
-- Label vectors
-- Accessory development files
+- **archives**: contains previous versions of PSLab schematics
+- **docs**: supplement materials related to PSLab
+- **schematics**: PCB layout of PSLab device
 
 ## Version Information
 
-| Version Folder | Content | Preview |
+| Version | Content | Preview |
 | -------------- | ------- | ------- |
 | PSLab KiCAD v1   | Original version with `SEELABLET` schematics and layout files | ![](docs/images/pslab_version_previews/PSLab_v1.png) |
 | PSLab KiCAD v2 | Developed version with new additions (Voltage regulator, Oscillator) | ![](docs/images/pslab_version_previews/PSLab_v2.png) |
 | PSLab KiCAD v3 | Device layout changed to Arduino Uno form factor | ![](docs/images/pslab_version_previews/PSLab_v3.png) |
 | PSLab KiCAD v4 | Assembly optimized version with Arduino Mega form factor having components mounted only on top side | ![](docs/images/pslab_version_previews/PSLab_v4.png) |
-| PSLab KiCAD v5 | Added socket for external bluetooth module and silk screen with pin description | ![](docs/images/pslab_version_previews/PSLab_v5.png) |
+| PSLab KiCAD v5 | Added socket for external bluetooth module and bottom silk screen with pin description | ![](docs/images/pslab_version_previews/PSLab_v5.png) |
 
+## Casing
+
+![](docs/images/pslabdesign.png)
 
 ## Platform
 
@@ -39,14 +35,15 @@ Pocket Science Lab Prototype |  Front Silk Design
 * Compiler: [MPLAB® XC16 Compiler](http://www.microchip.com/mplab/compilers)
 * Programming Tool: [PICkit™ 3 In-Circuit Debugger](http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=PG164130)
 
-KiCAD PCB front-side              | KiCAD PCB back-side
+## PCB Layout
+Front Side                        | Back Side
  -------------------------------- | ----------------------------------
 ![](docs/images/PSLab_v5_top.png) | ![](docs/images/PSLab_v5_bottom.png)
 
 
 ## Pin-outs
-Find the pinout diagram of PSLab v4 [here](docs/pin_layouts/PSLab_Pin_Layout_v4.pdf)!
-Find the pinout diagram of PSLab v5 [here](docs/pin_layouts/PSLab_Pin_Layout_v5.pdf)!
+- Find the pin-out diagram of PSLab v4 [here](docs/pin_layouts/PSLab_Pin_Layout_v4.pdf)!
+- Find the pin-out diagram of PSLab v5 [here](docs/pin_layouts/PSLab_Pin_Layout_v5.pdf)!
 
 ## Parts list
 
@@ -59,27 +56,27 @@ Find the pinout diagram of PSLab v5 [here](docs/pin_layouts/PSLab_Pin_Layout_v5.
 - [LM324](http://www.ti.com/product/LM324)   - 4 channel Op-Amp
 - [LM1117](http://www.ti.com/product/LM1117) - 3.3 V regulator
 - [MCP2200](http://www.microchip.com/wwwproducts/en/MCP2200) - USB-UART Bridge
-- or [ESP8266 (ESP-12E)](https://www.adafruit.com/product/2491) - UART-TCP bridge
+- [ESP8266 (ESP-12E)](https://www.adafruit.com/product/2491) - UART-TCP bridge
 - 0.5 A Fuse
 - 100K Potentiometer
 - Assorted resistors, capacitors & diodes
 
 ## Hardware Specs
 
-* 4-Channel, up to 2MSPS Oscilloscope. Software Selectable amplification stages
-* 12-bit Voltmeter. Programmable gain. Input ranges from +/-10 mV to +/-16 V
-* 3x 12-bit Programmable voltage sources/ +/-3.3 V,+/-5V,0-3 V
+* 4-Channel up to 2MSPS Oscilloscope. Software selectable amplification stages
+* 12-bit Voltmeter with programmable gain. Input ranges from +/-10 mV to +/-16 V
+* 3x 12-bit Programmable voltage sources +/-3.3 V,+/-5V,0-3 V
 * 12-bit Programmable current source. 0-3.3 mA
 * Supports Advanced Plugins/Add-on Modules
 * 4-Channel, 4 MHz, Logic Analyzer
-* 2x sine wave generators. 5 Hz to 5 KHz. Manual amplitude control for W1
+* 2x Sine/Triangular wave generators. 5 Hz to 5 KHz. Manual amplitude control for SI1
 * 4x PWM generators. 15 nS resolution. Up to 8 MHz
 * Capacitance Measurement. pF to uF range
 * I2C, SPI, UART data buses for Accel/gyros/humidity/temperature modules etc
 
 ## Firmware
 
-The firmware is available here: https://github.com/fossasia/pslab-firmware
+The firmware is available [here](https://github.com/fossasia/pslab-firmware)
 
 ## Feature list for the acquisition and control
 
@@ -89,22 +86,20 @@ One of the main features of PSLab is the 4-channel oscilloscope which can monito
 
 ### Waveform Generators
 
-* W1 : 5 Hz – 5 KHz arbitrary waveform generator. Manual amplitude control up to +/-3 Volts
-* W2 : 5 Hz – 5 KHz arbitrary waveform generator. Amplitude of +/-3 Volts. Attenuable via software
-* PWM : There are four phase correlated PWM outputs with maximum frequency 32 MHz, 15 nano second duty cycle, and phase difference control.
+* SI1 : 5 Hz – 5 KHz arbitrary waveform generator. Manual amplitude control up to +/-3 Volts
+* SI2 : 5 Hz – 5 KHz arbitrary waveform generator. Amplitude of +/-3 Volts. Attenuable via software
+* SQx : There are four phase correlated PWM outputs with maximum frequency 32 MHz, 15 nano second duty cycle, and phase difference control.
 
 ### Measurement Functions
 
 * Frequency counter tested up to 16 MHz.
 * Capacitance Measurement. pF to uF range
-* PSLab has several 12-bit Analog inputs (function as voltmeters) with programmable gains, and maximum ranges varying from +/-5 mV to +/-16 V.
+* PSLab has several 12-bit analog inputs (function as voltmeters) with programmable gains, and maximum ranges varying from +/-5 mV to +/-16 V.
 
 ### Voltage and Current Sources
 
 * 12-bit Constant Current source. Maximum current 3.3 mA (subject to load resistance).
-* PSLab has three 12-bit Programmable voltage sources/ +/-3.3 V,+/-5 V,0-3 V. (PV1, PV2, PV3) controls
-
-### Main Control Panel
+* PSLab has three 12-bit Programmable voltage sources +/-3.3 V,+/-5 V,0-3 V. (PV1, PV2, PV3) controls
 
 ### Other useful tools
 

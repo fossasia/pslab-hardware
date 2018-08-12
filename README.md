@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/fossasia/pslab-hardware.svg?branch=master)](https://travis-ci.org/fossasia/pslab-hardware)
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-This repository holds [PSLab](http://pslab.fossasia.org/) hardware design files. PSLab is a tiny pocket science lab that provides an array of equipment for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. The first version of hardware (v1) was developed by [Jithin B P](https://github.com/jithinbp), a core developer of PSLab Project. Later versions were developed by [Padmal](https://github.com/CloudyPadmal).
+This repository holds [PSLab](https://pslab.io) hardware design files. PSLab is a tiny pocket science lab that provides an array of equipment for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. The first version of hardware (v1) was developed by [Jithin B P](https://github.com/jithinbp), a core developer of PSLab Project. Later versions were developed by [Padmal](https://github.com/CloudyPadmal).
 
 ## Communication
 Our chat channel is on Gitter here at [PSLab](https://gitter.im/fossasia/pslab)

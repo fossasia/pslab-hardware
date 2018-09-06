@@ -1,7 +1,0 @@
-### Module positions - created on Thu Aug  9 18:23:36 2018 ###
-### Printed by Pcbnew version kicad 4.0.7-e2-6376~58~ubuntu16.04.1
-## Unit = mm, Angle = deg.
-## Side : bottom
-# Ref     Val       Package                 PosX       PosY       Rot  Side
-U15       ESP8266   Hopref_RFM9XW_SMD     8.5400    24.8300   90.0000  bottom
-## End

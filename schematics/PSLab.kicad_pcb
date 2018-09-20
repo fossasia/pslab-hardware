@@ -70,7 +70,7 @@
     (visible_elements 7FFEDF1F)
     (pcbplotparams
       (layerselection 0x010ff_80000007)
-      (usegerberextensions true)
+      (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -88,11 +88,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 3)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory Gerber_For_PSLab/))
+      (outputdirectory DXF_For_PSLab/))
   )
 
   (net 0 "")

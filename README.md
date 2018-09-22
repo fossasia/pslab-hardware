@@ -2,16 +2,19 @@
 
 [![Build Status](https://travis-ci.org/fossasia/pslab-hardware.svg?branch=master)](https://travis-ci.org/fossasia/pslab-hardware)
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Twitter Follow](https://img.shields.io/twitter/follow/pslabapp.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/pslabapp)
 
-This repository holds [PSLab](https://pslab.io) hardware design files. PSLab is a tiny pocket science lab that provides an array of equipment for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. The first version of hardware (v1) was developed by [Jithin B P](https://github.com/jithinbp), a core developer of PSLab Project. Later versions were developed by [Padmal](https://github.com/CloudyPadmal).
+This repository contains the [PSLab](https://pslab.io) hardware design files. PSLab is a tiny pocket science lab that provides an array of test and measurement instruments for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. The first version of hardware (v1) was developed by [Jithin B P](https://github.com/jithinbp). Later versions were developed by [Padmal](https://github.com/CloudyPadmal).
 
 ## Communication
-Our chat channel is on Gitter here at [PSLab](https://gitter.im/fossasia/pslab)
+
+* Our chat channel is on Gitter here at [PSLab](https://gitter.im/fossasia/pslab)
+* Mailing List https://groups.google.com/forum/#!forum/pslab-fossasia
 
 ## Content of Repository
 
-- **archives**: contains previous versions of PSLab schematics
-- **docs**: supplement materials related to PSLab
+- **archives**: Contains previous versions of PSLab schematics
+- **docs**: Supplement materials, schematics as PDFs, images of PSLab
 - **schematics**: PCB layout of PSLab device
 
 ## Version Information
@@ -76,13 +79,13 @@ Front Side                        | Back Side
 
 ## Firmware
 
-The firmware is available [here](https://github.com/fossasia/pslab-firmware)
+The firmware is available here: https://github.com/fossasia/pslab-firmware
 
 ## Feature list for the acquisition and control
 
 ### Oscilloscopes
 
-One of the main features of PSLab is the 4-channel oscilloscope which can monitor analog inputs at maximum of 2 million samples per second. It includes controls such as triggering, and gain selection. Uses Python-Scipy for curve fitting.
+One of the main features of PSLab is the 4-channel Oscilloscope which can monitor analog inputs at maximum of 2 million samples per second. It includes controls such as triggering, and gain selection. Uses Python-Scipy for curve fitting.
 
 ### Waveform Generators
 

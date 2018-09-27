@@ -1,4 +1,4 @@
-### Module positions - created on Wed Sep  5 20:48:53 2018 ###
+### Module positions - created on Tue Sep 25 17:31:23 2018 ###
 ### Printed by Pcbnew version kicad 4.0.7-e2-6376~58~ubuntu16.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -60,6 +60,10 @@ J7        UART/ESP         Pin_Header_Straight_1x07_Pitch2.54mm     27.9400     
 J8        Power Pins       Pin_Header_Straight_1x08_Pitch2.54mm     81.2800    50.8100  270.0000  top
 J16       I2C-2            Pin_Header_Straight_1x04_Pitch2.54mm     50.8000    50.8000   90.0000  top
 L1        10uH             L_0603                                   52.1300    31.1200   90.0000  top
+MH1       M                MountingHole_3.2mm_M3_DIN965_Pad         13.9400     2.5600    0.0000  top
+MH2       M                MountingHole_3.2mm_M3_DIN965_Pad         90.1500    50.8000    0.0000  top
+MH3       M                MountingHole_3.2mm_M3_DIN965_Pad         15.2100    50.8100    0.0000  top
+MH4       M                MountingHole_3.2mm_M3_DIN965_Pad         96.4800     2.5700    0.0000  top
 Q1        MMBT3906         SOT-23                                   84.8600    38.7600    0.0000  top
 Q2        MMBT3904         SOT-23                                   29.3200    36.1500  180.0000  top
 Q3        MMBT3906         SOT-23                                   44.2900    46.8700  180.0000  top
@@ -126,13 +130,13 @@ U4        TC1240A          SOT-23-6                                 15.7100    3
 U5        7660             SOIC-8_3.9x4.9mm_Pitch1.27mm             31.6600    41.6300  180.0000  top
 U6        LM1117-3.3       SOT-223                                  12.3000    43.5900   90.0000  top
 U7        LM324            SOIC-14_3.9x8.7mm_Pitch1.27mm            77.8100    43.5300    0.0000  top
-U8        TL082            SOIC-8_3.9x4.9mm_Pitch1.27mm             76.1300    24.0500    0.0000  top
+U8        TL072            SOIC-8_3.9x4.9mm_Pitch1.27mm             76.1300    24.0500    0.0000  top
 U9        MCP4728          MSOP-10_3x3mm_Pitch0.5mm                 65.4100    43.1300    0.0000  top
-U10       TL082            SOIC-8_3.9x4.9mm_Pitch1.27mm             66.1300    16.0800    0.0000  top
+U10       TL072            SOIC-8_3.9x4.9mm_Pitch1.27mm             66.1300    16.0800    0.0000  top
 U11       6S21             SOIC-8_3.9x4.9mm_Pitch1.27mm             85.1700    24.0600    0.0000  top
 U12       6S21             SOIC-8_3.9x4.9mm_Pitch1.27mm             76.1700    16.0800    0.0000  top
-U13       TL082            SOIC-8_3.9x4.9mm_Pitch1.27mm             28.4200    12.3300  180.0000  top
-U16       TL082            SOIC-8_3.9x4.9mm_Pitch1.27mm             64.8900    32.7900    0.0000  top
+U13       TL072            SOIC-8_3.9x4.9mm_Pitch1.27mm             28.4200    12.3300  180.0000  top
+U16       TL072            SOIC-8_3.9x4.9mm_Pitch1.27mm             64.8900    32.7900    0.0000  top
 X1        12MHz            Crystal_SMD_5032-2pin_5.0x3.2mm          42.5000    34.3700    0.0000  top
 Y1        12MHz            Crystal_SMD_5032-2pin_5.0x3.2mm           5.9900    14.7400    0.0000  top
 ## End

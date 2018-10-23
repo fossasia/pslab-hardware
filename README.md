@@ -45,8 +45,7 @@ Front Side                        | Back Side
 
 
 ## Pin-outs
-- Find the pin-out diagram of PSLab v4 [here](docs/pin_layouts/PSLab_Pin_Layout_v4.pdf)!
-- Find the pin-out diagram of PSLab v5 [here](docs/pin_layouts/PSLab_Pin_Layout_v5.pdf)!
+- Find the pin-out diagram of PSLab v5 [here](docs/pin_layouts/PSLab_Pin_Layout.pdf)!
 
 ## Parts list
 

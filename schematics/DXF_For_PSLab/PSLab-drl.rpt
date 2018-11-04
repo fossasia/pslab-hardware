@@ -1,0 +1,28 @@
+Drill report for /home/knight/Documents/FOSSASIA/pslab-hardware/schematics/PSLab.kicad_pcb
+Created on Sun 04 Nov 2018 09:05:28 +0530
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu-L1                   front
+    L2 :  L2.PWR                    inner1
+    L3 :  L3.GND                    inner2
+    L4 :  B.Cu-L4                   back
+
+
+Drill file 'PSLab.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.41mm  0.016"  (126 holes)
+    T2  0.65mm  0.026"  (2 holes)  (with 2 slots)
+    T3  0.82mm  0.032"  (2 holes)  (with 2 slots)
+    T4  1.00mm  0.039"  (79 holes)
+    T5  3.70mm  0.146"  (4 holes)
+
+    Total plated holes count 213
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

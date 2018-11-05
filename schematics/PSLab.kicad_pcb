@@ -3,7 +3,7 @@
   (general
     (links 366)
     (no_connects 0)
-    (area 90.889999 60.219999 190.020001 113.650001)
+    (area 88.44 59.339 190.651001 116.08)
     (thickness 1.6)
     (drawings 179)
     (tracks 2156)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.3048)
     (user_trace_width 0.254)
     (user_trace_width 0.4064)
     (user_trace_width 0.508)
@@ -70,8 +70,8 @@
     (grid_origin 133.53 90.5)
     (visible_elements 7FFEFF7F)
     (pcbplotparams
-      (layerselection 0x010ff_80000007)
-      (usegerberextensions true)
+      (layerselection 0x00010_00000000)
+      (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -89,11 +89,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 3)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory Component_Positions/))
+      (outputdirectory DXF_For_PSLab/))
   )
 
   (net 0 "")
@@ -8012,8 +8012,8 @@
       (xy 5.580529 5.580529) (xy 5.580529 2.644588)) (layer B.SilkS) (width 0.01))
   )
 
-  (gr_text "PSLab\nV5.1" (at 94.55 110.8 180) (layer B.SilkS)
-    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  (gr_text "PSLab Version\nHardware: 5.0\nFirmware: 2.0" (at 94.77 107.35 90) (layer B.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.2)) (justify mirror))
   )
   (gr_text https://pslab.io (at 109.85 87.85 90) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))

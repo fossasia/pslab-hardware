@@ -60,7 +60,6 @@ Front Side                        | Back Side
 - [MCP2200](http://www.microchip.com/wwwproducts/en/MCP2200) - USB-UART Bridge
 - [ESP8266 (ESP-12E)](https://www.adafruit.com/product/2491) - UART-TCP bridge
 - 0.5 A Fuse
-- 100K Potentiometer
 - Assorted resistors, capacitors & diodes
 
 ## Hardware Specs

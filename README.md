@@ -106,7 +106,6 @@ One of the main features of PSLab is the 4-channel Oscilloscope which can monito
 
 * 4MHz, 4-channel Logic analyzer with 15 nS resolution.Voltage and Current Sources
 * SPI, I2C, UART outputs
-* On-board 2.4 GHz transceiver for wireless data acquisition. (Work in progress..)
 * Graphical Interfaces for Oscilloscope, Logic Analyser, streaming data, wireless acquisition and several experiments developed that use a common framework which drastically reduces code required to incorporate control and plotting widgets.
 * PSLab also has space for an ESP-12 module for WiFi access with access point/ station mode.
 

@@ -1202,7 +1202,6 @@ Wire Wire Line
 	3025 750  3375 750 
 Wire Wire Line
 	3375 750  3375 1375
-Connection ~ 2300 750 
 Wire Wire Line
 	950  750  1575 750 
 Wire Wire Line

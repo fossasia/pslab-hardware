@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:PSLab-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,17 +28,16 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:conn
-LIBS:proto1
-LIBS:proto1-cache
+LIBS:PSLab
 LIBS:PSLab-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
-Title ""
-Date ""
-Rev ""
+Sheet 2 3
+Title "PSLab"
+Date "2018-12-29"
+Rev "v5.1"
 Comp ""
 Comment1 ""
 Comment2 ""

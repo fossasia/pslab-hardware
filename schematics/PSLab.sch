@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:PSLab-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,17 +28,16 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:conn
-LIBS:proto1
-LIBS:proto1-cache
+LIBS:PSLab
 LIBS:PSLab-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
-Title ""
-Date ""
-Rev ""
+Sheet 1 3
+Title "PSLab"
+Date "2018-12-29"
+Rev "v5.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1393,7 +1391,7 @@ U 1 1 5A6CB48C
 P 1360 1240
 F 0 "CON1" H 1060 1590 50  0000 C CNN
 F 1 "USB-MINI-B" H 1210 890 50  0000 C CNN
-F 2 "Connectors:USB_Micro-B" H 1360 1140 50  0001 C CNN
+F 2 "Custom_Components:USB_Micro-B" H 1360 1140 50  0001 C CNN
 F 3 "" H 1360 1140 50  0000 C CNN
 	1    1360 1240
 	-1   0    0    1   
@@ -2353,4 +2351,10 @@ $EndComp
 NoConn ~ 10015 6115
 NoConn ~ 10335 6115
 NoConn ~ 10665 6115
+$Sheet
+S 6410 5175 705  360 
+U 5C27B0EA
+F0 "Logos" 61
+F1 "Logos.sch" 61
+$EndSheet
 $EndSCHEMATC

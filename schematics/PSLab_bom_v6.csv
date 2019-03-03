@@ -1,0 +1,82 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,,C-RESCUE-proto1,C2 C4 C9 C13 C17 C22 C24 C25 C26 C27 C28 C31 C32 C34 C35 C37 C38 C39 C41,0.1u,C_0603,19,
+2,,CAPAPOL,C11 C14 C16 C18,100u,CP_Tantalum_Case-C_EIA-6032-28_Reflow,4,
+3,,C-RESCUE-proto1,C7 C40,10nF,C_0603,2,
+4,,C-RESCUE-proto1,C6 C15 C21 C33,10u,C_0603,4,
+5,"Unpolarized capacitor, small symbol",C_Small,C1,1n,C_0603,1,~
+6,,C-RESCUE-proto1,C30 C36,1nF,C_0603,2,
+7,,C-RESCUE-proto1,C20 C42,1u,C_0603,2,
+8,,C-RESCUE-proto1,C8 C10,33p,C_0603,2,
+9,,CAPAPOL,C12 C19,33u,CP_Tantalum_Case-B_EIA-3528-21_Reflow,2,
+10,,C-RESCUE-proto1,C23 C29,3p3,C_0603,2,
+11,,C_Small,C44 C46,4.7u,C_0603,2,
+12,,USB-MINI-B,CON1,USB-MINI-B,USB_Micro-B,1,
+13,,ZENERsmall-RESCUE-proto1,D1 D2,6V8,D_MiniMELF,2,
+14,,LED-RESCUE-PSLab,D3 D4,LED,LED_0805,2,
+15,,FUSE,F1,0.5A,Fuse_SMD1206_Reflow,1,
+16,,Conn_01x06,J5,Bluetooth,Pin_Header_Straight_1x06_Pitch2.54mm,1,
+17,,TEST_1P,J13,D+,Measurement_Point_Square-SMD-Pad_Small,1,
+18,,TEST_1P,J14,D-,Measurement_Point_Square-SMD-Pad_Small,1,
+19,,Conn_02x14_Odd_Even,J2,DoublePins,Pin_Header_Straight_2x14_Pitch2.54mm,1,
+20,,TEST_1P,J10,GND,Measurement_Point_Square-SMD-Pad_Small,1,
+21,,Conn_01x04,J6,I2C-1,Pin_Header_Straight_1x04_Pitch2.54mm,1,
+22,,Conn_01x04,J16,I2C-2,Pin_Header_Straight_1x04_Pitch2.54mm,1,
+23,,Conn_01x04,J3,LA,Pin_Header_Straight_1x04_Pitch2.54mm,1,
+24,,Conn_01x12,J4,Outputs,Pin_Header_Straight_1x12_Pitch2.54mm,1,
+25,,Conn_01x08,J8,Power Pins,Pin_Header_Straight_1x08_Pitch2.54mm,1,
+26,,Conn_01x06,J1,Programmer,Pin_Header_Straight_1x06_Pitch2.54mm,1,
+27,,Conn_01x02,J12,SD_Switch,SW_SPST_SKQG,1,
+28,,Conn_01x06,J9,SPI,Pin_Header_Straight_1x06_Pitch2.54mm,1,
+29,,Conn_01x07,J7,UART/ESP,Pin_Header_Straight_1x07_Pitch2.54mm,1,
+30,,TEST_1P,J11,Vbus,Measurement_Point_Square-SMD-Pad_Small,1,
+31,,INDUCTOR_SMALL,L1,10uH,L_0603,1,
+32,,SDCard,P1,SDCard,microSD_HC_Hirose_DM3AT-SF-PEJM5,1,
+33,,MMBT3904,Q2,MMBT3904,SOT-23,1,
+34,,MMBT3906,Q1 Q3,MMBT3906,SOT-23,2,
+35,,R-RESCUE-proto1,R1 R2 R3 R10 R14 R16 R17 R18 R19 R21 R22 R23 R25 R28 R29 R31 R32 R33 R35 R37 R38 R39 R42,10K,R_0603,23,
+36,,R-RESCUE-proto1,R4 R13 R54 R55 R56 R57,18,R_0603,6,
+37,,R-RESCUE-proto1,R5 R11 R27 R36 R47,1K,R_0603,5,
+38,,R-RESCUE-proto1,R24 R34 R45,1M,R_0603,3,
+39,,R,R51,1k,R_0603,1,
+40,,R-RESCUE-proto1,R6 R7 R8 R9 R49,200,R_0603,5,
+41,,R,R58,200,R_0603,1,
+42,,R-RESCUE-proto1,R20 R30 R40 R46 R50,200K,R_0603,5,
+43,,R-RESCUE-proto1,R12 R15 R26 R41 R43 R44 R52 R53,5K1,R_0603,8,
+44,,R,R48,5K1,R_0603,1,
+45,,Logos,S4,App_Barcode,Barcode,1,
+46,,Logos,S3,ESD-Logo,ESD-Logo_6.6x6mm_SilkScreen,1,
+47,,Logos,S10,FOSSASIA_Logo_L,FOSSASIA_LogoL,1,
+48,,Logos,S6,FOSSASIA_Logo_S,FOSSASIA_Logo,1,
+49,,Logos,S1,OpenHardware,OSHW-Logo2_7.3x6mm_SilkScreen,1,
+50,,Logos,S5 S8,OpnTec_Logo,OpnTec_Logo,2,
+51,,Logos,S7,PSL_Logo,PSL_Logo,1,
+52,,Logos,S2,PSLab_Logo,PSLab_Logo,1,
+53,,Logos,S9,QR_Code,Website_QR,1,
+54,,MCP6S21A,U11 U12,6S21,SOIC-8_3.9x4.9mm_Pitch1.27mm,2,DOCUMENTATION
+55,,74HC126,U2,74HC126,SOIC-14_3.9x8.7mm_Pitch1.27mm,1,_
+56,,7660,U5,7660,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,DOCUMENTATION
+57,,CP2102,U14,CP2102,QFN-24-1EP_4x4mm_Pitch0.5mm,1,
+58,,ESP8266,U15,ESP8266,Hopref_RFM9XW_SMD,1,_
+59,,LDFM33PVR,U1,LDFM33PVR,DFN-6-1EP_3x3mm_Pitch0.95mm,1,https://www.mouser.com/datasheet/2/389/ldfm-974225.pdf
+60,,LM324-RESCUE-proto1,U7,LM324,SOIC-14_3.9x8.7mm_Pitch1.27mm,1,
+61,,MCP4728-RESCUE-PSLab,U9,MCP4728,MSOP-10_3x3mm_Pitch0.5mm,1,_
+62,,PIC24EP256GP204,U3,PIC24EP256GP204,TQFP-44_10x10mm_Pitch0.8mm,1,http://www.microchip.com/wwwproducts/en/PIC24EP256GP204
+63,,SP0503BAHT,U17,SP0503BAHT,SOT-143,1,
+64,,TC1240A,U4,TC1240A,SOT-23-6,1,DOCUMENTATION
+65,,TL082-RESCUE-proto1,U8 U10 U13 U16,TL082,SOIC-8_3.9x4.9mm_Pitch1.27mm,4,
+66,,Crystal,X1,12MHz,Crystal_SMD_5032-2pin_5.0x3.2mm,1,
+
+
+
+
+
+Component Groups:,66
+Component Count:,153
+Fitted Components:,153
+Number of PCBs:,1
+Total components:,153
+Schematic Version:,v6
+Schematic Date:,2019-03-03
+BoM Date:,Sun 03 Mar 2019 09:00:36 +0530
+Schematic Source:,/home/knight/Documents/FOSSASIA/PSLab/pslab-hardware/schematics/PSLab.sch
+KiCad Version:,Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1

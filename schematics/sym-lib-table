@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PSLab-rescue)(type Legacy)(uri ${KIPRJMOD}/PSLab-rescue.lib)(options "")(descr ""))
+  (lib (name PSLab)(type Legacy)(uri ${KIPRJMOD}/PSLab.lib)(options "")(descr ""))
+)

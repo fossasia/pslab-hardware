@@ -1,21 +1,51 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:conn
+LIBS:PSLab
 LIBS:PSLab-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
-Title "CPN2102N UART Bridge"
-Date "2019-03-03"
-Rev "1"
+Title ""
+Date ""
+Rev ""
 Comp ""
-Comment1 "CPN2102N Datasheet"
-Comment2 "Typical connection when internal regulator is not used"
-Comment3 "Ref: Datasheet for CPN2102N 4th page"
+Comment1 ""
+Comment2 ""
+Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PSLab:CP2102 U14
+L CP2102 U14
 U 1 1 5C4FE1DE
 P 5920 4035
 F 0 "U14" H 6365 3350 60  0000 C CNN
@@ -38,7 +68,7 @@ NoConn ~ 6170 4785
 NoConn ~ 6070 4785
 NoConn ~ 5970 4785
 $Comp
-L PSLab:SP0503BAHT U17
+L SP0503BAHT U17
 U 1 1 5C4FEC85
 P 5925 2335
 F 0 "U17" H 5925 2085 60  0000 C CNN
@@ -83,11 +113,9 @@ D+
 Text GLabel 5170 4085 0    39   Input ~ 0
 D-
 $Comp
-L PSLab-rescue:R R51
+L R R51
 U 1 1 5C5002F8
 P 5470 5050
-AR Path="/5C5002F8" Ref="R51"  Part="1" 
-AR Path="/5C4FD460/5C5002F8" Ref="R51"  Part="1" 
 F 0 "R51" V 5550 5050 50  0000 C CNN
 F 1 "1k" V 5470 5050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5400 5050 50  0001 C CNN
@@ -104,13 +132,11 @@ Wire Wire Line
 Wire Wire Line
 	4970 4185 4970 5050
 Wire Wire Line
-	4970 5050 5075 5050
+	4970 5050 5320 5050
 $Comp
-L PSLab-rescue:C_Small C46
+L C_Small C46
 U 1 1 5C5008BB
 P 4615 5535
-AR Path="/5C5008BB" Ref="C46"  Part="1" 
-AR Path="/5C4FD460/5C5008BB" Ref="C46"  Part="1" 
 F 0 "C46" H 4625 5605 50  0000 L CNN
 F 1 "4.7u" H 4625 5455 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4615 5535 50  0001 C CNN
@@ -119,11 +145,9 @@ F 3 "" H 4615 5535 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSLab-rescue:C_Small C44
+L C_Small C44
 U 1 1 5C500F1A
 P 4195 4535
-AR Path="/5C500F1A" Ref="C44"  Part="1" 
-AR Path="/5C4FD460/5C500F1A" Ref="C44"  Part="1" 
 F 0 "C44" H 4205 4605 50  0000 L CNN
 F 1 "4.7u" H 4205 4455 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4195 4535 50  0001 C CNN
@@ -136,11 +160,11 @@ Wire Wire Line
 Wire Wire Line
 	4615 5435 4615 5345
 Wire Wire Line
-	4525 5345 4615 5345
+	4525 5345 5770 5345
 Wire Wire Line
 	4195 4435 4195 4285
 Wire Wire Line
-	4095 4285 4195 4285
+	4095 4285 5170 4285
 Wire Wire Line
 	4195 4635 4195 4795
 Text GLabel 4525 5345 0    39   Input ~ 0
@@ -163,7 +187,7 @@ Wire Wire Line
 Wire Wire Line
 	5670 4865 5075 4865
 Wire Wire Line
-	5075 4285 5075 4865
+	5075 4285 5075 5050
 Connection ~ 5075 4285
 NoConn ~ 6670 4185
 NoConn ~ 6670 4285
@@ -186,14 +210,4 @@ Wire Wire Line
 	4195 4795 4085 4795
 Wire Wire Line
 	4615 5735 4530 5735
-Wire Wire Line
-	4615 5345 5770 5345
-Wire Wire Line
-	5075 4285 5170 4285
-Wire Wire Line
-	4195 4285 5075 4285
-Wire Wire Line
-	5075 5050 5320 5050
-Wire Wire Line
-	5075 4865 5075 5050
 $EndSCHEMATC

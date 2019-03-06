@@ -58,6 +58,7 @@ Front Side                        | Back Side
 - [LM324](http://www.ti.com/product/LM324)   - 4 channel Op-Amp
 - [LM1117](http://www.ti.com/product/LM1117) - 3.3 V regulator
 - [MCP2200](http://www.microchip.com/wwwproducts/en/MCP2200) - USB-UART Bridge
+- [74HC126](http://www.ti.com/product/SN74HC126) - 4 channel Buffer
 
 - 0.5 A Fuse
 - Assorted resistors, capacitors & diodes

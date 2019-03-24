@@ -196,4 +196,20 @@ Wire Wire Line
 	5075 5050 5320 5050
 Wire Wire Line
 	5075 4865 5075 5050
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5C9A740E
+P 6020 5050
+F 0 "JP2" H 6020 5130 50  0000 C CNN
+F 1 "UART Reset" H 6015 4955 39  0000 C CNN
+F 2 "Connectors:GS2" H 6020 5050 50  0001 C CNN
+F 3 "~" H 6020 5050 50  0001 C CNN
+	1    6020 5050
+	1    0    0    -1  
+$EndComp
+Connection ~ 5870 5050
+Text GLabel 6190 5050 2    39   Input ~ 0
+GND
+Wire Wire Line
+	6190 5050 6170 5050
 $EndSCHEMATC

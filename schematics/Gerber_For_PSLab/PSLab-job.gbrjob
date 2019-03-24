@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.0.2-bee76a0~70~ubuntu16.04.1"
     },
-    "CreationDate":  "2019-03-07T08:45:19+05:30"
+    "CreationDate":  "2019-03-24T22:43:38+05:30"
   },
   "GeneralSpecs":
   {
@@ -41,7 +41,7 @@
       "PadToPad":  0.156,
       "PadToTrack":  0.156,
       "TrackToTrack":  0.156,
-      "MinLineWidth":  0.254
+      "MinLineWidth":  0.305
     }
   ],
   "FilesAttributes":

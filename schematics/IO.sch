@@ -1682,32 +1682,32 @@ $EndComp
 $Comp
 L PSLab-rescue:TEST TP1
 U 1 1 5A5736C0
-P 4655 6730
+P 4670 6325
 AR Path="/5A5736C0" Ref="TP1"  Part="1" 
 AR Path="/54260FB5/5A5736C0" Ref="TP1"  Part="1" 
-F 0 "TP1" H 4655 7030 50  0000 C BNN
-F 1 "TEST" H 4655 6980 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4655 6730 50  0001 C CNN
-F 3 "" H 4655 6730 50  0001 C CNN
-	1    4655 6730
+F 0 "TP1" H 4670 6625 50  0000 C BNN
+F 1 "TEST" H 4670 6575 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4670 6325 50  0001 C CNN
+F 3 "" H 4670 6325 50  0001 C CNN
+	1    4670 6325
 	1    0    0    -1  
 $EndComp
 $Comp
 L PSLab-rescue:TEST TP2
 U 1 1 5A5737F7
-P 4910 6725
+P 4925 6320
 AR Path="/5A5737F7" Ref="TP2"  Part="1" 
 AR Path="/54260FB5/5A5737F7" Ref="TP2"  Part="1" 
-F 0 "TP2" H 4910 7025 50  0000 C BNN
-F 1 "TEST" H 4910 6975 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4910 6725 50  0001 C CNN
-F 3 "" H 4910 6725 50  0001 C CNN
-	1    4910 6725
+F 0 "TP2" H 4925 6620 50  0000 C BNN
+F 1 "TEST" H 4925 6570 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4925 6320 50  0001 C CNN
+F 3 "" H 4925 6320 50  0001 C CNN
+	1    4925 6320
 	1    0    0    -1  
 $EndComp
-Text GLabel 4655 6730 3    60   Input ~ 0
+Text GLabel 4670 6325 3    60   Input ~ 0
 V-
-Text GLabel 4910 6725 3    60   Input ~ 0
+Text GLabel 4925 6320 3    60   Input ~ 0
 V+
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR085
@@ -1980,4 +1980,49 @@ Text GLabel 3300 7100 2    40   Input ~ 0
 V-
 Text GLabel 3300 6300 2    40   Input ~ 0
 V+
+$Comp
+L PSLab-rescue:TEST TP?
+U 1 1 5C9C82D0
+P 4795 6995
+AR Path="/5C9C82D0" Ref="TP?"  Part="1" 
+AR Path="/54260FB5/5C9C82D0" Ref="TP9"  Part="1" 
+F 0 "TP9" H 4795 7295 50  0000 C BNN
+F 1 "TEST" H 4795 7245 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4795 6995 50  0001 C CNN
+F 3 "" H 4795 6995 50  0001 C CNN
+	1    4795 6995
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSLab-rescue:TEST TP?
+U 1 1 5C9C82D7
+P 5050 6990
+AR Path="/5C9C82D7" Ref="TP?"  Part="1" 
+AR Path="/54260FB5/5C9C82D7" Ref="TP10"  Part="1" 
+F 0 "TP10" H 5050 7290 50  0000 C BNN
+F 1 "TEST" H 5050 7240 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5050 6990 50  0001 C CNN
+F 3 "" H 5050 6990 50  0001 C CNN
+	1    5050 6990
+	1    0    0    -1  
+$EndComp
+Text GLabel 4795 6995 3    60   Input ~ 0
+VR+
+Text GLabel 5050 6990 3    60   Input ~ 0
+VR-
+$Comp
+L PSLab-rescue:TEST TP?
+U 1 1 5C9DD204
+P 4555 7000
+AR Path="/5C9DD204" Ref="TP?"  Part="1" 
+AR Path="/54260FB5/5C9DD204" Ref="TP8"  Part="1" 
+F 0 "TP8" H 4555 7300 50  0000 C BNN
+F 1 "TEST" H 4555 7250 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4555 7000 50  0001 C CNN
+F 3 "" H 4555 7000 50  0001 C CNN
+	1    4555 7000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4555 7000 3    60   Input ~ 0
+AVdd
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Sat 29 Dec 2018 22:33:15 +0530
+update=Sat 02 Mar 2019 11:44:40 +0530
 version=1
 last_client=kicad
 [cvpcb]
@@ -40,35 +40,4 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../../../../usr/share/kicad/library;../MYSYM
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=linear
-LibName5=regul
-LibName6=74xx
-LibName7=cmos4000
-LibName8=adc-dac
-LibName9=memory
-LibName10=xilinx
-LibName11=microcontrollers
-LibName12=dsp
-LibName13=microchip
-LibName14=analog_switches
-LibName15=motorola
-LibName16=texas
-LibName17=intel
-LibName18=audio
-LibName19=interface
-LibName20=digital-audio
-LibName21=philips
-LibName22=display
-LibName23=cypress
-LibName24=siliconi
-LibName25=opto
-LibName26=atmel
-LibName27=contrib
-LibName28=valves
-LibName29=conn
-LibName30=PSLab
+LibDir=

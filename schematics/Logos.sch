@@ -1,40 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:conn
-LIBS:PSLab
+EESchema Schematic File Version 4
 LIBS:PSLab-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 5
 Title "PSLab"
 Date "2018-12-29"
 Rev "v5.1"
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Logos S1
+L PSLab:Logos S1
 U 1 1 5C27C643
 P 4560 2845
 F 0 "S1" H 4560 2725 60  0000 C CNN
@@ -56,7 +26,7 @@ F 3 "" H 4560 2845 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logos S3
+L PSLab:Logos S3
 U 1 1 5C27C831
 P 5460 2845
 F 0 "S3" H 5460 2725 60  0000 C CNN
@@ -67,7 +37,7 @@ F 3 "" H 5460 2845 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logos S6
+L PSLab:Logos S6
 U 1 1 5C27C867
 P 6460 2845
 F 0 "S6" H 6460 2725 60  0000 C CNN
@@ -78,7 +48,7 @@ F 3 "" H 6460 2845 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logos S8
+L PSLab:Logos S8
 U 1 1 5C27C8A4
 P 7410 2845
 F 0 "S8" H 7410 2725 60  0000 C CNN
@@ -89,7 +59,7 @@ F 3 "" H 7410 2845 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logos S2
+L PSLab:Logos S2
 U 1 1 5C27C95E
 P 4560 3545
 F 0 "S2" H 4560 3425 60  0000 C CNN
@@ -100,7 +70,7 @@ F 3 "" H 4560 3545 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logos S4
+L PSLab:Logos S4
 U 1 1 5C27C964
 P 5460 3545
 F 0 "S4" H 5460 3425 60  0000 C CNN
@@ -111,7 +81,7 @@ F 3 "" H 5460 3545 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logos S7
+L PSLab:Logos S7
 U 1 1 5C27C96A
 P 6460 3545
 F 0 "S7" H 6460 3425 60  0000 C CNN
@@ -122,7 +92,7 @@ F 3 "" H 6460 3545 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logos S9
+L PSLab:Logos S9
 U 1 1 5C27C970
 P 7410 3545
 F 0 "S9" H 7410 3425 60  0000 C CNN
@@ -133,7 +103,7 @@ F 3 "" H 7410 3545 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logos S5
+L PSLab:Logos S5
 U 1 1 5C27C986
 P 5560 4195
 F 0 "S5" H 5560 4075 60  0000 C CNN
@@ -144,7 +114,7 @@ F 3 "" H 5560 4195 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logos S10
+L PSLab:Logos S10
 U 1 1 5C27CF8C
 P 6460 4195
 F 0 "S10" H 6460 4075 60  0000 C CNN

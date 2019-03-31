@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/fossasia/pslab-hardware.svg?branch=master)](https://travis-ci.org/fossasia/pslab-hardware)
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Twitter Follow](https://img.shields.io/twitter/follow/pslabapp.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/pslabapp)
+[![Twitter Follow](https://img.shields.io/twitter/follow/pslabio.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/pslabio)
 
 This repository contains the [PSLab](https://pslab.io) hardware design files. PSLab is a tiny pocket science lab that provides an array of test and measurement instruments for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. The first version of hardware (v1) was developed by [Jithin B P](https://github.com/jithinbp). Later versions were developed by [Padmal](https://github.com/CloudyPadmal).
 
@@ -58,9 +58,16 @@ Front Side                        | Back Side
 - [LM324](http://www.ti.com/product/LM324)   - 4 channel Op-Amp
 - [LM1117](http://www.ti.com/product/LM1117) - 3.3 V regulator
 - [MCP2200](http://www.microchip.com/wwwproducts/en/MCP2200) - USB-UART Bridge
-- [ESP8266 (ESP-12E)](https://www.adafruit.com/product/2491) - UART-TCP bridge
+- [74HC126](http://www.ti.com/product/SN74HC126) - 4 channel Buffer
+
 - 0.5 A Fuse
 - Assorted resistors, capacitors & diodes
+
+### Optional Parts
+
+Extension slots for ESP and Bluetooth are available.
+- [ESP8266 (ESP-12E)](https://www.adafruit.com/product/2491) - UART-TCP bridge
+- Bluetooth
 
 ## Hardware Specs
 

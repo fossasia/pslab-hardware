@@ -1,11 +1,13 @@
-# pslab-hardware
+# PSLab Hardware
+
+Hardware development and schematics repository for the [Pocket Science Lab (PSlab)](https://pslab.io) open-hardware platform.
 
 [![Build Status](https://travis-ci.org/fossasia/pslab-hardware.svg?branch=master)](https://travis-ci.org/fossasia/pslab-hardware)
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Mailing List](https://img.shields.io/badge/Mailing%20List-FOSSASIA-blue.svg)](https://groups.google.com/forum/#!forum/pslab-fossasia)
 [![Twitter Follow](https://img.shields.io/twitter/follow/pslabio.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/pslabio)
 
-This repository contains the [PSLab](https://pslab.io) hardware design files. PSLab is a tiny pocket science lab that provides an array of test and measurement instruments for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. The first version of hardware (v1) was developed by [Jithin B P](https://github.com/jithinbp). Later versions were developed by [Padmal](https://github.com/CloudyPadmal).
+The goal of PSLab is to create an Open Source hardware device (open on all layers) and software applications that can be used for experiments by teachers, students and scientists. Our tiny pocket lab provides an array of instruments for doing science and engineering experiments. It provides functions of numerous measurement tools including an oscilloscope, a waveform generator, a frequency counter, a programmable voltage, current source and even a component to control robots with up to four servos. Our website is at: https://pslab.io The first version of hardware (v1) was developed by [Jithin B P](https://github.com/jithinbp). Later versions were developed by [Padmal](https://github.com/CloudyPadmal).
 
 ## Communication
 
@@ -29,6 +31,8 @@ This repository contains the [PSLab](https://pslab.io) hardware design files. PS
 | PSLab KiCAD v5 | Added socket for external bluetooth module and bottom silk screen with pin description | ![](docs/images/pslab_version_previews/PSLab_v5.png) |
 
 ## Casing
+
+A lasercut casing design is available at https://github.com/fossasia/pslab-case.
 
 ![](docs/images/pslabdesign.png)
 
@@ -81,7 +85,7 @@ Extension slots for ESP and Bluetooth are available.
 * 2x Sine/Triangular wave generators. 5 Hz to 5 KHz. Manual amplitude control for SI1
 * 4x PWM generators. 15 nS resolution. Up to 8 MHz
 * Capacitance Measurement. pF to uF range
-* I2C, SPI, UART data buses for Accel/gyros/humidity/temperature modules etc
+* I2C, SPI, UART data buses for Accelorometer, Gyrosmeter, humidity, temperature modules etc.
 
 ## Firmware
 
@@ -125,3 +129,7 @@ One of the main features of PSLab is the 4-channel Oscilloscope which can monito
 
 ### Block Diagram
 ![](docs/images/blockdiag.png)
+
+# License
+
+This project is Free and Open Source software. The project us licensed under the [Apache License v2](LICENSE). Copyright is owned by FOSSASIA. More details in the license files.

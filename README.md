@@ -17,13 +17,13 @@ Please find the pin-out diagram of the PSLab v5 [here](docs/pin_layouts/PSLab_Pi
 
 ## Buy
 
-* You can get a Pocket Science Lab device from the [FOSSASIA Shop](https://fossasia.com)
-* More resellers are listed on the [PSLab website](https://pslab.io/shop/)
+* You can get a Pocket Science Lab device from the [FOSSASIA Shop](https://fossasia.com).
+* More resellers are listed on the [PSLab website](https://pslab.io/shop/).
 
 ## Communication
 
-* The PSLab [chat channel is on Gitter](https://gitter.im/fossasia/pslab)
-* Please also join us on the [PSLab Mailing List](https://groups.google.com/forum/#!forum/pslab-fossasia)
+* The PSLab [chat channel is on Gitter](https://gitter.im/fossasia/pslab).
+* Please also join us on the [PSLab Mailing List](https://groups.google.com/forum/#!forum/pslab-fossasia).
 
 ## Content of Repository
 

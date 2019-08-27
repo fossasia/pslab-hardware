@@ -16,13 +16,13 @@ The goal of PSLab is to create an Open Source hardware device (open on all layer
 
 ## Content of Repository
 
-- **archives**: Contains previous versions of PSLab schematics
-- **docs**: Supplement materials, schematics as PDFs, images of PSLab
-- **schematics**: PCB layout of PSLab device
+* **archives**: Contains previous versions of PSLab schematics
+* **docs**: Supplement materials, schematics as PDFs, images of PSLab
+* **schematics**: PCB layout of PSLab device
 
 ## Version Information
 
-| Version | Content | Preview |
+| Version | Content | Image |
 | -------------- | ------- | ------- |
 | PSLab KiCAD v1   | Original version with `SEELABLET` schematics and layout files | ![](docs/images/pslab_version_previews/PSLab_v1.png) |
 | PSLab KiCAD v2 | Developed version with new additions (Voltage regulator, Oscillator) | ![](docs/images/pslab_version_previews/PSLab_v2.png) |
@@ -33,8 +33,6 @@ The goal of PSLab is to create an Open Source hardware device (open on all layer
 ## Casing
 
 A lasercut casing design is available at https://github.com/fossasia/pslab-case.
-
-![](docs/images/pslabdesign.png)
 
 ## Platform
 
@@ -52,27 +50,23 @@ Front Side                        | Back Side
 ## Pin-outs
 - Find the pin-out diagram of PSLab v5 [here](docs/pin_layouts/PSLab_Pin_Layout.pdf)!
 
-## Parts list
+## Parts List
 
-- [PIC24EP256GP204](http://www.microchip.com/wwwproducts/en/PIC24EP256GP204) - Main uC
-- [MCP6S21](http://www.microchip.com/wwwproducts/en/mcp6s21) - Programmable Gain Amplifier
-- [MCP4728](http://www.microchip.com/wwwproducts/en/mcp4728) - 4 channel DAC
-- [TC7660](http://www.microchip.com/wwwproducts/en/TC7660)  - Charge Pump voltage invertor
-- [TC1240A](http://www.microchip.com/wwwproducts/en/TC1240A) - Charge Pump voltage doubler
-- [TL082](http://www.ti.com/product/TL082)   - 2 channel Op-Amp
-- [LM324](http://www.ti.com/product/LM324)   - 4 channel Op-Amp
-- [LM1117](http://www.ti.com/product/LM1117) - 3.3 V regulator
-- [MCP2200](http://www.microchip.com/wwwproducts/en/MCP2200) - USB-UART Bridge
-- [74HC126](http://www.ti.com/product/SN74HC126) - 4 channel Buffer
-
-- 0.5 A Fuse
-- Assorted resistors, capacitors & diodes
-
-### Optional Parts
-
-Extension slots for ESP and Bluetooth are available.
-- [ESP8266 (ESP-12E)](https://www.adafruit.com/product/2491) - UART-TCP bridge
-- Bluetooth
+* [PIC24EP256GP204](http://www.microchip.com/wwwproducts/en/PIC24EP256GP204) - Main uC
+* [MCP6S21](http://www.microchip.com/wwwproducts/en/mcp6s21) - Programmable Gain Amplifier
+* [MCP4728](http://www.microchip.com/wwwproducts/en/mcp4728) - 4 channel DAC
+* [TC7660](http://www.microchip.com/wwwproducts/en/TC7660) - Charge Pump voltage invertor
+* [TC1240A](http://www.microchip.com/wwwproducts/en/TC1240A) - Charge Pump voltage doubler
+* [TL082](http://www.ti.com/product/TL082) - 2 channel Op-Amp
+* [LM324](http://www.ti.com/product/LM324) - 4 channel Op-Amp
+* [LM1117](http://www.ti.com/product/LM1117) - 3.3 V regulator
+* [MCP2200](http://www.microchip.com/wwwproducts/en/MCP2200) - USB-UART Bridge
+* [74HC126](http://www.ti.com/product/SN74HC126) - 4 channel Buffer
+* 0.5 A Fuse
+* Assorted resistors, capacitors & diodes
+* Optional Parts: Extension slots to solder ESP and Bluetooth components to the device are available.
+  * [ESP8266 (ESP-12E)](https://www.adafruit.com/product/2491) - UART-TCP bridge
+  * Bluetooth
 
 ## Hardware Specs
 

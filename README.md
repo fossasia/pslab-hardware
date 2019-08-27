@@ -51,7 +51,7 @@ Please find the pin-out diagram of the PSLab v5 [here](docs/pin_layouts/PSLab_Pi
 * Compiler: [MPLAB® XC16 Compiler](http://www.microchip.com/mplab/compilers)
 * Programming Tool: [PICkit™ 3 In-Circuit Debugger](http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=PG164130)
 
-## Features for Acquisition and Control
+## Features
 
 ### Oscilloscope
 
@@ -129,6 +129,6 @@ The firmware is available here: https://github.com/fossasia/pslab-firmware
 
 A lasercut casing design for the Pocket Science Lab is available at https://github.com/fossasia/pslab-case.
 
-# License
+## License
 
 This project is Free and Open Source software. The project us licensed under the [Apache License v2](LICENSE). Copyright is owned by FOSSASIA. More details in the license files.

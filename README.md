@@ -9,17 +9,16 @@ Hardware development and schematics repository for the [Pocket Science Lab (PSla
 
 The goal of Pocket Science Lab is to create an Open Source hardware device (open on all layers) and software applications that can be used for experiments by teachers, students and scientists. Our tiny pocket lab provides an array of instruments for doing science and engineering experiments. It provides functions of numerous measurement tools including an oscilloscope, a waveform generator, a frequency counter, a programmable voltage, current source and even a component to control robots with up to four servos. Our website is at https://pslab.io. The first version of the hardware (v1) was developed by [Jithin B P](https://pslab.io/team/). Later versions were developed by [Padmal](https://github.com/CloudyPadmal).
 
-[![](docs/images/getfirmware.png)](https://github.com/fossasia/pslab-firmware)
-[![](docs/images/getonfdroid.png)](https://f-droid.org/en/packages/io.pslab/)
-[![](docs/images/getongoogleplay.png)](https://play.google.com/store/apps/details?id=io.pslab)
-[![](docs/images/getonlinux.png)](https://github.com/fossasia/pslab-desktop/tree/install)
-[![](docs/images/getonwindows.png)](https://github.com/fossasia/pslab-desktop/tree/install)
-
+Front Side                        | Back Side
+ -------------------------------- | ----------------------------------
 ![](docs/images/PSLab_v5_top.png) | ![](docs/images/PSLab_v5_bottom.png)
 
 Please find the pin-out diagram of the PSLab v5 [here](docs/pin_layouts/PSLab_Pin_Layout.pdf).
 
 ## Applications and Firmware Source Repositories
+
+| [![](docs/images/getfirmware.png)](https://github.com/fossasia/pslab-firmware)	|[![](docs/images/getonfdroid.png)](https://f-droid.org/en/packages/io.pslab/)	| [![](docs/images/getongoogleplay.png)](https://play.google.com/store/apps/details?id=io.pslab)	| [![](docs/images/getonlinux.png)](https://github.com/fossasia/pslab-desktop/tree/install)	| [![](docs/images/getonwindows.png)](https://github.com/fossasia/pslab-desktop/tree/install)	|
+|---	|---	|---	|---	|---	|
 
 The following software components are available:
 * Firmware: https://github.com/fossasia/pslab-firmware

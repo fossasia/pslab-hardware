@@ -7,15 +7,26 @@ Hardware development and schematics repository for the [Pocket Science Lab (PSla
 [![Mailing List](https://img.shields.io/badge/Mailing%20List-FOSSASIA-blue.svg)](https://groups.google.com/forum/#!forum/pslab-fossasia)
 [![Twitter Follow](https://img.shields.io/twitter/follow/pslabio.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/pslabio)
 
-The goal of Pocket Science Lab is to create an Open Source hardware device (open on all layers) and software applications that can be used for experiments by teachers, students and scientists. Our tiny pocket lab provides an array of instruments for doing science and engineering experiments. It provides functions of numerous measurement tools including an oscilloscope, a waveform generator, a frequency counter, a programmable voltage, current source and even a component to control robots with up to four servos. Our website is at https://pslab.io. The first version of the hardware (v1) was developed by [Jithin B P](https://github.com/jithinbp). Later versions were developed by [Padmal](https://github.com/CloudyPadmal).
+The goal of Pocket Science Lab is to create an Open Source hardware device (open on all layers) and software applications that can be used for experiments by teachers, students and scientists. Our tiny pocket lab provides an array of instruments for doing science and engineering experiments. It provides functions of numerous measurement tools including an oscilloscope, a waveform generator, a frequency counter, a programmable voltage, current source and even a component to control robots with up to four servos. Our website is at https://pslab.io. The first version of the hardware (v1) was developed by [Jithin B P](https://pslab.io/team/). Later versions were developed by [Padmal](https://github.com/CloudyPadmal).
 
-Front Side                        | Back Side
- -------------------------------- | ----------------------------------
+[![](docs/images/getfirmware.png)](https://github.com/fossasia/pslab-firmware)
+[![](docs/images/getonfdroid.png)](https://f-droid.org/en/packages/io.pslab/)
+[![](docs/images/getongoogleplay.png)](https://play.google.com/store/apps/details?id=io.pslab)
+[![](docs/images/getonlinux.png)](https://github.com/fossasia/pslab-desktop/tree/install)
+[![](docs/images/getonwindows.png)](https://github.com/fossasia/pslab-desktop/tree/install)
+
 ![](docs/images/PSLab_v5_top.png) | ![](docs/images/PSLab_v5_bottom.png)
 
 Please find the pin-out diagram of the PSLab v5 [here](docs/pin_layouts/PSLab_Pin_Layout.pdf).
 
-## Buy
+## Applications and Firmware Source Repositories
+
+The following software components are available:
+* Firmware: https://github.com/fossasia/pslab-firmware
+* Android app: https://github.com/fossasia/pslab-android
+* Desktop app: https://github.com/fossasia/pslab-desktop
+
+## Buy Device
 
 * You can get a Pocket Science Lab device from the [FOSSASIA Shop](https://fossasia.com).
 * More resellers are listed on the [PSLab website](https://pslab.io/shop/).
@@ -27,9 +38,9 @@ Please find the pin-out diagram of the PSLab v5 [here](docs/pin_layouts/PSLab_Pi
 
 ## Content of Repository
 
-* **archives**: Contains previous versions of PSLab schematics
-* **docs**: Supplement materials, schematics as PDFs, images of PSLab
-* **schematics**: PCB layout of PSLab device
+* **/archives**: Contains previous versions of PSLab schematics
+* **/docs**: Supplement materials, schematics as PDFs, images of PSLab
+* **/schematics**: PCB layout of PSLab device
 
 ## Hardware Specifications
 
@@ -121,14 +132,10 @@ The following block diagram shows the flow and functions of the hardware and fir
 
 ![](docs/images/blockdiag.png)
 
-## Firmware
-
-The firmware is available here: https://github.com/fossasia/pslab-firmware
-
 ## Casing
 
 A lasercut casing design for the Pocket Science Lab is available at https://github.com/fossasia/pslab-case.
 
 ## License
 
-This project is Free and Open Source software. The project us licensed under the [Apache License v2](LICENSE). Copyright is owned by FOSSASIA. More details in the license files.
+This project is Free and Open Source software. The project us licensed under the [Apache License v2](LICENSE). Copyright is owned by FOSSASIA and its contributors. Please refer to the license files for more details.

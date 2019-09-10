@@ -56,7 +56,7 @@ The following software components are available:
 
 ## Development Platform
 
-* Microcontroller Platform : [PIC24EP256GP204](http://www.microchip.com/wwwproducts/en/PIC24EP256GP204)
+* Microcontroller Platform: [PIC24EP256GP204](http://www.microchip.com/wwwproducts/en/PIC24EP256GP204)
 * IDE: [MPLABX IDE v3.35](http://www.microchip.com/mplab/mplab-x-ide) (Supported on Linux/Windows/Mac)
 * Compiler: [MPLAB® XC16 Compiler](http://www.microchip.com/mplab/compilers)
 * Programming Tool: [PICkit™ 3 In-Circuit Debugger](http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=PG164130)
@@ -69,9 +69,9 @@ One of the main features of PSLab is the 4-channel Oscilloscope which can monito
 
 ### Waveform Generator
 
-* SI1 : 5 Hz – 5 KHz arbitrary waveform generator. Manual amplitude control up to +/-3 Volts
-* SI2 : 5 Hz – 5 KHz arbitrary waveform generator. Amplitude of +/-3 Volts. Attenuable via software
-* SQx : There are four phase correlated PWM outputs with maximum frequency 32 MHz, 15 nano second duty cycle, and phase difference control.
+* SI1: 5 Hz – 5 KHz arbitrary waveform generator. Manual amplitude control up to +/-3 Volts
+* SI2: 5 Hz – 5 KHz arbitrary waveform generator. Amplitude of +/-3 Volts. Attenuable via software
+* SQx: There are four phase correlated PWM outputs with maximum frequency 32 MHz, 15 nano second duty cycle, and phase difference control.
 
 ### Measurement Functions
 

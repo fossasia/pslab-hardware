@@ -1,5 +1,5 @@
 color: black
 summary: A small USB powered hardware extension for your Android phone or PC that lets you measure all kinds of things.
-website: https://pslab.io
+site: https://pslab.io
 gerbers: schematics/Gerber_For_PSLab/
 bom: docs/components/PSLab_BOM_Sheet.ods

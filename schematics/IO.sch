@@ -1657,8 +1657,6 @@ Wire Notes Line
 Text Notes 550  3925 0    60   ~ 0
 4-Channel DAC. Used for PV1(+/-5V) , PV2(+/-3.3V) , PV3 (0-3.3V) , PCS (0-2mA)\nAnd associated analog circuitry
 Wire Notes Line
-	550  4175 4300 4175
-Wire Notes Line
 	550  4175 550  7450
 Text Notes 570  4280 0    60   ~ 0
 Sine Wave generator filters (Simulated for 5Hz to 5KHz at Okawa-Denshi)
@@ -1774,8 +1772,6 @@ Wire Wire Line
 Connection ~ 6300 575 
 Text Notes 4325 5855 0    60   ~ 0
 Expansion
-Wire Notes Line
-	6760 7450 6760 5735
 $Comp
 L PSLab-rescue:Conn_01x12 J4
 U 1 1 5ADCA566
@@ -2025,4 +2021,122 @@ F 3 "" H 4555 7000 50  0001 C CNN
 $EndComp
 Text GLabel 4555 7000 3    60   Input ~ 0
 AVdd
+Wire Notes Line
+	550  4175 6760 4175
+Wire Notes Line
+	6760 4175 6760 7450
+Text Notes 4315 4280 0    60   ~ 0
+RTC Module
+$Comp
+L Timer_RTC:DS1307Z+ U6
+U 1 1 5CA94FBE
+P 5580 5060
+F 0 "U6" H 5165 5415 50  0000 L CNN
+F 1 "DS1307Z+" H 5595 5415 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5580 4560 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/DS1307.pdf" H 5580 5060 50  0001 C CNN
+	1    5580 5060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_Small Y1
+U 1 1 5CA951B5
+P 4700 5220
+F 0 "Y1" V 4700 5325 50  0000 L CNN
+F 1 "32.768 kHz" H 4525 5105 39  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 4700 5220 50  0001 C CNN
+F 3 "~" H 4700 5220 50  0001 C CNN
+	1    4700 5220
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 5120 4700 5050
+Wire Wire Line
+	4700 5050 4915 5050
+Wire Wire Line
+	4915 5050 4915 5160
+Wire Wire Line
+	4915 5160 5080 5160
+Wire Wire Line
+	4700 5320 4700 5400
+Wire Wire Line
+	4700 5400 4915 5400
+Wire Wire Line
+	4915 5400 4915 5260
+Wire Wire Line
+	4915 5260 5080 5260
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR?
+U 1 1 5CAA467A
+P 5580 5460
+AR Path="/5CAA467A" Ref="#PWR?"  Part="1" 
+AR Path="/54260FB5/5CAA467A" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 5580 5460 30  0001 C CNN
+F 1 "GND" H 5580 5390 30  0001 C CNN
+F 2 "" H 5580 5460 60  0000 C CNN
+F 3 "" H 5580 5460 60  0000 C CNN
+	1    5580 5460
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5CAA5A87
+P 6120 4465
+F 0 "BT1" V 6175 4925 50  0000 C CNN
+F 1 "1225" V 6175 4745 50  0000 C CNN
+F 2 "Battery:BatteryHolder_LINX_BAT-HLD-012-SMT" V 6120 4525 50  0001 C CNN
+F 3 "~" V 6120 4525 50  0001 C CNN
+	1    6120 4465
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5920 4465 5580 4465
+Wire Wire Line
+	5580 4465 5580 4660
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR?
+U 1 1 5CAAD598
+P 6220 4465
+AR Path="/5CAAD598" Ref="#PWR?"  Part="1" 
+AR Path="/54260FB5/5CAAD598" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 6220 4465 30  0001 C CNN
+F 1 "GND" H 6220 4395 30  0001 C CNN
+F 2 "" H 6220 4465 60  0000 C CNN
+F 3 "" H 6220 4465 60  0000 C CNN
+	1    6220 4465
+	0    -1   1    0   
+$EndComp
+NoConn ~ 6080 5060
+Text GLabel 5080 4860 0    40   Input ~ 0
+SCL
+Text GLabel 5080 4960 0    40   Input ~ 0
+SDA
+Text GLabel 5480 4660 1    40   Input ~ 0
++5V
+Wire Wire Line
+	5580 4350 5580 4465
+Connection ~ 5580 4465
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5CAE0079
+P 5580 4350
+F 0 "#FLG0101" H 5580 4425 50  0001 C CNN
+F 1 "PWR_FLAG" H 5335 4425 50  0000 C CNN
+F 2 "" H 5580 4350 50  0001 C CNN
+F 3 "~" H 5580 4350 50  0001 C CNN
+	1    5580 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5CAF8DB5
+P 6355 5405
+F 0 "TP11" H 6413 5525 50  0000 L CNN
+F 1 "CR1225" H 6210 5335 50  0000 L CNN
+F 2 "Battery:Battery_CR1225" H 6555 5405 50  0001 C CNN
+F 3 "~" H 6555 5405 50  0001 C CNN
+	1    6355 5405
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6355 5405
 $EndSCHEMATC

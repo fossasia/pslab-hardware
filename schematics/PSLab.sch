@@ -82,23 +82,23 @@ $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R7
 U 1 1 542393BE
-P 2210 4650
-F 0 "R7" V 2290 4650 40  0000 C CNN
-F 1 "200" V 2217 4651 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2140 4650 30  0001 C CNN
-F 3 "" H 2210 4650 30  0000 C CNN
-	1    2210 4650
+P 1605 4890
+F 0 "R7" V 1685 4890 40  0000 C CNN
+F 1 "200" V 1612 4891 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1535 4890 30  0001 C CNN
+F 3 "" H 1605 4890 30  0000 C CNN
+	1    1605 4890
 	0    -1   -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R6
 U 1 1 54239455
-P 2205 4450
-F 0 "R6" V 2285 4450 40  0000 C CNN
-F 1 "200" V 2212 4451 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2135 4450 30  0001 C CNN
-F 3 "" H 2205 4450 30  0000 C CNN
-	1    2205 4450
+P 1600 4690
+F 0 "R6" V 1680 4690 40  0000 C CNN
+F 1 "200" V 1607 4691 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1530 4690 30  0001 C CNN
+F 3 "" H 1600 4690 30  0000 C CNN
+	1    1600 4690
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -283,12 +283,12 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG010
 U 1 1 54C819ED
-P 860 1040
-F 0 "#FLG010" H 860 1135 30  0001 C CNN
-F 1 "PWR_FLAG" H 860 1220 30  0000 C CNN
-F 2 "" H 860 1040 60  0000 C CNN
-F 3 "" H 860 1040 60  0000 C CNN
-	1    860  1040
+P 860 895
+F 0 "#FLG010" H 860 990 30  0001 C CNN
+F 1 "PWR_FLAG" H 860 1030 30  0000 C CNN
+F 2 "" H 860 895 60  0000 C CNN
+F 3 "" H 860 895 60  0000 C CNN
+	1    860  895 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -330,23 +330,23 @@ D+
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R8
 U 1 1 555DB0AF
-P 2210 4850
-F 0 "R8" V 2290 4850 40  0000 C CNN
-F 1 "200" V 2217 4851 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2140 4850 30  0001 C CNN
-F 3 "" H 2210 4850 30  0000 C CNN
-	1    2210 4850
+P 1605 5090
+F 0 "R8" V 1685 5090 40  0000 C CNN
+F 1 "200" V 1612 5091 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1535 5090 30  0001 C CNN
+F 3 "" H 1605 5090 30  0000 C CNN
+	1    1605 5090
 	0    -1   -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R9
 U 1 1 555DB131
-P 2215 5050
-F 0 "R9" V 2295 5050 40  0000 C CNN
-F 1 "200" V 2222 5051 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2145 5050 30  0001 C CNN
-F 3 "" H 2215 5050 30  0000 C CNN
-	1    2215 5050
+P 1610 5300
+F 0 "R9" V 1690 5300 40  0000 C CNN
+F 1 "200" V 1617 5301 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1540 5300 30  0001 C CNN
+F 3 "" H 1610 5300 30  0000 C CNN
+	1    1610 5300
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -362,13 +362,13 @@ F 3 "" H 3550 5050 60  0000 C CNN
 $EndComp
 Text Label 7300 2750 0    60   ~ 0
 Vdd
-Text Label 2540 4450 0    60   ~ 0
+Text Label 1935 4690 0    60   ~ 0
 ID1
-Text Label 2540 4650 0    60   ~ 0
+Text Label 1935 4890 0    60   ~ 0
 ID2
-Text Label 2540 4850 0    60   ~ 0
+Text Label 1935 5090 0    60   ~ 0
 ID3
-Text Label 2540 5050 0    60   ~ 0
+Text Label 1935 5300 0    60   ~ 0
 ID4
 Text GLabel 8025 2700 0    60   Input ~ 0
 +5V
@@ -1356,17 +1356,6 @@ F 3 "" H 6875 1895 60  0000 C CNN
 $EndComp
 Text GLabel 6775 1895 1    40   Input ~ 0
 +5V
-$Comp
-L PSLab-rescue:Conn_01x04 J3
-U 1 1 5AD4C0DD
-P 935 5035
-F 0 "J3" H 935 5235 50  0000 C CNN
-F 1 "LA" H 935 4735 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 935 5035 50  0001 C CNN
-F 3 "" H 935 5035 50  0001 C CNN
-	1    935  5035
-	-1   0    0    1   
-$EndComp
 Text GLabel 1415 3550 0    40   Input ~ 0
 SQR1
 Text GLabel 1415 3850 0    40   Input ~ 0
@@ -1375,22 +1364,14 @@ Text GLabel 2490 3650 2    40   Input ~ 0
 SQR3
 Text GLabel 2490 3950 2    40   Input ~ 0
 SQR4
-Text GLabel 1900 5050 0    40   Input ~ 0
+Text GLabel 1295 5300 0    40   Input ~ 0
 IDD
-Text GLabel 1900 4850 0    40   Input ~ 0
+Text GLabel 1295 5090 0    40   Input ~ 0
 IDC
-Text GLabel 1900 4650 0    40   Input ~ 0
+Text GLabel 1295 4890 0    40   Input ~ 0
 IDB
-Text GLabel 1900 4450 0    40   Input ~ 0
+Text GLabel 1295 4690 0    40   Input ~ 0
 IDA
-Text GLabel 1135 4835 2    40   Input ~ 0
-IDA
-Text GLabel 1135 4935 2    40   Input ~ 0
-IDB
-Text GLabel 1135 5035 2    40   Input ~ 0
-IDC
-Text GLabel 1135 5135 2    40   Input ~ 0
-IDD
 Text GLabel 6085 7165 0    40   Input ~ 0
 IDD
 Text GLabel 6085 7265 0    40   Input ~ 0
@@ -1757,12 +1738,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 3500 3200 3500
 Wire Wire Line
-	3250 4200 3250 4650
-Wire Wire Line
-	3325 4300 3325 4850
-Wire Wire Line
-	3400 4400 3400 5050
-Wire Wire Line
 	1375 3450 1375 3025
 Wire Wire Line
 	1375 3025 3200 3025
@@ -1772,8 +1747,6 @@ Wire Wire Line
 	3100 3600 3650 3600
 Wire Wire Line
 	2350 3550 2750 3550
-Wire Wire Line
-	3175 4100 3175 4450
 Wire Wire Line
 	2525 3800 3375 3800
 Wire Wire Line
@@ -2004,7 +1977,7 @@ Wire Wire Line
 Wire Wire Line
 	4605 815  4545 815 
 Wire Wire Line
-	860  1040 860  1140
+	860  895  860  1040
 Connection ~ 860  1440
 Connection ~ 860  1340
 Connection ~ 860  1140
@@ -2020,14 +1993,6 @@ Wire Notes Line
 	6880 7735 6880 5950
 Wire Notes Line
 	535  5585 3715 5585
-Wire Wire Line
-	3175 4450 2455 4450
-Wire Wire Line
-	3250 4650 2460 4650
-Wire Wire Line
-	3325 4850 2460 4850
-Wire Wire Line
-	3400 5050 2465 5050
 Wire Wire Line
 	6975 850  6975 1495
 Connection ~ 6975 850 
@@ -2048,13 +2013,13 @@ Connection ~ 2750 3550
 Wire Wire Line
 	2750 3700 3650 3700
 Wire Wire Line
-	1955 4450 1900 4450
+	1350 4690 1295 4690
 Wire Wire Line
-	1960 4650 1900 4650
+	1355 4890 1295 4890
 Wire Wire Line
-	1965 5050 1900 5050
+	1360 5300 1295 5300
 Wire Wire Line
-	1960 4850 1900 4850
+	1355 5090 1295 5090
 Wire Wire Line
 	6570 4525 6525 4525
 Wire Wire Line
@@ -2412,4 +2377,23 @@ F 3 "" H 8400 1025 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8900 1025 8700 1025
+Connection ~ 860  1040
+Wire Wire Line
+	860  1040 860  1140
+Wire Wire Line
+	3400 4400 3400 5300
+Wire Wire Line
+	1860 5300 3400 5300
+Wire Wire Line
+	3325 4300 3325 5090
+Wire Wire Line
+	1855 5090 3325 5090
+Wire Wire Line
+	3250 4200 3250 4890
+Wire Wire Line
+	1855 4890 3250 4890
+Wire Wire Line
+	3175 4100 3175 4690
+Wire Wire Line
+	1850 4690 3175 4690
 $EndSCHEMATC

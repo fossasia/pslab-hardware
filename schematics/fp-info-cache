@@ -1,4 +1,4 @@
-16949056564627182
+16955397763340182
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44233,6 +44233,13 @@ Barcode
 0
 0
 Custom_Components
+ESP-01
+Module, ESP-8266, ESP-01, 8 pin
+Module ESP-8266 ESP8266
+0
+8
+8
+Custom_Components
 FOSSASIA_Logo
 
 
@@ -44262,6 +44269,27 @@ OpnTec_Logo
 0
 Custom_Components
 PSL_Logo
+
+
+0
+0
+0
+Custom_Components
+PSLabDotIO
+
+
+0
+0
+0
+Custom_Components
+PSLabDotIO4000
+
+
+0
+0
+0
+Custom_Components
+PSLabDotIOI
 
 
 0

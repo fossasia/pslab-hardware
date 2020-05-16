@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.0.2-bee76a0~70~ubuntu16.04.1"
+      "Version":     "5.1.5-52549c5~86~ubuntu18.04.1"
     },
-    "CreationDate":  "2019-04-16T07:24:41+05:30"
+    "CreationDate":  "2020-05-16T12:15:56+03:00"
   },
   "GeneralSpecs":
   {
@@ -20,7 +20,7 @@
     "Size":
     {
       "X": 99.130,
-      "Y": 53.430
+      "Y": 53.410
     },
     "LayerNumber": 4,
     "BoardThickness":  1.600
@@ -49,67 +49,67 @@
   "FilesAttributes":
   [
     {
-      "Path":  "PSLab-L1.Front.gtl",
+      "Path":  "PSLab-L1_Front.gtl",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "PSLab-L2.Signal.g2",
+      "Path":  "PSLab-L2_Signal.g2",
       "FileFunction":  "Copper,L2,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "PSLab-L3.Power.g3",
+      "Path":  "PSLab-L3_Power.g3",
       "FileFunction":  "Copper,L3,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "PSLab-L4.Ground.gbl",
+      "Path":  "PSLab-L4_Ground.gbl",
       "FileFunction":  "Copper,L4,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "PSLab-F.Adhes.gta",
+      "Path":  "PSLab-F_Adhes.gta",
       "FileFunction":  "Glue,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "PSLab-B.Adhes.gba",
+      "Path":  "PSLab-B_Adhes.gba",
       "FileFunction":  "Glue,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "PSLab-F.Paste.gtp",
+      "Path":  "PSLab-F_Paste.gtp",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "PSLab-B.Paste.gbp",
+      "Path":  "PSLab-B_Paste.gbp",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "PSLab-F.SilkS.gto",
+      "Path":  "PSLab-F_SilkS.gto",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "PSLab-B.SilkS.gbo",
+      "Path":  "PSLab-B_SilkS.gbo",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "PSLab-F.Mask.gts",
+      "Path":  "PSLab-F_Mask.gts",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "PSLab-B.Mask.gbs",
+      "Path":  "PSLab-B_Mask.gbs",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "PSLab-Edge.Cuts.gm1",
+      "Path":  "PSLab-Edge_Cuts.gm1",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "PSLab"
 Date "2019-03-03"
 Rev "v6"
@@ -282,12 +282,12 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG010
 U 1 1 54C819ED
-P 860 895
-F 0 "#FLG010" H 860 990 30  0001 C CNN
-F 1 "PWR_FLAG" H 860 1030 30  0000 C CNN
-F 2 "" H 860 895 60  0000 C CNN
-F 3 "" H 860 895 60  0000 C CNN
-	1    860  895 
+P 860 1000
+F 0 "#FLG010" H 860 1095 30  0001 C CNN
+F 1 "PWR_FLAG" H 860 1135 30  0000 C CNN
+F 2 "" H 860 1000 60  0000 C CNN
+F 3 "" H 860 1000 60  0000 C CNN
+	1    860  1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -603,24 +603,13 @@ $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR023
 U 1 1 556DA4CB
-P 860 1520
-F 0 "#PWR023" H 860 1520 30  0001 C CNN
-F 1 "GND" H 860 1450 30  0001 C CNN
-F 2 "" H 860 1520 60  0000 C CNN
-F 3 "" H 860 1520 60  0000 C CNN
-	1    860  1520
+P 860 1275
+F 0 "#PWR023" H 860 1275 30  0001 C CNN
+F 1 "GND" H 860 1205 30  0001 C CNN
+F 2 "" H 860 1275 60  0000 C CNN
+F 3 "" H 860 1275 60  0000 C CNN
+	1    860  1275
 	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR024
-U 1 1 556DA5BD
-P 1860 1040
-F 0 "#PWR024" H 1860 1040 30  0001 C CNN
-F 1 "GND" H 1860 970 30  0001 C CNN
-F 2 "" H 1860 1040 60  0000 C CNN
-F 3 "" H 1860 1040 60  0000 C CNN
-	1    1860 1040
-	0    -1   -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:74HC126 U2
@@ -1057,17 +1046,6 @@ Status LED
 Text Notes 11095 5130 2    60   ~ 0
 Mounting Holes
 $Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR037
-U 1 1 556DA7E3
-P 1860 1140
-F 0 "#PWR037" H 1860 1140 30  0001 C CNN
-F 1 "GND" H 1860 1070 30  0001 C CNN
-F 2 "" H 1860 1140 60  0000 C CNN
-F 3 "" H 1860 1140 60  0000 C CNN
-	1    1860 1140
-	0    -1   -1   0   
-$EndComp
-$Comp
 L PSLab-rescue:MMBT3904 Q2
 U 1 1 5A319DE9
 P 10700 3125
@@ -1199,17 +1177,6 @@ F 3 "" H 3785 2530 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSLab-rescue:USB-MINI-B CON1
-U 1 1 5A6CB48C
-P 1360 1240
-F 0 "CON1" H 1060 1590 50  0000 C CNN
-F 1 "USB-MINI-B" H 1210 890 50  0000 C CNN
-F 2 "Custom_Components:USB_Micro-B" H 1360 1140 50  0001 C CNN
-F 3 "" H 1360 1140 50  0000 C CNN
-	1    1360 1240
-	-1   0    0    1   
-$EndComp
-$Comp
 L PSLab-rescue:TEST_1P J13
 U 1 1 5A6F40E4
 P 2165 1120
@@ -1235,7 +1202,7 @@ $Comp
 L PSLab-rescue:TEST_1P J11
 U 1 1 5A6F5463
 P 1850 1875
-F 0 "J11" H 1850 2145 50  0000 C CNN
+F 0 "J11" H 1735 2000 50  0000 C CNN
 F 1 "Vbus" H 1850 2075 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 2050 1875 50  0001 C CNN
 F 3 "" H 2050 1875 50  0001 C CNN
@@ -1882,10 +1849,6 @@ Wire Wire Line
 Wire Wire Line
 	1860 1340 2390 1340
 Wire Wire Line
-	860  1340 865  1340
-Wire Wire Line
-	865  1140 860  1140
-Wire Wire Line
 	1605 1930 1850 1930
 Wire Wire Line
 	2035 1930 2035 1440
@@ -1920,15 +1883,9 @@ Wire Wire Line
 Wire Wire Line
 	4605 815  4545 815 
 Wire Wire Line
-	860  895  860  1040
-Connection ~ 860  1440
-Connection ~ 860  1340
-Connection ~ 860  1140
-Wire Wire Line
 	7050 3250 7050 3100
 Wire Wire Line
 	690  1220 860  1220
-Connection ~ 860  1220
 Wire Wire Line
 	1850 1875 1850 1930
 Connection ~ 1850 1930
@@ -2216,14 +2173,6 @@ Wire Wire Line
 Wire Wire Line
 	2475 3450 2475 3750
 Wire Wire Line
-	860  1440 860  1520
-Wire Wire Line
-	860  1340 860  1440
-Wire Wire Line
-	860  1140 860  1220
-Wire Wire Line
-	860  1220 860  1340
-Wire Wire Line
 	1850 1930 2035 1930
 Wire Wire Line
 	6975 850  7525 850 
@@ -2313,9 +2262,6 @@ F 3 "" H 8500 1025 60  0000 C CNN
 	1    8500 1025
 	-1   0    0    1   
 $EndComp
-Connection ~ 860  1040
-Wire Wire Line
-	860  1040 860  1140
 Wire Wire Line
 	3400 4400 3400 5300
 Wire Wire Line
@@ -2377,4 +2323,18 @@ Wire Wire Line
 	8975 1775 8750 1775
 Wire Wire Line
 	8750 1475 8750 1775
+$Sheet
+S 1310 1190 550  305 
+U 5ED254D7
+F0 "USBC" 49
+F1 "USBC.sch" 49
+F2 "VBus" O R 1860 1440 60 
+F3 "D+" O R 1860 1240 60 
+F4 "D-" I R 1860 1340 60 
+$EndSheet
+Wire Wire Line
+	860  1000 860  1220
+Wire Wire Line
+	860  1220 860  1275
+Connection ~ 860  1220
 $EndSCHEMATC

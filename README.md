@@ -1,6 +1,6 @@
 # PSLab Hardware
 
-Hardware development and schematics repository for the [Pocket Science Lab (PSlab)](https://pslab.io) open-hardware platform.
+Hardware development and schematics repository for the [Pocket Science Lab (PSLab)](https://pslab.io) open-hardware platform.
 
 [![Build Status](https://travis-ci.org/fossasia/pslab-hardware.svg?branch=master)](https://travis-ci.org/fossasia/pslab-hardware)
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
@@ -49,10 +49,10 @@ The following software components are available:
 * 12-bit Programmable current source. 0-3.3 mA
 * Supports Advanced Plugins/Add-on Modules
 * 4-Channel, 4 MHz, Logic Analyzer
-* 2x Sine/Triangular wave generators. 5 Hz to 5 KHz. Manual amplitude control for SI1
+* 2x Sine/Triangular wave generators. 5 Hz to 5 kHz. Manual amplitude control for SI1
 * 4x PWM generators. 15 nS resolution. Up to 8 MHz
 * Capacitance Measurement. pF to uF range
-* I2C, SPI, UART data buses for Accelorometer, Gyroscope, humidity, temperature modules etc.
+* I2C, SPI, UART data buses for Accelerometer, Gyroscope, humidity, temperature modules etc.
 
 ## Development Platform
 
@@ -65,13 +65,13 @@ The following software components are available:
 
 ### Oscilloscope
 
-One of the main features of PSLab is the 4-channel Oscilloscope which can monitor analog inputs at maximum of 2 million samples per second. It includes controls such as triggering, and gain selection. Uses Python-Scipy for curve fitting.
+One of the main features of PSLab is the 4-channel Oscilloscope which can monitor analog inputs at a maximum of 2 million samples per second. It includes controls such as triggering and gain selection. Uses Python-Scipy for curve fitting.
 
 ### Waveform Generator
 
-* SI1: 5 Hz – 5 KHz arbitrary waveform generator. Manual amplitude control up to +/-3 Volts
-* SI2: 5 Hz – 5 KHz arbitrary waveform generator. Amplitude of +/-3 Volts. Attenuable via software
-* SQx: There are four phase correlated PWM outputs with maximum frequency 32 MHz, 15 nano second duty cycle, and phase difference control.
+* SI1: 5 Hz – 5 kHz arbitrary waveform generator. Manual amplitude control up to +/-3 Volts
+* SI2: 5 Hz – 5 kHz arbitrary waveform generator. The amplitude of +/-3 Volts. Attenuable via software
+* SQx: There are four phases correlated PWM outputs with maximum frequency 32 MHz, 15 nanosecond duty cycle, and phase difference control.
 
 ### Measurement Functions
 
@@ -137,4 +137,7 @@ A lasercut casing design for the Pocket Science Lab is available at https://gith
 
 ## License
 
-This project is Free and Open Source software. The project us licensed under the [Apache License v2](LICENSE). Copyright is owned by FOSSASIA and its contributors. Please refer to the license files for more details.
+This project is Free and Open Source software. The project is licensed under the [Apache License v2](LICENSE). Copyright is owned by FOSSASIA and its contributors. Please refer to the license files for more details.
+
+
+

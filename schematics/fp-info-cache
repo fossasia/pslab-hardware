@@ -1,4 +1,4 @@
-18395297688210182
+18398483059675182
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48838,6 +48838,20 @@ sd card
 0
 15
 12
+Custom_Components
+SPDT
+
+
+0
+5
+3
+Custom_Components
+SPDT_DIP
+
+
+0
+5
+3
 Custom_Components
 USB_Micro-B
 Micro USB Type B Receptacle

@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP USB_C_Receptacle
+D USB Full-Featured Type-C Receptacle connector
+K usb universal serial bus type-C full-featured
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
 #End Doc Library

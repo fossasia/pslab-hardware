@@ -2135,28 +2135,6 @@ Wire Wire Line
 	1120 5890 1175 5890
 Wire Wire Line
 	1765 6030 1765 6120
-$Comp
-L Jumper:SolderJumper_2_Bridged JP1
-U 1 1 5C990A98
-P 8145 1175
-F 0 "JP1" H 8265 1285 50  0000 C CNN
-F 1 "ESP Reset" H 8025 1280 39  0000 C CNN
-F 2 "Connectors:GS2" H 8145 1175 50  0001 C CNN
-F 3 "~" H 8145 1175 50  0001 C CNN
-	1    8145 1175
-	0    1    1    0   
-$EndComp
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR08
-U 1 1 5C9910C8
-P 8145 1025
-F 0 "#PWR08" H 8145 1025 30  0001 C CNN
-F 1 "GND" H 8145 955 30  0001 C CNN
-F 2 "" H 8145 1025 60  0000 C CNN
-F 3 "" H 8145 1025 60  0000 C CNN
-	1    8145 1025
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3400 4400 3400 5300
 Wire Wire Line
@@ -2190,10 +2168,6 @@ Wire Wire Line
 	8470 1275 8395 1275
 Wire Wire Line
 	8395 1275 8395 1475
-Wire Wire Line
-	8145 1375 8470 1375
-Wire Wire Line
-	8145 1325 8145 1375
 Wire Wire Line
 	9170 1375 9420 1375
 Wire Wire Line
@@ -2505,4 +2479,5 @@ F 3 "" H 10670 6005 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 5050 2600
+NoConn ~ 8470 1375
 $EndSCHEMATC

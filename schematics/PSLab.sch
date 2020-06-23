@@ -1031,8 +1031,8 @@ F 3 "http://www.microchip.com/wwwproducts/en/PIC24EP256GP204" H 4950 3900 50  00
 	1    4950 3900
 	1    0    0    -1  
 $EndComp
-Text Notes 8785 2140 0    60   ~ 0
-For WiFi Option
+Text Notes 9300 2140 0    60   ~ 0
+WiFi
 Text Notes 505  595  0    60   ~ 0
 USB & Power Connector , USB-UART Convertor
 Text Notes 4110 590  0    60   ~ 0
@@ -1065,8 +1065,6 @@ F 3 "" H 10700 4235 50  0001 L CNN
 	1    10700 4235
 	0    -1   -1   0   
 $EndComp
-Text Label 7485 1685 0    60   ~ 0
-ESPROG
 $Comp
 L PSLab-rescue:CONN_1 MH2
 U 1 1 5A553341
@@ -1278,7 +1276,7 @@ F 3 "" H 6875 1895 60  0000 C CNN
 	1    6875 1895
 	-1   0    0    1   
 $EndComp
-Text GLabel 6775 1895 1    40   Input ~ 0
+Text GLabel 7175 1895 1    40   Input ~ 0
 +5V
 Text GLabel 1415 3550 0    40   Input ~ 0
 SQR1
@@ -1412,7 +1410,7 @@ Text GLabel 1000 7180 2    40   Input ~ 0
 TxD
 Text GLabel 1000 7080 2    40   Input ~ 0
 RxD
-Text GLabel 6675 1895 1    47   Input ~ 0
+Text GLabel 6775 1895 1    47   Input ~ 0
 Vdd
 $Sheet
 S 5670 5355 705  360 
@@ -1668,8 +1666,6 @@ Wire Wire Line
 	6775 650  7075 650 
 Wire Wire Line
 	6775 850  6975 850 
-Wire Wire Line
-	9420 2025 8210 2025
 Wire Notes Line
 	500  2750 4075 2750
 Wire Notes Line
@@ -1768,8 +1764,6 @@ Wire Wire Line
 	8875 5940 8870 5940
 Wire Wire Line
 	8175 5940 8375 5940
-Wire Wire Line
-	7175 1685 8210 1685
 Wire Notes Line
 	500  500  500  2750
 Wire Wire Line
@@ -1782,8 +1776,6 @@ Wire Wire Line
 	2350 3350 2475 3350
 Connection ~ 2475 3350
 Connection ~ 2475 3450
-Wire Wire Line
-	8210 1685 8210 2025
 Wire Wire Line
 	9870 4135 9870 4400
 Wire Wire Line
@@ -1892,8 +1884,6 @@ Connection ~ 6975 1495
 Wire Wire Line
 	7145 1495 7075 1495
 Connection ~ 7075 1495
-Wire Wire Line
-	7175 1685 7175 1895
 Wire Notes Line
 	1255 6680 1255 7735
 Wire Wire Line
@@ -2168,10 +2158,6 @@ Wire Wire Line
 	8470 1275 8395 1275
 Wire Wire Line
 	8395 1275 8395 1475
-Wire Wire Line
-	9170 1375 9420 1375
-Wire Wire Line
-	9420 1375 9420 2025
 Connection ~ 8395 1475
 NoConn ~ 9170 1275
 Wire Wire Line
@@ -2405,12 +2391,12 @@ Wire Notes Line
 Text GLabel 10100 1030 2    39   Input ~ 8
 ExP
 $Comp
-L Connector_Generic:Conn_01x06 J7
+L Connector_Generic:Conn_01x05 J7
 U 1 1 5EF3BE2C
 P 6975 2095
 F 0 "J7" V 6975 2370 50  0000 L CNN
 F 1 "UART/ESP" V 7085 1855 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 6975 2095 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 6975 2095 50  0001 C CNN
 F 3 "~" H 6975 2095 50  0001 C CNN
 	1    6975 2095
 	0    1    1    0   
@@ -2480,4 +2466,5 @@ F 3 "" H 10670 6005 60  0001 C CNN
 $EndComp
 NoConn ~ 5050 2600
 NoConn ~ 8470 1375
+NoConn ~ 9170 1375
 $EndSCHEMATC

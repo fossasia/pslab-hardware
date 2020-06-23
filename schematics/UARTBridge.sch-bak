@@ -195,20 +195,24 @@ Wire Wire Line
 	5075 5050 5320 5050
 Wire Wire Line
 	5075 4865 5075 5050
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 5C9A740E
-P 6020 5050
-F 0 "JP2" H 6020 5130 50  0000 C CNN
-F 1 "UART Reset" H 6015 4955 39  0000 C CNN
-F 2 "Connectors:GS2" H 6020 5050 50  0001 C CNN
-F 3 "~" H 6020 5050 50  0001 C CNN
-	1    6020 5050
-	1    0    0    -1  
-$EndComp
-Connection ~ 5870 5050
-Text GLabel 6190 5050 2    39   Input ~ 0
+Text GLabel 6070 5255 3    39   Input ~ 0
 GND
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 5EF5F041
+P 5970 5055
+F 0 "J12" V 5926 4867 50  0000 R CNN
+F 1 "UART Reset" V 5843 4867 39  0000 R CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 5970 5055 50  0001 C CNN
+F 3 "~" H 5970 5055 50  0001 C CNN
+	1    5970 5055
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	6190 5050 6170 5050
+	5870 5050 5870 5345
+Wire Wire Line
+	5870 5345 5970 5345
+Wire Wire Line
+	5970 5345 5970 5255
+Connection ~ 5870 5050
 $EndSCHEMATC

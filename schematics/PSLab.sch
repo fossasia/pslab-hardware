@@ -650,10 +650,6 @@ Text Label 9345 1025 1    60   ~ 0
 ETxD
 Text Label 8395 825  3    60   ~ 0
 ERxD
-Text Label 4550 2475 1    60   ~ 0
-RxD
-Text Label 4450 2475 1    60   ~ 0
-TxD
 Text GLabel 6085 6665 0    40   Input ~ 0
 CH3.GAIN
 Text Label 4760 7285 2    60   ~ 0
@@ -866,10 +862,6 @@ F 3 "" H 1425 5890 60  0000 C CNN
 $EndComp
 Text GLabel 1035 5890 0    47   Output ~ 0
 AVdd
-Text Label 7075 1390 1    60   ~ 0
-RxD
-Text Label 6975 1395 1    60   ~ 0
-TxD
 Text GLabel 3325 3875 0    40   Output ~ 0
 SQ4
 Text GLabel 6085 6765 0    40   Input ~ 0
@@ -977,17 +969,6 @@ $EndComp
 Text GLabel 8175 5940 0    40   Input ~ 0
 +5V
 $Comp
-L PSLab-rescue:R-RESCUE-proto1 R55
-U 1 1 566549A7
-P 6525 850
-F 0 "R55" V 6605 850 40  0000 C CNN
-F 1 "18" V 6532 851 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6455 850 30  0001 C CNN
-F 3 "" H 6525 850 30  0000 C CNN
-	1    6525 850 
-	0    1    -1   0   
-$EndComp
-$Comp
 L PSLab-rescue:R-RESCUE-proto1 R57
 U 1 1 56654C7F
 P 7775 850
@@ -996,17 +977,6 @@ F 1 "18" V 7782 851 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7705 850 30  0001 C CNN
 F 3 "" H 7775 850 30  0000 C CNN
 	1    7775 850 
-	0    1    -1   0   
-$EndComp
-$Comp
-L PSLab-rescue:R-RESCUE-proto1 R54
-U 1 1 56655363
-P 6525 650
-F 0 "R54" V 6605 650 40  0000 C CNN
-F 1 "18" V 6532 651 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6455 650 30  0001 C CNN
-F 3 "" H 6525 650 30  0000 C CNN
-	1    6525 650 
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -1389,9 +1359,9 @@ F 3 "" H 800 7280 50  0001 C CNN
 $EndComp
 NoConn ~ 1000 7480
 NoConn ~ 1000 6980
-Text GLabel 6915 1495 0    40   Input ~ 0
+Text GLabel 6320 1650 2    40   Input ~ 0
 TxD
-Text GLabel 7145 1495 2    40   Input ~ 0
+Text GLabel 6320 1510 2    40   Input ~ 0
 RxD
 Text GLabel 1000 7380 2    40   Input ~ 0
 +5V
@@ -1407,9 +1377,9 @@ F 3 "" H 1000 7280 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1000 7180 2    40   Input ~ 0
-TxD
+TxD2
 Text GLabel 1000 7080 2    40   Input ~ 0
-RxD
+RxD2
 Text GLabel 6775 1895 1    47   Input ~ 0
 Vdd
 $Sheet
@@ -1662,10 +1632,6 @@ Wire Wire Line
 	8200 750  8200 850 
 Wire Wire Line
 	8200 850  8025 850 
-Wire Wire Line
-	6775 650  7075 650 
-Wire Wire Line
-	6775 850  6975 850 
 Wire Notes Line
 	500  2750 4075 2750
 Wire Notes Line
@@ -1792,12 +1758,6 @@ Connection ~ 1850 1930
 Wire Notes Line
 	6880 7735 6880 5950
 Wire Wire Line
-	6975 850  6975 1495
-Connection ~ 6975 850 
-Wire Wire Line
-	7075 650  7075 1495
-Connection ~ 7075 650 
-Wire Wire Line
 	1650 3550 1415 3550
 Wire Wire Line
 	1650 3850 1415 3850
@@ -1878,12 +1838,6 @@ Wire Notes Line
 	3065 5585 3065 4270
 Wire Notes Line
 	3065 4270 535  4270
-Wire Wire Line
-	6915 1495 6975 1495
-Connection ~ 6975 1495
-Wire Wire Line
-	7145 1495 7075 1495
-Connection ~ 7075 1495
 Wire Notes Line
 	1255 6680 1255 7735
 Wire Wire Line
@@ -1893,17 +1847,7 @@ Wire Wire Line
 Wire Notes Line
 	2930 6680 2930 7735
 Wire Wire Line
-	3590 1510 5710 1510
-Wire Wire Line
 	3590 1650 5820 1650
-Wire Wire Line
-	6275 650  5710 650 
-Wire Wire Line
-	5710 650  5710 1510
-Wire Wire Line
-	6275 850  5820 850 
-Wire Wire Line
-	5820 850  5820 1650
 Wire Wire Line
 	2580 1925 2580 1760
 Wire Wire Line
@@ -2066,10 +2010,6 @@ Wire Wire Line
 Wire Wire Line
 	1850 1930 2035 1930
 Wire Wire Line
-	6975 850  7525 850 
-Wire Wire Line
-	7075 650  7525 650 
-Wire Wire Line
 	2750 3550 2800 3550
 Wire Wire Line
 	6525 4300 6750 4300
@@ -2099,10 +2039,6 @@ Wire Wire Line
 	6695 6265 6695 6365
 Wire Wire Line
 	6695 7465 6695 7525
-Wire Wire Line
-	6975 1495 6975 1895
-Wire Wire Line
-	7075 1495 7075 1895
 Wire Wire Line
 	2035 1440 2125 1440
 Wire Wire Line
@@ -2467,4 +2403,48 @@ $EndComp
 NoConn ~ 5050 2600
 NoConn ~ 8470 1375
 NoConn ~ 9170 1375
+$Comp
+L PSLab-rescue:R-RESCUE-proto1 R55
+U 1 1 566549A7
+P 6070 1650
+F 0 "R55" V 5990 1650 40  0000 C CNN
+F 1 "18" V 6077 1651 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6000 1650 30  0001 C CNN
+F 3 "" H 6070 1650 30  0000 C CNN
+	1    6070 1650
+	0    1    -1   0   
+$EndComp
+$Comp
+L PSLab-rescue:R-RESCUE-proto1 R54
+U 1 1 56655363
+P 6070 1510
+F 0 "R54" V 6150 1510 40  0000 C CNN
+F 1 "18" V 6077 1511 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6000 1510 30  0001 C CNN
+F 3 "" H 6070 1510 30  0000 C CNN
+	1    6070 1510
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3590 1510 5820 1510
+Text GLabel 4450 2275 1    40   Input ~ 0
+TxD
+Text GLabel 4550 2275 1    40   Input ~ 0
+RxD
+Text GLabel 6975 1270 0    40   Input ~ 0
+RxD2
+Text GLabel 7075 1270 2    40   Input ~ 0
+TxD2
+Text GLabel 4750 1020 0    40   Input ~ 0
+TxD2
+Text GLabel 4650 1195 0    40   Input ~ 0
+RxD2
+Wire Wire Line
+	6975 650  7525 650 
+Wire Wire Line
+	7075 1895 7075 850 
+Wire Wire Line
+	7075 850  7525 850 
+Wire Wire Line
+	6975 1895 6975 650 
 $EndSCHEMATC

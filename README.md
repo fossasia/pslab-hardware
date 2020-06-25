@@ -138,6 +138,3 @@ A lasercut casing design for the Pocket Science Lab is available at https://gith
 ## License
 
 This project is Free and Open Source software. The project is licensed under the [Apache License v2](LICENSE). Copyright is owned by FOSSASIA and its contributors. Please refer to the license files for more details.
-
-
-

@@ -563,18 +563,18 @@ F 3 "" H 9925 2400 60  0000 C CNN
 	1    9925 2400
 	-1   0    0    1   
 $EndComp
-Text Label 8395 1700 1    60   ~ 0
+Text Label 8910 1710 2    60   ~ 0
 Vdd
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR020
 U 1 1 55654875
-P 9170 1175
-F 0 "#PWR020" H 9170 1175 30  0001 C CNN
-F 1 "GND" H 9170 1105 30  0001 C CNN
-F 2 "" H 9170 1175 60  0000 C CNN
-F 3 "" H 9170 1175 60  0000 C CNN
-	1    9170 1175
-	0    -1   -1   0   
+P 8470 1175
+F 0 "#PWR020" H 8470 1175 30  0001 C CNN
+F 1 "GND" H 8470 1105 30  0001 C CNN
+F 2 "" H 8470 1175 60  0000 C CNN
+F 3 "" H 8470 1175 60  0000 C CNN
+	1    8470 1175
+	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG021
@@ -646,14 +646,10 @@ F 3 "" H 7300 4100 30  0000 C CNN
 	1    7300 4100
 	0    1    1    0   
 $EndComp
-Text Label 9345 1025 1    60   ~ 0
+Text Label 9330 1025 1    60   ~ 0
 ETxD
-Text Label 8395 825  3    60   ~ 0
+Text Label 8395 1040 3    60   ~ 0
 ERxD
-Text Label 4650 1940 1    60   ~ 0
-RxD2
-Text Label 4750 1930 1    60   ~ 0
-TxD2
 Text GLabel 6085 6665 0    40   Input ~ 0
 CH3.GAIN
 Text Label 4760 7285 2    60   ~ 0
@@ -866,10 +862,6 @@ F 3 "" H 1425 5890 60  0000 C CNN
 $EndComp
 Text GLabel 1035 5890 0    47   Output ~ 0
 AVdd
-Text Label 7075 1380 1    60   ~ 0
-RxD2
-Text Label 6975 1370 1    60   ~ 0
-TxD2
 Text GLabel 3325 3875 0    40   Output ~ 0
 SQ4
 Text GLabel 6085 6765 0    40   Input ~ 0
@@ -979,23 +971,23 @@ Text GLabel 8175 5940 0    40   Input ~ 0
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R57
 U 1 1 56654C7F
-P 7775 850
-F 0 "R57" V 7855 850 40  0000 C CNN
-F 1 "18" V 7782 851 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7705 850 30  0001 C CNN
-F 3 "" H 7775 850 30  0000 C CNN
-	1    7775 850 
+P 7760 660
+F 0 "R57" V 7840 660 40  0000 C CNN
+F 1 "18" V 7767 661 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7690 660 30  0001 C CNN
+F 3 "" H 7760 660 30  0000 C CNN
+	1    7760 660 
 	0    1    -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R56
 U 1 1 5665622A
-P 7775 650
-F 0 "R56" V 7855 650 40  0000 C CNN
-F 1 "18" V 7782 651 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7705 650 30  0001 C CNN
-F 3 "" H 7775 650 30  0000 C CNN
-	1    7775 650 
+P 7760 880
+F 0 "R56" V 7840 880 40  0000 C CNN
+F 1 "18" V 7767 881 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7690 880 30  0001 C CNN
+F 3 "" H 7760 880 30  0000 C CNN
+	1    7760 880 
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -1254,8 +1246,6 @@ F 3 "" H 6875 1895 60  0000 C CNN
 	1    6875 1895
 	-1   0    0    1   
 $EndComp
-Text GLabel 7175 1895 1    40   Input ~ 0
-+5V
 Text GLabel 1415 3550 0    40   Input ~ 0
 SQR1
 Text GLabel 1415 3850 0    40   Input ~ 0
@@ -1326,24 +1316,24 @@ $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR046
 U 1 1 5564F446
-P 9220 1900
-F 0 "#PWR046" H 9220 1900 30  0001 C CNN
-F 1 "GND" H 9220 1830 30  0001 C CNN
-F 2 "" H 9220 1900 60  0000 C CNN
-F 3 "" H 9220 1900 60  0000 C CNN
-	1    9220 1900
+P 8225 2040
+F 0 "#PWR046" H 8225 2040 30  0001 C CNN
+F 1 "GND" H 8225 1970 30  0001 C CNN
+F 2 "" H 8225 2040 60  0000 C CNN
+F 3 "" H 8225 2040 60  0000 C CNN
+	1    8225 2040
 	1    0    0    -1  
 $EndComp
 $Comp
 L PSLab-rescue:C-RESCUE-proto1 C2
 U 1 1 5564F04A
-P 8820 1775
-F 0 "C2" H 8820 1875 40  0000 L CNN
-F 1 "0.1u" H 8826 1690 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8858 1625 30  0001 C CNN
-F 3 "" H 8820 1775 60  0000 C CNN
-	1    8820 1775
-	0    -1   -1   0   
+P 8225 1840
+F 0 "C2" H 8225 1940 40  0000 L CNN
+F 1 "0.1u" H 8231 1755 40  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8263 1690 30  0001 C CNN
+F 3 "" H 8225 1840 60  0000 C CNN
+	1    8225 1840
+	1    0    0    -1  
 $EndComp
 Text GLabel 5450 2300 1    47   Input ~ 0
 SDO
@@ -1634,12 +1624,6 @@ Wire Wire Line
 	6750 4300 6750 4200
 Wire Wire Line
 	8195 5520 8370 5520
-Wire Wire Line
-	8200 750  9345 750 
-Wire Wire Line
-	8200 750  8200 850 
-Wire Wire Line
-	8200 850  8025 850 
 Wire Notes Line
 	500  2750 4075 2750
 Wire Notes Line
@@ -2018,10 +2002,6 @@ Wire Wire Line
 Wire Wire Line
 	1850 1930 2035 1930
 Wire Wire Line
-	6975 850  7525 850 
-Wire Wire Line
-	7075 650  7525 650 
-Wire Wire Line
 	2750 3550 2800 3550
 Wire Wire Line
 	6525 4300 6750 4300
@@ -2095,35 +2075,11 @@ U 1 1 5EB1EA49
 P 8820 1325
 F 0 "U15" H 9020 1625 39  0000 C CNN
 F 1 "ESP01" H 8670 1625 39  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 8820 1325 60  0001 C CNN
+F 2 "Custom_Components:ESP-01" H 8820 1325 60  0001 C CNN
 F 3 "" H 8820 1325 60  0001 C CNN
 	1    8820 1325
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8470 1475 8395 1475
-Wire Wire Line
-	8470 1275 8395 1275
-Wire Wire Line
-	8395 1275 8395 1475
-Connection ~ 8395 1475
-NoConn ~ 9170 1275
-Wire Wire Line
-	8470 1175 8395 1175
-Wire Wire Line
-	8395 1175 8395 650 
-Wire Wire Line
-	9170 1475 9345 1475
-Wire Wire Line
-	9345 1475 9345 750 
-Wire Wire Line
-	9220 1900 9220 1775
-Wire Wire Line
-	9220 1775 9020 1775
-Wire Wire Line
-	8620 1775 8395 1775
-Wire Wire Line
-	8395 1475 8395 1775
 $Sheet
 S 1310 1190 550  305 
 U 5ED254D7
@@ -2168,8 +2124,6 @@ F 3 "~" H 9845 1825 50  0001 C CNN
 	1    9845 1825
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8395 650  8025 650 
 Wire Notes Line
 	8040 550  8040 2175
 Wire Notes Line
@@ -2412,9 +2366,7 @@ F 3 "" H 10670 6005 60  0001 C CNN
 	1    10670 6005
 	0    1    1    0   
 $EndComp
-NoConn ~ 5050 2600
 NoConn ~ 8470 1375
-NoConn ~ 9170 1375
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R55
 U 1 1 566549A7
@@ -2439,16 +2391,59 @@ F 3 "" H 6070 1510 30  0000 C CNN
 $EndComp
 Wire Wire Line
 	3590 1510 5820 1510
-Wire Wire Line
-	7075 650  7075 1895
-Wire Wire Line
-	6975 850  6975 1895
 Text GLabel 4450 2275 1    40   Input ~ 0
 TxD
 Text GLabel 4550 2275 1    40   Input ~ 0
 RxD
-Text GLabel 7075 1440 2    40   Input ~ 0
+Text GLabel 6975 1270 0    40   Input ~ 0
 RxD2
-Text GLabel 6975 1440 0    40   Input ~ 0
+Text GLabel 7075 1270 2    40   Input ~ 0
 TxD2
+Text GLabel 4750 1020 0    40   Input ~ 0
+TxD2
+Text GLabel 4650 1195 0    40   Input ~ 0
+RxD2
+Wire Wire Line
+	6975 1895 6975 880 
+Wire Wire Line
+	8470 1275 8395 1275
+Wire Wire Line
+	9170 1275 9330 1275
+Wire Wire Line
+	9265 1175 9170 1175
+NoConn ~ 9170 1475
+NoConn ~ 9170 1375
+Wire Wire Line
+	7075 660  7510 660 
+Wire Wire Line
+	7075 660  7075 1895
+Wire Wire Line
+	8010 660  9330 660 
+Wire Wire Line
+	9330 660  9330 1275
+Wire Wire Line
+	7510 880  6975 880 
+Wire Wire Line
+	8010 880  8395 880 
+Wire Wire Line
+	8395 880  8395 1275
+Wire Wire Line
+	8225 1475 8395 1475
+Wire Wire Line
+	8395 1475 8395 1710
+Wire Wire Line
+	8395 1710 9265 1710
+Connection ~ 8395 1475
+Wire Wire Line
+	8395 1475 8470 1475
+Wire Wire Line
+	8225 1475 8225 1640
+Wire Wire Line
+	9265 1175 9265 1710
+Text GLabel 5050 2300 1    47   Input ~ 0
+IOut
+Wire Wire Line
+	5050 2300 5050 2600
+Text GLabel 7175 1895 1    47   Input ~ 0
+IOut
 $EndSCHEMATC

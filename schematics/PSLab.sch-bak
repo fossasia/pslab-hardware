@@ -2179,9 +2179,9 @@ L Device:Fuse F2
 U 1 1 5F2A4A6D
 P 10690 930
 F 0 "F2" V 10517 930 39  0000 C CNN
-F 1 "2016L100PR(1A)" V 10592 930 39  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" V 10620 930 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/240/Littelfuse_PTC_2016L_Datasheet.pdf-1372437.pdf" H 10690 930 50  0001 C CNN
+F 1 "1812L125/6PR" V 10592 930 39  0000 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric" V 10620 930 50  0001 C CNN
+F 3 "https://www.mouser.fi/datasheet/2/240/Littelfuse_PTC_1812L_Datasheet.pdf-693388.pdf" H 10690 930 50  0001 C CNN
 	1    10690 930 
 	0    1    1    0   
 $EndComp
@@ -2290,8 +2290,6 @@ Wire Notes Line
 	11150 2270 11150 4950
 Wire Notes Line
 	7750 2270 7750 4950
-Text GLabel 10100 1030 2    39   Input ~ 8
-ExP
 $Comp
 L Connector_Generic:Conn_01x05 J7
 U 1 1 5EF3BE2C
@@ -2446,4 +2444,6 @@ Wire Wire Line
 	5050 2300 5050 2600
 Text GLabel 7175 1895 1    47   Input ~ 0
 IOut
+Text GLabel 10100 1030 2    40   Input ~ 0
++5V
 $EndSCHEMATC

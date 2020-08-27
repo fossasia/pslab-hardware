@@ -2179,9 +2179,9 @@ L Device:Fuse F2
 U 1 1 5F2A4A6D
 P 10690 930
 F 0 "F2" V 10517 930 39  0000 C CNN
-F 1 "2016L100PR(1A)" V 10592 930 39  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" V 10620 930 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/240/Littelfuse_PTC_2016L_Datasheet.pdf-1372437.pdf" H 10690 930 50  0001 C CNN
+F 1 "1.5A" V 10592 930 39  0000 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric" V 10620 930 50  0001 C CNN
+F 3 "https://www.mouser.fi/datasheet/2/240/Littelfuse_PTC_1812L_Datasheet.pdf-693388.pdf" H 10690 930 50  0001 C CNN
 	1    10690 930 
 	0    1    1    0   
 $EndComp

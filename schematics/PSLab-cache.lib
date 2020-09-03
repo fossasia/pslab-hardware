@@ -153,6 +153,28 @@ X 2 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_D_Zener_Small_ALT
+#
+DEF Device_D_Zener_Small_ALT D 0 10 N N 1 F N
+F0 "D" 0 90 50 H V C CNN
+F1 "Device_D_Zener_Small_ALT" 0 -90 50 H V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 30 0 -30 0 N
+P 3 0 1 10 -10 40 -30 40 -30 -40 N
+P 4 0 1 10 30 40 -30 0 30 -40 30 40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_Fuse
 #
 DEF Device_Fuse F 0 0 N Y 1 F N
@@ -809,26 +831,6 @@ X + 3 -500 100 300 R 40 40 1 1 I
 X + 5 -500 100 300 R 40 40 2 1 I
 X - 6 -500 -100 300 R 40 40 2 1 I
 X ~ 7 500 0 300 L 40 40 2 1 O
-ENDDRAW
-ENDDEF
-#
-# PSLab-rescue_ZENERsmall-RESCUE-proto1
-#
-DEF PSLab-rescue_ZENERsmall-RESCUE-proto1 D 0 40 N N 1 F N
-F0 "D" 0 100 40 H V C CNN
-F1 "PSLab-rescue_ZENERsmall-RESCUE-proto1" 0 -100 30 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- D?
- SO*
- SM*
-$ENDFPLIST
-DRAW
-P 4 0 1 0 -40 40 40 0 -40 -40 -40 40 F
-P 4 0 1 8 60 40 40 20 40 -20 20 -40 N
-X A 1 -100 0 60 R 40 40 1 1 P
-X K 2 100 0 60 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #

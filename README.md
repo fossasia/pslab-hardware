@@ -26,10 +26,7 @@ This repository contains the [PSLab](https://pslab.io) hardware design files. PS
 | PSLab KiCAD v3 | Device layout changed to Arduino Uno form factor | ![](docs/images/pslab_version_previews/PSLab_v3.png) |
 | PSLab KiCAD v4 | Assembly optimized version with Arduino Mega form factor having components mounted only on top side | ![](docs/images/pslab_version_previews/PSLab_v4.png) |
 | PSLab KiCAD v5 | Added socket for external bluetooth module and bottom silk screen with pin description | ![](docs/images/pslab_version_previews/PSLab_v5.png) |
-
-## Casing
-
-![](docs/images/pslabdesign.png)
+| PSLab KiCAD v6 | Added external power input, RTC module, SD Card slot, USB type C, ESP 01 and upgraded UART and power ICs | ![](docs/images/pslab_version_previews/PSLab_v6.png) |
 
 ## Platform
 
@@ -41,46 +38,52 @@ This repository contains the [PSLab](https://pslab.io) hardware design files. PS
 ## PCB Layout
 Front Side                        | Back Side
  -------------------------------- | ----------------------------------
-![](docs/images/PSLab_v5_top.png) | ![](docs/images/PSLab_v5_bottom.png)
+![](docs/images/PSLab_v6_top.png) | ![](docs/images/PSLab_v6_bottom.png)
 
 
 ## Pin-outs
-- Find the pin-out diagram of PSLab v5 [here](docs/pin_layouts/PSLab_Pin_Layout.pdf)!
+- Find the pin-out diagram of PSLab v6 [here](docs/pin_layouts/PSLab_Pin_Layout.pdf)!
 
 ## Parts list
 
-- [PIC24EP256GP204](http://www.microchip.com/wwwproducts/en/PIC24EP256GP204) - Main uC
-- [MCP6S21](http://www.microchip.com/wwwproducts/en/mcp6s21) - Programmable Gain Amplifier
-- [MCP4728](http://www.microchip.com/wwwproducts/en/mcp4728) - 4 channel DAC
-- [TC7660](http://www.microchip.com/wwwproducts/en/TC7660)  - Charge Pump voltage invertor
+- [PIC24EP256GP204](http://www.microchip.com/wwwproducts/en/PIC24EP256GP204) - Microcontroller
+- [MCP6S21](http://www.microchip.com/wwwproducts/en/mcp6s21) - Programmable gain amplifier
+- [MCP4728](http://www.microchip.com/wwwproducts/en/mcp4728) - 4 Channel DAC
+- [TC7660](http://www.microchip.com/wwwproducts/en/TC7660) - Charge Pump voltage invertor
 - [TC1240A](http://www.microchip.com/wwwproducts/en/TC1240A) - Charge Pump voltage doubler
-- [TL082](http://www.ti.com/product/TL082)   - 2 channel Op-Amp
-- [LM324](http://www.ti.com/product/LM324)   - 4 channel Op-Amp
-- [LM1117](http://www.ti.com/product/LM1117) - 3.3 V regulator
-- [MCP2200](http://www.microchip.com/wwwproducts/en/MCP2200) - USB-UART Bridge
-- [74HC126](http://www.ti.com/product/SN74HC126) - 4 channel Buffer
+- [TL082](http://www.ti.com/product/TL082) - 2 channel Op-Amp
+- [LM324](http://www.ti.com/product/LM324) - 4 channel Op-Amp
+- [DS1307Z+](https://datasheets.maximintegrated.com/en/ds/DS1307.pdf) - RTC module
+- [LDFM33PUR](https://www.st.com/resource/en/datasheet/ldfm.pdf) - 3.3 V regulator
+- [LDL212PU50R](https://www.st.com/resource/en/datasheet/ldl212.pdf) - 5.0 V regulator
+- [CP2102N-A02-GQFN24](https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf) - USB-UART bridge
+- [74HC126](http://www.ti.com/product/SN74HC126) - 4 channel buffer
+- [SP0503BAHTG](https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp05_datasheet.pdf.pdf) - ESD protector
 
 - 0.5 A Fuse
+- 1.5 A Fuse
 - Assorted resistors, capacitors & diodes
+
+Find the complete bill of materials from [this link](docs/components/PSLab_Bill_Of_Materials.csv).
 
 ### Optional Parts
 
 Extension slots for ESP and Bluetooth are available.
-- [ESP8266 (ESP-12E)](https://www.adafruit.com/product/2491) - UART-TCP bridge
-- Bluetooth
+- [ESP8266 (ESP-01)](http://www.microchip.ua/wireless/esp01.pdf) - UART-TCP bridge
+- HC05 Bluetooth module
 
 ## Hardware Specs
 
-* 4-Channel up to 2MSPS Oscilloscope. Software selectable amplification stages
+* 3-Channel up to 2MSPS Oscilloscope. Software selectable amplification stages
 * 12-bit Voltmeter with programmable gain. Input ranges from +/-10 mV to +/-16 V
 * 3x 12-bit Programmable voltage sources +/-3.3 V,+/-5V,0-3 V
 * 12-bit Programmable current source. 0-3.3 mA
-* Supports Advanced Plugins/Add-on Modules
+* Supports Advanced plugins/Add-on Modules
 * 4-Channel, 4 MHz, Logic Analyzer
 * 2x Sine/Triangular wave generators. 5 Hz to 5 KHz. Manual amplitude control for SI1
 * 4x PWM generators. 15 nS resolution. Up to 8 MHz
 * Capacitance Measurement. pF to uF range
-* I2C, SPI, UART data buses for Accel/gyros/humidity/temperature modules etc
+* I2C, SPI and UART data buses for Accelerometer gyroscope humidity and temperature sensor modules etc
 
 ## Firmware
 
@@ -90,7 +93,7 @@ The firmware is available here: https://github.com/fossasia/pslab-firmware
 
 ### Oscilloscopes
 
-One of the main features of PSLab is the 4-channel Oscilloscope which can monitor analog inputs at maximum of 2 million samples per second. It includes controls such as triggering, and gain selection. Uses Python-Scipy for curve fitting.
+One of the main features of PSLab is the 3-channel Oscilloscope which can monitor analog inputs at maximum of 2 million samples per second. It includes controls such as triggering, and gain selection. Uses Python-Scipy for curve fitting.
 
 ### Waveform Generators
 
@@ -111,16 +114,7 @@ One of the main features of PSLab is the 4-channel Oscilloscope which can monito
 
 ### Other useful tools
 
-* 4MHz, 4-channel Logic analyzer with 15 nS resolution.Voltage and Current Sources
-* SPI, I2C, UART outputs
-* Graphical Interfaces for Oscilloscope, Logic Analyser, streaming data, wireless acquisition and several experiments developed that use a common framework which drastically reduces code required to incorporate control and plotting widgets.
-* PSLab also has space for an ESP-12 module for WiFi access with access point/ station mode.
-
-### Advanced Controls
-* Advanced Controls with Oscilloscope
-* Data Logger
-* Logic Analyzer
-* Wireless Sensors (Work in progress…)
-
-### Block Diagram
-![](docs/images/blockdiag.png)
+* 4MHz, 4-channel Logic analyzer with 15 nS resolution. Voltage and current sources
+* SPI, I2C and UART outputs
+* Graphical Interfaces for Oscilloscope, Logic Analyser, streaming data and several experiments developed that use a common framework which drastically reduces code required to incorporate control and plotting widgets.
+* PSLab also has space for an ESP-01 module for WiFi access with access point/station mode.

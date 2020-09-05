@@ -2312,7 +2312,7 @@ U 1 1 5F0BD332
 P 9775 6005
 F 0 "TP5" V 9731 6083 47  0000 L CNN
 F 1 "Fiducial" V 9818 6083 47  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 9775 6005 60  0001 C CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9775 6005 60  0001 C CNN
 F 3 "" H 9775 6005 60  0001 C CNN
 	1    9775 6005
 	0    1    1    0   
@@ -2323,7 +2323,7 @@ U 1 1 5F0DCBC2
 P 10220 6005
 F 0 "TP6" V 10176 6083 47  0000 L CNN
 F 1 "Fiducial" V 10263 6083 47  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 10220 6005 60  0001 C CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10220 6005 60  0001 C CNN
 F 3 "" H 10220 6005 60  0001 C CNN
 	1    10220 6005
 	0    1    1    0   
@@ -2334,7 +2334,7 @@ U 1 1 5F0DCFB1
 P 10670 6005
 F 0 "TP7" V 10626 6083 47  0000 L CNN
 F 1 "Fiducial" V 10713 6083 47  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 10670 6005 60  0001 C CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10670 6005 60  0001 C CNN
 F 3 "" H 10670 6005 60  0001 C CNN
 	1    10670 6005
 	0    1    1    0   

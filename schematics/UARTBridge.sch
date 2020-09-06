@@ -107,14 +107,14 @@ Wire Wire Line
 $Comp
 L PSLab-rescue:C_Small C46
 U 1 1 5C5008BB
-P 4615 5535
+P 4520 4535
 AR Path="/5C5008BB" Ref="C46"  Part="1" 
 AR Path="/5C4FD460/5C5008BB" Ref="C46"  Part="1" 
-F 0 "C46" H 4625 5605 50  0000 L CNN
-F 1 "4.7u" H 4625 5455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4615 5535 50  0001 C CNN
-F 3 "" H 4615 5535 50  0001 C CNN
-	1    4615 5535
+F 0 "C46" H 4530 4605 50  0000 L CNN
+F 1 "0.1u" H 4530 4455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4520 4535 50  0001 C CNN
+F 3 "" H 4520 4535 50  0001 C CNN
+	1    4520 4535
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -124,25 +124,21 @@ P 4195 4535
 AR Path="/5C500F1A" Ref="C44"  Part="1" 
 AR Path="/5C4FD460/5C500F1A" Ref="C44"  Part="1" 
 F 0 "C44" H 4205 4605 50  0000 L CNN
-F 1 "4.7u" H 4205 4455 50  0000 L CNN
+F 1 "10u" H 4205 4455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4195 4535 50  0001 C CNN
 F 3 "" H 4195 4535 50  0001 C CNN
 	1    4195 4535
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4615 5635 4615 5735
-Wire Wire Line
 	4615 5435 4615 5345
-Wire Wire Line
-	4525 5345 4615 5345
 Wire Wire Line
 	4195 4435 4195 4285
 Wire Wire Line
 	4095 4285 4195 4285
 Wire Wire Line
 	4195 4635 4195 4795
-Text GLabel 4525 5345 0    39   Input ~ 0
+Text GLabel 4545 4950 0    39   Input ~ 0
 VBus
 Connection ~ 4615 5345
 Wire Wire Line
@@ -153,7 +149,7 @@ Text HLabel 2370 3200 0    60   Input ~ 0
 3.3V
 Wire Wire Line
 	2370 3200 2440 3200
-Text GLabel 4530 5735 0    39   Input ~ 0
+Text GLabel 4530 5775 0    39   Input ~ 0
 GND
 Text GLabel 4085 4795 0    39   Input ~ 0
 GND
@@ -184,35 +180,79 @@ Connection ~ 5075 4865
 Wire Wire Line
 	4195 4795 4085 4795
 Wire Wire Line
-	4615 5735 4530 5735
-Wire Wire Line
-	4615 5345 5770 5345
-Wire Wire Line
 	5075 4285 5170 4285
 Wire Wire Line
-	4195 4285 5075 4285
+	4195 4285 4520 4285
 Wire Wire Line
 	5075 5050 5320 5050
 Wire Wire Line
 	5075 4865 5075 5050
-Text GLabel 6070 5255 3    39   Input ~ 0
-GND
 $Comp
-L Connector_Generic:Conn_01x02 J12
-U 1 1 5EF5F041
-P 5970 5055
-F 0 "J12" V 5926 4867 50  0000 R CNN
-F 1 "UART Reset" V 5843 4867 39  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 5970 5055 50  0001 C CNN
-F 3 "~" H 5970 5055 50  0001 C CNN
-	1    5970 5055
-	0    -1   -1   0   
+L PSLab-rescue:R R?
+U 1 1 5F56F11A
+P 4615 5585
+AR Path="/5F56F11A" Ref="R?"  Part="1" 
+AR Path="/5C4FD460/5F56F11A" Ref="R58"  Part="1" 
+F 0 "R58" V 4695 5585 50  0000 C CNN
+F 1 "10K" V 4615 5585 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4545 5585 50  0001 C CNN
+F 3 "" H 4615 5585 50  0001 C CNN
+	1    4615 5585
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSLab-rescue:R R?
+U 1 1 5F56FABD
+P 4615 5135
+AR Path="/5F56FABD" Ref="R?"  Part="1" 
+AR Path="/5C4FD460/5F56FABD" Ref="R48"  Part="1" 
+F 0 "R48" V 4695 5135 50  0000 C CNN
+F 1 "5K1" V 4615 5135 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4545 5135 50  0001 C CNN
+F 3 "" H 4615 5135 50  0001 C CNN
+	1    4615 5135
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5870 5050 5870 5345
+	4615 5285 4615 5345
 Wire Wire Line
-	5870 5345 5970 5345
+	4545 4950 4615 4950
 Wire Wire Line
-	5970 5345 5970 5255
+	4615 4950 4615 4985
+Wire Wire Line
+	4530 5775 4615 5775
+Wire Wire Line
+	4615 5775 4615 5735
+Wire Wire Line
+	4615 5345 5770 5345
 Connection ~ 5870 5050
+Text GLabel 6385 5665 2    39   Input ~ 0
+GND
+$Comp
+L Jumper:Jumper_2_Open JP1
+U 1 1 5F57792C
+P 6145 5665
+F 0 "JP1" H 6145 5884 50  0000 C CNN
+F 1 "UART Reset" H 6145 5801 39  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6145 5665 50  0001 C CNN
+F 3 "~" H 6145 5665 50  0001 C CNN
+	1    6145 5665
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5870 5665 5945 5665
+Wire Wire Line
+	6385 5665 6345 5665
+Wire Wire Line
+	5870 5050 5870 5665
+Wire Wire Line
+	4195 4795 4520 4795
+Wire Wire Line
+	4520 4795 4520 4635
+Connection ~ 4195 4795
+Wire Wire Line
+	4520 4435 4520 4285
+Connection ~ 4520 4285
+Wire Wire Line
+	4520 4285 5075 4285
 $EndSCHEMATC

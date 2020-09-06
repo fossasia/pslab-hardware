@@ -52,6 +52,7 @@ D1        6V8               D_MiniMELF                               29.7900    
 D2        6V8               D_MiniMELF                               49.8900    47.1000  180.0000  top
 D3        LED               LED_0805_2012Metric                      62.5400    22.9200  270.0000  top
 D4        LED               LED_0805_2012Metric                       2.6600    46.2400   90.0000  top
+D5        WS2812B           LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm       24.1700    30.8400    0.0000  top
 F1        0.5A              Fuse_1206_3216Metric                      8.1000    46.1400   90.0000  top
 F2        2016L100PR(1A)    Fuse_1206_3216Metric                     38.2200     2.5100    0.0000  top
 J3        USB_C_Receptacle  USB_C_Receptacle_XKB_U262-16XN-4BVC11     1.9000    38.7300  270.0000  top
@@ -63,8 +64,8 @@ Q3        MMBT3906          SOT-23                                   44.5400    
 R1        10K               R_0603_1608Metric                        48.8200    37.8300   90.0000  top
 R2        10K               R_0603_1608Metric                        38.7300    29.2500    0.0000  top
 R3        10K               R_0603_1608Metric                        38.7300    31.3400    0.0000  top
-R4        18                R_0603_1608Metric                        21.9600    34.3700    0.0000  top
-R5        1K                R_0603_1608Metric                        25.5600    34.3600    0.0000  top
+R4        18                R_0603_1608Metric                        21.9600    34.5800    0.0000  top
+R5        1K                R_0603_1608Metric                        25.5600    34.5800    0.0000  top
 R6        200               R_0603_1608Metric                        84.6100    15.0000    0.0000  top
 R7        200               R_0603_1608Metric                        88.7700    15.0000    0.0000  top
 R8        200               R_0603_1608Metric                        88.7700    17.6200    0.0000  top

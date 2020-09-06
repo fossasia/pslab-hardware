@@ -31,17 +31,6 @@ MCLR
 Text Label 4850 2425 3    60   ~ 0
 Vdd
 $Comp
-L PSLab-rescue:FUSE F1
-U 1 1 54225B8E
-P 1355 1930
-F 0 "F1" H 1275 1935 40  0000 C CNN
-F 1 "0.5A" H 1450 1995 40  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 1355 1930 60  0001 C CNN
-F 3 "" H 1355 1930 60  0000 C CNN
-	1    1355 1930
-	-1   0    0    1   
-$EndComp
-$Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR01
 U 1 1 5422B7D0
 P 3650 3900
@@ -1090,24 +1079,24 @@ $EndComp
 $Comp
 L PSLab-rescue:TEST TP4
 U 1 1 5A66B7F8
-P 3785 2530
-F 0 "TP4" H 3785 2830 50  0000 C BNN
-F 1 "TEST" H 3785 2780 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3785 2530 50  0001 C CNN
-F 3 "" H 3785 2530 50  0001 C CNN
-	1    3785 2530
-	1    0    0    -1  
+P 3485 865
+F 0 "TP4" H 3485 1165 50  0000 C BNN
+F 1 "TEST" H 3485 1115 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3485 865 50  0001 C CNN
+F 3 "" H 3485 865 50  0001 C CNN
+	1    3485 865 
+	0    -1   -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR041
 U 1 1 5A66B8E0
-P 3785 2530
-F 0 "#PWR041" H 3785 2530 30  0001 C CNN
-F 1 "GND" H 3785 2460 30  0001 C CNN
-F 2 "" H 3785 2530 60  0000 C CNN
-F 3 "" H 3785 2530 60  0000 C CNN
-	1    3785 2530
-	1    0    0    -1  
+P 3485 865
+F 0 "#PWR041" H 3485 865 30  0001 C CNN
+F 1 "GND" H 3485 795 30  0001 C CNN
+F 2 "" H 3485 865 60  0000 C CNN
+F 3 "" H 3485 865 60  0000 C CNN
+	1    3485 865 
+	0    -1   -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:TEST_1P J13
@@ -1319,7 +1308,6 @@ Text Label 5450 2400 3    60   ~ 0
 SDO
 Text Notes 565  6805 0    60   ~ 0
 Bluetooth
-NoConn ~ 6250 4400
 Text GLabel 2620 1140 1    47   Input ~ 0
 Vdd
 $Comp
@@ -1461,10 +1449,7 @@ Wire Wire Line
 Wire Wire Line
 	3175 4100 3650 4100
 Wire Wire Line
-	850  1930 1105 1930
-Connection ~ 850  1930
-Wire Wire Line
-	850  2175 850  1930
+	850  1930 955  1930
 Wire Wire Line
 	5050 5200 5050 5500
 Wire Wire Line
@@ -1603,10 +1588,6 @@ Wire Wire Line
 Wire Wire Line
 	8195 5520 8370 5520
 Wire Notes Line
-	500  2750 4075 2750
-Wire Notes Line
-	4075 2750 4075 500 
-Wire Notes Line
 	4075 500  500  500 
 Wire Notes Line
 	4100 500  4100 1375
@@ -1688,8 +1669,6 @@ Wire Wire Line
 Wire Wire Line
 	1860 1340 2390 1340
 Wire Wire Line
-	1605 1930 1850 1930
-Wire Wire Line
 	2035 1930 2035 1440
 Wire Wire Line
 	1860 1440 2035 1440
@@ -1697,8 +1676,6 @@ Wire Wire Line
 	8875 5940 8870 5940
 Wire Wire Line
 	8175 5940 8375 5940
-Wire Notes Line
-	500  500  500  2750
 Wire Wire Line
 	5025 1195 4650 1195
 Wire Wire Line
@@ -2075,7 +2052,7 @@ F 3 "" H 10155 830 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	10155 830  10100 830 
-Text GLabel 850  2175 3    39   Input ~ 8
+Text GLabel 955  1780 1    39   Input ~ 8
 InP
 Wire Notes Line
 	3250 5585 3250 6680
@@ -2446,29 +2423,115 @@ Wire Wire Line
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5F5E489E
-P 6025 960
-F 0 "SW2" V 5979 1108 50  0000 L CNN
-F 1 "MCLR Reset" V 6070 1108 50  0000 L CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 6025 1160 50  0001 C CNN
-F 3 "~" H 6025 1160 50  0001 C CNN
-	1    6025 960 
-	0    1    1    0   
+P 3285 2430
+F 0 "SW2" H 3080 2545 50  0000 L CNN
+F 1 "MCLR Reset" H 3060 2355 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 3285 2630 50  0001 C CNN
+F 3 "~" H 3285 2630 50  0001 C CNN
+	1    3285 2430
+	1    0    0    -1  
 $EndComp
-Text GLabel 5900 705  0    40   Input ~ 0
+Text GLabel 2970 2430 0    40   Input ~ 0
 MCLR
-Wire Wire Line
-	5900 705  6025 705 
-Wire Wire Line
-	6025 705  6025 760 
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR08
 U 1 1 5F5FC7B8
-P 6025 1160
-F 0 "#PWR08" H 6025 1160 30  0001 C CNN
-F 1 "GND" H 6025 1090 30  0001 C CNN
-F 2 "" H 6025 1160 60  0000 C CNN
-F 3 "" H 6025 1160 60  0000 C CNN
-	1    6025 1160
+P 3555 2545
+F 0 "#PWR08" H 3555 2545 30  0001 C CNN
+F 1 "GND" H 3555 2475 30  0001 C CNN
+F 2 "" H 3555 2545 60  0000 C CNN
+F 3 "" H 3555 2545 60  0000 C CNN
+	1    3555 2545
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	955  1780 955  1930
+Connection ~ 955  1930
+$Comp
+L Device:Fuse F1
+U 1 1 5F5AC6B6
+P 1360 1930
+F 0 "F1" V 1187 1930 39  0000 C CNN
+F 1 "0.5A" V 1262 1930 39  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 1290 1930 50  0001 C CNN
+F 3 "https://www.mouser.fi/datasheet/2/240/Littelfuse_PTC_1812L_Datasheet.pdf-693388.pdf" H 1360 1930 50  0001 C CNN
+	1    1360 1930
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	955  1930 1210 1930
+Wire Wire Line
+	1510 1930 1850 1930
+Wire Notes Line
+	500  2165 4075 2165
+Wire Notes Line
+	4075 500  4075 2750
+Wire Wire Line
+	2970 2430 3085 2430
+Wire Wire Line
+	3485 2430 3555 2430
+Wire Wire Line
+	3555 2430 3555 2545
+$Comp
+L LED:WS2812B D5
+U 1 1 5F65D829
+P 1120 2600
+F 0 "D5" V 815 2400 50  0000 L CNN
+F 1 "WS2812B" V 1410 2705 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1170 2300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1220 2225 50  0001 L TNN
+	1    1120 2600
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	500  2985 2175 2985
+Wire Notes Line
+	500  500  500  2985
+Wire Notes Line
+	4075 2750 2175 2750
+Wire Notes Line
+	2175 2165 2175 2985
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR033
+U 1 1 5F6AB933
+P 755 2740
+F 0 "#PWR033" H 755 2740 30  0001 C CNN
+F 1 "GND" H 755 2670 30  0001 C CNN
+F 2 "" H 755 2740 60  0000 C CNN
+F 3 "" H 755 2740 60  0000 C CNN
+	1    755  2740
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	755  2740 755  2600
+Wire Wire Line
+	755  2600 820  2600
+NoConn ~ 1120 2900
+Text GLabel 1420 2600 2    40   Input ~ 0
++5V
+Wire Wire Line
+	1120 2275 1120 2300
+Wire Wire Line
+	1235 2275 1120 2275
+Text GLabel 6250 4400 2    40   Input ~ 0
+RGB
+Text GLabel 1235 2275 2    40   Output ~ 0
+RGB
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5F75FF82
+P 1840 2600
+F 0 "#FLG0105" H 1840 2675 50  0001 C CNN
+F 1 "PWR_FLAG" H 1840 2773 50  0000 C CNN
+F 2 "" H 1840 2600 50  0001 C CNN
+F 3 "~" H 1840 2600 50  0001 C CNN
+	1    1840 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 1880 2680 2    40   Output ~ 0
+RGB
+Wire Wire Line
+	1840 2600 1840 2680
+Wire Wire Line
+	1840 2680 1880 2680
 $EndSCHEMATC

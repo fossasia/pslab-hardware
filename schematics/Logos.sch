@@ -19,7 +19,7 @@ U 1 1 5C27C643
 P 4560 2845
 F 0 "S1" H 4560 2725 60  0000 C CNN
 F 1 "OpenHardware" H 4560 2965 60  0000 C CNN
-F 2 "Symbols:OSHW-Logo_5.7x6mm_SilkScreen" H 4560 2845 60  0001 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 4560 2845 60  0001 C CNN
 F 3 "" H 4560 2845 60  0001 C CNN
 	1    4560 2845
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 5C27C831
 P 5460 2845
 F 0 "S3" H 5460 2725 60  0000 C CNN
 F 1 "ESD-Logo" H 5460 2965 60  0000 C CNN
-F 2 "Symbols:ESD-Logo_6.6x6mm_SilkScreen" H 5460 2845 60  0001 C CNN
+F 2 "Symbol:ESD-Logo_6.6x6mm_SilkScreen" H 5460 2845 60  0001 C CNN
 F 3 "" H 5460 2845 60  0001 C CNN
 	1    5460 2845
 	1    0    0    -1  
@@ -96,7 +96,7 @@ U 1 1 5C27C986
 P 5080 4195
 F 0 "S5" H 5080 4075 60  0000 C CNN
 F 1 "OpnTec_Logo" H 5080 4315 60  0000 C CNN
-F 2 "Custom_Components:OpnTec_Logo" H 5080 4195 60  0001 C CNN
+F 2 "Custom_Components:OpnTec_Logo_L" H 5080 4195 60  0001 C CNN
 F 3 "" H 5080 4195 60  0001 C CNN
 	1    5080 4195
 	1    0    0    -1  
@@ -121,6 +121,28 @@ F 1 "PSLabDotIO_B" H 6920 4305 60  0000 C CNN
 F 2 "Custom_Components:PSLabDotIO4000" H 6920 4185 60  0001 C CNN
 F 3 "" H 6920 4185 60  0001 C CNN
 	1    6920 4185
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSLab:Logos S13
+U 1 1 5F7D714E
+P 4195 4180
+F 0 "S13" H 4195 4060 60  0000 C CNN
+F 1 "PSLab_BarCode" H 4195 4300 60  0000 C CNN
+F 2 "Custom_Components:Barcode" H 4195 4180 60  0001 C CNN
+F 3 "" H 4195 4180 60  0001 C CNN
+	1    4195 4180
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSLab:Logos S12
+U 1 1 5F7D7A3D
+P 4190 3500
+F 0 "S12" H 4190 3380 60  0000 C CNN
+F 1 "PSLab_URL" H 4190 3620 60  0000 C CNN
+F 2 "Custom_Components:PSLab_URL" H 4190 3500 60  0001 C CNN
+F 3 "" H 4190 3500 60  0001 C CNN
+	1    4190 3500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

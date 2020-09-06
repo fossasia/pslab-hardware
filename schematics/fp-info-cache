@@ -1,4 +1,4 @@
-18400084874158182
+18404898218370182
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48790,6 +48790,13 @@ OpnTec_Logo
 0
 0
 Custom_Components
+OpnTec_Logo_L
+
+
+0
+0
+0
+Custom_Components
 PSL_Logo
 
 
@@ -48832,6 +48839,13 @@ PSLab_Logo
 0
 0
 Custom_Components
+PSLab_URL
+
+
+0
+0
+0
+Custom_Components
 SD_TE_2041021
 SD card connector, top mount, SMT (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2041021%7FB%7Fpdf%7FEnglish%7FENG_CD_2041021_B_C_2041021_B.pdf%7F2041021-4)
 sd card
@@ -48868,6 +48882,13 @@ USB USB_B USB_micro USB_OTG
 9
 Custom_Components
 Website_QR
+
+
+0
+0
+0
+Custom_Components
+World_Map
 
 
 0

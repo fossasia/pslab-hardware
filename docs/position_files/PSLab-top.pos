@@ -118,6 +118,10 @@ R56       18                R_0603_1608Metric                        26.4100    
 R57       18                R_0603_1608Metric                        26.4100    23.9400    0.0000  top
 R59       5K1               R_0603_1608Metric                         5.7300    31.4100   90.0000  top
 R60       5K1               R_0603_1608Metric                         3.5200    31.4100   90.0000  top
+SW2       MCLR_Reset        SW_SPST_B3U-1000P                        21.7100    17.6000  270.0000  top
+TP5       Fiducial          Fiducial_1mm_Mask2mm                     35.6100    15.8500    0.0000  top
+TP6       Fiducial          Fiducial_1mm_Mask2mm                     96.0600     7.5800    0.0000  top
+TP7       Fiducial          Fiducial_1mm_Mask2mm                     96.0600    50.5800    0.0000  top
 U1        LDFM33PVR         DFN-6-1EP_3x3mm_Pitch0.95mm               6.4100    50.3200  180.0000  top
 U2        74HC126           SOIC-14_3.9x8.7mm_Pitch1.27mm            43.5600    10.4800    0.0000  top
 U3        PIC24EP256GP204   TQFP-44_10x10mm_Pitch0.8mm               47.1200    23.2600   90.0000  top

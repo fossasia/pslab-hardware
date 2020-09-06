@@ -16,15 +16,15 @@ $EndDescr
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R1
 U 1 1 542164DA
-P 4855 815
-F 0 "R1" V 4755 815 40  0000 C CNN
-F 1 "10K" V 4862 816 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4785 815 30  0001 C CNN
-F 3 "" H 4855 815 30  0000 C CNN
-	1    4855 815 
+P 4870 810
+F 0 "R1" V 4770 810 40  0000 C CNN
+F 1 "10K" V 4877 811 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4800 810 30  0001 C CNN
+F 3 "" H 4870 810 30  0000 C CNN
+	1    4870 810 
 	0    1    1    0   
 $EndComp
-Text Label 5105 815  0    60   ~ 0
+Text Label 5120 810  0    60   ~ 0
 Vdd
 Text Label 5050 5500 1    60   ~ 0
 MCLR
@@ -1052,7 +1052,7 @@ F 3 "" H 5460 7185 60  0000 C CNN
 $EndComp
 Text GLabel 5460 6985 0    40   Input ~ 0
 MCLR
-Text GLabel 4545 815  0    40   Input ~ 0
+Text GLabel 4560 810  0    40   Input ~ 0
 MCLR
 $Comp
 L PSLab-rescue:Conn_01x04 J6
@@ -1399,7 +1399,7 @@ $Comp
 L PSLab-rescue:Conn_01x06 J9
 U 1 1 5C4FD974
 P 3755 7115
-F 0 "J9" H 3755 7515 50  0000 C CNN
+F 0 "J9" H 3755 7415 50  0000 C CNN
 F 1 "SPI" H 3755 6715 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 3755 7115 50  0001 C CNN
 F 3 "" H 3755 7115 50  0001 C CNN
@@ -1714,7 +1714,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 6150 4650 6210
 Wire Wire Line
-	4605 815  4545 815 
+	4620 810  4560 810 
 Wire Wire Line
 	7050 3250 7050 3100
 Wire Wire Line
@@ -1827,11 +1827,6 @@ Wire Wire Line
 	2530 1240 2530 1580
 Wire Wire Line
 	2530 1580 2690 1580
-Wire Wire Line
-	2690 1490 2125 1490
-Wire Wire Line
-	2125 1490 2125 1440
-Connection ~ 2035 1440
 Wire Wire Line
 	2390 1115 2390 1340
 Connection ~ 2390 1340
@@ -2006,8 +2001,6 @@ Wire Wire Line
 	6695 6265 6695 6365
 Wire Wire Line
 	6695 7465 6695 7525
-Wire Wire Line
-	2035 1440 2125 1440
 Wire Wire Line
 	2390 1340 2465 1340
 Wire Wire Line
@@ -2446,4 +2439,36 @@ $EndComp
 Wire Wire Line
 	10700 4650 10700 4435
 Connection ~ 10700 4650
+Text GLabel 2390 1490 0    40   Input ~ 0
++5V
+Wire Wire Line
+	2390 1490 2690 1490
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5F5E489E
+P 6025 960
+F 0 "SW2" V 5979 1108 50  0000 L CNN
+F 1 "MCLR Reset" V 6070 1108 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 6025 1160 50  0001 C CNN
+F 3 "~" H 6025 1160 50  0001 C CNN
+	1    6025 960 
+	0    1    1    0   
+$EndComp
+Text GLabel 5900 705  0    40   Input ~ 0
+MCLR
+Wire Wire Line
+	5900 705  6025 705 
+Wire Wire Line
+	6025 705  6025 760 
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR08
+U 1 1 5F5FC7B8
+P 6025 1160
+F 0 "#PWR08" H 6025 1160 30  0001 C CNN
+F 1 "GND" H 6025 1090 30  0001 C CNN
+F 2 "" H 6025 1160 60  0000 C CNN
+F 3 "" H 6025 1160 60  0000 C CNN
+	1    6025 1160
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -114,6 +114,10 @@ R56,18,R_0603_1608Metric,26.41,26.54,0,top
 R57,18,R_0603_1608Metric,26.41,23.94,0,top
 R59,5K1,R_0603_1608Metric,5.73,31.41,270,top
 R60,5K1,R_0603_1608Metric,3.52,31.41,270,top
+SW2,MCLR_Reset,SW_SPST_B3U-1000P,21.71,17.6,270,top
+TP5,Fiducial,Fiducial_1mm_Mask2mm,35.61,15.85,0,top
+TP6,Fiducial,Fiducial_1mm_Mask2mm,96.06,7.58,0,top
+TP7,Fiducial,Fiducial_1mm_Mask2mm,96.06,50.58,0,top
 U1,LDFM33PVR,DFN-6-1EP_3x3mm_Pitch0.95mm,6.41,50.32,180,top
 U2,74HC126,SOIC-14_3.9x8.7mm_Pitch1.27mm,43.56,10.48,0,top
 U3,PIC24EP256GP204,TQFP-44_10x10mm_Pitch0.8mm,47.12,23.26,90,top

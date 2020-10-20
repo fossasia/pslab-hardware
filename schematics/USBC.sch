@@ -150,4 +150,53 @@ Wire Wire Line
 Connection ~ 7615 3300
 Wire Wire Line
 	7615 3300 7150 3300
+$Comp
+L Connector:USB_OTG J12
+U 1 1 5F908415
+P 2490 4810
+F 0 "J12" H 2547 5277 50  0000 C CNN
+F 1 "USB_OTG" H 2547 5186 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 2640 4760 50  0001 C CNN
+F 3 " ~" H 2640 4760 50  0001 C CNN
+	1    2490 4810
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 5F909117
+P 2490 5280
+F 0 "#PWR034" H 2490 5030 50  0001 C CNN
+F 1 "GND" H 2495 5107 50  0000 C CNN
+F 2 "" H 2490 5280 50  0001 C CNN
+F 3 "" H 2490 5280 50  0001 C CNN
+	1    2490 5280
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2490 5280 2490 5250
+Wire Wire Line
+	2390 5210 2390 5250
+Wire Wire Line
+	2390 5250 2490 5250
+Connection ~ 2490 5250
+Wire Wire Line
+	2490 5250 2490 5210
+Text HLabel 2980 4810 2    60   Output ~ 0
+D+
+Wire Wire Line
+	2980 4810 2790 4810
+Text HLabel 2980 4910 2    60   Input ~ 0
+D-
+Wire Wire Line
+	2790 4910 2980 4910
+Wire Wire Line
+	2790 5010 2880 5010
+Wire Wire Line
+	2880 5010 2880 5250
+Wire Wire Line
+	2880 5250 2490 5250
+Text HLabel 2980 4610 2    60   Output ~ 0
+VBus
+Wire Wire Line
+	2980 4610 2790 4610
 $EndSCHEMATC

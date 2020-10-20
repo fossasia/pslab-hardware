@@ -74,7 +74,7 @@ F 1 "200" V 1612 4891 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1535 4890 30  0001 C CNN
 F 3 "" H 1605 4890 30  0000 C CNN
 	1    1605 4890
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R6
@@ -85,7 +85,7 @@ F 1 "200" V 1607 4691 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 4690 30  0001 C CNN
 F 3 "" H 1600 4690 30  0000 C CNN
 	1    1600 4690
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR03
@@ -286,18 +286,7 @@ F 1 "10K" V 7007 2851 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 2850 30  0001 C CNN
 F 3 "" H 7000 2850 30  0000 C CNN
 	1    7000 2850
-	0    -1   1    0   
-$EndComp
-$Comp
-L PSLab-rescue:R-RESCUE-proto1 R2
-U 1 1 5421BED8
-P 7000 2625
-F 0 "R2" V 7080 2625 40  0000 C CNN
-F 1 "10K" V 7007 2626 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 2625 30  0001 C CNN
-F 3 "" H 7000 2625 30  0000 C CNN
-	1    7000 2625
-	0    -1   1    0   
+	0    1    -1   0   
 $EndComp
 Text Label 3680 1650 0    60   ~ 0
 MTxD
@@ -322,7 +311,7 @@ F 1 "200" V 1612 5091 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1535 5090 30  0001 C CNN
 F 3 "" H 1605 5090 30  0000 C CNN
 	1    1605 5090
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R9
@@ -333,7 +322,7 @@ F 1 "200" V 1617 5301 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1540 5300 30  0001 C CNN
 F 3 "" H 1610 5300 30  0000 C CNN
 	1    1610 5300
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR011
@@ -458,7 +447,7 @@ L PSLab-rescue:CAPAPOL C18
 U 1 1 55656E39
 P 9300 4600
 F 0 "C18" H 9350 4700 40  0000 L CNN
-F 1 "100u" H 9350 4475 40  0000 L CNN
+F 1 "100u" H 9355 4500 40  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Reflow" H 9400 4450 30  0001 C CNN
 F 3 "" H 9300 4600 300 0000 C CNN
 	1    9300 4600
@@ -484,25 +473,25 @@ F 1 "18" V 9682 2801 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9605 2800 30  0001 C CNN
 F 3 "" H 9675 2800 30  0000 C CNN
 	1    9675 2800
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R13
 U 1 1 5565746E
 P 9620 4400
-F 0 "R13" V 9700 4400 40  0000 C CNN
+F 0 "R13" V 9545 4400 40  0000 C CNN
 F 1 "18" V 9627 4401 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9550 4400 30  0001 C CNN
 F 3 "" H 9620 4400 30  0000 C CNN
 	1    9620 4400
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L PSLab-rescue:CAPAPOL C19
 U 1 1 55657766
 P 9870 4600
 F 0 "C19" H 9920 4700 40  0000 L CNN
-F 1 "33u" H 9920 4475 40  0000 L CNN
+F 1 "33u" H 9925 4495 40  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Reflow" H 9970 4450 30  0001 C CNN
 F 3 "" H 9870 4600 300 0000 C CNN
 	1    9870 4600
@@ -633,7 +622,7 @@ F 1 "5K1" V 7307 4101 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7230 4100 30  0001 C CNN
 F 3 "" H 7300 4100 30  0000 C CNN
 	1    7300 4100
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Text Label 9330 1025 1    60   ~ 0
 ETxD
@@ -887,7 +876,7 @@ F 1 "5K1" V 8627 5521 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8550 5520 30  0001 C CNN
 F 3 "" H 8620 5520 30  0000 C CNN
 	1    8620 5520
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR035
@@ -920,7 +909,7 @@ F 1 "5K1" V 8632 5941 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8555 5940 30  0001 C CNN
 F 3 "" H 8625 5940 30  0000 C CNN
 	1    8625 5940
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR036
@@ -2314,23 +2303,23 @@ $Comp
 L PSLab-rescue:R-RESCUE-proto1 R55
 U 1 1 566549A7
 P 6070 1650
-F 0 "R55" V 5990 1650 40  0000 C CNN
+F 0 "R55" V 6150 1650 40  0000 C CNN
 F 1 "18" V 6077 1651 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6000 1650 30  0001 C CNN
 F 3 "" H 6070 1650 30  0000 C CNN
 	1    6070 1650
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R54
 U 1 1 56655363
 P 6070 1510
-F 0 "R54" V 6150 1510 40  0000 C CNN
+F 0 "R54" V 5990 1510 40  0000 C CNN
 F 1 "18" V 6077 1511 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6000 1510 30  0001 C CNN
 F 3 "" H 6070 1510 30  0000 C CNN
 	1    6070 1510
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	3590 1510 5820 1510
@@ -2534,4 +2523,15 @@ Wire Wire Line
 	1840 2600 1840 2680
 Wire Wire Line
 	1840 2680 1880 2680
+$Comp
+L PSLab-rescue:R-RESCUE-proto1 R2
+U 1 1 5421BED8
+P 7000 2625
+F 0 "R2" V 7080 2625 40  0000 C CNN
+F 1 "10K" V 7007 2626 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 2625 30  0001 C CNN
+F 3 "" H 7000 2625 30  0000 C CNN
+	1    7000 2625
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC

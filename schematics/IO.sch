@@ -37,7 +37,7 @@ F 1 "1M" V 10532 2851 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10455 2850 30  0001 C CNN
 F 3 "" H 10525 2850 30  0000 C CNN
 	1    10525 2850
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR055
@@ -238,12 +238,12 @@ U 1 1 555FFE64
 P 650 2200
 AR Path="/555FFE64" Ref="R27"  Part="1" 
 AR Path="/54260FB5/555FFE64" Ref="R27"  Part="1" 
-F 0 "R27" V 575 2205 40  0000 C CNN
+F 0 "R27" V 730 2200 40  0000 C CNN
 F 1 "1K" V 657 2201 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 580 2200 30  0001 C CNN
 F 3 "" H 650 2200 30  0000 C CNN
 	1    650  2200
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 Text GLabel 950  750  0    40   Input ~ 0
 AVdd
@@ -341,7 +341,7 @@ F 1 "5K1" V 4182 2101 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4105 2100 30  0001 C CNN
 F 3 "" H 4175 2100 30  0000 C CNN
 	1    4175 2100
-	0    -1   1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R25
@@ -354,7 +354,7 @@ F 1 "10K" V 3482 2101 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3405 2100 30  0001 C CNN
 F 3 "" H 3475 2100 30  0000 C CNN
 	1    3475 2100
-	0    -1   1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR061
@@ -416,7 +416,7 @@ F 1 "1K" V 1757 3376 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1680 3375 30  0001 C CNN
 F 3 "" H 1750 3375 30  0000 C CNN
 	1    1750 3375
-	0    -1   1    0   
+	0    1    -1   0   
 $EndComp
 Text GLabel 1500 3375 0    40   Input ~ 0
 AVdd
@@ -508,7 +508,7 @@ F 1 "200K" V 1607 7051 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 7050 30  0001 C CNN
 F 3 "" H 1600 7050 30  0000 C CNN
 	1    1600 7050
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R44
@@ -516,12 +516,12 @@ U 1 1 556399B0
 P 1850 6800
 AR Path="/556399B0" Ref="R44"  Part="1" 
 AR Path="/54260FB5/556399B0" Ref="R44"  Part="1" 
-F 0 "R44" V 1775 6800 40  0000 C CNN
+F 0 "R44" V 1920 6800 40  0000 C CNN
 F 1 "5K1" V 1857 6801 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 6800 30  0001 C CNN
 F 3 "" H 1850 6800 30  0000 C CNN
 	1    1850 6800
-	0    -1   1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:C-RESCUE-proto1 C6
@@ -564,7 +564,7 @@ F 1 "10K" V 8657 2951 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 2950 30  0001 C CNN
 F 3 "" H 8650 2950 30  0000 C CNN
 	1    8650 2950
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R29
@@ -577,7 +577,7 @@ F 1 "10K" V 8657 2701 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 2700 30  0001 C CNN
 F 3 "" H 8650 2700 30  0000 C CNN
 	1    8650 2700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R20
@@ -585,12 +585,12 @@ U 1 1 55B7C46A
 P 10100 850
 AR Path="/55B7C46A" Ref="R20"  Part="1" 
 AR Path="/54260FB5/55B7C46A" Ref="R20"  Part="1" 
-F 0 "R20" V 10180 850 40  0000 C CNN
+F 0 "R20" V 10020 850 40  0000 C CNN
 F 1 "200K" V 10107 851 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10030 850 30  0001 C CNN
 F 3 "" H 10100 850 30  0000 C CNN
 	1    10100 850 
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R24
@@ -603,7 +603,7 @@ F 1 "1M" V 10607 1376 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10530 1375 30  0001 C CNN
 F 3 "" H 10600 1375 30  0000 C CNN
 	1    10600 1375
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR064
@@ -644,7 +644,7 @@ F 1 "10K" V 8657 1476 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 1475 30  0001 C CNN
 F 3 "" H 8650 1475 30  0000 C CNN
 	1    8650 1475
-	0    -1   1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR065
@@ -756,12 +756,12 @@ U 1 1 55B7C4D5
 P 5980 825
 AR Path="/55B7C4D5" Ref="R16"  Part="1" 
 AR Path="/54260FB5/55B7C4D5" Ref="R16"  Part="1" 
-F 0 "R16" V 6060 825 40  0000 C CNN
+F 0 "R16" V 5905 825 40  0000 C CNN
 F 1 "10K" V 5987 826 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5910 825 30  0001 C CNN
 F 3 "" H 5980 825 30  0000 C CNN
 	1    5980 825 
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R17
@@ -769,7 +769,7 @@ U 1 1 55B7C4E5
 P 5980 1000
 AR Path="/55B7C4E5" Ref="R17"  Part="1" 
 AR Path="/54260FB5/55B7C4E5" Ref="R17"  Part="1" 
-F 0 "R17" V 6060 1000 40  0000 C CNN
+F 0 "R17" V 6050 1000 40  0000 C CNN
 F 1 "10K" V 5987 1001 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5910 1000 30  0001 C CNN
 F 3 "" H 5980 1000 30  0000 C CNN
@@ -783,11 +783,11 @@ P 2350 6125
 AR Path="/55B7C4EE" Ref="R21"  Part="1" 
 AR Path="/54260FB5/55B7C4EE" Ref="R21"  Part="1" 
 F 0 "R21" V 2430 6125 40  0000 C CNN
-F 1 "10K" V 2357 6126 40  0000 C CNN
+F 1 "10K" V 2345 6125 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 6125 30  0001 C CNN
 F 3 "" H 2350 6125 30  0000 C CNN
 	1    2350 6125
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:C-RESCUE-proto1 C40
@@ -949,7 +949,7 @@ F 1 "5K1" V 2382 5251 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2305 5250 30  0001 C CNN
 F 3 "" H 2375 5250 30  0000 C CNN
 	1    2375 5250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Text GLabel 10700 3700 2    47   Input ~ 0
 CH3.GAIN
@@ -1005,7 +1005,7 @@ F 1 "1M" V 10407 4676 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10330 4675 30  0001 C CNN
 F 3 "" H 10400 4675 30  0000 C CNN
 	1    10400 4675
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR069
@@ -1082,7 +1082,7 @@ F 1 "5K1" V 2357 6801 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 6800 30  0001 C CNN
 F 3 "" H 2350 6800 30  0000 C CNN
 	1    2350 6800
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Text Label 2050 1750 0    60   ~ 0
 DAC1
@@ -1792,7 +1792,7 @@ F 1 "200K" V 1632 5501 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1555 5500 30  0001 C CNN
 F 3 "" H 1625 5500 30  0000 C CNN
 	1    1625 5500
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L PSLab-rescue:Conn_01x08 J8

@@ -33,7 +33,7 @@ F 1 "5K1" H 6920 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 4150 50  0001 C CNN
 F 3 "~" H 6850 4150 50  0001 C CNN
 	1    6850 4150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R60
@@ -44,7 +44,7 @@ F 1 "5K1" H 7220 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7080 4150 50  0001 C CNN
 F 3 "~" H 7150 4150 50  0001 C CNN
 	1    7150 4150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6850 3225 6850 4000

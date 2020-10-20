@@ -37,7 +37,7 @@ F 1 "1M" V 10532 2851 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10455 2850 30  0001 C CNN
 F 3 "" H 10525 2850 30  0000 C CNN
 	1    10525 2850
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR055
@@ -238,12 +238,12 @@ U 1 1 555FFE64
 P 650 2200
 AR Path="/555FFE64" Ref="R27"  Part="1" 
 AR Path="/54260FB5/555FFE64" Ref="R27"  Part="1" 
-F 0 "R27" V 575 2205 40  0000 C CNN
+F 0 "R27" V 730 2200 40  0000 C CNN
 F 1 "1K" V 657 2201 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 580 2200 30  0001 C CNN
 F 3 "" H 650 2200 30  0000 C CNN
 	1    650  2200
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 Text GLabel 950  750  0    40   Input ~ 0
 AVdd
@@ -341,7 +341,7 @@ F 1 "5K1" V 4182 2101 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4105 2100 30  0001 C CNN
 F 3 "" H 4175 2100 30  0000 C CNN
 	1    4175 2100
-	0    -1   1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R25
@@ -354,7 +354,7 @@ F 1 "10K" V 3482 2101 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3405 2100 30  0001 C CNN
 F 3 "" H 3475 2100 30  0000 C CNN
 	1    3475 2100
-	0    -1   1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR061
@@ -416,7 +416,7 @@ F 1 "1K" V 1757 3376 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1680 3375 30  0001 C CNN
 F 3 "" H 1750 3375 30  0000 C CNN
 	1    1750 3375
-	0    -1   1    0   
+	0    1    -1   0   
 $EndComp
 Text GLabel 1500 3375 0    40   Input ~ 0
 AVdd
@@ -564,7 +564,7 @@ F 1 "10K" V 8657 2951 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 2950 30  0001 C CNN
 F 3 "" H 8650 2950 30  0000 C CNN
 	1    8650 2950
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R29
@@ -577,7 +577,7 @@ F 1 "10K" V 8657 2701 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 2700 30  0001 C CNN
 F 3 "" H 8650 2700 30  0000 C CNN
 	1    8650 2700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R20

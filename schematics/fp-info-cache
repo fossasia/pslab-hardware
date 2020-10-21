@@ -1,4 +1,4 @@
-18404902019499182
+18384259602676182
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48769,13 +48769,6 @@ FOSSASIA_Logo
 0
 0
 Custom_Components
-FOSSASIA_LogoL
-
-
-0
-0
-0
-Custom_Components
 M3.5_DIN965_Pad_For_M3Spacer
 Mounting Hole 3.2mm, M3, DIN965
 mounting hole 3.2mm m3 din965
@@ -48790,42 +48783,7 @@ OpnTec_Logo
 0
 0
 Custom_Components
-OpnTec_Logo_L
-
-
-0
-0
-0
-Custom_Components
-PSL_Logo
-
-
-0
-0
-0
-Custom_Components
 PSLabDotIO
-
-
-0
-0
-0
-Custom_Components
-PSLabDotIO4000
-
-
-0
-0
-0
-Custom_Components
-PSLabDotIOI
-
-
-0
-0
-0
-Custom_Components
-PSLabDotIo_Barcode
 
 
 0
@@ -48846,39 +48804,11 @@ PSLab_Logo
 0
 0
 Custom_Components
-PSLab_URL
-
-
-0
-0
-0
-Custom_Components
-SD_TE_2041021
-SD card connector, top mount, SMT (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2041021%7FB%7Fpdf%7FEnglish%7FENG_CD_2041021_B_C_2041021_B.pdf%7F2041021-4)
-sd card
-0
-15
-12
-Custom_Components
 SJ121836
 
 
 0
 16
-3
-Custom_Components
-SPDT
-
-
-0
-5
-3
-Custom_Components
-SPDT_DIP
-
-
-0
-5
 3
 Custom_Components
 USB_Micro-B
@@ -48901,27 +48831,6 @@ Micro SD
 0
 14
 11
-Custom_Components
-microSD_HC_Hirose_DM3BT-DSF-PEJS
-Micro SD, SMD, reverse on-board, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3BT-DSF-PEJS/category/Drawing%20(2D)/doc_file_id/44097/?file_category_id=6&item_id=06090029900&is_series=)
-Micro SD
-0
-16
-11
-Custom_Components
-microSD_HC_Hirose_DM3D-SF
-Micro SD, SMD, right-angle, push-pull (https://media.digikey.com/PDF/Data%20Sheets/Hirose%20PDFs/DM3D-SF.pdf)
-Micro SD
-0
-14
-11
-Custom_Components
-microSD_HC_Wuerth_693072010801
-http://katalog.we-online.de/em/datasheet/693072010801.pdf
-Micro SD Wuerth Wurth Würth
-0
-12
-9
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator

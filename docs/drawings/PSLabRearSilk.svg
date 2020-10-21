@@ -31,17 +31,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.919596"
-     inkscape:cx="112.54522"
-     inkscape:cy="173.85751"
+     inkscape:zoom="11.2"
+     inkscape:cx="365.60881"
+     inkscape:cy="21.396471"
      inkscape:document-units="mm"
-     inkscape:current-layer="g608"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="713"
-     inkscape:window-x="1280"
-     inkscape:window-y="300"
+     inkscape:window-width="1225"
+     inkscape:window-height="996"
+     inkscape:window-x="55"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -95,21 +95,25 @@
            style="fill:none;stroke:#000000;stroke-width:0.144021;stroke-miterlimit:4;stroke-dasharray:none" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.06763px;line-height:1.5;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38768"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.06763px;line-height:1.6;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38768"
            x="413.95853"
-           y="5.7633266"
+           y="5.7189932"
            id="text20606"
            transform="matrix(0,1,1,0,0,0)"><tspan
              sodipodi:role="line"
              x="413.95853"
-             y="5.7633266"
+             y="5.7189932"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.06763px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.38768"
              id="tspan21433">Design</tspan><tspan
              sodipodi:role="line"
              x="413.95853"
-             y="8.8647718"
+             y="9.0272017"
              id="tspan20608"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.06763px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.38768">Padmal</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.18897638;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 6.667026,407.98149 v 10.7258"
+           id="path8063" />
       </g>
     </g>
     <text
@@ -1295,14 +1299,14 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0389954"
-         x="48.811501"
-         y="-0.70031065"
+         x="-51.487648"
+         y="1.7290154"
          id="text57596"
-         transform="matrix(0,1,1,0,0,0)"><tspan
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
            sodipodi:role="line"
            id="tspan57594"
-           x="48.811501"
-           y="-0.70031065"
+           x="-51.487648"
+           y="1.7290154"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:STIXIntegralsUpD;-inkscape-font-specification:'STIXIntegralsUpD Bold';stroke-width:0.0389954">VIN</tspan></text>
     </g>
     <path

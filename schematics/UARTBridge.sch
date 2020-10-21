@@ -255,4 +255,12 @@ Wire Wire Line
 Connection ~ 4520 4285
 Wire Wire Line
 	4520 4285 5075 4285
+Text Label 5870 5130 3    39   ~ 0
+UARTReset
+Text Label 4777 5345 0    39   ~ 0
+VBusSense
+Text Label 4970 4715 1    39   ~ 0
+UARTVIO
+Text Label 5181 4865 0    39   ~ 0
+UARTVREGin
 $EndSCHEMATC

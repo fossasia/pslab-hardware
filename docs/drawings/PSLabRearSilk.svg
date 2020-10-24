@@ -16,6 +16,26 @@
    inkscape:version="1.0.1 (1.0.1+r73)">
   <defs
      id="defs2">
+    <inkscape:path-effect
+       effect="powermask"
+       id="path-effect8317"
+       is_visible="true"
+       lpeversion="1"
+       uri="#mask-powermask-path-effect8317"
+       invert="false"
+       hide_mask="false"
+       background="true"
+       background_color="#ffffffff" />
+    <inkscape:path-effect
+       effect="powermask"
+       id="path-effect9119"
+       is_visible="true"
+       lpeversion="1"
+       uri="#mask-powermask-path-effect9119"
+       invert="false"
+       hide_mask="false"
+       background="true"
+       background_color="#ffffffff" />
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
        inkscape:vp_x="0 : 526.18109 : 1"
@@ -23,6 +43,54 @@
        inkscape:vp_z="744.09448 : 526.18109 : 1"
        inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
        id="perspective6024" />
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask-powermask-path-effect9119">
+      <rect
+         style="fill:#000000;stroke:#000000;stroke-width:0.109029;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect9117"
+         width="4.7006645"
+         height="5.9795041"
+         x="19.344831"
+         y="32.006451"
+         ry="0.068592601" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask-powermask-path-effect8317">
+      <path
+         id="mask-powermask-path-effect8317_box"
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18.230282,31.238293 h 6.992511 v 8.898971 h -6.992511 z" />
+      <rect
+         style="opacity:0.57;fill:#000000;stroke-width:0.104748;stroke-linecap:round;paint-order:markers stroke fill"
+         id="rect8315"
+         width="3.7416811"
+         height="4.9319954"
+         x="19.865088"
+         y="33.448063"
+         rx="0.21991105"
+         ry="0.20946427"
+         d="m 20.084999,33.448063 h 3.301859 c 0.12183,0 0.219911,0.09342 0.219911,0.209464 v 4.513067 c 0,0.116043 -0.09808,0.209464 -0.219911,0.209464 h -3.301859 c -0.121831,0 -0.219911,-0.09342 -0.219911,-0.209464 v -4.513067 c 0,-0.116043 0.09808,-0.209464 0.219911,-0.209464 z" />
+    </mask>
+    <filter
+       id="mask-powermask-path-effect8317_inverse"
+       inkscape:label="filtermask-powermask-path-effect8317"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect8317_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect8317_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -31,11 +99,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="185.35258"
-     inkscape:cy="144.00584"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="245.06669"
+     inkscape:cy="125.51321"
      inkscape:document-units="mm"
-     inkscape:current-layer="g57598"
+     inkscape:current-layer="g606"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1225"
@@ -130,10 +198,1329 @@
          id="tspan13646">6</tspan></text>
   </g>
   <g
-     inkscape:label="B.Mask"
+     inkscape:label="F.Silk"
      inkscape:groupmode="layer"
      id="g606"
-     style="display:none" />
+     style="display:inline">
+    <g
+       id="g8082"
+       transform="matrix(0.02701449,0,0,0.02701449,45.195768,-14.265803)"
+       style="display:inline;fill:#000000;stroke:none">
+      <g
+         transform="scale(0.94399373,1.0593291)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.2717px;line-height:20%;font-family:spaceman;-inkscape-font-specification:spaceman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none"
+         id="g8070">
+        <path
+           d="m 144.72923,814.28949 v 13.77128 H 99.919606 c -1.341852,5e-5 -2.507113,0.0707 -3.495786,0.21187 -0.706252,0.21191 -1.518404,0.63564 -2.436457,1.27119 -1.553712,1.41248 -2.330553,3.63707 -2.330524,6.67378 v 1.48306 l 53.072391,-0.21187 v 13.87721 l -53.072391,0.21187 v 45.02149 H 73.966042 V 851.57788 H 62.843086 v -13.87721 h 11.122956 v -5.82631 c -1.1e-5,-3.10732 0.282477,-5.68502 0.847464,-7.73311 0.564963,-2.1186 1.730224,-4.0607 3.495786,-5.82631 1.765531,-1.76549 3.672322,-2.89544 5.720377,-3.38985 2.048013,-0.49429 4.590401,-0.74147 7.62717,-0.74153 l 53.072391,0.10593"
+           style="font-size:105.933px;line-height:20%;font-family:spaceman;-inkscape-font-specification:spaceman;text-align:start;letter-spacing:-7.99983;text-anchor:start;fill:#000000;stroke:none"
+           id="path8062" />
+        <path
+           d="m 173.5146,812.91237 h 56.78004 c 6.0734,6e-5 11.2288,2.15402 15.46621,6.4619 4.30784,4.23737 6.4618,9.39277 6.4619,15.46621 v 17.16113 c -1e-4,6.00288 -2.15406,11.15828 -6.4619,15.46621 -4.23741,4.30794 -9.39281,6.4619 -15.46621,6.4619 H 173.5146 c -6.00288,0 -11.15828,-2.15396 -15.46621,-6.4619 -4.30794,-4.30793 -6.4619,-9.46333 -6.4619,-15.46621 v -17.16113 c 0,-6.07344 2.15396,-11.22884 6.4619,-15.46621 4.30793,-4.30788 9.46333,-6.46184 15.46621,-6.4619 m 5.29664,13.77127 c -2.47179,5e-5 -4.59044,0.88282 -6.35597,2.64833 -1.76557,1.76559 -2.64834,3.88424 -2.64832,6.35597 v 14.61874 c -2e-5,2.47179 0.88275,4.59045 2.64832,6.35598 1.76553,1.76556 3.88418,2.64834 6.35597,2.64832 h 45.33929 c 2.47169,2e-5 4.59035,-0.88276 6.35598,-2.64832 1.76546,-1.76553 2.64824,-3.88419 2.64832,-6.35598 v -14.61874 c -8e-5,-2.47173 -0.88286,-4.59038 -2.64832,-6.35597 -1.76563,-1.76551 -3.88429,-2.64828 -6.35598,-2.64833 h -45.33929"
+           style="font-size:105.933px;line-height:20%;font-family:spaceman;-inkscape-font-specification:spaceman;text-align:start;letter-spacing:-7.99983;text-anchor:start;fill:#000000;stroke:none"
+           id="path8064" />
+        <path
+           d="m 278.28201,850.94228 c -5.50852,2e-5 -9.99301,-1.58897 -13.45348,-4.76698 -3.38985,-3.24858 -5.08478,-7.62713 -5.08478,-13.13568 0,-7.27401 2.86019,-12.53534 8.58057,-15.784 2.75424,-1.55363 6.07347,-2.33047 9.95769,-2.33053 h 75.00051 V 828.8023 H 281.7778 c -3.88423,5e-5 -5.82633,1.48311 -5.82631,4.44919 -2e-5,2.96615 1.94208,4.44921 5.82631,4.44918 l 56.14444,0.10593 c 5.50843,4e-5 9.95761,1.62434 13.34755,4.87291 3.46038,3.24864 5.19062,7.6272 5.19071,13.13569 -9e-5,7.41531 -2.86028,12.67664 -8.58056,15.784 -2.68372,1.48306 -6.00295,2.22459 -9.9577,2.22459 h -78.17849 v -13.87721 l 74.68271,0.10593 c 3.88412,2e-5 5.82623,-1.51835 5.82631,-4.55511 -8e-5,-2.9661 -1.94219,-4.44916 -5.82631,-4.44919 l -56.14445,-0.10593"
+           style="font-size:105.933px;line-height:20%;font-family:spaceman;-inkscape-font-specification:spaceman;text-align:start;letter-spacing:-7.99983;text-anchor:start;fill:#000000;stroke:none"
+           id="path8066" />
+        <path
+           d="m 380.35312,850.94228 c -5.50853,2e-5 -9.99302,-1.58897 -13.45348,-4.76698 -3.38986,-3.24858 -5.08478,-7.62713 -5.08478,-13.13568 0,-7.27401 2.86018,-12.53534 8.58056,-15.784 2.75425,-1.55363 6.07348,-2.33047 9.9577,-2.33053 h 75.0005 V 828.8023 H 383.8489 c -3.88422,5e-5 -5.82632,1.48311 -5.82631,4.44919 -10e-6,2.96615 1.94209,4.44921 5.82631,4.44918 l 56.14445,0.10593 c 5.50843,4e-5 9.9576,1.62434 13.34755,4.87291 3.46038,3.24864 5.19061,7.6272 5.19071,13.13569 -10e-5,7.41531 -2.86028,12.67664 -8.58057,15.784 -2.68372,1.48306 -6.00294,2.22459 -9.95769,2.22459 h -78.17849 v -13.87721 l 74.6827,0.10593 c 3.88413,2e-5 5.82623,-1.51835 5.82631,-4.55511 -8e-5,-2.9661 -1.94218,-4.44916 -5.82631,-4.44919 l -56.14444,-0.10593"
+           style="font-size:105.933px;line-height:20%;font-family:spaceman;-inkscape-font-specification:spaceman;text-align:start;letter-spacing:-7.99983;text-anchor:start;fill:#000000;stroke:none"
+           id="path8068" />
+      </g>
+      <g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;font-family:Ethnocentric;-inkscape-font-specification:Ethnocentric;fill:#000000;fill-opacity:1;stroke:none"
+         id="g8080">
+        <path
+           d="m 68.593375,965.74463 v -13.755 h 70.034995 c 6.92992,6e-5 12.42492,1.82006 16.485,5.46 2.51991,2.24005 4.23491,4.86505 5.145,7.875 0.62991,2.24004 0.94491,5.39004 0.945,9.45 v 35.59497 H 82.978375 c -5.740013,0 -10.255008,-1.575 -13.545,-4.725 -3.290002,-3.15 -4.935,-7.55996 -4.935,-13.22997 0,-5.66998 1.644998,-10.04497 4.935,-13.125 3.359992,-3.14997 7.874987,-4.72497 13.545,-4.725 h 60.689995 v -0.525 c -7e-5,-4.33996 -1.61007,-6.96496 -4.83,-7.875 -0.98007,-0.27996 -2.48507,-0.41996 -4.515,-0.42 H 68.593375 m 75.074995,30.87 v -8.925 H 87.598375 c -3.710019,2e-5 -5.565018,1.50502 -5.565,4.515 -1.8e-5,2.94001 1.854981,4.41001 5.565,4.41 h 56.069995"
+           style="font-size:105px;font-family:spaceman;-inkscape-font-specification:spaceman;letter-spacing:3.7759;fill:#000000;stroke:none"
+           id="path8072" />
+        <path
+           d="m 201.6981,987.68963 c -5.46002,2e-5 -9.90501,-1.57498 -13.335,-4.725 -3.36,-3.21997 -5.04,-7.55997 -5.04,-13.02 0,-7.20995 2.83499,-12.42495 8.505,-15.645 2.72999,-1.53994 6.01998,-2.30994 9.87,-2.31 h 74.34 v 13.755 h -70.875 c -3.85002,4e-5 -5.77502,1.47004 -5.775,4.41 -2e-5,2.94004 1.92498,4.41003 5.775,4.41 l 55.65,0.105 c 5.45991,3e-5 9.86991,1.61003 13.23,4.83 3.4299,3.22003 5.1449,7.56002 5.145,13.02 -1e-4,7.35001 -2.8351,12.56497 -8.505,15.64497 -2.66009,1.47 -5.95008,2.205 -9.87,2.205 h -77.49 v -13.75497 l 74.025,0.105 c 3.84992,10e-6 5.77492,-1.50499 5.775,-4.515 -8e-5,-2.93998 -1.92508,-4.40998 -5.775,-4.41 l -55.65,-0.105"
+           style="font-size:105px;font-family:spaceman;-inkscape-font-specification:spaceman;letter-spacing:3.7759;fill:#000000;stroke:none"
+           id="path8074" />
+        <path
+           d="m 313.73555,1010.3696 h -17.535 v -58.37997 h 17.535 v 58.37997 m 0,-64.25997 h -17.535 v -13.965 h 17.535 v 13.965"
+           style="font-size:105px;font-family:spaceman;-inkscape-font-specification:spaceman;letter-spacing:3.7759;fill:#000000;stroke:none"
+           id="path8076" />
+        <path
+           d="m 339.13982,965.74463 v -13.755 h 70.035 c 6.92992,6e-5 12.42492,1.82006 16.485,5.46 2.51991,2.24005 4.23491,4.86505 5.145,7.875 0.62991,2.24004 0.94491,5.39004 0.945,9.45 v 35.59497 h -78.225 c -5.74001,0 -10.25501,-1.575 -13.545,-4.725 -3.29,-3.15 -4.935,-7.55996 -4.935,-13.22997 0,-5.66998 1.645,-10.04497 4.935,-13.125 3.35999,-3.14997 7.87499,-4.72497 13.545,-4.725 h 60.69 v -0.525 c -8e-5,-4.33996 -1.61007,-6.96496 -4.83,-7.875 -0.98007,-0.27996 -2.48507,-0.41996 -4.515,-0.42 h -65.73 m 75.075,30.87 v -8.925 h -56.07 c -3.71002,2e-5 -5.56501,1.50502 -5.565,4.515 -10e-6,2.94001 1.85498,4.41001 5.565,4.41 h 56.07"
+           style="font-size:105px;font-family:spaceman;-inkscape-font-specification:spaceman;letter-spacing:3.7759;fill:#000000;stroke:none"
+           id="path8078" />
+      </g>
+    </g>
+    <g
+       id="g8109"
+       transform="matrix(0.0443139,0,0,-0.0443139,90.998852,-7.0288704)"
+       style="display:inline">
+      <g
+         id="g8107"
+         transform="matrix(0,1.8588158,1.8588158,0,-344.0097,-613.64972)"
+         style="fill:#000000">
+        <path
+           style="fill:#000000"
+           inkscape:connector-curvature="0"
+           id="path8095"
+           d="m 79.647,148.684 c 1.132,1.676 1.696,4.043 1.696,7.099 0,1.872 -0.292,3.54 -0.877,5.013 -0.581,1.471 -1.417,2.624 -2.51,3.456 -1.097,0.831 -2.374,1.246 -3.833,1.246 -1.823,0 -3.296,-0.635 -4.415,-1.913 v 8.346 l -5.404,0.58 V 146.75 h 4.753 l 0.275,2.017 c 0.709,-0.885 1.512,-1.542 2.412,-1.964 0.901,-0.421 1.806,-0.634 2.72,-0.634 2.328,10e-4 4.057,0.839 5.183,2.515 z m -3.915,7.169 c 0,-2.143 -0.248,-3.634 -0.737,-4.464 -0.487,-0.834 -1.235,-1.249 -2.238,-1.249 -0.571,0 -1.121,0.185 -1.659,0.562 -0.54,0.377 -0.999,0.896 -1.389,1.559 v 7.664 c 0.734,1.07 1.656,1.608 2.775,1.608 2.165,0 3.248,-1.893 3.248,-5.68 z" />
+        <path
+           style="fill:#000000"
+           inkscape:connector-curvature="0"
+           id="path8097"
+           d="m 98.489227,147.69293 c 0.889,0.958 1.332,2.305 1.332,4.038 v 13.273 h -5.403 v -12.35 c 0,-0.912 -0.146,-1.546 -0.428,-1.898 -0.287,-0.355 -0.712,-0.53 -1.281,-0.53 -1.097,0 -2.146,0.787 -3.15,2.361 v 12.418 h -5.403 v -18.17 h 4.721 l 0.377,2.158 c 0.797,-0.914 1.647,-1.598 2.547,-2.052 0.902,-0.458 1.899,-0.687 2.993,-0.687 1.573,0.001 2.802,0.482 3.695,1.439 z" />
+        <path
+           style="fill:#000000"
+           inkscape:connector-curvature="0"
+           id="path8099"
+           d="m 113.81723,145.60493 v 19.399 h -5.61 v -19.399 h -6.126 v -4.31 h 18.131 l -0.548,4.31 z" />
+        <path
+           style="fill:#000000"
+           inkscape:connector-curvature="0"
+           id="path8101"
+           d="m 135.36623,157.51193 h -11.22 c 0.159,1.526 0.582,2.601 1.265,3.216 0.684,0.615 1.63,0.926 2.843,0.926 0.728,0 1.436,-0.136 2.119,-0.395 0.682,-0.263 1.425,-0.669 2.224,-1.217 l 2.224,3.014 c -2.116,1.685 -4.482,2.528 -7.078,2.528 -2.946,0 -5.2,-0.863 -6.779,-2.598 -1.571,-1.733 -2.357,-4.06 -2.357,-6.981 0,-1.846 0.329,-3.506 0.991,-4.978 0.661,-1.469 1.631,-2.634 2.906,-3.487 1.277,-0.855 2.805,-1.285 4.587,-1.285 2.626,0 4.675,0.82 6.155,2.465 1.485,1.643 2.226,3.923 2.226,6.84 -0.002,0.752 -0.038,1.402 -0.106,1.952 z m -5.2,-3.492 c -0.043,-2.78 -1.025,-4.172 -2.941,-4.172 -0.935,0 -1.652,0.335 -2.156,1.009 -0.504,0.675 -0.819,1.81 -0.957,3.406 h 6.055 v -0.243 z" />
+        <path
+           style="fill:#000000"
+           inkscape:connector-curvature="0"
+           id="path8103"
+           d="m 149.83723,146.80393 c 1.005,0.365 1.953,0.924 2.844,1.677 l -2.364,3.249 c -1.093,-0.889 -2.237,-1.336 -3.422,-1.336 -1.206,0 -2.12,0.447 -2.733,1.336 -0.615,0.89 -0.927,2.328 -0.927,4.31 0,1.917 0.312,3.273 0.927,4.073 0.613,0.795 1.501,1.195 2.667,1.195 0.637,0 1.208,-0.102 1.714,-0.306 0.497,-0.206 1.058,-0.547 1.672,-1.029 l 2.467,3.456 c -1.806,1.439 -3.847,2.155 -6.126,2.155 -1.848,0 -3.445,-0.392 -4.789,-1.181 -1.35,-0.784 -2.389,-1.893 -3.112,-3.316 -0.734,-1.424 -1.097,-3.097 -1.097,-5.012 0,-1.915 0.362,-3.615 1.097,-5.096 0.724,-1.481 1.763,-2.64 3.112,-3.473 1.344,-0.833 2.908,-1.25 4.684,-1.25 1.252,-0.001 2.383,0.183 3.386,0.548 z" />
+        <path
+           d="m 48.854,140.559 c -5.9,0 -10.869,4.063 -12.248,9.539 h 6.216 c 1.127,-2.187 3.406,-3.689 6.032,-3.689 3.74,0 6.783,3.043 6.783,6.785 0,3.739 -3.043,6.782 -6.783,6.782 -2.626,0 -4.905,-1.5 -6.032,-3.689 h -6.216 c 1.379,5.477 6.348,9.542 12.248,9.542 6.968,0 12.632,-5.667 12.632,-12.635 0,-6.969 -5.664,-12.635 -12.632,-12.635 z"
+           id="path8105"
+           inkscape:connector-curvature="0"
+           style="fill:#000000" />
+      </g>
+    </g>
+    <g
+       inkscape:label="Layer 1"
+       id="g8147"
+       transform="matrix(0.07656966,0,0,-0.07656966,79.585573,33.07083)"
+       style="display:inline">
+      <g
+         id="g8123"
+         transform="matrix(0,1.0139613,1.0666667,0,-42.74641,30.923998)"
+         style="stroke:#000000">
+        <rect
+           y="133.5"
+           x="66.069077"
+           height="30"
+           width="75.055527"
+           id="rect8119"
+           style="fill:#000000;stroke:#000000;stroke-width:0.178263" />
+        <rect
+           y="133.5"
+           x="141.1246"
+           height="30"
+           width="22.581333"
+           id="rect8121"
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.511676" />
+      </g>
+      <g
+         id="g8135"
+         transform="matrix(0,0.87328494,0.87328494,0,61.06585,89.399283)">
+        <g
+           id="g8133"
+           transform="translate(-0.22432951)">
+          <g
+             id="g8131">
+            <circle
+               r="4.0594411"
+               cy="66.547829"
+               cx="90.596443"
+               id="circle8125"
+               style="fill:#ffffff;stroke-width:0.494193" />
+            <text
+               transform="scale(0.94768405,1.055204)"
+               id="text8129"
+               y="66.629257"
+               x="19.768209"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.26057px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.231514"
+               xml:space="preserve"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.0646px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.231514"
+                 y="66.629257"
+                 x="19.768209"
+                 id="tspan8127"
+                 sodipodi:role="line">PSLab</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g8145"
+         transform="matrix(0,0.87328493,0.87328493,0,53.36886,131.02965)"
+         style="fill:#000000">
+        <g
+           id="g8143"
+           transform="translate(-0.22432951)"
+           style="fill:#000000">
+          <g
+             id="g8141"
+             style="fill:#000000">
+            <text
+               transform="scale(0.94768405,1.055204)"
+               id="text8139"
+               y="75.160393"
+               x="52.781265"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.26057px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.231514"
+               xml:space="preserve"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.0646px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#000000;stroke-width:0.231514"
+                 y="75.160393"
+                 x="52.781265"
+                 id="tspan8137"
+                 sodipodi:role="line">io</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0389954"
+       x="-28.059422"
+       y="98.949524"
+       id="text8166"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan8164"
+         x="-28.059422"
+         y="98.949524"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:STIXIntegralsUpD;-inkscape-font-specification:'STIXIntegralsUpD Bold';stroke-width:0.0389954">Ground</tspan></text>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 98.33985,21.786769 V 7.613491 7.221831 h -0.58917 -2.63142"
+       id="path8168"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="m 98.33985,28.490346 v 14.012516 0.39166 h -0.489608 -2.631421"
+       id="path8170"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="opacity:1;fill:#000000;stroke:none;stroke-width:0.143102;stroke-linecap:round;paint-order:markers stroke fill"
+       id="rect8305"
+       width="4.9925113"
+       height="6.8989711"
+       x="19.230282"
+       y="32.238293"
+       rx="0.29342651"
+       ry="0.29300269"
+       mask="url(#mask-powermask-path-effect8317)"
+       inkscape:path-effect="#path-effect8317"
+       d="m 19.523708,32.238293 h 4.405659 c 0.162558,0 0.293426,0.130679 0.293426,0.293002 v 6.312966 c 0,0.162324 -0.130868,0.293003 -0.293426,0.293003 h -4.405659 c -0.162558,0 -0.293426,-0.130679 -0.293426,-0.293003 v -6.312966 c 0,-0.162323 0.130868,-0.293002 0.293426,-0.293002 z"
+       sodipodi:type="rect" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect9017"
+       width="10.16"
+       height="5.0799999"
+       x="2.5362601"
+       y="40.528851"
+       rx="0.0043385709"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.58608px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0396519"
+       x="2.7675216"
+       y="34.967175"
+       id="text9021"
+       transform="scale(0.86925409,1.1504116)"><tspan
+         sodipodi:role="line"
+         id="tspan9019"
+         x="2.7675216"
+         y="34.967175"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:STIXIntegralsUpD;-inkscape-font-specification:'STIXIntegralsUpD Bold';stroke-width:0.0396519">ESP8266</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.65293px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0413232"
+       x="10.643763"
+       y="36.460953"
+       id="text9025"
+       transform="scale(0.90589216,1.1038842)"><tspan
+         sodipodi:role="line"
+         id="tspan9023"
+         x="10.643763"
+         y="36.460953"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:STIXIntegralsUpD;-inkscape-font-specification:STIXIntegralsUpD;stroke-width:0.0413232">WiFi</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="21.870827"
+       y="1.0182296"
+       id="text9029"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9027"
+         x="21.870827"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">CS1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="24.396915"
+       y="1.0182296"
+       id="text9041"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9039"
+         x="24.396915"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SDI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="26.911789"
+       y="1.0182296"
+       id="text9045"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9043"
+         x="26.911789"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SDO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="29.417545"
+       y="1.0182296"
+       id="text9049"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9047"
+         x="29.417545"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SCK</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="31.944752"
+       y="1.0182296"
+       id="text9053"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9051"
+         x="31.944752"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="34.479877"
+       y="1.0182296"
+       id="text9057"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9055"
+         x="34.479877"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">VDD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="39.228077"
+       y="1.0182296"
+       id="text9061"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9059"
+         x="39.228077"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="41.745255"
+       y="1.0182296"
+       id="text9065"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9063"
+         x="41.745255"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">VDD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="44.254925"
+       y="1.0182296"
+       id="text9069"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9067"
+         x="44.254925"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SDA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="46.757183"
+       y="1.0182296"
+       id="text9073"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9071"
+         x="46.757183"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SCL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="51.54464"
+       y="1.0182296"
+       id="text9077"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9075"
+         x="51.54464"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">VDD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="54.047108"
+       y="1.0182296"
+       id="text9081"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9079"
+         x="54.047108"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="56.562725"
+       y="1.0182296"
+       id="text9085"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9083"
+         x="56.562725"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SCL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="59.073082"
+       y="1.0182296"
+       id="text9089"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9087"
+         x="59.073082"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SDA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="63.849194"
+       y="1.0182296"
+       id="text9093"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9091"
+         x="63.849194"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="66.408554"
+       y="1.0282197"
+       id="text9097"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9095"
+         x="66.408554"
+         y="1.0282197"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">PCS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="68.908958"
+       y="1.0182296"
+       id="text9101"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9099"
+         x="68.908958"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="71.432121"
+       y="1.0182296"
+       id="text9105"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9103"
+         x="71.432121"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">PV3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="73.942963"
+       y="1.0182296"
+       id="text9109"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9107"
+         x="73.942963"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="76.459785"
+       y="1.0182296"
+       id="text9113"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9111"
+         x="76.459785"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">PV2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="78.995354"
+       y="1.0182296"
+       id="text9117"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9115"
+         x="78.995354"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="81.501625"
+       y="1.0182296"
+       id="text9121"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9119"
+         x="81.501625"
+         y="1.0182296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">PV1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="27.462477"
+       y="53.619015"
+       id="text9175"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9173"
+         x="27.462477"
+         y="53.619015"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">+5V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="29.988565"
+       y="53.619015"
+       id="text9179"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9177"
+         x="29.988565"
+         y="53.619015"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">VIN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="32.503437"
+       y="53.619015"
+       id="text9183"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9181"
+         x="32.503437"
+         y="53.619015"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="40.696938"
+       y="53.620975"
+       id="text9187"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9185"
+         x="40.696938"
+         y="53.620975"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GPIO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="43.872349"
+       y="53.620975"
+       id="text9191"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9189"
+         x="43.872349"
+         y="53.620975"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">RXD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="46.387222"
+       y="53.620975"
+       id="text9195"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9193"
+         x="46.387222"
+         y="53.620975"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">TXD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="48.892979"
+       y="53.620975"
+       id="text9199"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9197"
+         x="48.892979"
+         y="53.620975"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="51.420185"
+       y="53.620975"
+       id="text9203"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9201"
+         x="51.420185"
+         y="53.620975"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">VDD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="56.351425"
+       y="53.610741"
+       id="text9207"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9205"
+         x="56.351425"
+         y="53.610741"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SI1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="58.910786"
+       y="53.620731"
+       id="text9211"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9209"
+         x="58.910786"
+         y="53.620731"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SI2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="61.41119"
+       y="53.610741"
+       id="text9215"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9213"
+         x="61.41119"
+         y="53.610741"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="63.934353"
+       y="53.610741"
+       id="text9219"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9217"
+         x="63.934353"
+         y="53.610741"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SQ1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="66.44519"
+       y="53.610741"
+       id="text9223"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9221"
+         x="66.44519"
+         y="53.610741"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SQ2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="68.962013"
+       y="53.610741"
+       id="text9227"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9225"
+         x="68.962013"
+         y="53.610741"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SQ3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="71.497581"
+       y="53.610741"
+       id="text9231"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9229"
+         x="71.497581"
+         y="53.610741"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SQ4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="74.003853"
+       y="53.610741"
+       id="text9235"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9233"
+         x="74.003853"
+         y="53.610741"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-8.7722921"
+       y="1.4874833"
+       id="text9239"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan9237"
+         x="-8.7722921"
+         y="1.4874833"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">POWER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-32.125023"
+       y="61.963543"
+       id="text9243"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan9241"
+         x="-32.125023"
+         y="61.963543"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">SYSTEM</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 35.083818,52.201422 v -2.663191 h -7.73938 v 2.673953"
+       id="path8189" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 29.942858,49.538231 v -1.79578 h 2.540002 v 1.815967 z"
+       id="path8191" />
+    <path
+       style="fill:#ffffff;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 30.561541,48.12138 0.650487,1.0993 0.626962,-1.098959 z"
+       id="path8193"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-42.196598"
+       y="93.104492"
+       id="text8197"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8195"
+         x="-42.196598"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">LA1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-39.680885"
+       y="93.104492"
+       id="text8201"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8199"
+         x="-39.680885"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">LA2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-37.148296"
+       y="93.104492"
+       id="text8205"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8203"
+         x="-37.148296"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">LA3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-34.640621"
+       y="93.104492"
+       id="text8209"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8207"
+         x="-34.640621"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">LA4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-32.119659"
+       y="93.104492"
+       id="text8213"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8211"
+         x="-32.119659"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">AC1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-29.612436"
+       y="93.104492"
+       id="text8217"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8215"
+         x="-29.612436"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">CH1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-27.082909"
+       y="93.104492"
+       id="text8221"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8219"
+         x="-27.082909"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">CH2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-24.57716"
+       y="93.104492"
+       id="text8225"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8223"
+         x="-24.57716"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">CH3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-22.077215"
+       y="93.104492"
+       id="text8229"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8227"
+         x="-22.077215"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">CHG</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-19.551249"
+       y="93.104492"
+       id="text8233"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8231"
+         x="-19.551249"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">MIC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-17.018248"
+       y="93.104492"
+       id="text8237"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8235"
+         x="-17.018248"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">FRQ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-14.504476"
+       y="93.104492"
+       id="text8241"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8239"
+         x="-14.504476"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">CAP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-11.993259"
+       y="93.104492"
+       id="text8245"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8243"
+         x="-11.993259"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">RES</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-9.4777679"
+       y="93.104492"
+       id="text8249"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8247"
+         x="-9.4777679"
+         y="93.104492"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">VOL</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect8279"
+       width="1.3995399"
+       height="1.3995399"
+       x="95.716164"
+       y="4.7529507"
+       rx="0.0043385578" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.729601px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0201622"
+       x="-6.3488755"
+       y="97.909538"
+       id="text9106"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan9104"
+         x="-6.3488755"
+         y="97.909538"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.729601px;font-family:STIXIntegralsUpD;-inkscape-font-specification:'STIXIntegralsUpD Bold';stroke-width:0.0201622">GND</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect9110"
+       width="1.3995399"
+       height="1.3995399"
+       x="57.153881"
+       y="5.5733709"
+       rx="0.0043385578" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect9116"
+       width="1.3995399"
+       height="1.3995399"
+       x="53.803619"
+       y="5.5733709"
+       rx="0.0043385578" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.729601px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0201622"
+       x="53.800907"
+       y="7.7206483"
+       id="text9120"><tspan
+         sodipodi:role="line"
+         id="tspan9118"
+         x="53.800907"
+         y="7.7206483"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.729601px;font-family:STIXIntegralsUpD;-inkscape-font-specification:'STIXIntegralsUpD Bold';stroke-width:0.0201622">VR-</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect9122"
+       width="1.3995399"
+       height="1.3995399"
+       x="60.603199"
+       y="5.563211"
+       rx="0.0043385578" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.729601px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0201622"
+       x="57.024395"
+       y="7.7206483"
+       id="text9130"><tspan
+         sodipodi:role="line"
+         id="tspan9128"
+         x="57.024395"
+         y="7.7206483"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.729601px;font-family:STIXIntegralsUpD;-inkscape-font-specification:'STIXIntegralsUpD Bold';stroke-width:0.0201622">VR+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.729601px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0201622"
+       x="60.461742"
+       y="7.7206483"
+       id="text9134"><tspan
+         sodipodi:role="line"
+         id="tspan9132"
+         x="60.461742"
+         y="7.7206483"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.729601px;font-family:STIXIntegralsUpD;-inkscape-font-specification:'STIXIntegralsUpD Bold';stroke-width:0.0201622">VDD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.58608px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0396519"
+       x="-35.089027"
+       y="28.412769"
+       id="text9138"
+       transform="matrix(0,-0.8692541,1.1504116,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan9136"
+         x="-35.089027"
+         y="28.412769"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:STIXIntegralsUpD;-inkscape-font-specification:'STIXIntegralsUpD Bold';stroke-width:0.0396519">HC05/06</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.65293px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0413232"
+       x="-25.865396"
+       y="29.603136"
+       id="text9142"
+       transform="matrix(0,-0.90589213,1.1038842,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan9140"
+         x="-25.865396"
+         y="29.603136"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:STIXIntegralsUpD;-inkscape-font-specification:STIXIntegralsUpD;stroke-width:0.0413232">Bluetooth</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.58608px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0396519"
+       x="29.048019"
+       y="28.099489"
+       id="text9146"
+       transform="scale(0.8692541,1.1504116)"><tspan
+         sodipodi:role="line"
+         id="tspan9144"
+         x="29.048019"
+         y="28.099489"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:STIXIntegralsUpD;-inkscape-font-specification:'STIXIntegralsUpD Bold';stroke-width:0.0396519">ICSP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.65293px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0413232"
+       x="31.992155"
+       y="29.290234"
+       id="text9150"
+       transform="scale(0.90589213,1.1038842)"><tspan
+         sodipodi:role="line"
+         id="tspan9148"
+         x="31.992155"
+         y="29.290234"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:STIXIntegralsUpD;-inkscape-font-specification:STIXIntegralsUpD;stroke-width:0.0413232">Programmer</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 0.658946,46.262901 v 0.9652 l 9.471914,0.03175 v -1.016 z"
+       id="path9152" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1.604334,46.262901 v 0.9652 H 0.658946 v -0.9652 z"
+       id="path9154" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 10.12099,46.262901 v 0.9652 H 9.175602 v -0.9652 z"
+       id="path9156" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.199;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 5.9662014,46.550937 v 0.394735 H 1.909134 v -0.394735 z"
+       id="path9158" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 0.37726,40.528851 v 2.6924 h 1.8542 v -2.6924 h -1.8542"
+       id="path9160" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 0.60586,42.230651 v 0.7874 h 1.397 v -0.7874 h -1.397"
+       id="path9162" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="path9164"
+       cx="0.86229867"
+       cy="42.463207"
+       rx="0.057298642"
+       ry="0.056668203" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="ellipse9166"
+       cx="1.1622987"
+       cy="42.463207"
+       rx="0.057298642"
+       ry="0.056668203" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="ellipse9168"
+       cx="1.4622986"
+       cy="42.463207"
+       rx="0.057298642"
+       ry="0.056668203" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="ellipse9170"
+       cx="1.7622986"
+       cy="42.463207"
+       rx="0.057298642"
+       ry="0.056668203" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="ellipse9172"
+       cx="0.86229867"
+       cy="42.78973"
+       rx="0.057298642"
+       ry="0.056668203" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="ellipse9174"
+       cx="1.1622987"
+       cy="42.78973"
+       rx="0.057298642"
+       ry="0.056668203" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="ellipse9176"
+       cx="1.4622986"
+       cy="42.78973"
+       rx="0.057298642"
+       ry="0.056668203" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="ellipse9178"
+       cx="1.7622986"
+       cy="42.78973"
+       rx="0.057298642"
+       ry="0.056668203" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.58608px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0396519"
+       x="50.91325"
+       y="42.936607"
+       id="text9182"
+       transform="scale(0.8692541,1.1504116)"><tspan
+         sodipodi:role="line"
+         id="tspan9180"
+         x="50.91325"
+         y="42.936607"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:STIXIntegralsUpD;-inkscape-font-specification:'STIXIntegralsUpD Bold';stroke-width:0.0396519">UART</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.58608px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0396519"
+       x="65.447884"
+       y="42.936607"
+       id="text9186"
+       transform="scale(0.8692541,1.1504116)"><tspan
+         sodipodi:role="line"
+         id="tspan9184"
+         x="65.447884"
+         y="42.936607"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:STIXIntegralsUpD;-inkscape-font-specification:'STIXIntegralsUpD Bold';stroke-width:0.0396519">ANALOG</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.58608px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0396519"
+       x="74.344864"
+       y="42.936607"
+       id="text9190"
+       transform="scale(0.8692541,1.1504116)"><tspan
+         sodipodi:role="line"
+         id="tspan9188"
+         x="74.344864"
+         y="42.936607"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:STIXIntegralsUpD;-inkscape-font-specification:'STIXIntegralsUpD Bold';stroke-width:0.0396519">DIGITAL</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 43.966198,52.162051 v -4.24942 l 0.272179,-0.285569"
+       id="path9192" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 56.572707,52.162051 v -4.24942 l 0.272179,-0.285569"
+       id="path9194" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 64.259315,52.162051 v -4.24942 l 0.272179,-0.285569"
+       id="path9196" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="24.909721"
+       y="36.785084"
+       id="text9204"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9202"
+         x="24.909721"
+         y="36.785084"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">MCLR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="28.040298"
+       y="36.785084"
+       id="text9208"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9206"
+         x="28.040298"
+         y="36.785084"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">VDD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="30.555172"
+       y="36.785084"
+       id="text9212"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9210"
+         x="30.555172"
+         y="36.785084"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="33.060932"
+       y="36.785084"
+       id="text9216"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9214"
+         x="33.060932"
+         y="36.785084"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">PGD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="35.588139"
+       y="36.785084"
+       id="text9220"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9218"
+         x="35.588139"
+         y="36.785084"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">PGC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-30.157492"
+       y="37.100891"
+       id="text9228"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan9226"
+         x="-30.157492"
+         y="37.100891"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">ENA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-27.649817"
+       y="37.100891"
+       id="text9232"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan9230"
+         x="-27.649817"
+         y="37.100891"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">VCC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-25.128855"
+       y="37.100891"
+       id="text9236"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan9234"
+         x="-25.128855"
+         y="37.100891"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-22.621632"
+       y="37.100891"
+       id="text9240"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan9238"
+         x="-22.621632"
+         y="37.100891"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">TXD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-20.092104"
+       y="37.100891"
+       id="text9244"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan9242"
+         x="-20.092104"
+         y="37.100891"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">RXD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="-17.586355"
+       y="37.100891"
+       id="text9248"
+       transform="matrix(0,-1.0091185,0.99096389,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan9246"
+         x="-17.586355"
+         y="37.100891"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">STA</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.255265px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 23.376604,36.499126 1.223263,-0.0031 v 2.992592 h -1.223263 z"
+       id="path9229"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="19.890898"
+       y="33.553944"
+       id="text9301"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan9299"
+         x="19.890898"
+         y="33.553944"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';fill:#ffffff;stroke-width:0.0327466">Reset</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.30987px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0327466"
+       x="79.848633"
+       y="53.607513"
+       id="text8297"
+       transform="scale(1.0091185,0.99096389)"><tspan
+         sodipodi:role="line"
+         id="tspan8295"
+         x="79.848633"
+         y="53.607513"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.0327466">CR1225/CR1216</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:0.15;stroke-linecap:round;paint-order:markers stroke fill"
+       id="rect8324"
+       width="3.7416821"
+       height="4.9319954"
+       x="19.865088"
+       y="33.448063"
+       rx="0.2132736"
+       ry="0.20419025" />
+  </g>
   <g
      inkscape:label="B.SilkS"
      inkscape:groupmode="layer"
@@ -1573,7 +2960,8 @@
     </g>
     <g
        id="g13780"
-       transform="matrix(0.06346509,0,0,0.06346509,67.600734,55.395087)">
+       transform="matrix(0.06346509,0,0,0.06346509,67.600734,55.395087)"
+       style="display:inline">
       <g
          id="g4268-2"
          transform="matrix(0,1.8588158,1.8588158,0,-344.0097,-613.64972)"
@@ -5819,13 +7207,13 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="PSLab"
+     inkscape:label="Ori_F.Silk.Cu"
      sodipodi:insensitive="true"
      style="display:none;opacity:0.310898">
     <g
        id="g42467"
        transform="matrix(0.00254,0,0,0.00254,-90.87373,-60.205009)"
-       style="opacity:0.5;fill:#999999;stroke:#999999">
+       style="display:inline;opacity:0.5;fill:#999999;stroke:#999999">
       <g
          style="fill:#999999;fill-opacity:1;stroke:#999999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          id="g32184" />
@@ -19495,7 +20883,8 @@
     </g>
     <g
        id="g47965"
-       transform="matrix(0.00254,0,0,0.00254,-90.88494,-60.205009)">
+       transform="matrix(0.00254,0,0,0.00254,-90.88494,-60.205009)"
+       style="display:inline">
       <g
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          id="g42473" />
@@ -26206,7 +27595,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="PSLabSilk"
+     inkscape:label="Ori_B.Silk"
      style="display:none;opacity:0.396793"
      sodipodi:insensitive="true">
     <g

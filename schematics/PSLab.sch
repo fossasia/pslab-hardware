@@ -417,7 +417,7 @@ U 1 1 55651DFC
 P 8575 2800
 F 0 "U4" H 8375 3125 50  0000 C CNN
 F 1 "TC1240A" H 8625 3125 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 8575 3000 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8575 3000 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/268/21516c-4387.pdf" H 8575 2600 50  0001 C CNN
 F 4 "SOT-23-6" H 8575 2800 50  0001 C CNN "Description"
 F 5 "TC1240AECHTR" H 8575 2800 50  0001 C CNN "Mfr No."
@@ -432,7 +432,7 @@ U 1 1 55651F0B
 P 8700 4250
 F 0 "U5" H 8525 4650 50  0000 C CNN
 F 1 "TC7660" H 8825 4650 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 8700 4250 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8700 4250 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/268/21467B-1180369.pdf" H 8700 4250 50  0001 C CNN
 F 4 "SOIC 8" H 8700 4250 50  0001 C CNN "Description"
 F 5 "TC7660SEOA713" H 8700 4250 50  0001 C CNN "Mfr No."
@@ -693,7 +693,7 @@ U 1 1 556EFFC0
 P 1800 3750
 F 0 "U2" H 2200 4300 50  0000 C CNN
 F 1 "74HC126" H 1900 4300 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" V 1975 3575 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" V 1975 3575 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/408/74HC126D_datasheet_en_20160804-959200.pdf" V 1925 3575 50  0001 C CNN
 F 4 "SOIC 14" H 1800 3750 50  0001 C CNN "Description"
 F 5 "74HC126D(BJ)" H 1800 3750 50  0001 C CNN "Mfr No."
@@ -1112,7 +1112,7 @@ U 1 1 5426ECFF
 P 4950 3900
 F 0 "U3" H 4950 3800 50  0000 C CNN
 F 1 "PIC24EP256GP204" H 4950 4000 50  0000 C CNN
-F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 4950 3900 50  0001 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 4950 3900 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/268/70000657H-277982.pdf" H 4950 3900 50  0001 C CNN
 F 4 "TQFP 44" H 4950 3900 50  0001 C CNN "Description"
 F 5 "PIC24EP256GP204-I/PT" H 4950 3900 50  0001 C CNN "Mfr No."
@@ -1209,11 +1209,11 @@ MCLR
 Text GLabel 4560 810  0    40   Input ~ 0
 MCLR
 $Comp
-L PSLab-rescue:Conn_01x04 J6
+L PSLab-rescue:Conn_01x04 J4
 U 1 1 5A584DF9
 P 4960 7185
-F 0 "J6" H 4960 7385 50  0000 C CNN
-F 1 "I2C-1" H 4960 6885 50  0000 C CNN
+F 0 "J4" H 4960 7385 50  0000 C CNN
+F 1 "I2C" H 4960 6885 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4960 7185 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 4960 7185 50  0001 C CNN
 F 4 "Straight female 2.54 mm 1row" H 4960 7185 50  0001 C CNN "Description"
@@ -1344,21 +1344,6 @@ Vdd
 Text Label 5460 7085 2    60   ~ 0
 Vdd
 $Comp
-L PSLab-rescue:Conn_01x04 J16
-U 1 1 5AD47B2C
-P 4395 7180
-F 0 "J16" H 4395 7380 50  0000 C CNN
-F 1 "I2C-2" H 4395 6880 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4395 7180 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 4395 7180 50  0001 C CNN
-F 4 "Straight female 2.54 mm 1row" H 4395 7180 50  0001 C CNN "Description"
-F 5 "SSW-104-01-T-S" H 4395 7180 50  0001 C CNN "Mfr No."
-F 6 "0.63" H 4395 7180 50  0001 C CNN "Price"
-F 7 "SSW-104-01-T-S" H 4395 7180 50  0001 C CNN "PartNumber"
-	1    4395 7180
-	1    0    0    -1  
-$EndComp
-$Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR044
 U 1 1 5AD48170
 P 4195 7180
@@ -1419,10 +1404,10 @@ SEN
 Text GLabel 6085 6265 0    40   Input ~ 0
 SEN
 $Comp
-L PSLab-rescue:Conn_02x14_Odd_Even J2
+L PSLab-rescue:Conn_02x14_Odd_Even J1
 U 1 1 5ADBCA02
 P 6285 6765
-F 0 "J2" H 6335 7465 50  0000 C CNN
+F 0 "J1" H 6335 7465 50  0000 C CNN
 F 1 "DoublePins" H 6335 5965 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x14_Pitch2.54mm" H 6285 6765 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 6285 6765 50  0001 C CNN
@@ -1500,10 +1485,10 @@ Bluetooth
 Text GLabel 2620 1140 1    47   Input ~ 0
 Vdd
 $Comp
-L PSLab-rescue:Conn_01x06 J5
+L PSLab-rescue:Conn_01x06 J3
 U 1 1 5ADB5C89
 P 800 7280
-F 0 "J5" H 800 7580 50  0000 C CNN
+F 0 "J3" H 800 7580 50  0000 C CNN
 F 1 "Bluetooth" V 905 7280 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 800 7280 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 800 7280 50  0001 C CNN
@@ -2216,10 +2201,10 @@ Wire Wire Line
 Wire Wire Line
 	1850 4690 3175 4690
 $Comp
-L PSLab-rescue:ESP01-PSLab J10
+L PSLab-rescue:ESP01-PSLab J6
 U 1 1 5EB1EA49
 P 8820 1325
-F 0 "J10" H 9020 1625 39  0000 C CNN
+F 0 "J6" H 9020 1625 39  0000 C CNN
 F 1 "ESP01" H 8670 1625 39  0000 C CNN
 F 2 "PSLab:ESP-01" H 8820 1325 60  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 8820 1325 60  0001 C CNN
@@ -2322,10 +2307,10 @@ $EndComp
 Text GLabel 9795 1520 0    39   Input ~ 8
 ExP
 $Comp
-L Connector_Generic:Conn_01x03 J15
+L Connector_Generic:Conn_01x03 J10
 U 1 1 5EF478E2
 P 9900 930
-F 0 "J15" H 9818 629 39  0000 C CNN
+F 0 "J10" H 9818 629 39  0000 C CNN
 F 1 "External Power" H 9830 715 39  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 9900 930 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 9900 930 50  0001 C CNN
@@ -2367,10 +2352,10 @@ F 3 "" H 3710 6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PSLab:LDL212PU50R U18
+L PSLab:LDL212PU50R U17
 U 1 1 5EF1AD6F
 P 10390 1420
-F 0 "U18" H 10390 1736 39  0000 C CNN
+F 0 "U17" H 10390 1736 39  0000 C CNN
 F 1 "LDL212PU50R" H 10390 1661 39  0000 C CNN
 F 2 "Package_DFN_QFN:DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm" H 10390 1420 39  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/389/dm00225720-1798688.pdf" H 10390 1420 39  0001 C CNN
@@ -2844,4 +2829,19 @@ F 3 "~" H 1410 2609 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 1410 2609
+$Comp
+L PSLab-rescue:Conn_01x04 J5
+U 1 1 5AD47B2C
+P 4395 7180
+F 0 "J5" H 4395 7380 50  0000 C CNN
+F 1 "I2C" H 4395 6880 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4395 7180 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 4395 7180 50  0001 C CNN
+F 4 "Straight female 2.54 mm 1row" H 4395 7180 50  0001 C CNN "Description"
+F 5 "SSW-104-01-T-S" H 4395 7180 50  0001 C CNN "Mfr No."
+F 6 "0.63" H 4395 7180 50  0001 C CNN "Price"
+F 7 "SSW-104-01-T-S" H 4395 7180 50  0001 C CNN "PartNumber"
+	1    4395 7180
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

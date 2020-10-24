@@ -142,10 +142,10 @@ L PSLab-rescue:TL082-RESCUE-proto1 U10
 U 1 1 5446FCD7
 P 9675 2950
 AR Path="/5446FCD7" Ref="U10"  Part="1" 
-AR Path="/54260FB5/5446FCD7" Ref="U10"  Part="1" 
-F 0 "U10" H 9625 3150 60  0000 L CNN
+AR Path="/54260FB5/5446FCD7" Ref="U9"  Part="1" 
+F 0 "U9" H 9625 3150 60  0000 L CNN
 F 1 "TL082" H 9625 2700 60  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 9675 2950 60  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9675 2950 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" H 9675 2950 60  0001 C CNN
 F 4 "SOIC 8" H 9675 2950 50  0001 C CNN "Description"
 F 5 "TL082CDR" H 9675 2950 50  0001 C CNN "Mfr No."
@@ -193,10 +193,10 @@ L PSLab-rescue:TL082-RESCUE-proto1 U10
 U 2 1 54471802
 P 6325 3350
 AR Path="/54471802" Ref="U10"  Part="2" 
-AR Path="/54260FB5/54471802" Ref="U10"  Part="2" 
-F 0 "U10" H 6275 3550 60  0000 L CNN
+AR Path="/54260FB5/54471802" Ref="U9"  Part="2" 
+F 0 "U9" H 6275 3550 60  0000 L CNN
 F 1 "TL082" H 6275 3100 60  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6325 3350 60  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6325 3350 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" H 6325 3350 60  0001 C CNN
 F 4 "SOIC 8" H 6325 3350 50  0001 C CNN "Description"
 F 5 "TL082CDR" H 6325 3350 50  0001 C CNN "Mfr No."
@@ -213,7 +213,7 @@ AR Path="/555FF8F7" Ref="U7"  Part="4"
 AR Path="/54260FB5/555FF8F7" Ref="U7"  Part="4" 
 F 0 "U7" H 4275 1675 60  0000 C CNN
 F 1 "LM324" H 4375 1275 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4225 1475 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4225 1475 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2FLM324" H 4225 1475 60  0001 C CNN
 F 4 "SOIC 14" H 4225 1475 50  0001 C CNN "Description"
 F 5 "LM324D" H 4225 1475 50  0001 C CNN "Mfr No."
@@ -230,7 +230,7 @@ AR Path="/555FF9B2" Ref="U7"  Part="3"
 AR Path="/54260FB5/555FF9B2" Ref="U7"  Part="3" 
 F 0 "U7" H 1400 3075 60  0000 C CNN
 F 1 "LM324" H 1500 2675 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1350 2875 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1350 2875 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2FLM324" H 1350 2875 60  0001 C CNN
 F 4 "SOIC 14" H 1350 2875 50  0001 C CNN "Description"
 F 5 "LM324D" H 1350 2875 50  0001 C CNN "Mfr No."
@@ -247,7 +247,7 @@ AR Path="/555FFA21" Ref="U7"  Part="1"
 AR Path="/54260FB5/555FFA21" Ref="U7"  Part="1" 
 F 0 "U7" H 2925 1575 60  0000 C CNN
 F 1 "LM324" H 3025 1175 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2875 1375 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2875 1375 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2FLM324" H 2875 1375 60  0001 C CNN
 F 4 "SOIC 14" H 2875 1375 50  0001 C CNN "Description"
 F 5 "LM324D" H 2875 1375 50  0001 C CNN "Mfr No."
@@ -264,7 +264,7 @@ AR Path="/555FFAA5" Ref="U7"  Part="2"
 AR Path="/54260FB5/555FFAA5" Ref="U7"  Part="2" 
 F 0 "U7" H 4275 3150 60  0000 C CNN
 F 1 "LM324" H 4375 2750 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4225 2950 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4225 2950 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2FLM324" H 4225 2950 60  0001 C CNN
 F 4 "SOIC 14" H 4225 2950 50  0001 C CNN "Description"
 F 5 "LM324D" H 4225 2950 50  0001 C CNN "Mfr No."
@@ -274,13 +274,13 @@ F 7 "0.42" H 4225 2950 50  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSLab:MCP4728-RESCUE-PSLab U9
+L PSLab:MCP4728-RESCUE-PSLab U12
 U 1 1 555FFB01
 P 1650 1800
-F 0 "U9" H 1650 1400 50  0000 C CNN
+F 0 "U12" H 1650 1400 50  0000 C CNN
 F 1 "MCP4728" H 1650 2200 50  0000 C CNN
-F 2 "Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm" H 1650 1800 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/268/22187E-12972.pdf" H 1650 1800 50  0001 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 1650 1800 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" H 1650 1800 50  0001 C CNN
 F 4 "MSOP 10" H 1650 1800 50  0001 C CNN "Description"
 F 5 "MCP4728-E/UN" H 1650 1800 50  0001 C CNN "Mfr No."
 F 6 "MCP4728-E/UN" H 1650 1800 50  0001 C CNN "PartNumber"
@@ -841,7 +841,7 @@ AR Path="/55B7C4A1" Ref="U8"  Part="1"
 AR Path="/54260FB5/55B7C4A1" Ref="U8"  Part="1" 
 F 0 "U8" H 9625 1675 60  0000 L CNN
 F 1 "TL082" H 9625 1225 60  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 9675 1475 60  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9675 1475 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" H 9675 1475 60  0001 C CNN
 F 4 "SOIC 8" H 9675 1475 50  0001 C CNN "Description"
 F 5 "TL082CDR" H 9675 1475 50  0001 C CNN "Mfr No."
@@ -892,7 +892,7 @@ AR Path="/55B7C4B7" Ref="U8"  Part="2"
 AR Path="/54260FB5/55B7C4B7" Ref="U8"  Part="2" 
 F 0 "U8" H 6300 2075 60  0000 L CNN
 F 1 "TL082" H 6300 1625 60  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6350 1875 60  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6350 1875 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" H 6350 1875 60  0001 C CNN
 F 4 "SOIC 8" H 6350 1875 50  0001 C CNN "Description"
 F 5 "TL082CDR" H 6350 1875 50  0001 C CNN "Mfr No."
@@ -1343,10 +1343,10 @@ L PSLab-rescue:TL082-RESCUE-proto1 U13
 U 2 1 55C273D0
 P 3400 5150
 AR Path="/55C273D0" Ref="U13"  Part="2" 
-AR Path="/54260FB5/55C273D0" Ref="U13"  Part="2" 
-F 0 "U13" H 3350 5350 60  0000 L CNN
+AR Path="/54260FB5/55C273D0" Ref="U10"  Part="2" 
+F 0 "U10" H 3350 5350 60  0000 L CNN
 F 1 "TL082" H 3350 4900 60  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 3400 5150 60  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3400 5150 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" H 3400 5150 60  0001 C CNN
 F 4 "SOIC 8" H 3400 5150 50  0001 C CNN "Description"
 F 5 "TL082CDR" H 3400 5150 50  0001 C CNN "Mfr No."
@@ -1360,10 +1360,10 @@ L PSLab-rescue:TL082-RESCUE-proto1 U13
 U 1 1 55C276F1
 P 3400 6700
 AR Path="/55C276F1" Ref="U13"  Part="1" 
-AR Path="/54260FB5/55C276F1" Ref="U13"  Part="1" 
-F 0 "U13" H 3350 6900 60  0000 L CNN
+AR Path="/54260FB5/55C276F1" Ref="U10"  Part="1" 
+F 0 "U10" H 3350 6900 60  0000 L CNN
 F 1 "TL082" H 3350 6450 60  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 3400 6700 60  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3400 6700 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" H 3400 6700 60  0001 C CNN
 F 4 "SOIC 8" H 3400 6700 50  0001 C CNN "Description"
 F 5 "TL082CDR" H 3400 6700 50  0001 C CNN "Mfr No."
@@ -1441,11 +1441,11 @@ L PSLab-rescue:MCP6S21A U11
 U 1 1 55E941B6
 P 7800 1475
 AR Path="/55E941B6" Ref="U11"  Part="1" 
-AR Path="/54260FB5/55E941B6" Ref="U11"  Part="1" 
-F 0 "U11" H 7375 1275 50  0000 C CNN
-F 1 "6S21" H 7975 1175 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 7950 1275 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/268/21117a-70287.pdf" H 7800 1875 50  0001 C CNN
+AR Path="/54260FB5/55E941B6" Ref="U13"  Part="1" 
+F 0 "U13" H 7375 1275 50  0000 C CNN
+F 1 "TL082" H 7975 1175 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7950 1275 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" H 7800 1875 50  0001 C CNN
 F 4 "SOIC 8" H 7800 1475 50  0001 C CNN "Description"
 F 5 "MCP6S21-I/SN" H 7800 1475 50  0001 C CNN "Mfr No."
 F 6 "MCP6S21-I/SN" H 7800 1475 50  0001 C CNN "PartNumber"
@@ -1492,10 +1492,10 @@ L PSLab-rescue:MCP6S21A U12
 U 1 1 55E9B36E
 P 7800 2950
 AR Path="/55E9B36E" Ref="U12"  Part="1" 
-AR Path="/54260FB5/55E9B36E" Ref="U12"  Part="1" 
-F 0 "U12" H 7375 2750 50  0000 C CNN
+AR Path="/54260FB5/55E9B36E" Ref="U14"  Part="1" 
+F 0 "U14" H 7375 2750 50  0000 C CNN
 F 1 "6S21" H 7975 2650 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 7950 2750 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7950 2750 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/268/21117a-70287.pdf" H 7800 3350 50  0001 C CNN
 F 4 "SOIC 8" H 7800 2950 50  0001 C CNN "Description"
 F 5 "MCP6S21-I/SN" H 7800 2950 50  0001 C CNN "Mfr No."
@@ -2100,10 +2100,10 @@ L PSLab-rescue:TL082-RESCUE-proto1 U16
 U 1 1 55B8CB26
 P 9700 4425
 AR Path="/55B8CB26" Ref="U16"  Part="1" 
-AR Path="/54260FB5/55B8CB26" Ref="U16"  Part="1" 
-F 0 "U16" H 9650 4625 60  0000 L CNN
+AR Path="/54260FB5/55B8CB26" Ref="U11"  Part="1" 
+F 0 "U11" H 9650 4625 60  0000 L CNN
 F 1 "TL082" H 9650 4175 60  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 9700 4425 60  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9700 4425 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" H 9700 4425 60  0001 C CNN
 F 4 "SOIC 8" H 9700 4425 50  0001 C CNN "Description"
 F 5 "TL082CDR" H 9700 4425 50  0001 C CNN "Mfr No."
@@ -2117,10 +2117,10 @@ L PSLab-rescue:TL082-RESCUE-proto1 U16
 U 2 1 55B8CB3C
 P 9700 6000
 AR Path="/55B8CB3C" Ref="U16"  Part="2" 
-AR Path="/54260FB5/55B8CB3C" Ref="U16"  Part="2" 
-F 0 "U16" H 9650 6200 60  0000 L CNN
+AR Path="/54260FB5/55B8CB3C" Ref="U11"  Part="2" 
+F 0 "U11" H 9650 6200 60  0000 L CNN
 F 1 "TL082" H 9650 5750 60  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 9700 6000 60  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9700 6000 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" H 9700 6000 60  0001 C CNN
 F 4 "SOIC 8" H 9700 6000 50  0001 C CNN "Description"
 F 5 "TL082CDR" H 9700 6000 50  0001 C CNN "Mfr No."
@@ -2396,10 +2396,10 @@ F 3 "~" H 5580 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J4
+L Connector_Generic:Conn_01x08 J2
 U 1 1 5EF10C2C
 P 5980 6760
-F 0 "J4" H 5980 7185 50  0000 C CNN
+F 0 "J2" H 5980 7185 50  0000 C CNN
 F 1 "Outputs" H 5898 6226 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 5980 6760 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 5980 6760 50  0001 C CNN

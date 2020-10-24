@@ -14,13 +14,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PSLab:USB_C_Receptacle J3
+L PSLab:USB_C_Receptacle SW3
 U 1 1 5ED26D9E
 P 6150 2625
-F 0 "J3" V 5675 3650 50  0000 L CNN
+F 0 "SW3" V 5675 3650 50  0000 L CNN
 F 1 "USB_C_Receptacle" V 5675 1225 50  0000 L CNN
 F 2 "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11" H 6300 2625 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 6300 2625 50  0001 C CNN
+F 4 "USB - Type C Female 16 SMT" H 6150 2625 50  0001 C CNN "Description"
+F 5 "U262-161N-4BVC11" H 6150 2625 50  0001 C CNN "Mfr No."
+F 6 "U262-161N-4BVC11" H 6150 2625 50  0001 C CNN "PartNumber"
+F 7 "0.32" H 6150 2625 50  0001 C CNN "Price"
 	1    6150 2625
 	0    1    1    0   
 $EndComp
@@ -31,7 +35,11 @@ P 6850 4150
 F 0 "R59" H 6920 4196 50  0000 L CNN
 F 1 "5K1" H 6920 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 4150 50  0001 C CNN
-F 3 "~" H 6850 4150 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 6850 4150 50  0001 C CNN
+F 4 "1/16W 5%" H 6850 4150 50  0001 C CNN "Description"
+F 5 "RR0816P-512-D" H 6850 4150 50  0001 C CNN "Mfr No."
+F 6 "0.1" H 6850 4150 50  0001 C CNN "Price"
+F 7 "RR0816P-512-D" H 6850 4150 50  0001 C CNN "PartNumber"
 	1    6850 4150
 	-1   0    0    1   
 $EndComp
@@ -42,7 +50,11 @@ P 7150 4150
 F 0 "R60" H 7220 4196 50  0000 L CNN
 F 1 "5K1" H 7220 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7080 4150 50  0001 C CNN
-F 3 "~" H 7150 4150 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 7150 4150 50  0001 C CNN
+F 4 "1/16W 5%" H 7150 4150 50  0001 C CNN "Description"
+F 5 "RR0816P-512-D" H 7150 4150 50  0001 C CNN "Mfr No."
+F 6 "0.1" H 7150 4150 50  0001 C CNN "Price"
+F 7 "RR0816P-512-D" H 7150 4150 50  0001 C CNN "PartNumber"
 	1    7150 4150
 	-1   0    0    1   
 $EndComp
@@ -151,13 +163,17 @@ Connection ~ 7615 3300
 Wire Wire Line
 	7615 3300 7150 3300
 $Comp
-L Connector:USB_OTG J12
+L Connector:USB_OTG SW4
 U 1 1 5F908415
 P 2490 4810
-F 0 "J12" H 2547 5277 50  0000 C CNN
+F 0 "SW4" H 2547 5277 50  0000 C CNN
 F 1 "USB_OTG" H 2547 5186 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 2640 4760 50  0001 C CNN
-F 3 " ~" H 2640 4760 50  0001 C CNN
+F 3 "https://www.mouser.fi/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf" H 2640 4760 50  0001 C CNN
+F 4 "USB - Micro B Recepticle Molex" H 2490 4810 50  0001 C CNN "Description"
+F 5 "47346-0001" H 2490 4810 50  0001 C CNN "Mfr No."
+F 6 "47346-0001" H 2490 4810 50  0001 C CNN "PartNumber"
+F 7 "0.81" H 2490 4810 50  0001 C CNN "Price"
 	1    2490 4810
 	1    0    0    -1  
 $EndComp

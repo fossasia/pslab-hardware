@@ -1,3 +1,5 @@
+from __future__ import print_function
+
 import pcbnew
 import os
 import glob
@@ -9,8 +11,10 @@ from gerber.render.cairo_backend import GerberCairoContext
 
 from PIL import Image
 
-PCB_path = "../schematics/PSLab.kicad_pcb"
-GER_path = "../output/Gerber/"
+cwd = os.getcwd()
+print(cwd)
+PCB_path = cwd + "/schematics/PSLab.kicad_pcb"
+GER_path = cwd + "/output/Gerber/"
 files = glob.glob(GER_path + '*')
 for f in files:
     os.remove(f)
@@ -19,7 +23,7 @@ try:
 except Exception as e:
     pass
 
-IMG_path = "../output/Images/"
+IMG_path = cwd + "/output/Images/"
 files = glob.glob(IMG_path + '*')
 for f in files:
     os.remove(f)
@@ -89,13 +93,13 @@ power_layer_png = os.path.join(IMG_path, 'power-layer.png')
 drill_path = os.path.join(GER_path, 'PSLab.drl')
 drill_layer = DrillLayer(drill_path, common.read(drill_path))
 
-front_path = os.path.join(GER_path, 'PSLab-L1_Front.gbr')
+front_path = os.path.join(GER_path, 'PSLab-L1.Front.gbr')
 front_layer = PCBLayer(front_path, 'top', common.read(front_path))
 
-frontm_path = os.path.join(GER_path, 'PSLab-F_Mask.gbr')
+frontm_path = os.path.join(GER_path, 'PSLab-F.Mask.gbr')
 frontm_layer = PCBLayer(frontm_path, 'topmask', common.read(frontm_path))
 
-fronts_path = os.path.join(GER_path, 'PSLab-F_SilkS.gbr')
+fronts_path = os.path.join(GER_path, 'PSLab-F.SilkS.gbr')
 fronts_layer = PCBLayer(fronts_path, 'topsilk', common.read(fronts_path))
 
 Cairo.render_layer(front_layer)
@@ -108,13 +112,13 @@ Image.open(front_layer_png)
 
 print('Front layer image ready')
 
-bottom_path = os.path.join(GER_path, 'PSLab-L4_Ground.gbr')
+bottom_path = os.path.join(GER_path, 'PSLab-L4.Ground.gbr')
 bottom_layer = PCBLayer(bottom_path, 'bottom', common.read(bottom_path))
 
-bottomm_path = os.path.join(GER_path, 'PSLab-B_Mask.gbr')
+bottomm_path = os.path.join(GER_path, 'PSLab-B.Mask.gbr')
 bottomm_layer = PCBLayer(bottomm_path, 'bottommask', common.read(bottomm_path))
 
-bottoms_path = os.path.join(GER_path, 'PSLab-B_SilkS.gbr')
+bottoms_path = os.path.join(GER_path, 'PSLab-B.SilkS.gbr')
 bottoms_layer = PCBLayer(bottoms_path, 'bottomsilk', common.read(bottoms_path))
 
 Cairo.render_layer(bottom_layer)
@@ -127,7 +131,7 @@ Image.open(bottom_layer_png)
 
 print('Bottom layer image ready')
 
-signal_path = os.path.join(GER_path, 'PSLab-L2_Signal.gbr')
+signal_path = os.path.join(GER_path, 'PSLab-L2.Signal.gbr')
 signal_layer = PCBLayer(signal_path, 'internal', common.read(signal_path))
 
 Cairo.render_layer(signal_layer)
@@ -138,7 +142,7 @@ Image.open(signal_layer_png)
 
 print('Signal layer image ready')
 
-power_path = os.path.join(GER_path, 'PSLab-L3_Power.gbr')
+power_path = os.path.join(GER_path, 'PSLab-L3.Power.gbr')
 power_layer = PCBLayer(power_path, 'internal', common.read(power_path))
 
 Cairo.render_layer(power_layer)

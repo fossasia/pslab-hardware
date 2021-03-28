@@ -1,4 +1,4 @@
-19101937047062428
+19101937047913428
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -59728,7 +59728,7 @@ LTC4040
 QFN, 24 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_24_05-08-1696.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
-44
+38
 25
 PSLab
 OpnTec_Logo

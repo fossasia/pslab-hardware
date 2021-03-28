@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 3
+Sheet 3 3
 Title "CPN2102N UART Bridge"
 Date "2019-03-03"
 Rev "1"
@@ -40,29 +40,12 @@ NoConn ~ 6670 4085
 NoConn ~ 6170 4785
 NoConn ~ 6070 4785
 NoConn ~ 5970 4785
-$Comp
-L PSLab:SP0503BAHT U16
-U 1 1 5C4FEC85
-P 5925 2335
-F 0 "U16" H 5925 2085 60  0000 C CNN
-F 1 "SP0503BAHT" H 5925 2585 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 5925 2335 60  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_Array_SP05_Datasheet.pdf-777043.pdf" H 5925 2335 60  0001 C CNN
-F 4 "SOT-143" H 5925 2335 50  0001 C CNN "Description"
-F 5 "SP0503BAHTG" H 5925 2335 50  0001 C CNN "Mfr No."
-F 6 "SP0503BAHTG" H 5925 2335 50  0001 C CNN "PartNumber"
-F 7 "0.8" H 5925 2335 50  0001 C CNN "Price"
-	1    5925 2335
-	1    0    0    -1  
-$EndComp
 Text HLabel 2370 2630 0    60   Input ~ 0
 GND
 Text GLabel 2435 2630 2    39   Input ~ 0
 GND
 Wire Wire Line
 	2435 2630 2370 2630
-Text GLabel 5475 2235 0    39   Input ~ 0
-GND
 Text GLabel 5470 3285 1    39   Input ~ 0
 GND
 Text GLabel 5170 3885 0    39   Input ~ 0
@@ -169,12 +152,6 @@ Text HLabel 5970 3285 1    60   Input ~ 0
 TX
 Text HLabel 6070 3285 1    60   Input ~ 0
 RX
-Text GLabel 6375 2435 2    39   Input ~ 0
-D+
-Text GLabel 5475 2435 0    39   Input ~ 0
-D-
-Text GLabel 6375 2235 2    39   Input ~ 0
-VBus
 Text GLabel 4095 4285 0    39   Input ~ 0
 3.3V
 Connection ~ 4195 4285

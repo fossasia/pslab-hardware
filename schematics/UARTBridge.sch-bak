@@ -20,7 +20,7 @@ P 5920 4035
 F 0 "U15" H 6365 3350 60  0000 C CNN
 F 1 "CP2102N" H 5920 4035 60  0000 C CNB
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 5920 4035 60  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/368/cp2102n-datasheet-1634912.pdf" H 5920 4035 60  0001 C CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 5920 4035 60  0001 C CNN
 F 4 "QFN-24-1EP_4x4mm_Pitch0.5mm" H 5920 4035 50  0001 C CNN "Description"
 F 5 "CP2102N-A02-GQFN24" H 5920 4035 50  0001 C CNN "Mfr No."
 F 6 "CP2102N-A02-GQFN24" H 5920 4035 50  0001 C CNN "PartNumber"

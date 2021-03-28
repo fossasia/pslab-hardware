@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 6
+Sheet 1 4
 Title "PSLab Board Schematic"
 Date "2021-03-28"
 Rev "V6.1"
@@ -223,7 +223,7 @@ U 1 1 542435DB
 P 17300 15300
 F 0 "MH1" V 17350 15125 40  0000 L CNN
 F 1 "M" H 17300 15355 30  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 17300 15300 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 17300 15300 60  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/9774030360R.pdf" H 17300 15300 60  0001 C CNN
 F 4 "M3 Nut - 3.2mm_M3.5_DIN965" H 17300 15300 50  0001 C CNN "Description"
 F 5 "9774030360R" H 17300 15300 50  0001 C CNN "Mfr No."
@@ -1450,12 +1450,6 @@ Text GLabel 1000 7080 2    40   Input ~ 0
 RxD2
 Text GLabel 6775 1895 1    47   Input ~ 0
 Vdd
-$Sheet
-S 5670 5355 705  360 
-U 5C27B0EA
-F0 "Logos" 61
-F1 "Logos.sch" 61
-$EndSheet
 Text GLabel 5350 2300 1    47   Input ~ 0
 SDI
 Text GLabel 5150 2300 1    47   Input ~ 0
@@ -1959,55 +1953,18 @@ Wire Wire Line
 Connection ~ 1120 5890
 NoConn ~ 1850 6090
 NoConn ~ 1850 5990
-$Sheet
-S 6830 5300 530  450 
-U 5C58AFEF
-F0 "SD" 59
-F1 "SD.sch" 59
-F2 "GND" I R 7360 5670 39 
-F3 "CS" O L 6830 5380 39 
-F4 "MOSI" O L 6830 5480 39 
-F5 "SCK" O L 6830 5580 39 
-F6 "MISO" O L 6830 5680 39 
-F7 "3.3V" O R 7360 5380 39 
-$EndSheet
-Text GLabel 6800 5580 0    47   Input ~ 0
+Text GLabel 19975 13450 0    47   Input ~ 0
 SCK
-Text GLabel 7410 5380 2    47   Input ~ 0
+Text GLabel 19975 13350 0    47   Input ~ 0
 Vdd
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR052
-U 1 1 5C572B91
-P 7470 5740
-F 0 "#PWR052" H 7470 5740 30  0001 C CNN
-F 1 "GND" H 7470 5670 30  0001 C CNN
-F 2 "" H 7470 5740 60  0000 C CNN
-F 3 "" H 7470 5740 60  0000 C CNN
-	1    7470 5740
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7470 5740 7470 5670
-Wire Wire Line
-	7470 5670 7360 5670
-Wire Wire Line
-	7360 5380 7410 5380
-Wire Wire Line
-	6830 5580 6800 5580
 Text GLabel 3650 3400 0    47   Input ~ 0
 CS.CH3
-Text GLabel 6810 5380 0    47   Input ~ 0
+Text GLabel 19975 13150 0    47   Input ~ 0
 CS.CH3
-Wire Wire Line
-	6810 5380 6830 5380
-Text GLabel 6800 5480 0    47   Input ~ 0
+Text GLabel 19975 13250 0    47   Input ~ 0
 SDO
-Wire Wire Line
-	6800 5480 6830 5480
-Text GLabel 6790 5680 0    47   Input ~ 0
+Text GLabel 19975 13650 0    47   Input ~ 0
 SDI
-Wire Wire Line
-	6830 5680 6790 5680
 $Comp
 L power:PWR_FLAG #FLG053
 U 1 1 5C577661
@@ -3280,12 +3237,134 @@ Wire Wire Line
 	17500 15400 17500 15475
 Text Notes 17125 15050 0    40   ~ 8
 Mounting Holes
+$Comp
+L PSLab:Logos Z?
+U 1 1 60674244
+P 17600 14600
+AR Path="/5C27B0EA/60674244" Ref="Z?"  Part="1" 
+AR Path="/60674244" Ref="Z11"  Part="1" 
+F 0 "Z11" H 17600 14480 39  0000 C CNN
+F 1 "OpenHardware" H 17600 14720 39  0000 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 17600 14600 60  0001 C CNN
+F 3 "" H 17600 14600 60  0001 C CNN
+	1    17600 14600
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSLab:Logos Z?
+U 1 1 6067424A
+P 17600 14200
+AR Path="/5C27B0EA/6067424A" Ref="Z?"  Part="1" 
+AR Path="/6067424A" Ref="Z10"  Part="1" 
+F 0 "Z10" H 17600 14080 39  0000 C CNN
+F 1 "ESD-Logo" H 17600 14320 39  0000 C CNN
+F 2 "Symbol:ESD-Logo_6.6x6mm_SilkScreen" H 17600 14200 60  0001 C CNN
+F 3 "" H 17600 14200 60  0001 C CNN
+	1    17600 14200
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSLab:Logos Z?
+U 1 1 60674250
+P 17600 13000
+AR Path="/5C27B0EA/60674250" Ref="Z?"  Part="1" 
+AR Path="/60674250" Ref="Z7"  Part="1" 
+F 0 "Z7" H 17600 12880 39  0000 C CNN
+F 1 "PSLab BarCode" H 17600 13120 39  0000 C CNN
+F 2 "PSLab:Barcode" H 17600 13000 60  0001 C CNN
+F 3 "" H 17600 13000 60  0001 C CNN
+	1    17600 13000
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSLab:Logos Z?
+U 1 1 60674256
+P 17600 13400
+AR Path="/5C27B0EA/60674256" Ref="Z?"  Part="1" 
+AR Path="/60674256" Ref="Z8"  Part="1" 
+F 0 "Z8" H 17600 13280 39  0000 C CNN
+F 1 "QR Code" H 17600 13520 39  0000 C CNN
+F 2 "PSLab:Website_QR" H 17600 13400 60  0001 C CNN
+F 3 "" H 17600 13400 60  0001 C CNN
+	1    17600 13400
+	-1   0    0    1   
+$EndComp
+$Comp
+L PSLab:Logos Z?
+U 1 1 6067425C
+P 17600 13800
+AR Path="/5C27B0EA/6067425C" Ref="Z?"  Part="1" 
+AR Path="/6067425C" Ref="Z9"  Part="1" 
+F 0 "Z9" H 17600 13680 39  0000 C CNN
+F 1 "BottomSilk" H 17600 13920 39  0000 C CNN
+F 2 "PSLab:PSLabRearSilk" H 17600 13800 60  0001 C CNN
+F 3 "" H 17600 13800 60  0001 C CNN
+	1    17600 13800
+	-1   0    0    1   
+$EndComp
 Wire Notes Line
-	17100 15775 18075 15775
+	18075 14825 17100 14825
 Wire Notes Line
-	18075 15775 18075 14950
+	17100 14825 17100 12700
+Wire Notes Line
+	17100 12700 18075 12700
+Wire Notes Line
+	18075 12700 18075 14825
 Wire Notes Line
 	18075 14950 17100 14950
 Wire Notes Line
+	18075 15775 18075 14950
+Wire Notes Line
+	17100 15775 18075 15775
+Wire Notes Line
 	17100 14950 17100 15775
+Text Notes 17125 12800 0    40   ~ 8
+Logos
+$Comp
+L PSLab:SDCard P?
+U 1 1 60642567
+P 20525 13200
+AR Path="/5C58AFEF/60642567" Ref="P?"  Part="1" 
+AR Path="/60642567" Ref="P1"  Part="1" 
+F 0 "P1" H 20525 12450 47  0000 C CNN
+F 1 "SDCard" H 20525 13450 47  0000 C CNN
+F 2 "PSLab:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 20525 13200 60  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/185/DM3_catalog-939223.pdf" H 20525 13200 60  0001 C CNN
+F 4 "8P R/A SMT MICRO SD PUSH-PUSH" H 20525 13200 50  0001 C CNN "Description"
+F 5 "DM3AT-SF-PEJM5(11)" H 20525 13200 50  0001 C CNN "Mfr No."
+F 6 "DM3AT-SF-PEJM5(11)" H 20525 13200 50  0001 C CNN "PartNumber"
+F 7 "2.45" H 20525 13200 50  0001 C CNN "Price"
+	1    20525 13200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 19975 13050
+NoConn ~ 19975 13750
+NoConn ~ 19975 13850
+NoConn ~ 21025 13400
+$Comp
+L PSLab-rescue:GND-RESCUE-proto1 #PWR?
+U 1 1 606BCCD4
+P 20525 14125
+F 0 "#PWR?" H 20525 14125 30  0001 C CNN
+F 1 "GND" H 20525 14055 30  0001 C CNN
+F 2 "" H 20525 14125 60  0000 C CNN
+F 3 "" H 20525 14125 60  0000 C CNN
+	1    20525 14125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21025 13500 21275 13500
+Wire Wire Line
+	21275 13500 21275 14075
+Wire Wire Line
+	21275 14075 20525 14075
+Wire Wire Line
+	19700 14075 19700 13550
+Wire Wire Line
+	19700 13550 19975 13550
+Wire Wire Line
+	20525 14125 20525 14075
+Connection ~ 20525 14075
+Wire Wire Line
+	20525 14075 19700 14075
 $EndSCHEMATC

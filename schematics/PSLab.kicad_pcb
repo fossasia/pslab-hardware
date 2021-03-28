@@ -1418,7 +1418,7 @@
     (at 170.4547 79.8107 90)
     (descr "Open Source Hardware Logo")
     (tags "Logo OSHW")
-    (path /5C27B0EA/5C27C643)
+    (path /60674244)
     (attr virtual)
     (fp_text reference Z11 (at 17.1907 10.5753 270) (layer F.SilkS) hide
       (effects (font (size 0.1 0.1) (thickness 0.025)))
@@ -1865,7 +1865,7 @@
     (at 143.2836 102.2094)
     (descr "Electrostatic discharge Logo")
     (tags "Logo ESD")
-    (path /5C27B0EA/5C27C831)
+    (path /6067424A)
     (attr virtual)
     (fp_text reference Z10 (at -1.9736 8.8306) (layer F.SilkS) hide
       (effects (font (size 0.1 0.1) (thickness 0.025)))
@@ -1963,11 +1963,11 @@
 
   (module PSLab:Website_QR (layer L4.Ground) (tedit 5F94A469) (tstamp 5F94C589)
     (at 144.5 87.85)
-    (path /5C27B0EA/5C27C970)
+    (path /60674256)
     (fp_text reference Z8 (at 4.16 23.26) (layer B.SilkS) hide
       (effects (font (size 0.1 0.1) (thickness 0.025)) (justify mirror))
     )
-    (fp_text value QR_Code (at -0.78 23.24) (layer B.SilkS) hide
+    (fp_text value "QR Code" (at -0.78 23.24) (layer B.SilkS) hide
       (effects (font (size 0.1 0.1) (thickness 0.025)) (justify mirror))
     )
     (fp_poly (pts (xy 6.723529 -6.723529) (xy -6.723529 -6.723529) (xy -6.723529 -2.054412) (xy -6.170706 -2.054412)
@@ -2068,11 +2068,11 @@
 
   (module PSLab:Barcode (layer L4.Ground) (tedit 5F94A41C) (tstamp 5F94C59D)
     (at 107.4754 87.3037 90)
-    (path /5C27B0EA/5F7D714E)
+    (path /60674250)
     (fp_text reference Z7 (at 0.2237 17.6246 90) (layer B.SilkS) hide
       (effects (font (size 0.11 0.1) (thickness 0.025)) (justify mirror))
     )
-    (fp_text value PSLab_BarCode (at 8.1537 -11.4754 180) (layer B.SilkS) hide
+    (fp_text value "PSLab BarCode" (at 8.1537 -11.4754 180) (layer B.SilkS) hide
       (effects (font (size 0.1 0.1) (thickness 0.025)) (justify mirror))
     )
     (fp_poly (pts (xy -14.895689 -2.331155) (xy -15.121466 -2.331155) (xy -15.121466 2.833511) (xy -14.895689 2.833511)
@@ -2659,7 +2659,7 @@
 
   (module PSLab:PSLabRearSilk (layer L1.Front) (tedit 5F94A1D7) (tstamp 5F95FF9B)
     (at 140.44 86.9)
-    (path /5C27B0EA/5F925016)
+    (path /6067425C)
     (fp_text reference Z9 (at 39.9 -25.32) (layer F.SilkS)
       (effects (font (size 0.1 0.1) (thickness 0.025)))
     )
@@ -29450,7 +29450,7 @@
     (at 99.33 91.9 270)
     (descr "Micro SD, SMD, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3AT-SF-PEJM5/category/Drawing%20(2D)/doc_file_id/44099/?file_category_id=6&item_id=06090031000&is_series=)")
     (tags "Micro SD")
-    (path /5C58AFEF/5C58B8EC)
+    (path /60642567)
     (attr smd)
     (fp_text reference P1 (at -5.05 7.35 270) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))

@@ -1594,7 +1594,7 @@ Wire Wire Line
 Wire Wire Line
 	2475 3750 2350 3750
 Wire Wire Line
-	2475 3210 2475 3350
+	2475 3210 2475 3225
 Wire Wire Line
 	2350 3450 2475 3450
 Connection ~ 1600 3350
@@ -2010,214 +2010,25 @@ F 7 "SSW-104-01-T-D" H 8820 1325 50  0001 C CNN "PartNumber"
 	1    8820 1325
 	1    0    0    -1  
 $EndComp
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR0101
-U 1 1 5EF48D55
-P 10155 830
-F 0 "#PWR0101" H 10155 830 30  0001 C CNN
-F 1 "GND" H 10155 760 30  0001 C CNN
-F 2 "" H 10155 830 60  0000 C CNN
-F 3 "" H 10155 830 60  0000 C CNN
-	1    10155 830 
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10155 830  10100 830 
 Wire Notes Line
 	3250 5585 3250 6680
 Wire Notes Line
 	535  6680 5490 6680
-$Comp
-L Device:C C3
-U 1 1 5F084CC5
-P 9845 1825
-F 0 "C3" H 9710 1930 39  0000 L CNN
-F 1 "10u" H 9715 1715 39  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9883 1675 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 9845 1825 50  0001 C CNN
-F 4 "16V 20%" H 9845 1825 50  0001 C CNN "Description"
-F 5 "EMK107BC6106MA-T" H 9845 1825 50  0001 C CNN "Mfr No."
-F 6 "0.46" H 9845 1825 50  0001 C CNN "Price"
-F 7 "EMK107BC6106MA-T" H 9845 1825 50  0001 C CNN "PartNumber"
-	1    9845 1825
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	8040 550  8040 2175
 Wire Notes Line
 	9510 2175 9510 550 
-$Comp
-L Device:C C5
-U 1 1 5F12BFF6
-P 10945 1825
-F 0 "C5" H 11000 1935 39  0000 L CNN
-F 1 "1u" H 11005 1720 39  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10983 1675 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/40/cx5r-776519.pdf" H 10945 1825 50  0001 C CNN
-F 4 "16V 20%" H 10945 1825 50  0001 C CNN "Description"
-F 5 "0603YD105KAT2A" H 10945 1825 50  0001 C CNN "Mfr No."
-F 6 "0.18" H 10945 1825 50  0001 C CNN "Price"
-F 7 "0603YD105KAT2A" H 10945 1825 50  0001 C CNN "PartNumber"
-	1    10945 1825
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR0102
-U 1 1 5F12D03B
-P 10945 2065
-F 0 "#PWR0102" H 10945 2065 30  0001 C CNN
-F 1 "GND" H 10945 1995 30  0001 C CNN
-F 2 "" H 10945 2065 60  0000 C CNN
-F 3 "" H 10945 2065 60  0000 C CNN
-	1    10945 2065
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR0103
-U 1 1 5F12E11F
-P 9845 2065
-F 0 "#PWR0103" H 9845 2065 30  0001 C CNN
-F 1 "GND" H 9845 1995 30  0001 C CNN
-F 2 "" H 9845 2065 60  0000 C CNN
-F 3 "" H 9845 2065 60  0000 C CNN
-	1    9845 2065
-	1    0    0    -1  
-$EndComp
-Text GLabel 9795 1520 0    39   Input ~ 8
-ExP
-$Comp
-L Connector_Generic:Conn_01x03 J10
-U 1 1 5EF478E2
-P 9900 930
-F 0 "J10" H 9818 629 39  0000 C CNN
-F 1 "External Power" H 9830 715 39  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 9900 930 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 9900 930 50  0001 C CNN
-F 4 "Straight female 2.54 mm 1row" H 9900 930 50  0001 C CNN "Description"
-F 5 "SSW-103-01-T-S" H 9900 930 50  0001 C CNN "Mfr No."
-F 6 "0.5" H 9900 930 50  0001 C CNN "Price"
-F 7 "SSW-103-01-T-S" H 9900 930 50  0001 C CNN "PartNumber"
-	1    9900 930 
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:Fuse F2
-U 1 1 5F2A4A6D
-P 10690 930
-F 0 "F2" V 10517 930 39  0000 C CNN
-F 1 "1.5A" V 10592 930 39  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" V 10620 930 50  0001 C CNN
-F 3 "https://www.mouser.fi/datasheet/2/240/Littelfuse_PTC_1812L_Datasheet.pdf-693388.pdf" H 10690 930 50  0001 C CNN
-F 4 "Hold 1A, Trip 1.8A" H 10690 930 50  0001 C CNN "Description"
-F 5 "0ZCJ0100FF2E" H 10690 930 50  0001 C CNN "Mfr No."
-F 6 "0.17" H 10690 930 50  0001 C CNN "Price"
-F 7 "0ZCJ0100FF2E" H 10690 930 50  0001 C CNN "PartNumber"
-	1    10690 930 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10840 930  10945 930 
-Wire Wire Line
-	10540 930  10100 930 
-$Comp
-L power:PWR_FLAG #FLG0104
-U 1 1 5F320ECD
-P 3710 6550
-F 0 "#FLG0104" H 3710 6645 30  0001 C CNN
-F 1 "PWR_FLAG" V 3710 6785 30  0000 C CNN
-F 2 "" H 3710 6550 60  0000 C CNN
-F 3 "" H 3710 6550 60  0000 C CNN
-	1    3710 6550
-	0    1    1    0   
-$EndComp
-$Comp
-L PSLab:LDL212PU50R U17
-U 1 1 5EF1AD6F
-P 10390 1420
-F 0 "U17" H 10390 1736 39  0000 C CNN
-F 1 "LDL212PU50R" H 10390 1661 39  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm" H 10390 1420 39  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/389/dm00225720-1798688.pdf" H 10390 1420 39  0001 C CNN
-F 4 "DFN-6-1EP_3x3mm_Pitch0.95mm" H 10390 1420 50  0001 C CNN "Description"
-F 5 "LDL212PU50R" H 10390 1420 50  0001 C CNN "Mfr No."
-F 6 "LDL212PU50R" H 10390 1420 50  0001 C CNN "PartNumber"
-F 7 "0.51" H 10390 1420 50  0001 C CNN "Price"
-	1    10390 1420
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 5F31B7ED
-P 9845 1490
-F 0 "#FLG0103" H 9845 1585 30  0001 C CNN
-F 1 "PWR_FLAG" H 9845 1625 30  0000 C CNN
-F 2 "" H 9845 1490 60  0000 C CNN
-F 3 "" H 9845 1490 60  0000 C CNN
-	1    9845 1490
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10740 1420
-Wire Wire Line
-	9845 2065 9845 2020
-Wire Wire Line
-	9845 2020 9605 2020
-Wire Wire Line
-	9605 2020 9605 1320
-Wire Wire Line
-	9605 1320 10040 1320
-Connection ~ 9845 2020
-Wire Wire Line
-	9845 2020 9845 1975
-Wire Wire Line
-	10040 1420 9985 1420
-Wire Wire Line
-	9985 1420 9985 1520
-Wire Wire Line
-	9985 1520 10040 1520
-Wire Wire Line
-	10740 1520 10945 1520
-Wire Wire Line
-	10740 1320 10945 1320
-Wire Wire Line
-	10945 1320 10945 1520
-Connection ~ 10945 1520
-Wire Wire Line
-	10945 1520 10945 1675
-Wire Wire Line
-	10945 930  10945 1320
-Connection ~ 10945 1320
-Wire Wire Line
-	9845 1490 9845 1520
-Wire Wire Line
-	9845 1520 9795 1520
-Wire Wire Line
-	9845 1520 9985 1520
-Connection ~ 9845 1520
-Connection ~ 9985 1520
-Wire Wire Line
-	9845 1520 9845 1675
 Wire Notes Line
 	11130 550  11130 2175
 Wire Notes Line
 	8040 2175 11130 2175
 Wire Notes Line
 	8040 550  11130 550 
-Text Notes 10420 655  0    60   ~ 0
-External Power
 Text GLabel 2975 5990 2    39   Input ~ 8
 +5V
 Wire Wire Line
 	2975 5990 2945 5990
 Connection ~ 2945 5990
-Wire Wire Line
-	10945 1975 10945 2020
-Wire Wire Line
-	10465 2020 10945 2020
-Wire Wire Line
-	10465 1695 10465 2020
-Connection ~ 10945 2020
-Wire Wire Line
-	10945 2020 10945 2065
 Wire Notes Line
 	7750 2270 11150 2270
 Wire Notes Line
@@ -2239,39 +2050,10 @@ F 7 "SSW-105-01-T-S" H 6975 2095 50  0001 C CNN "PartNumber"
 	1    6975 2095
 	0    1    1    0   
 $EndComp
-$Comp
-L Switch:SW_Push_DPDT SW1
-U 1 1 5EF8C80A
-P 3745 6070
-F 0 "SW1" H 3560 6395 39  0000 C CNN
-F 1 "Power Route" H 3900 6475 39  0000 C CNN
-F 2 "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" H 3745 6270 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/60/js-1841892.pdf" H 3745 6270 50  0001 C CNN
-F 4 "JS202011CQN" H 3745 6070 50  0001 C CNN "Mfr No."
-F 5 "JS202011CQN" H 3745 6070 50  0001 C CNN "PartNumber"
-F 6 "Slide Switches DPDT THRU HOLE" H 3745 6070 50  0001 C CNN "Description"
-F 7 "0.43" H 3745 6070 50  0001 C CNN "Price"
-	1    3745 6070
-	1    0    0    -1  
-$EndComp
-Text GLabel 3945 5770 2    39   Input ~ 8
-InP
-Text GLabel 3945 6170 2    39   Input ~ 8
-InP
-Text GLabel 3945 5970 2    39   Input ~ 8
-ExP
-Text GLabel 3945 6370 2    39   Input ~ 8
-ExP
-Text GLabel 3545 6270 0    39   Input ~ 8
-+5V
-Text GLabel 3545 5870 0    39   Input ~ 8
-+5V
 Wire Notes Line
 	4165 5585 4165 6680
 Wire Notes Line
 	535  5585 4165 5585
-Text GLabel 3710 6550 0    39   Input ~ 8
-+5V
 $Comp
 L PSLab:Logos TP5
 U 1 1 5F0BD332
@@ -2393,8 +2175,6 @@ Wire Wire Line
 	5050 2300 5050 2600
 Text GLabel 7175 1895 1    47   Input ~ 0
 IOut
-Text GLabel 10100 1030 2    40   Input ~ 0
-+5V
 $Comp
 L Device:D_Zener_Small_ALT D1
 U 1 1 5F52A60A
@@ -3487,4 +3267,20 @@ Text Label -3850 4225 0    40   ~ 0
 L_SW
 Text Label -4950 5325 0    39   ~ 0
 CLN
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 606BAE10
+P 2475 3225
+AR Path="/5ED254D7/606BAE10" Ref="#FLG?"  Part="1" 
+AR Path="/606BAE10" Ref="#FLG0103"  Part="1" 
+F 0 "#FLG0103" H 2475 3300 50  0001 C CNN
+F 1 "PWR_FLAG" H 2475 3398 39  0001 C CNN
+F 2 "" H 2475 3225 50  0001 C CNN
+F 3 "~" H 2475 3225 50  0001 C CNN
+	1    2475 3225
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2475 3225
+Wire Wire Line
+	2475 3225 2475 3350
 $EndSCHEMATC

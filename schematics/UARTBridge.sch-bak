@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 3
 Title "CPN2102N UART Bridge"
 Date "2019-03-03"
 Rev "1"

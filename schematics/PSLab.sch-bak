@@ -3794,4 +3794,14 @@ F 3 "~" H 8450 7175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 8450 7175
+Wire Notes Line
+	5325 5100 8675 5100
+Wire Notes Line
+	8675 5100 8675 3600
+Wire Notes Line
+	8675 3600 5325 3600
+Wire Notes Line
+	5325 3600 5325 5100
+Text Notes 5350 3700 0    39   ~ 8
+Voltage Regulator
 $EndSCHEMATC

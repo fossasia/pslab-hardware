@@ -1373,7 +1373,7 @@ F 7 "0.41" H 3400 6700 50  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 Text GLabel 1225 5250 0    40   Input ~ 0
-SQ4
+SQR4_
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR071
 U 1 1 55C3CD4E
@@ -1768,7 +1768,7 @@ Wire Wire Line
 Text GLabel 3900 6700 2    40   Input ~ 0
 SINE2
 Text GLabel 1200 6800 0    40   Input ~ 0
-SQ3
+SQR3_
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR078
 U 1 1 55EEF5CE

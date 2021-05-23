@@ -4,6 +4,10 @@ $CMP LTC4040
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4040fb.pdf
 $ENDCMP
 #
+$CMP PIC24EP256GP204
+F https://eu.mouser.com/datasheet/2/268/70000657H-277982.pdf
+$ENDCMP
+#
 $CMP USB_C_Receptacle
 D USB Full-Featured Type-C Receptacle connector
 K usb universal serial bus type-C full-featured

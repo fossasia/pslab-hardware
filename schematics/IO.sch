@@ -550,14 +550,6 @@ Text GLabel 4050 3450 0    60   Input ~ 0
 V-
 Text GLabel 4050 2450 0    60   Input ~ 0
 V+
-Text GLabel 5510 7060 2    40   Input ~ 0
-PVS1
-Text GLabel 5510 6860 2    40   Input ~ 0
-PVS2
-Text GLabel 5510 6660 2    40   Input ~ 0
-PVS3
-Text GLabel 5510 6460 2    40   Input ~ 0
-PCS
 $Comp
 L PSLab-rescue:GND-RESCUE-proto1 #PWR062
 U 1 1 5561C8FB
@@ -584,95 +576,6 @@ F 3 "" H 4525 2450 60  0000 C CNN
 	1    4525 2450
 	0    -1   1    0   
 $EndComp
-$Comp
-L PSLab-rescue:C-RESCUE-proto1 C7
-U 1 1 55638F6F
-P 2125 5550
-AR Path="/55638F6F" Ref="C7"  Part="1" 
-AR Path="/54260FB5/55638F6F" Ref="C7"  Part="1" 
-F 0 "C7" H 2125 5650 40  0000 L CNN
-F 1 "10nF" H 2131 5465 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2163 5400 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf" H 2125 5550 60  0001 C CNN
-F 4 "16V 5%" H 2125 5550 50  0001 C CNN "Description"
-F 5 "VJ0603Y103JXJPW1BC" H 2125 5550 50  0001 C CNN "Mfr No."
-F 6 "0.37" H 2125 5550 50  0001 C CNN "Price"
-F 7 "VJ0603Y103JXJPW1BC" H 2125 5550 50  0001 C CNN "PartNumber"
-	1    2125 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab-rescue:R-RESCUE-proto1 R40
-U 1 1 55639229
-P 1600 7050
-AR Path="/55639229" Ref="R40"  Part="1" 
-AR Path="/54260FB5/55639229" Ref="R40"  Part="1" 
-F 0 "R40" V 1525 7050 40  0000 C CNN
-F 1 "200K" V 1607 7051 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 7050 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1600 7050 30  0001 C CNN
-F 4 "1/16W 5%" H 1600 7050 50  0001 C CNN "Description"
-F 5 "RR0816P-204-D" H 1600 7050 50  0001 C CNN "Mfr No."
-F 6 "0.1" H 1600 7050 50  0001 C CNN "Price"
-F 7 "RR0816P-204-D" H 1600 7050 50  0001 C CNN "PartNumber"
-	1    1600 7050
-	1    0    0    1   
-$EndComp
-$Comp
-L PSLab-rescue:R-RESCUE-proto1 R44
-U 1 1 556399B0
-P 1850 6800
-AR Path="/556399B0" Ref="R44"  Part="1" 
-AR Path="/54260FB5/556399B0" Ref="R44"  Part="1" 
-F 0 "R44" V 1920 6800 40  0000 C CNN
-F 1 "5K1" V 1857 6801 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 6800 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1850 6800 30  0001 C CNN
-F 4 "1/16W 5%" H 1850 6800 50  0001 C CNN "Description"
-F 5 "RR0816P-512-D" H 1850 6800 50  0001 C CNN "Mfr No."
-F 6 "0.1" H 1850 6800 50  0001 C CNN "Price"
-F 7 "RR0816P-512-D" H 1850 6800 50  0001 C CNN "PartNumber"
-	1    1850 6800
-	0    1    -1   0   
-$EndComp
-$Comp
-L PSLab-rescue:C-RESCUE-proto1 C6
-U 1 1 5563B5F7
-P 1425 5250
-AR Path="/5563B5F7" Ref="C6"  Part="1" 
-AR Path="/54260FB5/5563B5F7" Ref="C6"  Part="1" 
-F 0 "C6" H 1425 5350 40  0000 L CNN
-F 1 "10u" H 1431 5165 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1463 5100 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 1425 5250 60  0001 C CNN
-F 4 "16V 20%" H 1425 5250 50  0001 C CNN "Description"
-F 5 "EMK107BC6106MA-T" H 1425 5250 50  0001 C CNN "Mfr No."
-F 6 "0.46" H 1425 5250 50  0001 C CNN "Price"
-F 7 "EMK107BC6106MA-T" H 1425 5250 50  0001 C CNN "PartNumber"
-	1    1425 5250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L PSLab-rescue:C-RESCUE-proto1 C35
-U 1 1 5563C456
-P 3100 4750
-AR Path="/5563C456" Ref="C35"  Part="1" 
-AR Path="/54260FB5/5563C456" Ref="C35"  Part="1" 
-F 0 "C35" H 3100 4850 40  0000 L CNN
-F 1 "0.1u" H 3106 4665 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 4600 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3100 4750 60  0001 C CNN
-F 4 "16V 10%" H 3100 4750 50  0001 C CNN "Description"
-F 5 "C0603C104J4RACTU" H 3100 4750 50  0001 C CNN "Mfr No."
-F 6 "0.15" H 3100 4750 50  0001 C CNN "Price"
-F 7 "C0603C104J4RACTU" H 3100 4750 50  0001 C CNN "PartNumber"
-	1    3100 4750
-	0    -1   -1   0   
-$EndComp
-Text GLabel 3300 4750 2    40   Input ~ 0
-V+
-Text GLabel 3300 5550 2    40   Input ~ 0
-V-
 $Comp
 L PSLab-rescue:R-RESCUE-proto1 R28
 U 1 1 55B792CD
@@ -952,108 +855,6 @@ F 7 "RR0816P-103-D" H 5980 1000 50  0001 C CNN "PartNumber"
 	1    5980 1000
 	0    -1   -1   0   
 $EndComp
-$Comp
-L PSLab-rescue:R-RESCUE-proto1 R21
-U 1 1 55B7C4EE
-P 2350 6125
-AR Path="/55B7C4EE" Ref="R21"  Part="1" 
-AR Path="/54260FB5/55B7C4EE" Ref="R21"  Part="1" 
-F 0 "R21" V 2430 6125 40  0000 C CNN
-F 1 "10K" V 2345 6125 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 6125 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2350 6125 30  0001 C CNN
-F 4 "1/16W 5%" H 2350 6125 50  0001 C CNN "Description"
-F 5 "RR0816P-103-D" H 2350 6125 50  0001 C CNN "Mfr No."
-F 6 "0.12" H 2350 6125 50  0001 C CNN "Price"
-F 7 "RR0816P-103-D" H 2350 6125 50  0001 C CNN "PartNumber"
-	1    2350 6125
-	0    -1   -1   0   
-$EndComp
-$Comp
-L PSLab-rescue:C-RESCUE-proto1 C40
-U 1 1 55B80C4D
-P 2100 7100
-AR Path="/55B80C4D" Ref="C40"  Part="1" 
-AR Path="/54260FB5/55B80C4D" Ref="C40"  Part="1" 
-F 0 "C40" H 2100 7200 40  0000 L CNN
-F 1 "10nF" H 2106 7015 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2138 6950 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf" H 2100 7100 60  0001 C CNN
-F 4 "16V 5%" H 2100 7100 50  0001 C CNN "Description"
-F 5 "VJ0603Y103JXJPW1BC" H 2100 7100 50  0001 C CNN "Mfr No."
-F 6 "0.37" H 2100 7100 50  0001 C CNN "Price"
-F 7 "VJ0603Y103JXJPW1BC" H 2100 7100 50  0001 C CNN "PartNumber"
-	1    2100 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab-rescue:R-RESCUE-proto1 R42
-U 1 1 55B80C5B
-P 2375 4525
-AR Path="/55B80C5B" Ref="R42"  Part="1" 
-AR Path="/54260FB5/55B80C5B" Ref="R42"  Part="1" 
-F 0 "R42" V 2300 4525 40  0000 C CNN
-F 1 "10K" V 2382 4526 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2305 4525 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2375 4525 30  0001 C CNN
-F 4 "1/16W 5%" H 2375 4525 50  0001 C CNN "Description"
-F 5 "RR0816P-103-D" H 2375 4525 50  0001 C CNN "Mfr No."
-F 6 "0.12" H 2375 4525 50  0001 C CNN "Price"
-F 7 "RR0816P-103-D" H 2375 4525 50  0001 C CNN "PartNumber"
-	1    2375 4525
-	0    -1   1    0   
-$EndComp
-$Comp
-L PSLab-rescue:R-RESCUE-proto1 R43
-U 1 1 55B80C68
-P 1875 5250
-AR Path="/55B80C68" Ref="R43"  Part="1" 
-AR Path="/54260FB5/55B80C68" Ref="R43"  Part="1" 
-F 0 "R43" V 1800 5250 40  0000 C CNN
-F 1 "5K1" V 1882 5251 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1805 5250 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1875 5250 30  0001 C CNN
-F 4 "1/16W 5%" H 1875 5250 50  0001 C CNN "Description"
-F 5 "RR0816P-512-D" H 1875 5250 50  0001 C CNN "Mfr No."
-F 6 "0.1" H 1875 5250 50  0001 C CNN "Price"
-F 7 "RR0816P-512-D" H 1875 5250 50  0001 C CNN "PartNumber"
-	1    1875 5250
-	0    -1   1    0   
-$EndComp
-$Comp
-L PSLab-rescue:C-RESCUE-proto1 C38
-U 1 1 55B80C75
-P 3100 5550
-AR Path="/55B80C75" Ref="C38"  Part="1" 
-AR Path="/54260FB5/55B80C75" Ref="C38"  Part="1" 
-F 0 "C38" H 3100 5650 40  0000 L CNN
-F 1 "0.1u" H 3106 5465 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 5400 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3100 5550 60  0001 C CNN
-F 4 "16V 10%" H 3100 5550 50  0001 C CNN "Description"
-F 5 "C0603C104J4RACTU" H 3100 5550 50  0001 C CNN "Mfr No."
-F 6 "0.15" H 3100 5550 50  0001 C CNN "Price"
-F 7 "C0603C104J4RACTU" H 3100 5550 50  0001 C CNN "PartNumber"
-	1    3100 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L PSLab-rescue:C-RESCUE-proto1 C30
-U 1 1 55B80C8A
-P 2625 4895
-AR Path="/55B80C8A" Ref="C30"  Part="1" 
-AR Path="/54260FB5/55B80C8A" Ref="C30"  Part="1" 
-F 0 "C30" H 2625 4995 40  0000 L CNN
-F 1 "1nF" H 2631 4810 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2663 4745 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf" H 2625 4895 60  0001 C CNN
-F 4 "16V 5%" H 2625 4895 50  0001 C CNN "Description"
-F 5 "C0603C102J5RACAUTO" H 2625 4895 50  0001 C CNN "Mfr No."
-F 6 "0.12" H 2625 4895 50  0001 C CNN "Price"
-F 7 "C0603C102J5RACAUTO" H 2625 4895 50  0001 C CNN "PartNumber"
-	1    2625 4895
-	1    0    0    -1  
-$EndComp
 Text GLabel 7950 1125 1    40   Input ~ 0
 CS.CH1
 $Comp
@@ -1153,23 +954,6 @@ F 6 "0.12" H 9325 5200 50  0001 C CNN "Price"
 F 7 "RR0816P-103-D" H 9325 5200 50  0001 C CNN "PartNumber"
 	1    9325 5200
 	0    1    1    0   
-$EndComp
-$Comp
-L PSLab-rescue:R-RESCUE-proto1 R41
-U 1 1 55B8CB73
-P 2375 5250
-AR Path="/55B8CB73" Ref="R41"  Part="1" 
-AR Path="/54260FB5/55B8CB73" Ref="R41"  Part="1" 
-F 0 "R41" V 2455 5250 40  0000 C CNN
-F 1 "5K1" V 2382 5251 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2305 5250 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2375 5250 30  0001 C CNN
-F 4 "1/16W 5%" H 2375 5250 50  0001 C CNN "Description"
-F 5 "RR0816P-512-D" H 2375 5250 50  0001 C CNN "Mfr No."
-F 6 "0.1" H 2375 5250 50  0001 C CNN "Price"
-F 7 "RR0816P-512-D" H 2375 5250 50  0001 C CNN "PartNumber"
-	1    2375 5250
-	0    -1   -1   0   
 $EndComp
 Text GLabel 10700 3700 2    47   Input ~ 0
 CH3.GAIN
@@ -1315,119 +1099,12 @@ F 3 "" H 10150 4675 60  0000 C CNN
 	1    10150 4675
 	0    1    1    0   
 $EndComp
-$Comp
-L PSLab-rescue:R-RESCUE-proto1 R15
-U 1 1 55C03E3C
-P 2350 6800
-AR Path="/55C03E3C" Ref="R15"  Part="1" 
-AR Path="/54260FB5/55C03E3C" Ref="R15"  Part="1" 
-F 0 "R15" V 2430 6800 40  0000 C CNN
-F 1 "5K1" V 2357 6801 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 6800 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2350 6800 30  0001 C CNN
-F 4 "1/16W 5%" H 2350 6800 50  0001 C CNN "Description"
-F 5 "RR0816P-512-D" H 2350 6800 50  0001 C CNN "Mfr No."
-F 6 "0.1" H 2350 6800 50  0001 C CNN "Price"
-F 7 "RR0816P-512-D" H 2350 6800 50  0001 C CNN "PartNumber"
-	1    2350 6800
-	0    -1   -1   0   
-$EndComp
 Text Label 2050 1750 0    60   ~ 0
 DAC1
 Text Label 2050 1850 0    60   ~ 0
 DAC2
 Text Label 1700 2350 0    60   ~ 0
 DAC4
-$Comp
-L PSLab-rescue:TL082-RESCUE-proto1 U13
-U 2 1 55C273D0
-P 3400 5150
-AR Path="/55C273D0" Ref="U13"  Part="2" 
-AR Path="/54260FB5/55C273D0" Ref="U10"  Part="2" 
-F 0 "U10" H 3350 5350 60  0000 L CNN
-F 1 "TL082" H 3350 4900 60  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3400 5150 60  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" H 3400 5150 60  0001 C CNN
-F 4 "SOIC 8" H 3400 5150 50  0001 C CNN "Description"
-F 5 "TL082CDR" H 3400 5150 50  0001 C CNN "Mfr No."
-F 6 "TL082CDR" H 3400 5150 50  0001 C CNN "PartNumber"
-F 7 "0.41" H 3400 5150 50  0001 C CNN "Price"
-	2    3400 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab-rescue:TL082-RESCUE-proto1 U13
-U 1 1 55C276F1
-P 3400 6700
-AR Path="/55C276F1" Ref="U13"  Part="1" 
-AR Path="/54260FB5/55C276F1" Ref="U10"  Part="1" 
-F 0 "U10" H 3350 6900 60  0000 L CNN
-F 1 "TL082" H 3350 6450 60  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3400 6700 60  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" H 3400 6700 60  0001 C CNN
-F 4 "SOIC 8" H 3400 6700 50  0001 C CNN "Description"
-F 5 "TL082CDR" H 3400 6700 50  0001 C CNN "Mfr No."
-F 6 "TL082CDR" H 3400 6700 50  0001 C CNN "PartNumber"
-F 7 "0.41" H 3400 6700 50  0001 C CNN "Price"
-	1    3400 6700
-	1    0    0    -1  
-$EndComp
-Text GLabel 1225 5250 0    40   Input ~ 0
-SQR4_
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR071
-U 1 1 55C3CD4E
-P 2125 5750
-AR Path="/55C3CD4E" Ref="#PWR071"  Part="1" 
-AR Path="/54260FB5/55C3CD4E" Ref="#PWR071"  Part="1" 
-F 0 "#PWR071" H 2125 5750 30  0001 C CNN
-F 1 "GND" H 2125 5680 30  0001 C CNN
-F 2 "" H 2125 5750 60  0000 C CNN
-F 3 "" H 2125 5750 60  0000 C CNN
-	1    2125 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR072
-U 1 1 55C3D098
-P 2900 5050
-AR Path="/55C3D098" Ref="#PWR072"  Part="1" 
-AR Path="/54260FB5/55C3D098" Ref="#PWR072"  Part="1" 
-F 0 "#PWR072" H 2900 5050 30  0001 C CNN
-F 1 "GND" H 2900 4980 30  0001 C CNN
-F 2 "" H 2900 5050 60  0000 C CNN
-F 3 "" H 2900 5050 60  0000 C CNN
-	1    2900 5050
-	0    1    1    0   
-$EndComp
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR073
-U 1 1 55C3F836
-P 2900 5550
-AR Path="/55C3F836" Ref="#PWR073"  Part="1" 
-AR Path="/54260FB5/55C3F836" Ref="#PWR073"  Part="1" 
-F 0 "#PWR073" H 2900 5550 30  0001 C CNN
-F 1 "GND" H 2900 5480 30  0001 C CNN
-F 2 "" H 2900 5550 60  0000 C CNN
-F 3 "" H 2900 5550 60  0000 C CNN
-	1    2900 5550
-	0    1    1    0   
-$EndComp
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR074
-U 1 1 55C3FA2B
-P 2900 4750
-AR Path="/55C3FA2B" Ref="#PWR074"  Part="1" 
-AR Path="/54260FB5/55C3FA2B" Ref="#PWR074"  Part="1" 
-F 0 "#PWR074" H 2900 4750 30  0001 C CNN
-F 1 "GND" H 2900 4680 30  0001 C CNN
-F 2 "" H 2900 4750 60  0000 C CNN
-F 3 "" H 2900 4750 60  0000 C CNN
-	1    2900 4750
-	0    1    1    0   
-$EndComp
-Text GLabel 3900 5150 2    40   Input ~ 0
-SINE1
 Text GLabel 10650 4675 2    40   Input ~ 0
 CH3
 Text GLabel 10775 2850 2    40   Input ~ 0
@@ -1680,12 +1357,6 @@ Wire Wire Line
 Wire Wire Line
 	2075 750  2075 1475
 Wire Wire Line
-	2125 4525 2125 5250
-Wire Wire Line
-	2625 5250 2900 5250
-Wire Wire Line
-	2625 4525 3900 4525
-Wire Wire Line
 	5675 825  5675 1000
 Wire Wire Line
 	5675 1775 5850 1775
@@ -1743,94 +1414,7 @@ Wire Wire Line
 Wire Wire Line
 	8875 4200 9000 4200
 Connection ~ 9000 4200
-Text GLabel 6180 7060 2    40   Input ~ 0
-SINE1
 Connection ~ 10200 3700
-$Comp
-L PSLab-rescue:C-RESCUE-proto1 C33
-U 1 1 55EC669B
-P 1400 6800
-AR Path="/55EC669B" Ref="C33"  Part="1" 
-AR Path="/54260FB5/55EC669B" Ref="C33"  Part="1" 
-F 0 "C33" H 1400 6900 40  0000 L CNN
-F 1 "10u" H 1406 6715 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1438 6650 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 1400 6800 60  0001 C CNN
-F 4 "16V 20%" H 1400 6800 50  0001 C CNN "Description"
-F 5 "EMK107BC6106MA-T" H 1400 6800 50  0001 C CNN "Mfr No."
-F 6 "0.46" H 1400 6800 50  0001 C CNN "Price"
-F 7 "EMK107BC6106MA-T" H 1400 6800 50  0001 C CNN "PartNumber"
-	1    1400 6800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3900 4525 3900 5150
-Text GLabel 3900 6700 2    40   Input ~ 0
-SINE2
-Text GLabel 1200 6800 0    40   Input ~ 0
-SQR3_
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR078
-U 1 1 55EEF5CE
-P 2900 6600
-AR Path="/55EEF5CE" Ref="#PWR078"  Part="1" 
-AR Path="/54260FB5/55EEF5CE" Ref="#PWR078"  Part="1" 
-F 0 "#PWR078" H 2900 6600 30  0001 C CNN
-F 1 "GND" H 2900 6530 30  0001 C CNN
-F 2 "" H 2900 6600 60  0000 C CNN
-F 3 "" H 2900 6600 60  0000 C CNN
-	1    2900 6600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2900 6800 2600 6800
-Wire Wire Line
-	2600 6125 3900 6125
-Wire Wire Line
-	3900 6125 3900 6700
-Wire Wire Line
-	2100 6125 2100 6800
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR079
-U 1 1 55EF0F62
-P 2100 7300
-AR Path="/55EF0F62" Ref="#PWR079"  Part="1" 
-AR Path="/54260FB5/55EF0F62" Ref="#PWR079"  Part="1" 
-F 0 "#PWR079" H 2100 7300 30  0001 C CNN
-F 1 "GND" H 2100 7230 30  0001 C CNN
-F 2 "" H 2100 7300 60  0000 C CNN
-F 3 "" H 2100 7300 60  0000 C CNN
-	1    2100 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR080
-U 1 1 55EF1B25
-P 1600 7300
-AR Path="/55EF1B25" Ref="#PWR080"  Part="1" 
-AR Path="/54260FB5/55EF1B25" Ref="#PWR080"  Part="1" 
-F 0 "#PWR080" H 1600 7300 30  0001 C CNN
-F 1 "GND" H 1600 7230 30  0001 C CNN
-F 2 "" H 1600 7300 60  0000 C CNN
-F 3 "" H 1600 7300 60  0000 C CNN
-	1    1600 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR081
-U 1 1 55EF8D0A
-P 6515 6985
-AR Path="/55EF8D0A" Ref="#PWR081"  Part="1" 
-AR Path="/54260FB5/55EF8D0A" Ref="#PWR081"  Part="1" 
-F 0 "#PWR081" H 6515 6985 30  0001 C CNN
-F 1 "GND" H 6515 6915 30  0001 C CNN
-F 2 "" H 6515 6985 60  0000 C CNN
-F 3 "" H 6515 6985 60  0000 C CNN
-	1    6515 6985
-	-1   0    0    -1  
-$EndComp
-Text GLabel 6180 6960 2    40   Input ~ 0
-SINE2
 $Comp
 L PSLab-rescue:C-RESCUE-proto1 C41
 U 1 1 55F09576
@@ -1908,19 +1492,6 @@ Wire Wire Line
 	5675 3975 6825 3975
 Wire Wire Line
 	6825 3975 6825 3350
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR084
-U 1 1 564DC510
-P 1625 5750
-AR Path="/564DC510" Ref="#PWR084"  Part="1" 
-AR Path="/54260FB5/564DC510" Ref="#PWR084"  Part="1" 
-F 0 "#PWR084" H 1625 5750 30  0001 C CNN
-F 1 "GND" H 1625 5680 30  0001 C CNN
-F 2 "" H 1625 5750 60  0000 C CNN
-F 3 "" H 1625 5750 60  0000 C CNN
-	1    1625 5750
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	5150 3950 550  3950
 Wire Notes Line
@@ -1933,10 +1504,6 @@ Text Notes 550  3925 0    60   ~ 0
 4-Channel DAC. Used for PV1(+/-5V) , PV2(+/-3.3V) , PV3 (0-3.3V) , PCS (0-2mA)\nAnd associated analog circuitry
 Wire Notes Line
 	550  4175 550  7450
-Text Notes 570  4280 0    60   ~ 0
-Sine Wave generator filters (Simulated for 5Hz to 5KHz at Okawa-Denshi)
-Wire Notes Line
-	550  7450 6760 7450
 Text Notes 9700 625  0    60   ~ 0
 Signal Processing
 $Comp
@@ -1956,88 +1523,6 @@ F 7 "MMBT3906-7-F" H 2050 2875 50  0001 C CNN "PartNumber"
 	1    2050 2875
 	1    0    0    -1  
 $EndComp
-$Comp
-L PSLab-rescue:TEST TP1
-U 1 1 5A5736C0
-P 4670 6325
-AR Path="/5A5736C0" Ref="TP1"  Part="1" 
-AR Path="/54260FB5/5A5736C0" Ref="TP1"  Part="1" 
-F 0 "TP1" H 4670 6625 50  0000 C BNN
-F 1 "TEST" H 4670 6575 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4670 6325 50  0001 C CNN
-F 3 "" H 4670 6325 50  0001 C CNN
-	1    4670 6325
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab-rescue:TEST TP2
-U 1 1 5A5737F7
-P 4925 6320
-AR Path="/5A5737F7" Ref="TP2"  Part="1" 
-AR Path="/54260FB5/5A5737F7" Ref="TP2"  Part="1" 
-F 0 "TP2" H 4925 6620 50  0000 C BNN
-F 1 "TEST" H 4925 6570 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4925 6320 50  0001 C CNN
-F 3 "" H 4925 6320 50  0001 C CNN
-	1    4925 6320
-	1    0    0    -1  
-$EndComp
-Text GLabel 4670 6325 3    60   Input ~ 0
-V-
-Text GLabel 4925 6320 3    60   Input ~ 0
-V+
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR085
-U 1 1 5A581A00
-P 5510 6560
-AR Path="/5A581A00" Ref="#PWR085"  Part="1" 
-AR Path="/54260FB5/5A581A00" Ref="#PWR085"  Part="1" 
-F 0 "#PWR085" H 5510 6560 30  0001 C CNN
-F 1 "GND" H 5510 6490 30  0001 C CNN
-F 2 "" H 5510 6560 60  0000 C CNN
-F 3 "" H 5510 6560 60  0000 C CNN
-	1    5510 6560
-	0    -1   1    0   
-$EndComp
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR086
-U 1 1 5A58391A
-P 5510 6760
-AR Path="/5A58391A" Ref="#PWR086"  Part="1" 
-AR Path="/54260FB5/5A58391A" Ref="#PWR086"  Part="1" 
-F 0 "#PWR086" H 5510 6760 30  0001 C CNN
-F 1 "GND" H 5510 6690 30  0001 C CNN
-F 2 "" H 5510 6760 60  0000 C CNN
-F 3 "" H 5510 6760 60  0000 C CNN
-	1    5510 6760
-	0    -1   1    0   
-$EndComp
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR087
-U 1 1 5A583BED
-P 5510 6960
-AR Path="/5A583BED" Ref="#PWR087"  Part="1" 
-AR Path="/54260FB5/5A583BED" Ref="#PWR087"  Part="1" 
-F 0 "#PWR087" H 5510 6960 30  0001 C CNN
-F 1 "GND" H 5510 6890 30  0001 C CNN
-F 2 "" H 5510 6960 60  0000 C CNN
-F 3 "" H 5510 6960 60  0000 C CNN
-	1    5510 6960
-	0    -1   1    0   
-$EndComp
-$Comp
-L PSLab-rescue:GND-RESCUE-proto1 #PWR088
-U 1 1 5A583CE5
-P 5510 6360
-AR Path="/5A583CE5" Ref="#PWR088"  Part="1" 
-AR Path="/54260FB5/5A583CE5" Ref="#PWR088"  Part="1" 
-F 0 "#PWR088" H 5510 6360 30  0001 C CNN
-F 1 "GND" H 5510 6290 30  0001 C CNN
-F 2 "" H 5510 6360 60  0000 C CNN
-F 3 "" H 5510 6360 60  0000 C CNN
-	1    5510 6360
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	5730 1000 5675 1000
 Wire Wire Line
@@ -2051,50 +1536,8 @@ Wire Wire Line
 Connection ~ 6300 575 
 Text Notes 4325 5855 0    60   ~ 0
 Expansion
-Text GLabel 6180 6760 2    40   Input ~ 0
-SQR1
-Text GLabel 6180 6660 2    40   Input ~ 0
-SQR2
-Text GLabel 6180 6560 2    40   Input ~ 0
-SQR3
-Text GLabel 6180 6460 2    40   Input ~ 0
-SQR4
 Wire Notes Line
 	6760 5735 4300 5735
-$Comp
-L PSLab-rescue:R-RESCUE-proto1 R50
-U 1 1 5ADAEE02
-P 1625 5500
-AR Path="/5ADAEE02" Ref="R50"  Part="1" 
-AR Path="/54260FB5/5ADAEE02" Ref="R50"  Part="1" 
-F 0 "R50" V 1550 5500 40  0000 C CNN
-F 1 "200K" V 1632 5501 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1555 5500 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1625 5500 30  0001 C CNN
-F 4 "1/16W 5%" H 1625 5500 50  0001 C CNN "Description"
-F 5 "RR0816P-204-D" H 1625 5500 50  0001 C CNN "Mfr No."
-F 6 "0.1" H 1625 5500 50  0001 C CNN "Price"
-F 7 "RR0816P-204-D" H 1625 5500 50  0001 C CNN "PartNumber"
-	1    1625 5500
-	1    0    0    1   
-$EndComp
-$Comp
-L PSLab-rescue:Conn_01x08 J8
-U 1 1 5ADD22B7
-P 5310 6760
-AR Path="/5ADD22B7" Ref="J8"  Part="1" 
-AR Path="/54260FB5/5ADD22B7" Ref="J8"  Part="1" 
-F 0 "J8" H 5310 7160 50  0000 C CNN
-F 1 "Power Pins" H 5310 6260 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 5310 6760 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 5310 6760 50  0001 C CNN
-F 4 "Straight female 2.54 mm 1row" H 5310 6760 50  0001 C CNN "Description"
-F 5 "SSW-108-01-T-S" H 5310 6760 50  0001 C CNN "Mfr No."
-F 6 "0.82" H 5310 6760 50  0001 C CNN "Price"
-F 7 "SSW-108-01-T-S" H 5310 6760 50  0001 C CNN "PartNumber"
-	1    5310 6760
-	-1   0    0    1   
-$EndComp
 $Comp
 L PSLab-rescue:TL082-RESCUE-proto1 U16
 U 1 1 55B8CB26
@@ -2169,42 +1612,6 @@ Wire Wire Line
 	6300 575  7650 575 
 Wire Notes Line
 	4300 4175 4300 7450
-Wire Wire Line
-	2100 6900 2100 6800
-Connection ~ 2100 6800
-$Comp
-L PSLab-rescue:C-RESCUE-proto1 C36
-U 1 1 55EC625A
-P 2600 6460
-AR Path="/55EC625A" Ref="C36"  Part="1" 
-AR Path="/54260FB5/55EC625A" Ref="C36"  Part="1" 
-F 0 "C36" H 2600 6560 40  0000 L CNN
-F 1 "1nF" H 2606 6375 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2638 6310 30  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf" H 2600 6460 60  0001 C CNN
-F 4 "16V 5%" H 2600 6460 50  0001 C CNN "Description"
-F 5 "C0603C102J5RACAUTO" H 2600 6460 50  0001 C CNN "Mfr No."
-F 6 "0.12" H 2600 6460 50  0001 C CNN "Price"
-F 7 "C0603C102J5RACAUTO" H 2600 6460 50  0001 C CNN "PartNumber"
-	1    2600 6460
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 6260 2600 6125
-Connection ~ 2600 6125
-Wire Wire Line
-	2600 6660 2600 6800
-Connection ~ 2600 6800
-Wire Wire Line
-	2125 5350 2125 5250
-Connection ~ 2125 5250
-Connection ~ 1625 5250
-Wire Wire Line
-	2625 5095 2625 5250
-Connection ~ 2625 5250
-Wire Wire Line
-	2625 4695 2625 4525
-Connection ~ 2625 4525
 Text GLabel 9775 1875 0    60   Input ~ 0
 VR+
 Text GLabel 9775 1075 0    60   Input ~ 0
@@ -2229,81 +1636,8 @@ Text GLabel 2775 1775 2    60   Input ~ 0
 V-
 Text GLabel 1250 3275 0    60   Input ~ 0
 V-
-Text GLabel 3300 7100 2    40   Input ~ 0
-V-
-Text GLabel 3300 6300 2    40   Input ~ 0
-V+
-$Comp
-L PSLab-rescue:TEST TP?
-U 1 1 5C9C82D0
-P 4795 6995
-AR Path="/5C9C82D0" Ref="TP?"  Part="1" 
-AR Path="/54260FB5/5C9C82D0" Ref="TP9"  Part="1" 
-F 0 "TP9" H 4795 7295 50  0000 C BNN
-F 1 "TEST" H 4795 7245 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4795 6995 50  0001 C CNN
-F 3 "" H 4795 6995 50  0001 C CNN
-	1    4795 6995
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSLab-rescue:TEST TP?
-U 1 1 5C9C82D7
-P 5050 6990
-AR Path="/5C9C82D7" Ref="TP?"  Part="1" 
-AR Path="/54260FB5/5C9C82D7" Ref="TP10"  Part="1" 
-F 0 "TP10" H 5050 7290 50  0000 C BNN
-F 1 "TEST" H 5050 7240 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5050 6990 50  0001 C CNN
-F 3 "" H 5050 6990 50  0001 C CNN
-	1    5050 6990
-	1    0    0    -1  
-$EndComp
-Text GLabel 4795 6995 3    60   Input ~ 0
-VR+
-Text GLabel 5050 6990 3    60   Input ~ 0
-VR-
-$Comp
-L PSLab-rescue:TEST TP?
-U 1 1 5C9DD204
-P 4555 7000
-AR Path="/5C9DD204" Ref="TP?"  Part="1" 
-AR Path="/54260FB5/5C9DD204" Ref="TP8"  Part="1" 
-F 0 "TP8" H 4555 7300 50  0000 C BNN
-F 1 "TEST" H 4555 7250 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4555 7000 50  0001 C CNN
-F 3 "" H 4555 7000 50  0001 C CNN
-	1    4555 7000
-	1    0    0    -1  
-$EndComp
-Text GLabel 4555 7000 3    60   Input ~ 0
-AVdd
 Wire Notes Line
 	550  4175 6760 4175
 Wire Notes Line
 	6760 4175 6760 7450
-$Comp
-L Connector_Generic:Conn_01x08 J2
-U 1 1 5EF10C2C
-P 5980 6760
-F 0 "J2" H 5980 7185 50  0000 C CNN
-F 1 "Outputs" H 5898 6226 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 5980 6760 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 5980 6760 50  0001 C CNN
-F 4 "Straight female 2.54 mm 1row" H 5980 6760 50  0001 C CNN "Description"
-F 5 "SSW-108-01-T-S" H 5980 6760 50  0001 C CNN "Mfr No."
-F 6 "0.82" H 5980 6760 50  0001 C CNN "Price"
-F 7 "SSW-108-01-T-S" H 5980 6760 50  0001 C CNN "PartNumber"
-	1    5980 6760
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6180 6860 6515 6860
-Wire Wire Line
-	6515 6860 6515 6985
-Wire Wire Line
-	6180 6360 6515 6360
-Wire Wire Line
-	6515 6360 6515 6860
-Connection ~ 6515 6860
 $EndSCHEMATC

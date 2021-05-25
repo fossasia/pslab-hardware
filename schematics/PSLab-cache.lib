@@ -198,6 +198,33 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Generic_Conn_01x06
+#
+DEF Connector_Generic_Conn_01x06 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Generic_Conn_01x06" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -350 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_01x08
 #
 DEF Connector_Generic_Conn_01x08 J 0 40 Y N 1 F N
@@ -667,168 +694,6 @@ X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# PSLab-rescue_C-RESCUE-proto1
-#
-DEF PSLab-rescue_C-RESCUE-proto1 C 0 10 N Y 1 F N
-F0 "C" 0 100 40 H V L CNN
-F1 "PSLab-rescue_C-RESCUE-proto1" 6 -85 40 H V L CNN
-F2 "" 38 -150 30 H V C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- SM*
- C?
- C1-1
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 200 170 D 40 40 1 1 P
-X ~ 2 0 -200 170 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# PSLab-rescue_C_Small
-#
-DEF PSLab-rescue_C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "PSLab-rescue_C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# PSLab-rescue_Conn_01x04
-#
-DEF PSLab-rescue_Conn_01x04 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "PSLab-rescue_Conn_01x04" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# PSLab-rescue_Conn_01x06
-#
-DEF PSLab-rescue_Conn_01x06 J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "PSLab-rescue_Conn_01x06" 0 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 250 50 -350 1 1 10 f
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-X Pin_6 6 -200 -300 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# PSLab-rescue_ESP01-PSLab
-#
-DEF PSLab-rescue_ESP01-PSLab U 0 40 Y Y 1 F N
-F0 "U" 0 -300 39 H V C CNN
-F1 "PSLab-rescue_ESP01-PSLab" 0 300 39 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S -250 250 250 -250 0 1 0 f
-X GND 1 -350 150 100 R 39 39 1 1 I
-X TX 2 -350 50 100 R 39 39 1 1 I
-X IO2 3 -350 -50 100 R 39 39 1 1 I
-X EN 4 -350 -150 100 R 39 39 1 1 I
-X IO0 5 350 -150 100 L 39 39 1 1 I
-X RST 6 350 -50 100 L 39 39 1 1 I
-X RX 7 350 50 100 L 39 39 1 1 I
-X VCC 8 350 150 100 L 39 39 1 1 I
-ENDDRAW
-ENDDEF
-#
-# PSLab-rescue_R
-#
-DEF PSLab-rescue_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "PSLab-rescue_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# PSLab-rescue_TEST
-#
-DEF PSLab-rescue_TEST TP 0 40 N N 1 F N
-F0 "TP" 0 300 50 H V C BNN
-F1 "PSLab-rescue_TEST" 0 250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 200 -50 150 0 100 50 150 0 200 0 200 N
-X ~ 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# PSLab-rescue_TEST_1P
-#
-DEF PSLab-rescue_TEST_1P J 0 30 N N 1 F N
-F0 "J" 0 270 50 H V C CNN
-F1 "PSLab-rescue_TEST_1P" 0 200 50 H V C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
-DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # PSLab_Battery
 #
 DEF PSLab_Battery S 0 40 Y Y 1 F N
@@ -876,6 +741,26 @@ X VDD 6 -750 -250 200 R 50 50 1 1 I
 X VREGIN 7 -250 -750 200 U 50 50 1 1 I
 X VBUS 8 -150 -750 200 U 50 50 1 1 I
 X RSTb 9 -50 -750 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PSLab_ESP01
+#
+DEF PSLab_ESP01 U 0 40 Y Y 1 F N
+F0 "U" 0 -300 39 H V C CNN
+F1 "PSLab_ESP01" 0 300 39 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -250 250 250 -250 0 1 0 f
+X TXD 1 -350 150 100 R 39 39 1 1 I
+X GND 2 350 150 100 L 39 39 1 1 I
+X CH_PD 3 -350 50 100 R 39 39 1 1 I
+X GPIO2 4 350 50 100 L 39 39 1 1 I
+X RST 5 -350 -50 100 R 39 39 1 1 I
+X GPIO0 6 350 -50 100 L 39 39 1 1 I
+X VCC 7 -350 -150 100 R 39 39 1 1 I
+X RXD 8 350 -150 100 L 39 39 1 1 I
 ENDDRAW
 ENDDEF
 #

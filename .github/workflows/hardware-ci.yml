@@ -1,0 +1,105 @@
+name: PSLab-Hardware
+
+on:
+  push:
+    branches: [ pslab-v6, development, master ]
+  pull_request:
+    branches: [ pslab-v6, development, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download project files
+        uses: actions/checkout@v2
+        
+      - name: Install KiCAD
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases
+          sudo apt update
+          sudo apt install --install-recommends kicad -y -qq
+      
+      - name: Copy configuration files
+        run: |
+          cd ~/.config
+          mkdir kicad
+          cd kicad
+          wget https://gist.githubusercontent.com/CloudyPadmal/dad9975e02bf39d6a3d2851ca53981cc/raw/0f342a3bba82b1af9789be689e5c00b4ad914015/kicad_common
+
+      - name: Install dependencies
+        run: |
+          pip install --no-compile kibot
+          wget https://github.com/INTI-CMNB/InteractiveHtmlBom/releases/download/v2.3.4-2/interactivehtmlbom.inti-cmnb_2.3.4-2_all.deb
+          sudo dpkg -i interactivehtmlbom.inti-cmnb_2.3.4-2_all.deb
+          pip install pcbdraw pcb-tools image
+          sudo apt install xvfb recordmydesktop xdotool libmagickwand-dev librsvg2-bin imagemagick
+        
+      - name: Run build
+        run: |
+          cd schematics
+          kibot -vv
+          
+      - name: Publish PDF schematic
+        uses: actions/upload-artifact@v2
+        with:
+          name: schematic-pdf
+          path: docs/schematics/PSLab.pdf
+          
+      - name: Publish interactive bill of materials
+        uses: actions/upload-artifact@v2
+        with:
+          name: interactive-bom
+          path: docs/components/InteractiveBoM.html
+          
+      - name: Publish bill of materials
+        uses: actions/upload-artifact@v2
+        with:
+          name: bill-of-materials
+          path: docs/components/BillOfMaterials.csv
+      
+      - name: Publish gerbers
+        uses: actions/upload-artifact@v2
+        with:
+          name: gerbers
+          path: output/Gerber/
+          
+      - name: Publish centroids
+        uses: actions/upload-artifact@v2
+        with:
+          name: pick-and-place
+          path: docs/position_files/PositionFile.csv
+          
+      - name: Publish board images
+        uses: actions/upload-artifact@v2
+        with:
+          name: board-images
+          path: output/Images/
+          
+      - name: Setup board diff images
+        run: |
+          git config --global user.email "noreply@pslab.io"
+          git config --global user.name "PSLab"
+          python scripts/pslab_gerber_generator.py
+          git clone --quiet --branch=diff-img https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY diff-img > /dev/null
+          cd diff-img
+          convert -colorspace gray front-layer.png old-front.png
+          convert -colorspace gray bottom-layer.png old-bottom.png
+          convert -colorspace gray signal-layer.png old-signal.png
+          convert -colorspace gray power-layer.png old-power.png
+          mv ../output/Images/* .
+          convert -colorspace gray front-layer.png new-front.png
+          convert -colorspace gray bottom-layer.png new-bottom.png
+          convert -colorspace gray signal-layer.png new-signal.png
+          convert -colorspace gray power-layer.png new-power.png
+          composite -stereo 0 old-front.png new-front.png diff-front.png
+          composite -stereo 0 old-bottom.png new-bottom.png diff-bottom.png
+          composite -stereo 0 old-signal.png new-signal.png diff-signal.png
+          composite -stereo 0 old-power.png new-power.png diff-power.png
+          rm -rf old-* new-*
+          git checkout --orphan temporary
+          git add .
+          git commit -m "chore: updating board diff images"
+          git branch -D diff-img
+          git branch -m diff-img
+          git push origin diff-img -f --quiet > /dev/null

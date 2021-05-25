@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A2 23386 16535
+$Descr User 23386 12952
 encoding utf-8
 Sheet 1 1
 Title "PSLab Board Schematic"
-Date "2021-05-24"
+Date "2021-05-25"
 Rev "V6.2"
 Comp ""
 Comment1 ""
@@ -1548,7 +1548,7 @@ F 3 "" H 6200 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Bitmap
-Pos 2050 12400
+Pos 1725 11925
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 08 00 00 00 CC 08 03 00 00 00 21 C4 AB 
@@ -1749,7 +1749,7 @@ B8 E6 50 CA 57 50 5F 72 E5 81 89 EC 88 20 02 5B 4A B5 3C 00 11 82 51 5F AA E5 01
 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 1425 11950 0    37   ~ 0
+Text Notes 1100 11475 0    37   ~ 0
 The AC Op-amp Integrator with DC Gain Control\n\n
 $Comp
 L PSLab:TC1240A U19

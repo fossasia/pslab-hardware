@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A2 23386 16535
+$Descr User 23386 12952
 encoding utf-8
 Sheet 1 1
 Title "PSLab Board Schematic"
-Date "2021-05-24"
+Date "2021-05-25"
 Rev "V6.2"
 Comp ""
 Comment1 ""
@@ -84,7 +84,7 @@ U 1 1 55C0F620
 P 6550 4150
 F 0 "L1" V 6625 4150 39  0000 C CNN
 F 1 "10uH" V 6500 4150 39  0000 C CNN
-F 2 "Inductors_SMD:L_0603" H 6550 4150 60  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 6550 4150 60  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz1608_en.pdf?ref_disty=mouser" H 6550 4150 60  0001 C CNN
 F 4 "300-500 mA Shielded" H 6550 4150 50  0001 C CNN "Description"
 F 5 "MLZ1608N100LT000" H 6550 4150 50  0001 C CNN "Mfr No."
@@ -2389,7 +2389,7 @@ U 1 1 62558DC4
 P 1350 9425
 F 0 "FID1" H 1435 9463 39  0000 L CNN
 F 1 "Fiducial" H 1435 9388 39  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1350 9425 50  0001 C CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 1350 9425 50  0001 C CNN
 F 3 "~" H 1350 9425 50  0001 C CNN
 	1    1350 9425
 	1    0    0    -1  
@@ -2400,7 +2400,7 @@ U 1 1 625593F3
 P 1825 9425
 F 0 "FID2" H 1910 9463 39  0000 L CNN
 F 1 "Fiducial" H 1910 9388 39  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1825 9425 50  0001 C CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 1825 9425 50  0001 C CNN
 F 3 "~" H 1825 9425 50  0001 C CNN
 	1    1825 9425
 	1    0    0    -1  
@@ -2411,7 +2411,7 @@ U 1 1 625596EA
 P 2275 9425
 F 0 "FID3" H 2360 9463 39  0000 L CNN
 F 1 "Fiducial" H 2360 9388 39  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2275 9425 50  0001 C CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 2275 9425 50  0001 C CNN
 F 3 "~" H 2275 9425 50  0001 C CNN
 	1    2275 9425
 	1    0    0    -1  
@@ -6807,7 +6807,7 @@ U 1 1 5C57C10F
 P 7475 4250
 F 0 "U1" H 7175 4450 50  0000 C CNN
 F 1 "LDFM33PUR" H 7570 4450 50  0000 C CNN
-F 2 "Housings_DFN_QFN:DFN-6-1EP_3x3mm_Pitch0.95mm" H 7475 4250 60  0001 C CNN
+F 2 "Package_DFN_QFN:DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm" H 7475 4250 60  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/389/dm00063302-1797750.pdf" H 7475 4250 60  0001 C CNN
 F 4 "DFN-6-1EP_3x3mm_Pitch0.95mm" H 7475 4250 50  0001 C CNN "Description"
 F 5 "LDFM33PUR" H 7475 4250 50  0001 C CNN "Mfr No."

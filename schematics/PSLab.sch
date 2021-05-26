@@ -62,9 +62,7 @@ Text GLabel 11950 5175 3    47   Input ~ 0
 CH1out
 Text GLabel 21175 9600 0    40   Input ~ 0
 CH3.GAIN
-Text GLabel 12050 1175 0    40   Input ~ 0
-PGC2
-Text GLabel 12150 1175 2    40   Input ~ 0
+Text GLabel 12150 1300 2    40   Input ~ 0
 PGD2
 Text GLabel 20025 10050 0    40   Input ~ 0
 PGD2
@@ -257,9 +255,9 @@ Text GLabel 13625 7450 0    40   Input ~ 0
 RxD2
 Text GLabel 14325 7450 2    40   Input ~ 0
 TxD2
-Text GLabel 12150 1300 2    40   Input ~ 0
+Text GLabel 12850 1425 2    40   Input ~ 0
 TxD2
-Text GLabel 12050 1300 0    40   Input ~ 0
+Text GLabel 12850 1175 2    40   Input ~ 0
 RxD2
 $Comp
 L Switch:SW_Push SW2
@@ -3532,7 +3530,7 @@ F 3 "~" H 3950 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12150 1175 12150 1575
+	12150 1300 12150 1425
 Wire Wire Line
 	12050 1175 12050 1575
 $Comp
@@ -5719,9 +5717,9 @@ F 1 "0.5pF" V 21325 6250 40  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 21413 6300 30  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf" H 21375 6450 60  0001 C CNN
 F 4 "16V 20%" H 21375 6450 50  0001 C CNN "Description"
-F 5 "VJ0603A0R5BXJCW1BC " H 21375 6450 50  0001 C CNN "Mfr No."
+F 5 "VJ0603A0R5BXJCW1BC" H 21375 6450 50  0001 C CNN "Mfr No."
 F 6 "0.45" H 21375 6450 50  0001 C CNN "Price"
-F 7 "VJ0603A0R5BXJCW1BC " H 21375 6450 50  0001 C CNN "PartNumber"
+F 7 "VJ0603A0R5BXJCW1BC" H 21375 6450 50  0001 C CNN "PartNumber"
 	1    21375 6450
 	0    -1   -1   0   
 $EndComp
@@ -5840,9 +5838,9 @@ F 1 "0.5pF" V 17425 6250 40  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 17513 6300 30  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf" H 17475 6450 60  0001 C CNN
 F 4 "16V 20%" H 17475 6450 50  0001 C CNN "Description"
-F 5 "VJ0603A0R5BXJCW1BC " H 17475 6450 50  0001 C CNN "Mfr No."
+F 5 "VJ0603A0R5BXJCW1BC" H 17475 6450 50  0001 C CNN "Mfr No."
 F 6 "0.45" H 17475 6450 50  0001 C CNN "Price"
-F 7 "VJ0603A0R5BXJCW1BC " H 17475 6450 50  0001 C CNN "PartNumber"
+F 7 "VJ0603A0R5BXJCW1BC" H 17475 6450 50  0001 C CNN "PartNumber"
 	1    17475 6450
 	0    -1   -1   0   
 $EndComp
@@ -6890,4 +6888,47 @@ Wire Wire Line
 Connection ~ 6275 2125
 Wire Wire Line
 	6275 2125 6600 2125
+$Comp
+L Device:R R57
+U 1 1 60B42EF2
+P 12575 1425
+F 0 "R57" V 12650 1425 39  0000 C CNN
+F 1 "18" V 12575 1425 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12505 1425 30  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 12575 1425 30  0001 C CNN
+F 4 "1/16W 5%" H 12575 1425 50  0001 C CNN "Description"
+F 5 "RR0816Q-180-D" H 12575 1425 50  0001 C CNN "Mfr No."
+F 6 "0.1" H 12575 1425 50  0001 C CNN "Price"
+F 7 "RR0816Q-180-D" H 12575 1425 50  0001 C CNN "PartNumber"
+	1    12575 1425
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	12850 1425 12725 1425
+Wire Wire Line
+	12425 1425 12150 1425
+Connection ~ 12150 1425
+Wire Wire Line
+	12150 1425 12150 1575
+$Comp
+L Device:R R56
+U 1 1 60C30D23
+P 12575 1175
+F 0 "R56" V 12650 1175 39  0000 C CNN
+F 1 "18" V 12575 1175 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12505 1175 30  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 12575 1175 30  0001 C CNN
+F 4 "1/16W 5%" H 12575 1175 50  0001 C CNN "Description"
+F 5 "RR0816Q-180-D" H 12575 1175 50  0001 C CNN "Mfr No."
+F 6 "0.1" H 12575 1175 50  0001 C CNN "Price"
+F 7 "RR0816Q-180-D" H 12575 1175 50  0001 C CNN "PartNumber"
+	1    12575 1175
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	12425 1175 12050 1175
+Wire Wire Line
+	12725 1175 12850 1175
+Text GLabel 12050 1175 0    40   Input ~ 0
+PGC2
 $EndSCHEMATC

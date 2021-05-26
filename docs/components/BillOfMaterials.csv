@@ -32,7 +32,7 @@ Q1,MMBT3906,SOT-23,1,MMBT3906-7-F,0.11,https://eu.mouser.com/datasheet/2/115/ds3
 Q3,MMBT3906,SOT-23,1,MMBT3906-7-F,0.11,https://eu.mouser.com/datasheet/2/115/ds30059-15980.pdf,"45V Vce, 0.8A Ic, PNP, SOT-23"
 Q4,Q_NMOS_DGS,PowerPAK_SO-8_Single,1,,,~,"N-MOSFET transistor, drain/gate/source"
 R62,6m,R_0603_1608Metric,1,,,~,Resistor
-R4 R13 R54 R55,18,R_0603_1608Metric,4,RR0816Q-180-D,0.1,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
+R4 R13 R54 R55 R56 R57,18,R_0603_1608Metric,6,RR0816Q-180-D,0.1,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
 R6 R7 R8 R9 R49,200,R_0603_1608Metric,5,RR0816P-201-D,0.1,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
 R5 R11 R27 R36 R47 R51,1K,R_0603_1608Metric,6,RR0816P-102-D,0.12,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
 R61,2K,R_0603_1608Metric,1,,,~,Resistor

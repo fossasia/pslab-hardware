@@ -176,29 +176,3 @@ outputs:
       units: 'millimeters'
       separate_files_for_front_and_back: false
       output: 'PositionFile.%x'
-
-###############################################################################
-  - name: 'board_top_image'
-    type: 'pcbdraw'
-    comment: 'PSLab board top side'
-    options:
-      format: 'png'
-      dpi: 600
-      show_components: 'none'
-      output: '../output/Images/front-layer.%x'
-      style:
-        board: '#111111'
-        copper: '#514322'
-  - name: 'board_bottom_image'
-    type: 'pcbdraw'
-    comment: 'PSLab board bottom side'
-    options:
-      bottom: true
-      format: 'png'
-      mirror: true
-      dpi: 600
-      show_components: 'none'
-      output: '../output/Images/bottom-layer.%x'
-      style:
-        board: '#111111'
-        copper: '#514322'

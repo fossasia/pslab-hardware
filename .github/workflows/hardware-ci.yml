@@ -32,7 +32,7 @@ jobs:
           pip install --no-compile kibot
           wget https://github.com/INTI-CMNB/InteractiveHtmlBom/releases/download/v2.3.4-2/interactivehtmlbom.inti-cmnb_2.3.4-2_all.deb
           sudo dpkg -i interactivehtmlbom.inti-cmnb_2.3.4-2_all.deb
-          pip install pcbdraw pcb-tools image
+          pip install pcb-tools image
           sudo apt install xvfb recordmydesktop xdotool libmagickwand-dev librsvg2-bin imagemagick
         
       - name: Run build
@@ -69,12 +69,6 @@ jobs:
         with:
           name: pick-and-place
           path: docs/position_files/PositionFile.csv
-          
-      - name: Publish board images
-        uses: actions/upload-artifact@v2
-        with:
-          name: board-images
-          path: output/Images/
           
       - name: Setup board diff images
         run: |

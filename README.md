@@ -1,6 +1,6 @@
 # pslab-hardware
 
-[![Build Status](https://travis-ci.org/fossasia/pslab-hardware.svg?branch=master)](https://travis-ci.org/fossasia/pslab-hardware)
+[![PSLab-Hardware](https://github.com/CloudyPadmal/pslab-hardware/actions/workflows/hardware-ci.yml/badge.svg)](https://github.com/CloudyPadmal/pslab-hardware/actions/workflows/hardware-ci.yml)
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Twitter Follow](https://img.shields.io/twitter/follow/pslabio.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/pslabio)
 
@@ -11,11 +11,45 @@ This repository contains the [PSLab](https://pslab.io) hardware design files. PS
 * Our chat channel is on Gitter here at [PSLab](https://gitter.im/fossasia/pslab)
 * Mailing List https://groups.google.com/forum/#!forum/pslab-fossasia
 
-## Content of Repository
+## Repository Structure
 
-- **archives**: Contains previous versions of PSLab schematics
-- **docs**: Supplement materials, schematics as PDFs, images of PSLab
-- **schematics**: PCB layout of PSLab device
+```
+📦pslab-hardware
+ ┣ 📂archives                                   # Source files for previous PSLab versions
+ ┃ ┣ 📂Breakout_Boards
+ ┃ ┣ 📂PSLab KiCAD
+ ┃ ┣ 📂PSLab KiCAD v2
+ ┃ ┗ 📂PSLab KiCAD v3
+ ┣ 📂docs                                       # Supplementary material
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📜BillOfMaterials.csv                    # Component list
+ ┃ ┃ ┗ 📜InteractiveBoM.html                    # Interactive version of BoM
+ ┃ ┣ 📂datasheets                               # PDF datasheets for components used in PSLab
+ ┃ ┣ 📂drawings                                 # CAD dimension drawings
+ ┃ ┣ 📂images
+ ┃ ┃ ┣ 📂pslab_version_previews
+ ┃ ┃ ┣ 📜 ...
+ ┃ ┃ ┗ 📜PSLab_v6_top.png
+ ┃ ┣ 📂pin_layouts                              # Pin labels and specifications
+ ┃ ┃ ┣ 📜PSLab_Pin_Layout.pdf
+ ┃ ┃ ┗ 📜PSLab_Pin_Layout.svg
+ ┃ ┣ 📂position_files
+ ┃ ┃ ┗ 📜PositionFile.csv                       # Pick and place information
+ ┃ ┣ 📂reference                                # TeX documentation (stale)
+ ┃ ┗ 📂schematics
+ ┃ ┃ ┗ 📜PSLab.pdf                              # Board schematic in PDF
+ ┣ 📂output
+ ┃ ┣ 📂Gerber                                   # Gerber files for the current board design
+ ┃ ┗ 📂Images                                   # Images of the four copper layers
+ ┣ 📂print                                      # Silk screen images
+ ┃ ┣ 📂Back-Side-Images
+ ┃ ┗ 📜Readme.md
+ ┗ 📂schematics                                 # KiCAD project files
+   ┣ 📂3DModels                                 # STEP 3D models
+   ┣ 📂PSLab.pretty                             # Custom library files
+   ┣ 📜 ...
+   ┗ 📜PSLab.pro                                # Main project file
+```
 
 ## Version Information
 

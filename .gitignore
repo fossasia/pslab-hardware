@@ -27,4 +27,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 
-
+# IDE specifics
+*.DS_Store

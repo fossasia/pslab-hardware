@@ -5,9 +5,17 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
 *~
 _autosave-*
 *.tmp
+*-save.pro
+*-save.kicad_pcb
+*.pro-bak
+fp-info-cache
+*erc.txt
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -19,4 +27,5 @@ _autosave-*
 # Exported BOM files
 *.xml
 
-
+# IDE specifics
+*.DS_Store

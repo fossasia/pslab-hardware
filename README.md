@@ -1,21 +1,79 @@
 # pslab-hardware
 
-[![Build Status](https://travis-ci.org/fossasia/pslab-hardware.svg?branch=master)](https://travis-ci.org/fossasia/pslab-hardware)
+[![PSLab-Hardware](https://github.com/CloudyPadmal/pslab-hardware/actions/workflows/hardware-ci.yml/badge.svg)](https://github.com/CloudyPadmal/pslab-hardware/actions/workflows/hardware-ci.yml)
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Twitter Follow](https://img.shields.io/twitter/follow/pslabio.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/pslabio)
 
 This repository contains the [PSLab](https://pslab.io) hardware design files. PSLab is a tiny pocket science lab that provides an array of test and measurement instruments for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. The first version of hardware (v1) was developed by [Jithin B P](https://github.com/jithinbp). Later versions were developed by [Padmal](https://github.com/CloudyPadmal).
+
+## PCB Layout
+Front Side                        | Back Side
+ -------------------------------- | ----------------------------------
+![](docs/images/PSLab_v6_top.png) | ![](docs/images/PSLab_v6_bottom.png)
+
+
+## Pin-outs
+- Find the pin-out diagram of PSLab v6 [here](docs/pin_layouts/PSLab_Pin_Layout.pdf)!
+
+## Applications and Firmware Source Repositories
+
+| [![](docs/images/getfirmware.png)](https://github.com/fossasia/pslab-firmware)	|[![](docs/images/getonfdroid.png)](https://f-droid.org/en/packages/io.pslab/)	| [![](docs/images/getongoogleplay.png)](https://play.google.com/store/apps/details?id=io.pslab)	| [![](docs/images/getonlinux.png)](https://github.com/fossasia/pslab-desktop/tree/install)	| [![](docs/images/getonwindows.png)](https://github.com/fossasia/pslab-desktop/tree/install)	|
+|---	|---	|---	|---	|---	|
+
+The following software components are available:
+* Firmware: https://github.com/fossasia/pslab-firmware
+* Android app: https://github.com/fossasia/pslab-android
+* Desktop app: https://github.com/fossasia/pslab-desktop
+
+## Buy Device
+
+* You can get a Pocket Science Lab device from the [FOSSASIA Shop](https://fossasia.com).
+* More resellers are listed on the [PSLab website](https://pslab.io/shop/).
 
 ## Communication
 
 * Our chat channel is on Gitter here at [PSLab](https://gitter.im/fossasia/pslab)
 * Mailing List https://groups.google.com/forum/#!forum/pslab-fossasia
 
-## Content of Repository
+## Repository Structure
 
-- **archives**: Contains previous versions of PSLab schematics
-- **docs**: Supplement materials, schematics as PDFs, images of PSLab
-- **schematics**: PCB layout of PSLab device
+```
+📦pslab-hardware
+ ┣ 📂archives                                   # Source files for previous PSLab versions
+ ┃ ┣ 📂Breakout_Boards
+ ┃ ┣ 📂PSLab KiCAD
+ ┃ ┣ 📂PSLab KiCAD v2
+ ┃ ┗ 📂PSLab KiCAD v3
+ ┣ 📂docs                                       # Supplementary material
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📜BillOfMaterials.csv                    # Component list
+ ┃ ┃ ┗ 📜InteractiveBoM.html                    # Interactive version of BoM
+ ┃ ┣ 📂datasheets                               # PDF datasheets for components used in PSLab
+ ┃ ┣ 📂drawings                                 # CAD dimension drawings
+ ┃ ┣ 📂images
+ ┃ ┃ ┣ 📂pslab_version_previews
+ ┃ ┃ ┣ 📜 ...
+ ┃ ┃ ┗ 📜PSLab_v6_top.png
+ ┃ ┣ 📂pin_layouts                              # Pin labels and specifications
+ ┃ ┃ ┣ 📜PSLab_Pin_Layout.pdf
+ ┃ ┃ ┗ 📜PSLab_Pin_Layout.svg
+ ┃ ┣ 📂position_files
+ ┃ ┃ ┗ 📜PositionFile.csv                       # Pick and place information
+ ┃ ┣ 📂reference                                # TeX documentation (stale)
+ ┃ ┗ 📂schematics
+ ┃ ┃ ┗ 📜PSLab.pdf                              # Board schematic in PDF
+ ┣ 📂output
+ ┃ ┣ 📂Gerber                                   # Gerber files for the current board design
+ ┃ ┗ 📂Images                                   # Images of the four copper layers
+ ┣ 📂print                                      # Silk screen images
+ ┃ ┣ 📂Back-Side-Images
+ ┃ ┗ 📜Readme.md
+ ┗ 📂schematics                                 # KiCAD project files
+   ┣ 📂3DModels                                 # STEP 3D models
+   ┣ 📂PSLab.pretty                             # Custom library files
+   ┣ 📜 ...
+   ┗ 📜PSLab.pro                                # Main project file
+```
 
 ## Version Information
 
@@ -35,42 +93,31 @@ This repository contains the [PSLab](https://pslab.io) hardware design files. PS
 * Compiler: [MPLAB® XC16 Compiler](http://www.microchip.com/mplab/compilers)
 * Programming Tool: [PICkit™ 3 In-Circuit Debugger](http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=PG164130)
 
-## PCB Layout
-Front Side                        | Back Side
- -------------------------------- | ----------------------------------
-![](docs/images/PSLab_v6_top.png) | ![](docs/images/PSLab_v6_bottom.png)
-
-
-## Pin-outs
-- Find the pin-out diagram of PSLab v6 [here](docs/pin_layouts/PSLab_Pin_Layout.pdf)!
-
 ## Parts list
 
-- [PIC24EP256GP204](http://www.microchip.com/wwwproducts/en/PIC24EP256GP204) - Microcontroller
-- [MCP6S21](http://www.microchip.com/wwwproducts/en/mcp6s21) - Programmable gain amplifier
-- [MCP4728](http://www.microchip.com/wwwproducts/en/mcp4728) - 4 Channel DAC
-- [TC7660](http://www.microchip.com/wwwproducts/en/TC7660) - Charge Pump voltage invertor
-- [TC1240A](http://www.microchip.com/wwwproducts/en/TC1240A) - Charge Pump voltage doubler
-- [TL082](http://www.ti.com/product/TL082) - 2 channel Op-Amp
-- [LM324](http://www.ti.com/product/LM324) - 4 channel Op-Amp
-- [DS1307Z+](https://datasheets.maximintegrated.com/en/ds/DS1307.pdf) - RTC module
-- [LDFM33PUR](https://www.st.com/resource/en/datasheet/ldfm.pdf) - 3.3 V regulator
-- [LDL212PU50R](https://www.st.com/resource/en/datasheet/ldl212.pdf) - 5.0 V regulator
-- [CP2102N-A02-GQFN24](https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf) - USB-UART bridge
-- [74HC126](http://www.ti.com/product/SN74HC126) - 4 channel buffer
-- [SP0503BAHTG](https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp05_datasheet.pdf.pdf) - ESD protector
+* [PIC24EP256GP204](http://www.microchip.com/wwwproducts/en/PIC24EP256GP204) - Microcontroller
+* [MCP6S21](http://www.microchip.com/wwwproducts/en/mcp6s21) - Programmable gain amplifier
+* [MCP4728](http://www.microchip.com/wwwproducts/en/mcp4728) - 4 Channel DAC
+* [TC7660](http://www.microchip.com/wwwproducts/en/TC7660) - Charge Pump voltage invertor
+* [TC1240A](http://www.microchip.com/wwwproducts/en/TC1240A) - Charge Pump voltage doubler
+* [TL082](http://www.ti.com/product/TL082) - 2 channel Op-Amp
+* [LM324](http://www.ti.com/product/LM324) - 4 channel Op-Amp
+* [DS1307Z+](https://datasheets.maximintegrated.com/en/ds/DS1307.pdf) - RTC module
+* [LDFM33PUR](https://www.st.com/resource/en/datasheet/ldfm.pdf) - 3.3 V regulator
+* [LDL212PU50R](https://www.st.com/resource/en/datasheet/ldl212.pdf) - 5.0 V regulator
+* [CP2102N-A02-GQFN24](https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf) - USB-UART bridge
+* [74HC126](http://www.ti.com/product/SN74HC126) - 4 channel buffer
+* [SP0503BAHTG](https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp05_datasheet.pdf.pdf) - ESD protector
 
-- 0.5 A Fuse
-- 1.5 A Fuse
-- Assorted resistors, capacitors & diodes
+* 0.5 A Fuse
+* Assorted resistors, capacitors & diodes
 
-Find the complete bill of materials from [this link](docs/components/PSLab_Bill_Of_Materials.csv).
+Find the complete bill of materials from [this link](docs/components/BillOfMaterials.csv).
 
 ### Optional Parts
 
-Extension slots for ESP and Bluetooth are available.
-- [ESP8266 (ESP-01)](http://www.microchip.ua/wireless/esp01.pdf) - UART-TCP bridge
-- HC05 Bluetooth module
+Extension slots for an ESP is available.
+* [ESP8266 (ESP-01)](http://www.microchip.ua/wireless/esp01.pdf) - UART-TCP bridge
 
 ## Hardware Specs
 
@@ -79,15 +126,11 @@ Extension slots for ESP and Bluetooth are available.
 * 3x 12-bit Programmable voltage sources +/-3.3 V,+/-5V,0-3 V
 * 12-bit Programmable current source. 0-3.3 mA
 * Supports Advanced plugins/Add-on Modules
-* 4-Channel, 4 MHz, Logic Analyzer
+* 4-Channel, 4 MHz Logic Analyzer
 * 2x Sine/Triangular wave generators. 5 Hz to 5 KHz. Manual amplitude control for SI1
 * 4x PWM generators. 15 nS resolution. Up to 8 MHz
 * Capacitance Measurement. pF to uF range
 * I2C, SPI and UART data buses for Accelerometer gyroscope humidity and temperature sensor modules etc
-
-## Firmware
-
-The firmware is available here: https://github.com/fossasia/pslab-firmware
 
 ## Feature list for the acquisition and control
 

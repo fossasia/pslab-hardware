@@ -1,0 +1,178 @@
+kibot:
+  version: 1
+  
+filters:
+  - name: 'do_not_populate'
+    comment: 'DNF BoM'
+    type: generic
+    exclude_refs:
+      - Z*
+      - TP*
+      - MH*
+      - FID*
+
+preflight:
+  check_zone_fills: true
+  ignore_unconnected: false
+  run_drc: false
+  run_erc: true
+  update_xml: false
+  
+outputs:
+###############################################################################
+  - name: 'billofmaterials_generator'
+    comment: 'Bill of Materials'
+    type: 'bom'
+    dir: '../docs/components'
+    options:
+      columns:
+        - field: 'References'
+        - field: 'Value'
+        - field: 'Footprint'
+        - field: 'Quantity Per PCB'
+          name: 'Quantity'
+        - field: 'Mfr No.'
+          name: 'PartNumber'
+        - field: 'Price'
+        - field: 'Datasheet'
+        - field: 'Description'
+      component_aliases: [
+          ['r', 'r_small', 'res', 'resistor'],
+          ['l', 'l_small', 'inductor'],
+          ['c', 'c_small', 'cap', 'capacitor'], 
+          ['sw', 'switch'], ['zener', 'zenersmall'], 
+          ['d', 'diode', 'd_small']]
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: false
+        separator: ','
+      format: 'CSV'
+      group_connectors: true
+      group_fields: ['Part', 'Part Lib', 'Value', 'Footprint', 'Footprint Lib']
+      ignore_dnf: true
+      exclude_filter: 'do_not_populate'
+      merge_blank_fields: true
+      no_conflict: ['Config', 'Part']
+      normalize_locale: false
+      normalize_values: false
+      number: 1
+      output: 'BillOfMaterials.%x'
+      ref_id: ''
+      ref_separator: ' '
+      source_by_id: false
+      use_alt: false
+      variant: ''
+###############################################################################
+  - name: 'interactive_bom'
+    comment: "Interactive Bill of Materials"
+    type: ibom
+    dir: '../docs/components'
+    options:
+      hide_pads: false
+      show_fabrication: false
+      hide_silkscreen: false
+      highlight_pin1: true
+      no_redraw_on_drag: false
+      board_rotation: 0
+      checkboxes: 'Sourced,Placed'
+      bom_view: 'left-right'
+      layer_view: 'FB'
+      name_format: 'InteractiveBoM'
+      output: ''
+      include_tracks: false
+      include_nets: false
+      sort_order: 'C,R,L,D,U,Y,X,F,SW,A,~,HS,CNN,J,P,NT,MH'
+      blacklist: 'DNF*'
+      no_blacklist_virtual: false
+      blacklist_empty_val: false
+      netlist_file: ''
+      extra_fields: ''
+      normalize_field_case: false
+      variant_field: ''
+      variants_whitelist: ''
+      variants_blacklist: ''
+      dnp_field: ''
+
+###############################################################################
+  - name: 'gerber_generator'
+    comment: "Gerbers files"
+    type: gerber
+    dir: '../output/Gerber'
+    options:
+      # generic layer options
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: true
+      force_plot_invisible_refs_vals: false
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      tent_vias: false
+      use_aux_axis_as_origin: false
+      line_width: 0.1
+
+      # gerber options
+      use_protel_extensions: false
+      gerber_precision: 4.6
+      create_gerber_job_file: true
+      gerber_job_file: '%f.%x'
+      use_gerber_x2_attributes: false
+      subtract_mask_from_silk: false
+      use_gerber_net_attributes: false
+      output: '%f_%i.%x'
+
+    layers:
+      - 'F.SilkS'
+      - 'F.Mask'
+      - 'L1.Front'
+      - 'L2.Signal'
+      - 'L3.Power'
+      - 'L4.Ground'
+      - 'B.Mask'
+      - 'B.SilkS'
+      - 'Edge.Cuts'
+      - 'Eco1.User'
+
+###############################################################################
+  - name: 'drill_output'
+    comment: 'Drill output'
+    type: 'excellon'
+    dir: '../output/Gerber'
+    options:
+      left_digits: 0
+      map:
+        output: '%f.%x'
+        type: 'gerber'
+      metric_units: true
+      minimal_header: false
+      mirror_y_axis: false
+      npth_id: None
+      output: '%f.%x'
+      pth_and_npth_single_file: true
+      pth_id: None
+      report:
+        filename: ''
+      right_digits: 0
+      use_aux_axis_as_origin: false
+      zeros_format: 'DECIMAL_FORMAT'
+      
+###############################################################################
+  - name: 'schematic_pdf'
+    dir: '../docs/schematics'
+    comment: 'Schematic PDF'
+    type: 'pdf_sch_print'
+    options:
+      output: 'PSLab.%x'
+      
+###############################################################################
+  - name: 'pick_and_place'
+    dir: '../docs/position_files'
+    type: 'position'
+    comment: 'Pick and placement files'
+    options:
+      bottom_negative_x: true
+      format: 'CSV'
+      only_smd: false
+      units: 'millimeters'
+      separate_files_for_front_and_back: false
+      output: 'PositionFile.%x'

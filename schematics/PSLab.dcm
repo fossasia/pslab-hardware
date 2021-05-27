@@ -1,5 +1,49 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Battery
+F ~
+$ENDCMP
+#
+$CMP CP2102
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP ESP01
+F https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf
+$ENDCMP
+#
+$CMP LDFM33PUR
+F https://eu.mouser.com/datasheet/2/389/dm00063302-1797750.pdf
+$ENDCMP
+#
+$CMP LTC4040
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4040fb.pdf
+$ENDCMP
+#
+$CMP Logos
+F https://pslab.io
+$ENDCMP
+#
+$CMP MCP6S21
+F https://eu.mouser.com/datasheet/2/268/21117a-70287.pdf
+$ENDCMP
+#
+$CMP PIC24EP256GP204
+F https://eu.mouser.com/datasheet/2/268/70000657H-277982.pdf
+$ENDCMP
+#
+$CMP SDCard
+F https://eu.mouser.com/datasheet/2/185/DM3_catalog-939223.pdf
+$ENDCMP
+#
+$CMP TC1240A
+F ~
+$ENDCMP
+#
+$CMP TC7660
+F https://eu.mouser.com/datasheet/2/268/21467B-1180369.pdf
+$ENDCMP
+#
 $CMP USB_C_Receptacle
 D USB Full-Featured Type-C Receptacle connector
 K usb universal serial bus type-C full-featured

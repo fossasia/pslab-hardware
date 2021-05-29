@@ -2,9 +2,7 @@ name: PSLab-Hardware
 
 on:
   push:
-    branches: [ pslab-v6, development, master ]
-  pull_request:
-    branches: [ pslab-v6, development, master ]
+    branches: [ pslab-v6 ]
 
 jobs:
   build:

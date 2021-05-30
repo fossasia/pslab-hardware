@@ -1,6 +1,6 @@
 # pslab-hardware
 
-[![PSLab-Hardware](https://github.com/CloudyPadmal/pslab-hardware/actions/workflows/hardware-ci.yml/badge.svg)](https://github.com/CloudyPadmal/pslab-hardware/actions/workflows/hardware-ci.yml)
+[![PSLab-Hardware](https://github.com/fossasia/pslab-hardware/actions/workflows/hardware-ci.yml/badge.svg)](https://github.com/fossasia/pslab-hardware/actions/workflows/hardware-ci.yml)
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Twitter Follow](https://img.shields.io/twitter/follow/pslabio.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/pslabio)
 

@@ -16,6 +16,7 @@ _autosave-*
 *.pro-bak
 fp-info-cache
 *erc.txt
+*drc.txt
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -29,3 +30,4 @@ fp-info-cache
 
 # IDE specifics
 *.DS_Store
+*.ogv

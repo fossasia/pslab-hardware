@@ -1,8 +1,14 @@
-name: pslab-hardware
+name: pull-request-builds
 
 on:
-  push:
+  pull_request:
     branches: [ pslab-v6 ]
+    paths:
+      - '**.sch'
+      - '**.kicad_pcb'
+      - '**.kicad_mod'
+      - '**.lib'
+      - '**.pro'
 
 jobs:
   build:
@@ -96,12 +102,21 @@ jobs:
           convert -colorspace gray new-PSLab-1.png new-PSLab.png
           composite -stereo 0 old-PSLab.png new-PSLab.png diff-schematic.png
           rm -rf old-* new-*
-          git checkout --orphan temporary
           git add .
-          git commit -m "chore: updating board diff images"
-          git branch -D diff-img
-          git branch -m diff-img
-          git push origin diff-img -f --quiet > /dev/null
+          git commit -m "chore: updating board diff images for #${{ github.event.number }}"
+          git push origin diff-img --quiet > /dev/null
+
+      - name: Pull request comment
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '👋 Thanks for sharing!'
+            })
              
       - name: Electric Rule Check
         uses: actions/upload-artifact@v2

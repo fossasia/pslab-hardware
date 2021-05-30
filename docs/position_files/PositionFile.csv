@@ -1,5 +1,5 @@
 Ref,Val,Package,PosX,PosY,Rot,Side
-"BT1","CR1225","BatteryHolder_LINX_BAT-HLD-012-SMT",176.3475,-106.8490,0.0000,top
+"BT1","CR1225","BatteryHolder_LINX_BAT-HLD-012-SMT",176.0935,-106.2140,0.0000,top
 "C1","0.1uF","C_0603_1608Metric",149.2330,-103.8645,0.0000,top
 "C2","0.1uF","C_0603_1608Metric",92.2100,-82.1475,270.0000,top
 "C3","0.1uF","C_0603_1608Metric",131.8975,-72.3050,0.0000,top
@@ -54,21 +54,21 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D5","WS2812B","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",115.1100,-82.7400,0.0000,top
 "D6","LL4148","D_MiniMELF",120.7000,-88.5600,270.0000,top
 "F1","1A","Fuse_1206_3216Metric",99.0400,-67.4400,90.0000,top
-"FID1","Fiducial","Fiducial_0.5mm_Mask1.5mm",92.9085,-106.9125,0.0000,top
-"FID2","Fiducial","Fiducial_0.5mm_Mask1.5mm",187.0000,-106.0000,0.0000,top
-"FID3","Fiducial","Fiducial_0.5mm_Mask1.5mm",187.0000,-63.0000,0.0000,top
-"J1","DoublePins","PinSocket_2x14_P2.54mm_Vertical",-184.7295,-68.7490,180.0000,bottom
-"J2","Power Pins","PinSocket_1x08_P2.54mm_Vertical",174.1250,-62.5895,270.0000,top
-"J3","Wave Generator","PinSocket_1x08_P2.54mm_Vertical",148.5980,-111.2305,90.0000,top
-"J4","I2C","PinSocket_1x04_P2.54mm_Vertical",131.4300,-62.7500,90.0000,top
-"J5","I2C","PinSocket_1x04_P2.54mm_Vertical",143.8500,-62.7500,90.0000,top
-"J6","ESP01","ESP-01",94.6934,-104.5462,90.0000,top
-"J7","UART","PinSocket_1x04_P2.54mm_Vertical",133.5808,-111.0740,90.0000,top
-"J9","SPI","PinSocket_1x06_P2.54mm_Vertical",126.6300,-62.7500,270.0000,top
-"J11","Li-Ion Battery","JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical",95.9565,-109.7700,0.0000,top
+"FID1","Fiducial","Fiducial_0.5mm_Mask1.5mm",94.0000,-107.2500,0.0000,top
+"FID2","Fiducial","Fiducial_0.5mm_Mask1.5mm",188.0000,-106.0000,0.0000,top
+"FID3","Fiducial","Fiducial_0.5mm_Mask1.5mm",188.0000,-62.4000,0.0000,top
+"J1","DoublePins","PinSocket_2x14_P2.54mm_Vertical",187.4600,-67.8600,0.0000,top
+"J2","Power Pins","PinSocket_1x08_P2.54mm_Vertical",156.9800,-62.7800,90.0000,top
+"J3","Wave Generator","PinSocket_1x08_P2.54mm_Vertical",149.3600,-111.0400,90.0000,top
+"J4","I2C","PinSocket_1x04_P2.54mm_Vertical",131.5800,-62.7800,90.0000,top
+"J5","I2C","PinSocket_1x04_P2.54mm_Vertical",144.2800,-62.7800,90.0000,top
+"J6","ESP01","ESP-01",94.3690,-104.7535,90.0000,top
+"J7","UART","PinSocket_1x04_P2.54mm_Vertical",136.6600,-111.0740,90.0000,top
+"J9","SPI","PinSocket_1x06_P2.54mm_Vertical",113.8000,-62.7800,90.0000,top
+"J11","Li-Ion Battery","JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical",94.7500,-110.2145,0.0000,top
 "L1","10uH","L_0603_1608Metric",143.0700,-82.2700,90.0000,top
 "L2","2.2uH","L_Coilcraft_XAL5030",111.2600,-110.2780,90.0000,top
-"P1","SDCard","microSD_HC_Hirose_DM3AT-SF-PEJM5",99.3300,-91.9000,270.0000,top
+"P1","SDCard","microSD_HC_Hirose_DM3AT-SF-PEJM5",99.3220,-92.3710,270.0000,top
 "Q1","MMBT3906","SOT-23",175.5600,-74.8100,0.0000,top
 "Q2","MMBT3904","SOT-23",120.7000,-77.0000,180.0000,top
 "Q3","MMBT3906","SOT-23",135.4800,-66.4800,180.0000,top
@@ -141,7 +141,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "R66","60.4K","R_0603_1608Metric",123.5790,-95.2885,0.0000,top
 "SW1","BOOT","SW_SPST_B3U-1000P",127.6430,-96.4350,0.0000,top
 "SW2","MCLR Reset","SW_SPST_B3U-1000P",128.3415,-78.7185,270.0000,top
-"SW3","USB_C - Generic","USB_C_Receptacle_XKB_U262-16XN-4BVC11",92.8400,-74.8500,270.0000,top
+"SW3","USB_C - Generic","USB_C_Receptacle_XKB_U262-16XN-4BVC11",92.8400,-75.4800,270.0000,top
 "U1","LDFM33PUR","DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm",97.3500,-63.2600,180.0000,top
 "U2","74HC126","SOIC-14_3.9x8.7mm_P1.27mm",134.6280,-103.0390,0.0000,top
 "U3","PIC24EP256GP204","TQFP-44_10x10mm_P0.8mm",137.9935,-90.2755,90.0000,top

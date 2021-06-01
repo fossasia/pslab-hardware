@@ -2657,8 +2657,12 @@ U 1 1 60F1406B
 P 10575 9275
 F 0 "U2" H 10575 9492 39  0000 C CNN
 F 1 "74HC126" H 10575 9575 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10575 9275 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/408/74HC126D_datasheet_en_20160804-959200.pdf" H 10575 9275 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 10575 9275 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 10575 9275 50  0001 C CNN
+F 4 "TSSOP-14" H 10575 9275 50  0001 C CNN "Description"
+F 5 "SN74HC126PW" H 10575 9275 50  0001 C CNN "Mfr No."
+F 6 "SN74HC126PW" H 10575 9275 50  0001 C CNN "PartNumber"
+F 7 "0.42" H 10575 9275 50  0001 C CNN "Price"
 	1    10575 9275
 	1    0    0    1   
 $EndComp
@@ -2668,8 +2672,12 @@ U 2 1 60F15995
 P 11725 9275
 F 0 "U2" H 11725 9492 39  0000 C CNN
 F 1 "74HC126" H 11725 9575 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11725 9275 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/408/74HC126D_datasheet_en_20160804-959200.pdf" H 11725 9275 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 11725 9275 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 11725 9275 50  0001 C CNN
+F 4 "TSSOP-14" H 11725 9275 50  0001 C CNN "Description"
+F 5 "SN74HC126PW" H 11725 9275 50  0001 C CNN "Mfr No."
+F 6 "SN74HC126PW" H 11725 9275 50  0001 C CNN "PartNumber"
+F 7 "0.42" H 11725 9275 50  0001 C CNN "Price"
 	2    11725 9275
 	1    0    0    1   
 $EndComp
@@ -2679,8 +2687,12 @@ U 3 1 60F16A59
 P 11725 10400
 F 0 "U2" H 11725 10617 39  0000 C CNN
 F 1 "74HC126" H 11725 10700 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11725 10400 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/408/74HC126D_datasheet_en_20160804-959200.pdf" H 11725 10400 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 11725 10400 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 11725 10400 50  0001 C CNN
+F 4 "TSSOP-14" H 11725 10400 50  0001 C CNN "Description"
+F 5 "SN74HC126PW" H 11725 10400 50  0001 C CNN "Mfr No."
+F 6 "SN74HC126PW" H 11725 10400 50  0001 C CNN "PartNumber"
+F 7 "0.42" H 11725 10400 50  0001 C CNN "Price"
 	3    11725 10400
 	1    0    0    1   
 $EndComp
@@ -2690,8 +2702,12 @@ U 4 1 60F17AFC
 P 10575 10400
 F 0 "U2" H 10575 10617 39  0000 C CNN
 F 1 "74HC126" H 10575 10700 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10575 10400 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/408/74HC126D_datasheet_en_20160804-959200.pdf" H 10575 10400 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 10575 10400 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 10575 10400 50  0001 C CNN
+F 4 "TSSOP-14" H 10575 10400 50  0001 C CNN "Description"
+F 5 "SN74HC126PW" H 10575 10400 50  0001 C CNN "Mfr No."
+F 6 "SN74HC126PW" H 10575 10400 50  0001 C CNN "PartNumber"
+F 7 "0.42" H 10575 10400 50  0001 C CNN "Price"
 	4    10575 10400
 	1    0    0    1   
 $EndComp
@@ -2701,8 +2717,12 @@ U 5 1 60F1A4E7
 P 9600 9850
 F 0 "U2" H 9400 10200 39  0000 L CNN
 F 1 "74HC126" H 9425 9850 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9600 9850 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/408/74HC126D_datasheet_en_20160804-959200.pdf" H 9600 9850 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9600 9850 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 9600 9850 50  0001 C CNN
+F 4 "TSSOP-14" H 9600 9850 50  0001 C CNN "Description"
+F 5 "SN74HC126PW" H 9600 9850 50  0001 C CNN "Mfr No."
+F 6 "SN74HC126PW" H 9600 9850 50  0001 C CNN "PartNumber"
+F 7 "0.42" H 9600 9850 50  0001 C CNN "Price"
 	5    9600 9850
 	1    0    0    -1  
 $EndComp

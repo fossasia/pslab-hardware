@@ -105,19 +105,10 @@ jobs:
           git add .
           git commit -m "chore: updating board diff images for #${{ github.event.number }}"
           git push origin diff-img --quiet > /dev/null
+          CURRENTCOMMIT=$(git rev-parse HEAD)
+          echo "current_commit=$CURRENTCOMMIT" >> $GITHUB_ENV
+          echo "current_actor=$GITHUB_ACTOR" >> $GITHUB_ENV
 
-      - name: Pull request comment
-        uses: actions/github-script@v4
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            github.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: '👋 Thanks for sharing!'
-            })
-             
       - name: Electric Rule Check
         uses: actions/upload-artifact@v2
         with:
@@ -129,3 +120,15 @@ jobs:
         with:
           name: design-rule-check
           path: schematics/PSLab-drc.txt
+          
+      - name: Pull request comment
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '👋 Thanks for sharing!<br /><table><tr><td><img src="https://github.com/${{env.current_actor}}/pslab-hardware/raw/${{env.current_commit}}/diff-front.png" alt="diff-front"></td><td><img src="https://github.com/${{env.current_actor}}/pslab-hardware/raw/${{env.current_commit}}/diff-bottom.png" alt="diff-bottom"></td></tr><tr><td><img src="https://github.com/${{env.current_actor}}/pslab-hardware/raw/${{env.current_commit}}/diff-power.png" alt="diff-power"></td><td><img src="https://github.com/${{env.current_actor}}/pslab-hardware/raw/${{env.current_commit}}/diff-signal.png" alt="diff-signal"></td></tr><tr><td colspan="2"><img src="https://github.com/${{env.current_actor}}/pslab-hardware/raw/${{env.current_commit}}/diff-schematic.png" alt="diff-schematic"></td></tr></table>'
+            })

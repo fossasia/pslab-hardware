@@ -77,8 +77,8 @@ jobs:
       - name: Setup board diff images
         run: |
           git config --global user.email "noreply@pslab.io"
-          git config --global user.name "PSLab"
-          python scripts/pslab_gerber_generator.py
+          git config --global user.name "github-actions"
+          python3 scripts/pslab_gerber_generator.py
           git clone --quiet --branch=diff-img https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY diff-img > /dev/null
           cd diff-img
           convert -colorspace gray front-layer.png old-front.png

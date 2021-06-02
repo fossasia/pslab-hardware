@@ -1,4 +1,4 @@
-update=Wed 26 May 2021 06:31:48 PM CEST
+update=Wed 02 Jun 2021 03:54:04 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -203,7 +203,7 @@ Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
 Name=L4.Ground
-Type=0
+Type=1
 Enabled=1
 [pcbnew/Layer.B.Adhes]
 Enabled=1

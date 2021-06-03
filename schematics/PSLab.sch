@@ -329,6 +329,10 @@ F 0 "U18" H 2825 5700 39  0000 L CNN
 F 1 "LTC4040" V 2550 4875 59  0000 L CNB
 F 2 "PSLab:LTC4040" H 2550 5350 60  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4040fb.pdf" H 2550 5350 60  0001 C CNN
+F 4 "Battery Management 2.5A Battery Backup Power Manager" H 2550 5050 50  0001 C CNN "Description"
+F 5 "LTC4040EUFD#PBF" H 2550 5050 50  0001 C CNN "Mfr No."
+F 6 "LTC4040EUFD#PBF" H 2550 5050 50  0001 C CNN "PartNumber"
+F 7 "7.02" H 2550 5050 50  0001 C CNN "Price"
 	1    2550 5050
 	1    0    0    -1  
 $EndComp
@@ -386,7 +390,11 @@ P 1100 5700
 F 0 "C45" H 1215 5738 39  0000 L CNN
 F 1 "2.2uF" H 1215 5663 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1138 5550 50  0001 C CNN
-F 3 "~" H 1100 5700 50  0001 C CNN
+F 3 "https://www.mouser.fi/datasheet/2/281/1/GRM188R61E225KA12_04A-1985875.pdf" H 1100 5700 50  0001 C CNN
+F 4 "25V 10%" H 1100 5700 50  0001 C CNN "Description"
+F 5 "GRM188R61E225KA12J" H 1100 5700 50  0001 C CNN "Mfr No."
+F 6 "GRM188R61E225KA12J" H 1100 5700 50  0001 C CNN "PartNumber"
+F 7 "0.192" H 1100 5700 50  0001 C CNN "Price"
 	1    1100 5700
 	1    0    0    -1  
 $EndComp
@@ -471,6 +479,9 @@ F 1 "2.2uH" H 2753 4013 39  0000 L CNN
 F 2 "Inductor_SMD:L_Coilcraft_XAL5030" H 2700 4050 50  0001 C CNN
 F 3 "https://www.mouser.fi/datasheet/2/597/xal50xx-270657.pdf" H 2700 4050 50  0001 C CNN
 F 4 "XAL5030-222MEC" H 2700 4050 50  0001 C CNN "PartNumber"
+F 5 "Fixed Inductors 2.2uH Shld 20% 9.2A 14.5mOhms AECQ2" H 2700 4050 50  0001 C CNN "Description"
+F 6 "XAL5030-222MEC" H 2700 4050 50  0001 C CNN "Mfr No."
+F 7 "2.03" H 2700 4050 50  0001 C CNN "Price"
 	1    2700 4050
 	1    0    0    -1  
 $EndComp
@@ -626,7 +637,7 @@ L Device:R R66
 U 1 1 60DEC0AE
 P 4750 4850
 F 0 "R66" V 4925 4850 39  0000 C CNN
-F 1 "60.4K" V 4850 4850 39  0000 C CNN
+F 1 "60K4" V 4850 4850 39  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 4850 50  0001 C CNN
 F 3 "~" H 4750 4850 50  0001 C CNN
 	1    4750 4850
@@ -2378,6 +2389,10 @@ F 0 "FID1" H 1435 9463 39  0000 L CNN
 F 1 "Fiducial" H 1435 9388 39  0000 L CNN
 F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 1350 9425 50  0001 C CNN
 F 3 "~" H 1350 9425 50  0001 C CNN
+F 4 "Markings for assembly" H 1350 9425 50  0001 C CNN "Description"
+F 5 "N/A" H 1350 9425 50  0001 C CNN "Mfr No."
+F 6 "N/A" H 1350 9425 50  0001 C CNN "PartNumber"
+F 7 "0.00" H 1350 9425 50  0001 C CNN "Price"
 	1    1350 9425
 	1    0    0    -1  
 $EndComp
@@ -2389,6 +2404,10 @@ F 0 "FID2" H 1910 9463 39  0000 L CNN
 F 1 "Fiducial" H 1910 9388 39  0000 L CNN
 F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 1825 9425 50  0001 C CNN
 F 3 "~" H 1825 9425 50  0001 C CNN
+F 4 "Markings for assembly" H 1825 9425 50  0001 C CNN "Description"
+F 5 "N/A" H 1825 9425 50  0001 C CNN "Mfr No."
+F 6 "N/A" H 1825 9425 50  0001 C CNN "PartNumber"
+F 7 "0.00" H 1825 9425 50  0001 C CNN "Price"
 	1    1825 9425
 	1    0    0    -1  
 $EndComp
@@ -2400,6 +2419,10 @@ F 0 "FID3" H 2360 9463 39  0000 L CNN
 F 1 "Fiducial" H 2360 9388 39  0000 L CNN
 F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 2275 9425 50  0001 C CNN
 F 3 "~" H 2275 9425 50  0001 C CNN
+F 4 "Markings for assembly" H 2275 9425 50  0001 C CNN "Description"
+F 5 "N/A" H 2275 9425 50  0001 C CNN "Mfr No."
+F 6 "N/A" H 2275 9425 50  0001 C CNN "PartNumber"
+F 7 "0.00" H 2275 9425 50  0001 C CNN "Price"
 	1    2275 9425
 	1    0    0    -1  
 $EndComp
@@ -2639,6 +2662,7 @@ F 3 "https://eu.mouser.com/datasheet/2/268/70000657H-277982.pdf" H 12050 3575 37
 F 4 "PIC24EP256GP204-I/PT" H 12050 3575 37  0001 C CNN "PartNumber"
 F 5 "3.35" H 12050 3575 37  0001 C CNN "Price"
 F 6 "PIC24EP256GP204-I/PT" H 12050 3375 50  0001 C CNN "Mfr No."
+F 7 "24bit Microcontroller" H 12050 3375 50  0001 C CNN "Description"
 	1    12050 3375
 	1    0    0    -1  
 $EndComp
@@ -3087,8 +3111,9 @@ F 1 "CR1225" H 11875 7450 39  0000 C CNN
 F 2 "Battery:Battery_CR1225" H 11875 7575 60  0001 C CNN
 F 3 "https://data.energizer.com/PDFs/cr1225.pdf" H 11875 7575 60  0001 C CNN
 F 4 "3V 12.5mm x 2.5 mm 48 mAh" H 11875 7575 50  0001 C CNN "Description"
-F 5 "CR1225" H 11875 7575 50  0001 C CNN "PartNumber"
+F 5 "IEC-CR1225" H 11875 7575 50  0001 C CNN "PartNumber"
 F 6 "1" H 11875 7575 50  0001 C CNN "Price"
+F 7 "IEC-CR1225" H 11875 7575 50  0001 C CNN "Mfr No."
 	1    11875 7575
 	1    0    0    -1  
 $EndComp
@@ -4986,6 +5011,9 @@ F 1 "MCP4728" H 19275 1825 50  0000 C CNN
 F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 19600 950 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf" H 19600 1800 50  0001 C CNN
 F 4 "MCP4728-E/UN" H 19600 1550 50  0001 C CNN "PartNumber"
+F 5 "DAC 12bit" H 19600 1550 50  0001 C CNN "Description"
+F 6 "MCP4728-E/UN" H 19600 1550 50  0001 C CNN "Mfr No."
+F 7 "2.00" H 19600 1550 50  0001 C CNN "Price"
 	1    19600 1550
 	1    0    0    -1  
 $EndComp
@@ -5967,6 +5995,9 @@ F 1 "MCP6S21" H 20075 7175 37  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 20025 7125 37  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/268/21117a-70287.pdf" H 20025 7125 37  0001 C CNN
 F 4 "MCP6S21-I/SN" H 20025 6875 50  0001 C CNN "PartNumber"
+F 5 "Special Purpose Amplifiers 1-Chan. 12 MHz SPI" H 20025 6875 50  0001 C CNN "Description"
+F 6 "MCP6S21-I/SN" H 20025 6875 50  0001 C CNN "Mfr No."
+F 7 "1.21" H 20025 6875 50  0001 C CNN "Price"
 	1    20025 6875
 	1    0    0    -1  
 $EndComp
@@ -5981,6 +6012,9 @@ F 1 "MCP6S21" H 16175 7175 37  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 16125 7125 37  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/268/21117a-70287.pdf" H 16125 7125 37  0001 C CNN
 F 4 "MCP6S21-I/SN" H 16125 6875 50  0001 C CNN "PartNumber"
+F 5 "Special Purpose Amplifiers 1-Chan. 12 MHz SPI" H 16125 6875 50  0001 C CNN "Description"
+F 6 "MCP6S21-I/SN" H 16125 6875 50  0001 C CNN "Mfr No."
+F 7 "1.21" H 16125 6875 50  0001 C CNN "Price"
 	1    16125 6875
 	1    0    0    -1  
 $EndComp

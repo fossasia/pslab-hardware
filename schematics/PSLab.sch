@@ -1057,52 +1057,23 @@ Text Notes 625  2775 0    39   Italic 0
 USB Connection Test Points BCu.
 Wire Notes Line
 	600  2675 3850 2675
-Wire Wire Line
-	2750 3100 2750 3075
-Connection ~ 2750 3100
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 607D18EA
-P 2750 3100
+P 3250 3100
 AR Path="/5ED254D7/607D18EA" Ref="#FLG?"  Part="1" 
 AR Path="/607D18EA" Ref="#FLG0105"  Part="1" 
-F 0 "#FLG0105" H 2750 3175 50  0001 C CNN
-F 1 "PWR_FLAG" H 2750 3273 39  0001 C CNN
-F 2 "" H 2750 3100 50  0001 C CNN
-F 3 "~" H 2750 3100 50  0001 C CNN
-	1    2750 3100
+F 0 "#FLG0105" H 3250 3175 50  0001 C CNN
+F 1 "PWR_FLAG" H 3250 3273 39  0001 C CNN
+F 2 "" H 3250 3100 50  0001 C CNN
+F 3 "~" H 3250 3100 50  0001 C CNN
+	1    3250 3100
 	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2750 3175 2750 3100
-$Comp
-L power:GND #PWR?
-U 1 1 607A6C1F
-P 2750 3175
-AR Path="/5ED254D7/607A6C1F" Ref="#PWR?"  Part="1" 
-AR Path="/607A6C1F" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 2750 2925 50  0001 C CNN
-F 1 "GND" H 2750 3025 39  0000 C CNN
-F 2 "" H 2750 3175 50  0001 C CNN
-F 3 "" H 2750 3175 50  0001 C CNN
-	1    2750 3175
-	1    0    0    -1  
 $EndComp
 Text Label 2250 3350 1    39   ~ 0
 VUSBIN
 Wire Wire Line
 	2250 3075 2250 3350
-$Comp
-L Connector:TestPoint Z2
-U 1 1 5A6F58A7
-P 2750 3075
-F 0 "Z2" H 2625 3200 39  0000 C CNN
-F 1 "GND" H 2750 3300 39  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2950 3075 50  0001 C CNN
-F 3 "" H 2950 3075 50  0001 C CNN
-	1    2750 3075
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:TestPoint Z3
 U 1 1 5A6F5463
@@ -3847,7 +3818,7 @@ AR Path="/60BDDC97" Ref="TP5"  Part="1"
 AR Path="/54260FB5/60BDDC97" Ref="TP?"  Part="1" 
 F 0 "TP5" H 2225 10750 50  0000 C BNN
 F 1 "TEST" H 2225 10700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2225 10450 50  0001 C CNN
+F 2 "PSLab:Voltage_Test_Point" H 2225 10450 50  0001 C CNN
 F 3 "" H 2225 10450 50  0001 C CNN
 	1    2225 10450
 	1    0    0    -1  
@@ -3860,7 +3831,7 @@ AR Path="/60BDDC9D" Ref="TP6"  Part="1"
 AR Path="/54260FB5/60BDDC9D" Ref="TP?"  Part="1" 
 F 0 "TP6" H 2575 10750 50  0000 C BNN
 F 1 "TEST" H 2575 10700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2575 10450 50  0001 C CNN
+F 2 "PSLab:Voltage_Test_Point" H 2575 10450 50  0001 C CNN
 F 3 "" H 2575 10450 50  0001 C CNN
 	1    2575 10450
 	1    0    0    -1  
@@ -3898,7 +3869,7 @@ AR Path="/60BDDCCB" Ref="TP2"  Part="1"
 AR Path="/54260FB5/60BDDCCB" Ref="TP?"  Part="1" 
 F 0 "TP2" H 1575 10750 50  0000 C BNN
 F 1 "TEST" H 1575 10700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1575 10450 50  0001 C CNN
+F 2 "PSLab:Voltage_Test_Point" H 1575 10450 50  0001 C CNN
 F 3 "" H 1575 10450 50  0001 C CNN
 	1    1575 10450
 	1    0    0    -1  
@@ -3911,7 +3882,7 @@ AR Path="/60BDDCD1" Ref="TP3"  Part="1"
 AR Path="/54260FB5/60BDDCD1" Ref="TP?"  Part="1" 
 F 0 "TP3" H 1900 10750 50  0000 C BNN
 F 1 "TEST" H 1900 10700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1900 10450 50  0001 C CNN
+F 2 "PSLab:Voltage_Test_Point" H 1900 10450 50  0001 C CNN
 F 3 "" H 1900 10450 50  0001 C CNN
 	1    1900 10450
 	1    0    0    -1  
@@ -3924,7 +3895,7 @@ AR Path="/60BDDCD9" Ref="TP1"  Part="1"
 AR Path="/54260FB5/60BDDCD9" Ref="TP?"  Part="1" 
 F 0 "TP1" H 1250 10750 50  0000 C BNN
 F 1 "TEST" H 1250 10700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1250 10450 50  0001 C CNN
+F 2 "PSLab:Voltage_Test_Point" H 1250 10450 50  0001 C CNN
 F 3 "" H 1250 10450 50  0001 C CNN
 	1    1250 10450
 	1    0    0    -1  
@@ -7021,4 +6992,5 @@ Wire Notes Line style solid rgb(255, 0, 0)
 	15025 5550 15300 5550
 Wire Notes Line style solid rgb(255, 0, 0)
 	15300 5550 15300 5800
+Connection ~ 3250 3100
 $EndSCHEMATC

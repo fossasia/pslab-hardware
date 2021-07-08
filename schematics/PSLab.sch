@@ -2482,36 +2482,6 @@ Wire Wire Line
 	6525 8100 6425 8100
 $Comp
 L 74xx:74LS126 U2
-U 1 1 60F1406B
-P 11725 9275
-F 0 "U2" H 11725 9492 39  0000 C CNN
-F 1 "74HC126" H 11725 9575 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 11725 9275 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 11725 9275 50  0001 C CNN
-F 4 "TSSOP-14" H 11725 9275 50  0001 C CNN "Description"
-F 5 "SN74HC126PW" H 11725 9275 50  0001 C CNN "Mfr No."
-F 6 "SN74HC126PW" H 11725 9275 50  0001 C CNN "PartNumber"
-F 7 "0.42" H 11725 9275 50  0001 C CNN "Price"
-	1    11725 9275
-	1    0    0    1   
-$EndComp
-$Comp
-L 74xx:74LS126 U2
-U 2 1 60F15995
-P 10575 9275
-F 0 "U2" H 10575 9492 39  0000 C CNN
-F 1 "74HC126" H 10575 9575 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 10575 9275 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 10575 9275 50  0001 C CNN
-F 4 "TSSOP-14" H 10575 9275 50  0001 C CNN "Description"
-F 5 "SN74HC126PW" H 10575 9275 50  0001 C CNN "Mfr No."
-F 6 "SN74HC126PW" H 10575 9275 50  0001 C CNN "PartNumber"
-F 7 "0.42" H 10575 9275 50  0001 C CNN "Price"
-	2    10575 9275
-	1    0    0    1   
-$EndComp
-$Comp
-L 74xx:74LS126 U2
 U 3 1 60F16A59
 P 11725 10400
 F 0 "U2" H 11725 10617 39  0000 C CNN
@@ -2578,28 +2548,6 @@ F 3 "" H 9600 10350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0109
-U 1 1 6107C2F4
-P 10575 9025
-F 0 "#PWR0109" H 10575 8875 50  0001 C CNN
-F 1 "+5V" H 10575 9175 39  0000 C CNN
-F 2 "" H 10575 9025 50  0001 C CNN
-F 3 "" H 10575 9025 50  0001 C CNN
-	1    10575 9025
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0110
-U 1 1 6107CA9A
-P 11725 9025
-F 0 "#PWR0110" H 11725 8875 50  0001 C CNN
-F 1 "+5V" H 11725 9175 39  0000 C CNN
-F 2 "" H 11725 9025 50  0001 C CNN
-F 3 "" H 11725 9025 50  0001 C CNN
-	1    11725 9025
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0112
 U 1 1 6107D21E
 P 11725 10150
@@ -2621,26 +2569,14 @@ F 3 "" H 10575 10150 50  0001 C CNN
 	1    10575 10150
 	1    0    0    -1  
 $EndComp
-Text Label 10050 9275 0    40   ~ 0
-SQR1_
-Text GLabel 10875 9275 2    40   Input ~ 0
-SQR1
-Text GLabel 12025 9275 2    40   Input ~ 0
-SQR2
-Text GLabel 12025 10400 2    40   Input ~ 0
-SQR4
 Text GLabel 10875 10400 2    40   Input ~ 0
+SQR4
+Text GLabel 12025 10400 2    40   Input ~ 0
 SQR3
-Text Label 11200 9275 0    40   ~ 0
-SQR2_
-Text Label 11200 10400 0    40   ~ 0
-SQR4_
 Text Label 10050 10400 0    40   ~ 0
+SQR4_
+Text Label 11200 10400 0    40   ~ 0
 SQR3_
-Wire Wire Line
-	10050 9275 10275 9275
-Wire Wire Line
-	11200 9275 11425 9275
 Wire Wire Line
 	11200 10400 11425 10400
 Wire Wire Line
@@ -7079,6 +7015,70 @@ Connection ~ 2600 4250
 Wire Wire Line
 	2500 3900 2600 3900
 Wire Wire Line
+	10050 9275 10275 9275
+Text GLabel 10875 9275 2    40   Input ~ 0
+SQR1
+Text Label 10050 9275 0    40   ~ 0
+SQR1_
+$Comp
+L power:+5V #PWR0109
+U 1 1 6107C2F4
+P 10575 9025
+F 0 "#PWR0109" H 10575 8875 50  0001 C CNN
+F 1 "+5V" H 10575 9175 39  0000 C CNN
+F 2 "" H 10575 9025 50  0001 C CNN
+F 3 "" H 10575 9025 50  0001 C CNN
+	1    10575 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS126 U2
+U 2 1 60F15995
+P 10575 9275
+F 0 "U2" H 10575 9492 39  0000 C CNN
+F 1 "74HC126" H 10575 9575 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 10575 9275 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 10575 9275 50  0001 C CNN
+F 4 "TSSOP-14" H 10575 9275 50  0001 C CNN "Description"
+F 5 "SN74HC126PW" H 10575 9275 50  0001 C CNN "Mfr No."
+F 6 "SN74HC126PW" H 10575 9275 50  0001 C CNN "PartNumber"
+F 7 "0.42" H 10575 9275 50  0001 C CNN "Price"
+	2    10575 9275
+	1    0    0    1   
+$EndComp
+Wire Wire Line
 	2600 3900 2875 3900
 Connection ~ 2600 3900
+Wire Wire Line
+	11200 9275 11425 9275
+Text Label 11200 9275 0    40   ~ 0
+SQR2_
+Text GLabel 12025 9275 2    40   Input ~ 0
+SQR2
+$Comp
+L power:+5V #PWR0110
+U 1 1 6107CA9A
+P 11725 9025
+F 0 "#PWR0110" H 11725 8875 50  0001 C CNN
+F 1 "+5V" H 11725 9175 39  0000 C CNN
+F 2 "" H 11725 9025 50  0001 C CNN
+F 3 "" H 11725 9025 50  0001 C CNN
+	1    11725 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS126 U2
+U 1 1 60F1406B
+P 11725 9275
+F 0 "U2" H 11725 9492 39  0000 C CNN
+F 1 "74HC126" H 11725 9575 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 11725 9275 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 11725 9275 50  0001 C CNN
+F 4 "TSSOP-14" H 11725 9275 50  0001 C CNN "Description"
+F 5 "SN74HC126PW" H 11725 9275 50  0001 C CNN "Mfr No."
+F 6 "SN74HC126PW" H 11725 9275 50  0001 C CNN "PartNumber"
+F 7 "0.42" H 11725 9275 50  0001 C CNN "Price"
+	1    11725 9275
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

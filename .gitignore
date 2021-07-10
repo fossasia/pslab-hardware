@@ -31,3 +31,5 @@ fp-info-cache
 # IDE specifics
 *.DS_Store
 *.ogv
+
+.svg2shenzhen-cache

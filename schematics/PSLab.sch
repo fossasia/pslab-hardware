@@ -5,7 +5,7 @@ $Descr User 23386 12952
 encoding utf-8
 Sheet 1 1
 Title "PSLab Board Schematic"
-Date "2021-05-25"
+Date "2021-07-10"
 Rev "V6.2"
 Comp ""
 Comment1 ""
@@ -59,23 +59,15 @@ F 7 "0603YD105KAT2A" H 7750 4550 50  0001 C CNN "PartNumber"
 	-1   0    0    1   
 $EndComp
 Text GLabel 11950 5175 3    47   Input ~ 0
-CH1out
-Text GLabel 21175 9600 0    40   Input ~ 0
-CH3.GAIN
+CH1_IN
 Text GLabel 12150 1300 2    40   Input ~ 0
 PGD2
-Text GLabel 20025 10050 0    40   Input ~ 0
-PGD2
-Text GLabel 20025 10150 0    40   Input ~ 0
-PGC2
 Text GLabel 11650 5175 3    47   Input ~ 0
-CH2out
+CH2_IN
 Text GLabel 11750 5175 3    47   Input ~ 0
-CH3out
+CH3_IN
 Text GLabel 11850 5175 3    47   Input ~ 0
-MICout
-Text GLabel 21175 9500 0    40   Input ~ 0
-MIC
+MIC_IN
 $Comp
 L Device:L L1
 U 1 1 55C0F620
@@ -91,14 +83,6 @@ F 7 "MLZ1608N100LT000" H 6275 4100 50  0001 C CNN "PartNumber"
 	1    6275 4100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 21175 9700 0    40   Input ~ 0
-CH3
-Text GLabel 21175 9800 0    40   Input ~ 0
-CH2
-Text GLabel 21175 9900 0    40   Input ~ 0
-CH1
-Text GLabel 21175 10000 0    40   Input ~ 0
-ACH1
 $Comp
 L power:PWR_FLAG #FLG034
 U 1 1 55EA2B09
@@ -114,36 +98,6 @@ Text GLabel 7500 10125 0    47   Input ~ 0
 STAT
 Text GLabel 7525 10550 0    40   Input ~ 0
 +5V
-Text GLabel 21175 9400 0    40   Input ~ 0
-FQy
-$Comp
-L Connector_Generic:Conn_01x05 Z1
-U 1 1 5A56B55E
-P 20225 9950
-F 0 "Z1" H 20225 10250 50  0000 C CNN
-F 1 "Programmer" H 20100 9650 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 20225 9950 50  0001 C CNN
-F 3 "" H 20225 9950 50  0001 C CNN
-	1    20225 9950
-	1    0    0    -1  
-$EndComp
-Text GLabel 20025 9750 0    40   Input ~ 0
-MCLR
-$Comp
-L Connector_Generic:Conn_01x04 J4
-U 1 1 5A584DF9
-P 19175 10050
-F 0 "J4" H 19175 9750 50  0000 C CNN
-F 1 "I2C" H 19175 10250 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 19175 10050 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 19175 10050 50  0001 C CNN
-F 4 "Straight female 2.54 mm 1row" H 19175 10050 50  0001 C CNN "Description"
-F 5 "SSW-104-01-T-S" H 19175 10050 50  0001 C CNN "Mfr No."
-F 6 "0.63" H 19175 10050 50  0001 C CNN "Price"
-F 7 "SSW-104-01-T-S" H 19175 10050 50  0001 C CNN "PartNumber"
-	1    19175 10050
-	1    0    0    1   
-$EndComp
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5A66B7F8
@@ -191,29 +145,6 @@ F 6 "0.46" H 6575 4550 50  0001 C CNN "Price"
 F 7 "EMK107BC6106MA-T" H 6575 4550 50  0001 C CNN "PartNumber"
 	1    6575 4550
 	-1   0    0    1   
-$EndComp
-Text GLabel 16875 10150 0    47   Input ~ 0
-SPI.CS
-Text GLabel 16875 9850 0    47   Input ~ 0
-SCK
-Text GLabel 16875 10050 0    47   Input ~ 0
-SDI
-Text GLabel 16875 9950 0    47   Input ~ 0
-SDO
-$Comp
-L Connector_Generic:Conn_01x06 J9
-U 1 1 5C4FD974
-P 17075 9950
-F 0 "J9" H 17075 10250 50  0000 C CNN
-F 1 "SPI" H 17075 9550 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 17075 9950 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 17075 9950 50  0001 C CNN
-F 4 "Straight female 2.54 mm 1row" H 17075 9950 50  0001 C CNN "Description"
-F 5 "SSW-106-01-T-S" H 17075 9950 50  0001 C CNN "Mfr No."
-F 6 "0.68" H 17075 9950 50  0001 C CNN "Price"
-F 7 "SSW-106-01-T-S" H 17075 9950 50  0001 C CNN "PartNumber"
-	1    17075 9950
-	1    0    0    1   
 $EndComp
 Text GLabel 5850 9725 0    47   Input ~ 0
 SCK
@@ -329,6 +260,10 @@ F 0 "U18" H 2825 5700 39  0000 L CNN
 F 1 "LTC4040" V 2550 4875 59  0000 L CNB
 F 2 "PSLab:LTC4040" H 2550 5350 60  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4040fb.pdf" H 2550 5350 60  0001 C CNN
+F 4 "Battery Management 2.5A Battery Backup Power Manager" H 2550 5050 50  0001 C CNN "Description"
+F 5 "LTC4040EUFD#PBF" H 2550 5050 50  0001 C CNN "Mfr No."
+F 6 "LTC4040EUFD#PBF" H 2550 5050 50  0001 C CNN "PartNumber"
+F 7 "7.02" H 2550 5050 50  0001 C CNN "Price"
 	1    2550 5050
 	1    0    0    -1  
 $EndComp
@@ -338,9 +273,12 @@ U 1 1 60785855
 P 3650 5150
 F 0 "Q4" H 3550 5300 39  0000 L CNN
 F 1 "Q_NMOS_DGS" V 3900 4950 39  0000 L CNN
-F 2 "Package_SO:PowerPAK_SO-8_Single" H 3850 5250 50  0001 C CNN
-F 3 "~" H 3650 5150 50  0001 C CNN
+F 2 "PSLab:PowerPAK_SO-8_Single" H 3850 5250 50  0001 C CNN
+F 3 "https://www.mouser.fi/datasheet/2/427/sir424dp-1765120.pdf" H 3650 5150 50  0001 C CNN
 F 4 "SIR424DP-T1-GE3" H 3650 5150 50  0001 C CNN "PartNumber"
+F 5 "SIR424DP-T1-GE3" H 3650 5150 50  0001 C CNN "Mfr No."
+F 6 "0.99" H 3650 5150 50  0001 C CNN "Price"
+F 7 "MOSFET 20V Vds 20V Vgs PowerPAK SO-8" H 3650 5150 50  0001 C CNN "Description"
 	1    3650 5150
 	1    0    0    -1  
 $EndComp
@@ -383,7 +321,11 @@ P 1100 5700
 F 0 "C45" H 1215 5738 39  0000 L CNN
 F 1 "2.2uF" H 1215 5663 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1138 5550 50  0001 C CNN
-F 3 "~" H 1100 5700 50  0001 C CNN
+F 3 "https://www.mouser.fi/datasheet/2/281/1/GRM188R61E225KA12_04A-1985875.pdf" H 1100 5700 50  0001 C CNN
+F 4 "25V 10%" H 1100 5700 50  0001 C CNN "Description"
+F 5 "GRM188R61E225KA12J" H 1100 5700 50  0001 C CNN "Mfr No."
+F 6 "GRM188R61E225KA12J" H 1100 5700 50  0001 C CNN "PartNumber"
+F 7 "0.192" H 1100 5700 50  0001 C CNN "Price"
 	1    1100 5700
 	1    0    0    -1  
 $EndComp
@@ -419,8 +361,6 @@ Wire Wire Line
 Connection ~ 850  5150
 Wire Wire Line
 	850  5150 850  6100
-Text Label 1700 5250 0    39   ~ 0
-VINPUT
 $Comp
 L Connector_Generic:Conn_01x02 J11
 U 1 1 608E7CC8
@@ -462,17 +402,18 @@ Wire Wire Line
 $Comp
 L Device:L L2
 U 1 1 60976C1C
-P 2700 4050
-F 0 "L2" H 2753 4088 39  0000 L CNN
-F 1 "2.2uH" H 2753 4013 39  0000 L CNN
-F 2 "Inductor_SMD:L_Coilcraft_XAL5030" H 2700 4050 50  0001 C CNN
-F 3 "https://www.mouser.fi/datasheet/2/597/xal50xx-270657.pdf" H 2700 4050 50  0001 C CNN
-F 4 "XAL5030-222MEC" H 2700 4050 50  0001 C CNN "PartNumber"
-	1    2700 4050
+P 2600 4050
+F 0 "L2" H 2653 4088 39  0000 L CNN
+F 1 "2.2uH" H 2653 4013 39  0000 L CNN
+F 2 "Inductor_SMD:L_Coilcraft_XAL5030" H 2600 4050 50  0001 C CNN
+F 3 "https://www.mouser.fi/datasheet/2/597/xal50xx-270657.pdf" H 2600 4050 50  0001 C CNN
+F 4 "XAL5030-222MEC" H 2600 4050 50  0001 C CNN "PartNumber"
+F 5 "Fixed Inductors 2.2uH Shld 20% 9.2A 14.5mOhms AECQ2" H 2600 4050 50  0001 C CNN "Description"
+F 6 "XAL5030-222MEC" H 2600 4050 50  0001 C CNN "Mfr No."
+F 7 "2.03" H 2600 4050 50  0001 C CNN "Price"
+	1    2600 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2700 3900 2500 3900
 $Comp
 L power:GND #PWR048
 U 1 1 60A41575
@@ -488,17 +429,6 @@ Wire Wire Line
 	3300 4300 3300 4250
 Wire Wire Line
 	3300 4250 3250 4250
-Wire Wire Line
-	2950 4250 2700 4250
-Wire Wire Line
-	2700 4200 2700 4250
-Wire Wire Line
-	2700 4250 2700 4350
-Connection ~ 2700 4250
-Wire Wire Line
-	2600 4350 2600 4250
-Wire Wire Line
-	2600 4250 2700 4250
 Wire Wire Line
 	2300 4350 2300 3900
 Wire Wire Line
@@ -623,7 +553,7 @@ L Device:R R66
 U 1 1 60DEC0AE
 P 4750 4850
 F 0 "R66" V 4925 4850 39  0000 C CNN
-F 1 "60.4K" V 4850 4850 39  0000 C CNN
+F 1 "60K4" V 4850 4850 39  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 4850 50  0001 C CNN
 F 3 "~" H 4750 4850 50  0001 C CNN
 	1    4750 4850
@@ -648,8 +578,6 @@ Wire Wire Line
 	4550 4700 4550 4850
 Wire Wire Line
 	4550 4850 4600 4850
-Text Label 4550 3900 3    39   ~ 0
-VINPUT
 Wire Wire Line
 	4550 3900 4550 4400
 Text Label 3350 4750 2    40   ~ 0
@@ -683,7 +611,7 @@ Connection ~ 3100 5350
 Wire Wire Line
 	3100 5350 3100 5250
 Text Label 3350 5050 2    39   ~ 0
-VINPUT
+~VINPUT
 Wire Wire Line
 	3350 5050 3050 5050
 Wire Notes Line
@@ -833,14 +761,14 @@ $EndComp
 $Comp
 L PSLab:Logos Z?
 U 1 1 6067425C
-P 4350 7725
+P 3950 7725
 AR Path="/5C27B0EA/6067425C" Ref="Z?"  Part="1" 
 AR Path="/6067425C" Ref="Z9"  Part="1" 
-F 0 "Z9" H 4350 7605 39  0000 C CNN
-F 1 "BottomSilk" H 4350 7845 39  0000 C CNN
-F 2 "PSLab:PSLabRearSilk" H 4350 7725 60  0001 C CNN
-F 3 "" H 4350 7725 60  0001 C CNN
-	1    4350 7725
+F 0 "Z9" H 3950 7605 39  0000 C CNN
+F 1 "Silk" H 3950 7845 39  0000 C CNN
+F 2 "PSLab:Silk" H 3950 7725 60  0001 C CNN
+F 3 "" H 3950 7725 60  0001 C CNN
+	1    3950 7725
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1043,52 +971,23 @@ Text Notes 625  2775 0    39   Italic 0
 USB Connection Test Points BCu.
 Wire Notes Line
 	600  2675 3850 2675
-Wire Wire Line
-	2750 3100 2750 3075
-Connection ~ 2750 3100
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 607D18EA
-P 2750 3100
+P 3250 3100
 AR Path="/5ED254D7/607D18EA" Ref="#FLG?"  Part="1" 
 AR Path="/607D18EA" Ref="#FLG0105"  Part="1" 
-F 0 "#FLG0105" H 2750 3175 50  0001 C CNN
-F 1 "PWR_FLAG" H 2750 3273 39  0001 C CNN
-F 2 "" H 2750 3100 50  0001 C CNN
-F 3 "~" H 2750 3100 50  0001 C CNN
-	1    2750 3100
+F 0 "#FLG0105" H 3250 3175 50  0001 C CNN
+F 1 "PWR_FLAG" H 3250 3273 39  0001 C CNN
+F 2 "" H 3250 3100 50  0001 C CNN
+F 3 "~" H 3250 3100 50  0001 C CNN
+	1    3250 3100
 	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2750 3175 2750 3100
-$Comp
-L power:GND #PWR?
-U 1 1 607A6C1F
-P 2750 3175
-AR Path="/5ED254D7/607A6C1F" Ref="#PWR?"  Part="1" 
-AR Path="/607A6C1F" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 2750 2925 50  0001 C CNN
-F 1 "GND" H 2750 3025 39  0000 C CNN
-F 2 "" H 2750 3175 50  0001 C CNN
-F 3 "" H 2750 3175 50  0001 C CNN
-	1    2750 3175
-	1    0    0    -1  
 $EndComp
 Text Label 2250 3350 1    39   ~ 0
 VUSBIN
 Wire Wire Line
 	2250 3075 2250 3350
-$Comp
-L Connector:TestPoint Z2
-U 1 1 5A6F58A7
-P 2750 3075
-F 0 "Z2" H 2625 3200 39  0000 C CNN
-F 1 "GND" H 2750 3300 39  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2950 3075 50  0001 C CNN
-F 3 "" H 2950 3075 50  0001 C CNN
-	1    2750 3075
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:TestPoint Z3
 U 1 1 5A6F5463
@@ -1150,8 +1049,6 @@ F 3 "" H 4600 2975 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4600 2975 4600 2825
-Text Label 4700 2150 3    39   ~ 0
-VINPUT
 Wire Wire Line
 	4700 2150 4700 2425
 Text Label 4600 2150 3    39   ~ 0
@@ -1180,24 +1077,10 @@ Text Label 2700 2100 0    39   ~ 0
 CC2
 Text Label 2700 2300 0    39   ~ 0
 CC1
-Text Label 2800 4250 0    40   ~ 0
-L_SW
+Text Label 2700 4250 2    40   ~ 0
+L2
 Text Label 1700 5350 0    39   ~ 0
 CLN
-$Comp
-L power:+5V #PWR0101
-U 1 1 60699198
-P 3950 4075
-F 0 "#PWR0101" H 3950 3925 50  0001 C CNN
-F 1 "+5V" H 3950 4225 39  0000 C CNN
-F 2 "" H 3950 4075 50  0001 C CNN
-F 3 "" H 3950 4075 50  0001 C CNN
-	1    3950 4075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 4075 3950 4250
-Connection ~ 3950 4250
 $Comp
 L PSLab:CP2102 U?
 U 1 1 608AB062
@@ -2298,73 +2181,6 @@ Wire Notes Line
 	5325 5225 5325 8425
 Text Notes 5350 5325 0    39   ~ 8
 Voltage Doubler and Inverter
-Wire Wire Line
-	21675 9100 21675 9200
-Connection ~ 21675 9200
-Wire Wire Line
-	21675 9200 21675 9300
-Connection ~ 21675 9300
-Wire Wire Line
-	21675 9300 21675 9400
-Connection ~ 21675 9400
-Wire Wire Line
-	21675 9400 21675 9500
-Connection ~ 21675 9500
-Wire Wire Line
-	21675 9500 21675 9600
-Connection ~ 21675 9600
-Wire Wire Line
-	21675 9600 21675 9700
-Connection ~ 21675 9700
-Wire Wire Line
-	21675 9700 21675 9800
-Connection ~ 21675 9800
-Wire Wire Line
-	21675 9800 21675 9900
-Connection ~ 21675 9900
-Wire Wire Line
-	21675 9900 21675 10000
-Connection ~ 21675 10000
-Wire Wire Line
-	21675 10000 21675 10100
-Connection ~ 21675 10100
-Wire Wire Line
-	21675 10100 21675 10200
-Connection ~ 21675 10200
-Wire Wire Line
-	21675 10200 21675 10300
-Connection ~ 21675 10300
-Wire Wire Line
-	21675 10300 21675 10400
-$Comp
-L power:GND #PWR?
-U 1 1 621E3B85
-P 21675 10500
-AR Path="/5ED254D7/621E3B85" Ref="#PWR?"  Part="1" 
-AR Path="/621E3B85" Ref="#PWR029"  Part="1" 
-F 0 "#PWR029" H 21675 10250 50  0001 C CNN
-F 1 "GND" H 21675 10350 39  0000 C CNN
-F 2 "" H 21675 10500 50  0001 C CNN
-F 3 "" H 21675 10500 50  0001 C CNN
-	1    21675 10500
-	1    0    0    -1  
-$EndComp
-Connection ~ 21675 10400
-$Comp
-L Connector_Generic:Conn_02x14_Odd_Even J1
-U 1 1 6218336B
-P 21475 9700
-F 0 "J1" H 21525 10493 39  0000 C CNN
-F 1 "DoublePins" H 21525 10418 39  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x14_P2.54mm_Vertical" H 21475 9700 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 21475 9700 50  0001 C CNN
-F 4 "Straight female 2.54 mm 2row" H 21475 9700 50  0001 C CNN "Description"
-F 5 "SSW-114-01-T-D" H 21475 9700 50  0001 C CNN "Mfr No."
-F 6 "SSW-114-01-T-D" H 21475 9700 50  0001 C CNN "PartNumber"
-F 7 "2.28" H 21475 9700 50  0001 C CNN "Price"
-	1    21475 9700
-	-1   0    0    -1  
-$EndComp
 Text Notes 12550 8650 0    39   ~ 8
 External Sockets
 $Comp
@@ -2375,6 +2191,10 @@ F 0 "FID1" H 1435 9463 39  0000 L CNN
 F 1 "Fiducial" H 1435 9388 39  0000 L CNN
 F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 1350 9425 50  0001 C CNN
 F 3 "~" H 1350 9425 50  0001 C CNN
+F 4 "Markings for assembly" H 1350 9425 50  0001 C CNN "Description"
+F 5 "N/A" H 1350 9425 50  0001 C CNN "Mfr No."
+F 6 "N/A" H 1350 9425 50  0001 C CNN "PartNumber"
+F 7 "0.00" H 1350 9425 50  0001 C CNN "Price"
 	1    1350 9425
 	1    0    0    -1  
 $EndComp
@@ -2386,6 +2206,10 @@ F 0 "FID2" H 1910 9463 39  0000 L CNN
 F 1 "Fiducial" H 1910 9388 39  0000 L CNN
 F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 1825 9425 50  0001 C CNN
 F 3 "~" H 1825 9425 50  0001 C CNN
+F 4 "Markings for assembly" H 1825 9425 50  0001 C CNN "Description"
+F 5 "N/A" H 1825 9425 50  0001 C CNN "Mfr No."
+F 6 "N/A" H 1825 9425 50  0001 C CNN "PartNumber"
+F 7 "0.00" H 1825 9425 50  0001 C CNN "Price"
 	1    1825 9425
 	1    0    0    -1  
 $EndComp
@@ -2397,6 +2221,10 @@ F 0 "FID3" H 2360 9463 39  0000 L CNN
 F 1 "Fiducial" H 2360 9388 39  0000 L CNN
 F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 2275 9425 50  0001 C CNN
 F 3 "~" H 2275 9425 50  0001 C CNN
+F 4 "Markings for assembly" H 2275 9425 50  0001 C CNN "Description"
+F 5 "N/A" H 2275 9425 50  0001 C CNN "Mfr No."
+F 6 "N/A" H 2275 9425 50  0001 C CNN "PartNumber"
+F 7 "0.00" H 2275 9425 50  0001 C CNN "Price"
 	1    2275 9425
 	1    0    0    -1  
 $EndComp
@@ -2636,6 +2464,7 @@ F 3 "https://eu.mouser.com/datasheet/2/268/70000657H-277982.pdf" H 12050 3575 37
 F 4 "PIC24EP256GP204-I/PT" H 12050 3575 37  0001 C CNN "PartNumber"
 F 5 "3.35" H 12050 3575 37  0001 C CNN "Price"
 F 6 "PIC24EP256GP204-I/PT" H 12050 3375 50  0001 C CNN "Mfr No."
+F 7 "24bit Microcontroller" H 12050 3375 50  0001 C CNN "Description"
 	1    12050 3375
 	1    0    0    -1  
 $EndComp
@@ -2653,34 +2482,16 @@ Wire Wire Line
 	6525 8100 6425 8100
 $Comp
 L 74xx:74LS126 U2
-U 1 1 60F1406B
-P 10575 9275
-F 0 "U2" H 10575 9492 39  0000 C CNN
-F 1 "74HC126" H 10575 9575 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10575 9275 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/408/74HC126D_datasheet_en_20160804-959200.pdf" H 10575 9275 50  0001 C CNN
-	1    10575 9275
-	1    0    0    1   
-$EndComp
-$Comp
-L 74xx:74LS126 U2
-U 2 1 60F15995
-P 11725 9275
-F 0 "U2" H 11725 9492 39  0000 C CNN
-F 1 "74HC126" H 11725 9575 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11725 9275 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/408/74HC126D_datasheet_en_20160804-959200.pdf" H 11725 9275 50  0001 C CNN
-	2    11725 9275
-	1    0    0    1   
-$EndComp
-$Comp
-L 74xx:74LS126 U2
 U 3 1 60F16A59
 P 11725 10400
 F 0 "U2" H 11725 10617 39  0000 C CNN
 F 1 "74HC126" H 11725 10700 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11725 10400 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/408/74HC126D_datasheet_en_20160804-959200.pdf" H 11725 10400 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 11725 10400 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 11725 10400 50  0001 C CNN
+F 4 "TSSOP-14" H 11725 10400 50  0001 C CNN "Description"
+F 5 "SN74HC126PW" H 11725 10400 50  0001 C CNN "Mfr No."
+F 6 "SN74HC126PW" H 11725 10400 50  0001 C CNN "PartNumber"
+F 7 "0.42" H 11725 10400 50  0001 C CNN "Price"
 	3    11725 10400
 	1    0    0    1   
 $EndComp
@@ -2690,8 +2501,12 @@ U 4 1 60F17AFC
 P 10575 10400
 F 0 "U2" H 10575 10617 39  0000 C CNN
 F 1 "74HC126" H 10575 10700 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10575 10400 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/408/74HC126D_datasheet_en_20160804-959200.pdf" H 10575 10400 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 10575 10400 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 10575 10400 50  0001 C CNN
+F 4 "TSSOP-14" H 10575 10400 50  0001 C CNN "Description"
+F 5 "SN74HC126PW" H 10575 10400 50  0001 C CNN "Mfr No."
+F 6 "SN74HC126PW" H 10575 10400 50  0001 C CNN "PartNumber"
+F 7 "0.42" H 10575 10400 50  0001 C CNN "Price"
 	4    10575 10400
 	1    0    0    1   
 $EndComp
@@ -2701,8 +2516,12 @@ U 5 1 60F1A4E7
 P 9600 9850
 F 0 "U2" H 9400 10200 39  0000 L CNN
 F 1 "74HC126" H 9425 9850 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9600 9850 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/408/74HC126D_datasheet_en_20160804-959200.pdf" H 9600 9850 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9600 9850 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 9600 9850 50  0001 C CNN
+F 4 "TSSOP-14" H 9600 9850 50  0001 C CNN "Description"
+F 5 "SN74HC126PW" H 9600 9850 50  0001 C CNN "Mfr No."
+F 6 "SN74HC126PW" H 9600 9850 50  0001 C CNN "PartNumber"
+F 7 "0.42" H 9600 9850 50  0001 C CNN "Price"
 	5    9600 9850
 	1    0    0    -1  
 $EndComp
@@ -2729,28 +2548,6 @@ F 3 "" H 9600 10350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0109
-U 1 1 6107C2F4
-P 10575 9025
-F 0 "#PWR0109" H 10575 8875 50  0001 C CNN
-F 1 "+5V" H 10575 9175 39  0000 C CNN
-F 2 "" H 10575 9025 50  0001 C CNN
-F 3 "" H 10575 9025 50  0001 C CNN
-	1    10575 9025
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0110
-U 1 1 6107CA9A
-P 11725 9025
-F 0 "#PWR0110" H 11725 8875 50  0001 C CNN
-F 1 "+5V" H 11725 9175 39  0000 C CNN
-F 2 "" H 11725 9025 50  0001 C CNN
-F 3 "" H 11725 9025 50  0001 C CNN
-	1    11725 9025
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0112
 U 1 1 6107D21E
 P 11725 10150
@@ -2772,26 +2569,14 @@ F 3 "" H 10575 10150 50  0001 C CNN
 	1    10575 10150
 	1    0    0    -1  
 $EndComp
-Text Label 10050 9275 0    40   ~ 0
-SQR1_
-Text GLabel 10875 9275 2    40   Input ~ 0
-SQR1
-Text GLabel 12025 9275 2    40   Input ~ 0
-SQR2
-Text GLabel 12025 10400 2    40   Input ~ 0
-SQR4
 Text GLabel 10875 10400 2    40   Input ~ 0
+SQR4
+Text GLabel 12025 10400 2    40   Input ~ 0
 SQR3
-Text Label 11200 9275 0    40   ~ 0
-SQR2_
-Text Label 11200 10400 0    40   ~ 0
-SQR4_
 Text Label 10050 10400 0    40   ~ 0
+SQR4_
+Text Label 11200 10400 0    40   ~ 0
 SQR3_
-Wire Wire Line
-	10050 9275 10275 9275
-Wire Wire Line
-	11200 9275 11425 9275
 Wire Wire Line
 	11200 10400 11425 10400
 Wire Wire Line
@@ -2990,14 +2775,6 @@ Text GLabel 9700 4025 0    40   Input ~ 0
 LA3
 Text GLabel 9700 4200 0    40   Input ~ 0
 LA4
-Text GLabel 21175 10400 0    40   Input ~ 0
-LA1
-Text GLabel 21175 10300 0    40   Input ~ 0
-LA2
-Text GLabel 21175 10200 0    40   Input ~ 0
-LA3
-Text GLabel 21175 10100 0    40   Input ~ 0
-LA4
 $Comp
 L Timer_RTC:DS1307Z+ U?
 U 1 1 61C6F33A
@@ -3040,7 +2817,7 @@ AR Path="/54260FB5/61C6F35C" Ref="BT?"  Part="1"
 AR Path="/61C6F35C" Ref="BT1"  Part="1" 
 F 0 "BT1" V 11150 7276 50  0000 C CNN
 F 1 "CR1225" V 11251 7086 50  0000 C CNN
-F 2 "Battery:BatteryHolder_LINX_BAT-HLD-012-SMT" V 11100 7085 50  0001 C CNN
+F 2 "PSLab:BatteryHolder_LINX_BAT-HLD-012-SMT" V 11100 7085 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/238/bat-hld-012-smt-1659340.pdf" V 11100 7085 50  0001 C CNN
 F 4 "Coin cell battery holder (CR1225/1216)" V 11100 7025 50  0001 C CNN "Description"
 F 5 "BAT-HLD-012-SMT" V 11100 7025 50  0001 C CNN "PartNumber"
@@ -3064,8 +2841,9 @@ F 1 "CR1225" H 11875 7450 39  0000 C CNN
 F 2 "Battery:Battery_CR1225" H 11875 7575 60  0001 C CNN
 F 3 "https://data.energizer.com/PDFs/cr1225.pdf" H 11875 7575 60  0001 C CNN
 F 4 "3V 12.5mm x 2.5 mm 48 mAh" H 11875 7575 50  0001 C CNN "Description"
-F 5 "CR1225" H 11875 7575 50  0001 C CNN "PartNumber"
+F 5 "IEC-CR1225" H 11875 7575 50  0001 C CNN "PartNumber"
 F 6 "1" H 11875 7575 50  0001 C CNN "Price"
+F 7 "IEC-CR1225" H 11875 7575 50  0001 C CNN "Mfr No."
 	1    11875 7575
 	1    0    0    -1  
 $EndComp
@@ -3454,7 +3232,7 @@ Wire Wire Line
 	2900 7800 2825 7800
 Wire Wire Line
 	2425 7800 2375 7800
-Text GLabel 13350 2075 2    40   Input ~ 0
+Text GLabel 13475 1875 1    40   Input ~ 0
 BOOT
 Text GLabel 10575 1875 1    40   Input ~ 0
 MCLR
@@ -3570,12 +3348,11 @@ F 3 "" H 13950 1575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13950 1575 13950 3375
+	13950 1575 13950 2075
 Wire Wire Line
 	13950 3475 13900 3475
 Wire Wire Line
 	13900 3375 13950 3375
-Connection ~ 13950 3375
 Wire Wire Line
 	13950 3375 13950 3475
 $Comp
@@ -3779,18 +3556,6 @@ Wire Notes Line
 	14875 6575 12525 6575
 Text Notes 12550 6675 0    39   ~ 8
 ESP-01 Expansion Slot
-Text GLabel 15775 10050 0    40   Input ~ 0
-RxD2
-Text GLabel 15775 9950 0    40   Input ~ 0
-TxD2
-Text GLabel 14625 10150 2    40   Input ~ 0
-PVS1
-Text GLabel 14625 9950 2    40   Input ~ 0
-PVS2
-Text GLabel 14625 9750 2    40   Input ~ 0
-PVS3
-Text GLabel 14625 9550 2    40   Input ~ 0
-PCS
 $Comp
 L Connector:TestPoint TP5
 U 1 1 60BDDC97
@@ -3799,7 +3564,7 @@ AR Path="/60BDDC97" Ref="TP5"  Part="1"
 AR Path="/54260FB5/60BDDC97" Ref="TP?"  Part="1" 
 F 0 "TP5" H 2225 10750 50  0000 C BNN
 F 1 "TEST" H 2225 10700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2225 10450 50  0001 C CNN
+F 2 "PSLab:Voltage_Test_Point" H 2225 10450 50  0001 C CNN
 F 3 "" H 2225 10450 50  0001 C CNN
 	1    2225 10450
 	1    0    0    -1  
@@ -3812,35 +3577,10 @@ AR Path="/60BDDC9D" Ref="TP6"  Part="1"
 AR Path="/54260FB5/60BDDC9D" Ref="TP?"  Part="1" 
 F 0 "TP6" H 2575 10750 50  0000 C BNN
 F 1 "TEST" H 2575 10700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2575 10450 50  0001 C CNN
+F 2 "PSLab:Voltage_Test_Point" H 2575 10450 50  0001 C CNN
 F 3 "" H 2575 10450 50  0001 C CNN
 	1    2575 10450
 	1    0    0    -1  
-$EndComp
-Text GLabel 13500 9850 2    40   Input ~ 0
-SQR1
-Text GLabel 13500 9750 2    40   Input ~ 0
-SQR2
-Text GLabel 13500 9650 2    40   Input ~ 0
-SQR3
-Text GLabel 13500 9550 2    40   Input ~ 0
-SQR4
-$Comp
-L Connector_Generic:Conn_01x08 J2
-U 1 1 60BDDCC5
-P 14425 9750
-AR Path="/60BDDCC5" Ref="J2"  Part="1" 
-AR Path="/54260FB5/60BDDCC5" Ref="J?"  Part="1" 
-F 0 "J2" H 14425 10150 50  0000 C CNN
-F 1 "Power Pins" V 14525 9700 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 14425 9750 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 14425 9750 50  0001 C CNN
-F 4 "Straight female 2.54 mm 1row" H 14425 9750 50  0001 C CNN "Description"
-F 5 "SSW-108-01-T-S" H 14425 9750 50  0001 C CNN "Mfr No."
-F 6 "0.82" H 14425 9750 50  0001 C CNN "Price"
-F 7 "SSW-108-01-T-S" H 14425 9750 50  0001 C CNN "PartNumber"
-	1    14425 9750
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP2
@@ -3850,7 +3590,7 @@ AR Path="/60BDDCCB" Ref="TP2"  Part="1"
 AR Path="/54260FB5/60BDDCCB" Ref="TP?"  Part="1" 
 F 0 "TP2" H 1575 10750 50  0000 C BNN
 F 1 "TEST" H 1575 10700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1575 10450 50  0001 C CNN
+F 2 "PSLab:Voltage_Test_Point" H 1575 10450 50  0001 C CNN
 F 3 "" H 1575 10450 50  0001 C CNN
 	1    1575 10450
 	1    0    0    -1  
@@ -3863,7 +3603,7 @@ AR Path="/60BDDCD1" Ref="TP3"  Part="1"
 AR Path="/54260FB5/60BDDCD1" Ref="TP?"  Part="1" 
 F 0 "TP3" H 1900 10750 50  0000 C BNN
 F 1 "TEST" H 1900 10700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1900 10450 50  0001 C CNN
+F 2 "PSLab:Voltage_Test_Point" H 1900 10450 50  0001 C CNN
 F 3 "" H 1900 10450 50  0001 C CNN
 	1    1900 10450
 	1    0    0    -1  
@@ -3876,73 +3616,11 @@ AR Path="/60BDDCD9" Ref="TP1"  Part="1"
 AR Path="/54260FB5/60BDDCD9" Ref="TP?"  Part="1" 
 F 0 "TP1" H 1250 10750 50  0000 C BNN
 F 1 "TEST" H 1250 10700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1250 10450 50  0001 C CNN
+F 2 "PSLab:Voltage_Test_Point" H 1250 10450 50  0001 C CNN
 F 3 "" H 1250 10450 50  0001 C CNN
 	1    1250 10450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J?
-U 1 1 60BDDCE4
-P 13300 9850
-AR Path="/54260FB5/60BDDCE4" Ref="J?"  Part="1" 
-AR Path="/60BDDCE4" Ref="J3"  Part="1" 
-F 0 "J3" H 13300 10250 50  0000 C CNN
-F 1 "Wave Generator" V 13400 9800 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 13300 9850 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 13300 9850 50  0001 C CNN
-F 4 "Straight female 2.54 mm 1row" H 13300 9850 50  0001 C CNN "Description"
-F 5 "SSW-108-01-T-S" H 13300 9850 50  0001 C CNN "Mfr No."
-F 6 "0.82" H 13300 9850 50  0001 C CNN "Price"
-F 7 "SSW-108-01-T-S" H 13300 9850 50  0001 C CNN "PartNumber"
-	1    13300 9850
-	-1   0    0    1   
-$EndComp
-Text GLabel 13500 10050 2    40   Input ~ 0
-SINE2
-Text GLabel 13500 10150 2    40   Input ~ 0
-SINE1
-$Comp
-L power:GND #PWR06
-U 1 1 60C68FC6
-P 14875 10275
-F 0 "#PWR06" H 14875 10025 50  0001 C CNN
-F 1 "GND" H 14880 10110 39  0000 C CNN
-F 2 "" H 14875 10275 50  0001 C CNN
-F 3 "" H 14875 10275 50  0001 C CNN
-	1    14875 10275
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR07
-U 1 1 60C69C18
-P 13750 10275
-F 0 "#PWR07" H 13750 10025 50  0001 C CNN
-F 1 "GND" H 13755 10110 39  0000 C CNN
-F 2 "" H 13750 10275 50  0001 C CNN
-F 3 "" H 13750 10275 50  0001 C CNN
-	1    13750 10275
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14625 10050 14875 10050
-Wire Wire Line
-	14875 10050 14875 10275
-Wire Wire Line
-	14875 10050 14875 9850
-Wire Wire Line
-	14875 9450 14625 9450
-Connection ~ 14875 10050
-Wire Wire Line
-	14625 9650 14875 9650
-Connection ~ 14875 9650
-Wire Wire Line
-	14875 9650 14875 9450
-Wire Wire Line
-	14625 9850 14875 9850
-Connection ~ 14875 9850
-Wire Wire Line
-	14875 9850 14875 9650
 $Comp
 L Device:C C36
 U 1 1 60FD2693
@@ -4465,205 +4143,6 @@ Sine Wave Generator
 Wire Notes Line
 	5325 13775 5350 13775
 $Comp
-L power:+3.3V #PWR044
-U 1 1 620BFA7A
-P 16550 9575
-F 0 "#PWR044" H 16550 9425 50  0001 C CNN
-F 1 "+3.3V" H 16550 9725 39  0000 C CNN
-F 2 "" H 16550 9575 50  0001 C CNN
-F 3 "" H 16550 9575 50  0001 C CNN
-	1    16550 9575
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR045
-U 1 1 620C27DB
-P 16550 10250
-F 0 "#PWR045" H 16550 10000 50  0001 C CNN
-F 1 "GND" H 16555 10085 39  0000 C CNN
-F 2 "" H 16550 10250 50  0001 C CNN
-F 3 "" H 16550 10250 50  0001 C CNN
-	1    16550 10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16875 9750 16550 9750
-Wire Wire Line
-	16550 9750 16550 10250
-Wire Wire Line
-	16875 9650 16550 9650
-Wire Wire Line
-	16550 9650 16550 9575
-$Comp
-L power:GND #PWR087
-U 1 1 6215078E
-P 17725 10250
-F 0 "#PWR087" H 17725 10000 50  0001 C CNN
-F 1 "GND" H 17730 10085 39  0000 C CNN
-F 2 "" H 17725 10250 50  0001 C CNN
-F 3 "" H 17725 10250 50  0001 C CNN
-	1    17725 10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J5
-U 1 1 5AD47B2C
-P 18150 9950
-F 0 "J5" H 18150 10150 50  0000 C CNN
-F 1 "I2C" H 18150 9650 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 18150 9950 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 18150 9950 50  0001 C CNN
-F 4 "Straight female 2.54 mm 1row" H 18150 9950 50  0001 C CNN "Description"
-F 5 "SSW-104-01-T-S" H 18150 9950 50  0001 C CNN "Mfr No."
-F 6 "0.63" H 18150 9950 50  0001 C CNN "Price"
-F 7 "SSW-104-01-T-S" H 18150 9950 50  0001 C CNN "PartNumber"
-	1    18150 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR049
-U 1 1 621B7F3F
-P 17725 9575
-F 0 "#PWR049" H 17725 9425 50  0001 C CNN
-F 1 "+3.3V" H 17725 9725 39  0000 C CNN
-F 2 "" H 17725 9575 50  0001 C CNN
-F 3 "" H 17725 9575 50  0001 C CNN
-	1    17725 9575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	17950 9850 17725 9850
-Wire Wire Line
-	17725 9575 17725 9850
-Wire Wire Line
-	17950 9950 17725 9950
-Wire Wire Line
-	17725 9950 17725 10250
-Text GLabel 17950 10050 0    47   Input ~ 0
-SCL
-Text GLabel 17950 10150 0    47   Input ~ 0
-SDA
-Text GLabel 18975 9950 0    47   Input ~ 0
-SDA
-$Comp
-L power:GND #PWR0121
-U 1 1 62422723
-P 18750 10250
-F 0 "#PWR0121" H 18750 10000 50  0001 C CNN
-F 1 "GND" H 18755 10085 39  0000 C CNN
-F 2 "" H 18750 10250 50  0001 C CNN
-F 3 "" H 18750 10250 50  0001 C CNN
-	1    18750 10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18750 10250 18750 10150
-Wire Wire Line
-	18750 10150 18975 10150
-$Comp
-L power:+3.3V #PWR088
-U 1 1 6244652B
-P 18750 9575
-F 0 "#PWR088" H 18750 9425 50  0001 C CNN
-F 1 "+3.3V" H 18750 9725 39  0000 C CNN
-F 2 "" H 18750 9575 50  0001 C CNN
-F 3 "" H 18750 9575 50  0001 C CNN
-	1    18750 9575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18750 9575 18750 10050
-Wire Wire Line
-	18750 10050 18975 10050
-Text GLabel 18975 9850 0    47   Input ~ 0
-SCL
-$Comp
-L power:GND #PWR0123
-U 1 1 625031A9
-P 19775 10250
-F 0 "#PWR0123" H 19775 10000 50  0001 C CNN
-F 1 "GND" H 19780 10085 39  0000 C CNN
-F 2 "" H 19775 10250 50  0001 C CNN
-F 3 "" H 19775 10250 50  0001 C CNN
-	1    19775 10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19775 10250 19775 9950
-Wire Wire Line
-	19775 9950 20025 9950
-$Comp
-L power:+3.3V #PWR0122
-U 1 1 6257080F
-P 19775 9575
-F 0 "#PWR0122" H 19775 9425 50  0001 C CNN
-F 1 "+3.3V" H 19775 9725 39  0000 C CNN
-F 2 "" H 19775 9575 50  0001 C CNN
-F 3 "" H 19775 9575 50  0001 C CNN
-	1    19775 9575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19775 9575 19775 9850
-Wire Wire Line
-	19775 9850 20025 9850
-Wire Wire Line
-	13750 9450 13500 9450
-Connection ~ 13750 9950
-Wire Wire Line
-	13500 9950 13750 9950
-Wire Wire Line
-	13750 10275 13750 9950
-Wire Wire Line
-	13750 9950 13750 9450
-$Comp
-L Connector_Generic:Conn_01x04 J7
-U 1 1 62825FA3
-P 15975 9950
-F 0 "J7" H 15975 10150 50  0000 C CNN
-F 1 "UART" H 15975 9650 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 15975 9950 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 15975 9950 50  0001 C CNN
-F 4 "Straight female 2.54 mm 1row" H 15975 9950 50  0001 C CNN "Description"
-F 5 "SSW-104-01-T-S" H 15975 9950 50  0001 C CNN "Mfr No."
-F 6 "0.63" H 15975 9950 50  0001 C CNN "Price"
-F 7 "SSW-104-01-T-S" H 15975 9950 50  0001 C CNN "PartNumber"
-	1    15975 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR026
-U 1 1 62896764
-P 15525 9575
-F 0 "#PWR026" H 15525 9425 50  0001 C CNN
-F 1 "+3.3V" H 15525 9725 39  0000 C CNN
-F 2 "" H 15525 9575 50  0001 C CNN
-F 3 "" H 15525 9575 50  0001 C CNN
-	1    15525 9575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15525 9575 15525 9850
-Wire Wire Line
-	15525 9850 15775 9850
-$Comp
-L power:GND #PWR038
-U 1 1 628BD4A5
-P 15525 10250
-F 0 "#PWR038" H 15525 10000 50  0001 C CNN
-F 1 "GND" H 15530 10085 39  0000 C CNN
-F 2 "" H 15525 10250 50  0001 C CNN
-F 3 "" H 15525 10250 50  0001 C CNN
-	1    15525 10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15525 10250 15525 10150
-Wire Wire Line
-	15525 10150 15775 10150
-Wire Wire Line
-	21675 10500 21675 10400
-$Comp
 L Device:R R27
 U 1 1 62B19FD2
 P 18850 1900
@@ -4868,11 +4347,12 @@ U 1 1 62BB8916
 P 21175 2900
 F 0 "U7" H 21175 3075 50  0000 C CNN
 F 1 "LM324" H 21125 2900 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 21125 3000 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2FLM324" H 21225 3100 50  0001 C CNN
-F 4 "LM324D" H 21175 2900 50  0001 C CNN "PartNumber"
-F 5 "SOIC 14" H 21175 2900 50  0001 C CNN "Description"
-F 6 "LM324D" H 21175 2900 50  0001 C CNN "Mfr No."
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 21125 3000 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/389/cd00001046-1795623.pdf" H 21225 3100 50  0001 C CNN
+F 4 "LM324APT" H 21175 2900 50  0001 C CNN "PartNumber"
+F 5 "TSSOP-14" H 21175 2900 50  0001 C CNN "Description"
+F 6 "LM324APT" H 21175 2900 50  0001 C CNN "Mfr No."
+F 7 "0.45" H 21175 2900 50  0001 C CNN "Price"
 	1    21175 2900
 	1    0    0    -1  
 $EndComp
@@ -4882,11 +4362,12 @@ U 2 1 62BBB49B
 P 21150 1925
 F 0 "U7" H 21175 2100 50  0000 C CNN
 F 1 "LM324" H 21100 1925 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 21100 2025 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2FLM324" H 21200 2125 50  0001 C CNN
-F 4 "SOIC 14" H 21150 1925 50  0001 C CNN "Description"
-F 5 "LM324D" H 21150 1925 50  0001 C CNN "Mfr No."
-F 6 "LM324D" H 21150 1925 50  0001 C CNN "PartNumber"
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 21100 2025 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/389/cd00001046-1795623.pdf" H 21200 2125 50  0001 C CNN
+F 4 "TSSOP-14" H 21150 1925 50  0001 C CNN "Description"
+F 5 "LM324APT" H 21150 1925 50  0001 C CNN "Mfr No."
+F 6 "LM324APT" H 21150 1925 50  0001 C CNN "PartNumber"
+F 7 "0.45" H 21150 1925 50  0001 C CNN "Price"
 	2    21150 1925
 	1    0    0    -1  
 $EndComp
@@ -4896,11 +4377,12 @@ U 3 1 62BBD2F5
 P 21150 1350
 F 0 "U7" H 21175 1175 50  0000 C CNN
 F 1 "LM324" H 21100 1350 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 21100 1450 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2FLM324" H 21200 1550 50  0001 C CNN
-F 4 "SOIC 14" H 21150 1350 50  0001 C CNN "Description"
-F 5 "LM324D" H 21150 1350 50  0001 C CNN "Mfr No."
-F 6 "LM324D" H 21150 1350 50  0001 C CNN "PartNumber"
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 21100 1450 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/389/cd00001046-1795623.pdf" H 21200 1550 50  0001 C CNN
+F 4 "TSSOP-14" H 21150 1350 50  0001 C CNN "Description"
+F 5 "LM324APT" H 21150 1350 50  0001 C CNN "Mfr No."
+F 6 "LM324APT" H 21150 1350 50  0001 C CNN "PartNumber"
+F 7 "0.45" H 21150 1350 50  0001 C CNN "Price"
 	3    21150 1350
 	1    0    0    1   
 $EndComp
@@ -4910,11 +4392,12 @@ U 4 1 62BBEC84
 P 22025 2900
 F 0 "U7" H 22050 3075 50  0000 C CNN
 F 1 "LM324" H 21975 2900 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 21975 3000 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2FLM324" H 22075 3100 50  0001 C CNN
-F 4 "SOIC 14" H 22025 2900 50  0001 C CNN "Description"
-F 5 "LM324D" H 22025 2900 50  0001 C CNN "Mfr No."
-F 6 "LM324D" H 22025 2900 50  0001 C CNN "PartNumber"
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 21975 3000 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/389/cd00001046-1795623.pdf" H 22075 3100 50  0001 C CNN
+F 4 "TSSOP-14" H 22025 2900 50  0001 C CNN "Description"
+F 5 "LM324APT" H 22025 2900 50  0001 C CNN "Mfr No."
+F 6 "LM324APT" H 22025 2900 50  0001 C CNN "PartNumber"
+F 7 "0.45" H 22025 2900 50  0001 C CNN "Price"
 	4    22025 2900
 	1    0    0    -1  
 $EndComp
@@ -4924,11 +4407,12 @@ U 5 1 62BC29C9
 P 19775 2875
 F 0 "U7" V 19525 2875 50  0000 C CNN
 F 1 "LM324" V 19800 2875 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 19725 2975 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2FLM324" H 19825 3075 50  0001 C CNN
-F 4 "SOIC 14" H 19775 2875 50  0001 C CNN "Description"
-F 5 "LM324D" H 19775 2875 50  0001 C CNN "Mfr No."
-F 6 "LM324D" H 19775 2875 50  0001 C CNN "PartNumber"
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 19725 2975 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/389/cd00001046-1795623.pdf" H 19825 3075 50  0001 C CNN
+F 4 "TSSOP-14" H 19775 2875 50  0001 C CNN "Description"
+F 5 "LM324APT" H 19775 2875 50  0001 C CNN "Mfr No."
+F 6 "LM324APT" H 19775 2875 50  0001 C CNN "PartNumber"
+F 7 "0.45" H 19775 2875 50  0001 C CNN "Price"
 	5    19775 2875
 	0    1    1    0   
 $EndComp
@@ -4958,6 +4442,9 @@ F 1 "MCP4728" H 19275 1825 50  0000 C CNN
 F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 19600 950 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf" H 19600 1800 50  0001 C CNN
 F 4 "MCP4728-E/UN" H 19600 1550 50  0001 C CNN "PartNumber"
+F 5 "DAC 12bit" H 19600 1550 50  0001 C CNN "Description"
+F 6 "MCP4728-E/UN" H 19600 1550 50  0001 C CNN "Mfr No."
+F 7 "2.00" H 19600 1550 50  0001 C CNN "Price"
 	1    19600 1550
 	1    0    0    -1  
 $EndComp
@@ -5244,8 +4731,8 @@ F 7 "RR0816P-103-D" H 16000 4600 50  0001 C CNN "PartNumber"
 	1    16000 4600
 	0    1    1    0   
 $EndComp
-Text GLabel 15700 5025 0    47   Input ~ 0
-MICout
+Text GLabel 15700 5025 0    39   Input ~ 0
+MIC_IN
 $Comp
 L Device:R R46
 U 1 1 643E4EF1
@@ -5583,8 +5070,8 @@ F 7 "0.41" H 20175 4975 50  0001 C CNN "Price"
 $EndComp
 Text GLabel 20625 5075 2    40   Input ~ 0
 CH3
-Text GLabel 19325 4975 0    47   Input ~ 0
-CH3out
+Text GLabel 19325 4975 0    39   Input ~ 0
+CH3_IN
 $Comp
 L Device:R R45
 U 1 1 644364D4
@@ -5774,8 +5261,8 @@ F 7 "RT0603FRE071ML" H 18025 6725 50  0001 C CNN "PartNumber"
 	1    18025 6725
 	0    -1   -1   0   
 $EndComp
-Text GLabel 15725 7025 0    47   Input ~ 0
-CH1out
+Text GLabel 15725 7025 0    39   Input ~ 0
+CH1_IN
 $Comp
 L Device:R R22
 U 1 1 657242E8
@@ -5888,8 +5375,8 @@ Text GLabel 15725 6825 0    40   Input ~ 0
 SDO
 Text GLabel 15725 6725 0    40   Input ~ 0
 SCK
-Text GLabel 19625 7025 0    47   Input ~ 0
-CH2out
+Text GLabel 19625 7025 0    39   Input ~ 0
+CH2_IN
 Text GLabel 19625 6825 0    40   Input ~ 0
 SDO
 Text GLabel 19625 6725 0    40   Input ~ 0
@@ -5939,6 +5426,9 @@ F 1 "MCP6S21" H 20075 7175 37  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 20025 7125 37  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/268/21117a-70287.pdf" H 20025 7125 37  0001 C CNN
 F 4 "MCP6S21-I/SN" H 20025 6875 50  0001 C CNN "PartNumber"
+F 5 "Special Purpose Amplifiers 1-Chan. 12 MHz SPI" H 20025 6875 50  0001 C CNN "Description"
+F 6 "MCP6S21-I/SN" H 20025 6875 50  0001 C CNN "Mfr No."
+F 7 "1.21" H 20025 6875 50  0001 C CNN "Price"
 	1    20025 6875
 	1    0    0    -1  
 $EndComp
@@ -5953,6 +5443,9 @@ F 1 "MCP6S21" H 16175 7175 37  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 16125 7125 37  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/268/21117a-70287.pdf" H 16125 7125 37  0001 C CNN
 F 4 "MCP6S21-I/SN" H 16125 6875 50  0001 C CNN "PartNumber"
+F 5 "Special Purpose Amplifiers 1-Chan. 12 MHz SPI" H 16125 6875 50  0001 C CNN "Description"
+F 6 "MCP6S21-I/SN" H 16125 6875 50  0001 C CNN "Mfr No."
+F 7 "1.21" H 16125 6875 50  0001 C CNN "Price"
 	1    16125 6875
 	1    0    0    -1  
 $EndComp
@@ -6690,30 +6183,18 @@ F 3 "" H 1250 10450 50  0001 C CNN
 	1    1250 10450
 	-1   0    0    1   
 $EndComp
-Text Label 20925 9100 0    40   ~ 0
-VOL
-Text Label 20925 9200 0    40   ~ 0
-RES
-Text Label 20925 9300 0    40   ~ 0
-CAP
-Wire Wire Line
-	20925 9100 21175 9100
-Wire Wire Line
-	21175 9200 20925 9200
-Wire Wire Line
-	20925 9300 21175 9300
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 69E5751D
-P 3950 4250
+P 5600 5725
 AR Path="/5ED254D7/69E5751D" Ref="#FLG?"  Part="1" 
 AR Path="/69E5751D" Ref="#FLG0101"  Part="1" 
-F 0 "#FLG0101" H 3950 4325 50  0001 C CNN
-F 1 "PWR_FLAG" H 3950 4423 39  0001 C CNN
-F 2 "" H 3950 4250 50  0001 C CNN
-F 3 "~" H 3950 4250 50  0001 C CNN
-	1    3950 4250
-	0    1    1    0   
+F 0 "#FLG0101" H 5600 5800 50  0001 C CNN
+F 1 "PWR_FLAG" H 5600 5898 39  0001 C CNN
+F 2 "" H 5600 5725 50  0001 C CNN
+F 3 "~" H 5600 5725 50  0001 C CNN
+	1    5600 5725
+	0    -1   -1   0   
 $EndComp
 Text Label 8500 800  2    39   ~ 0
 TxD
@@ -6754,7 +6235,7 @@ U 1 1 5C57C10F
 P 7200 4200
 F 0 "U1" H 6900 4400 50  0000 C CNN
 F 1 "LDFM33PUR" H 7295 4400 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm" H 7200 4200 60  0001 C CNN
+F 2 "PSLab:DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm" H 7200 4200 60  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/389/dm00063302-1797750.pdf" H 7200 4200 60  0001 C CNN
 F 4 "DFN-6-1EP_3x3mm_Pitch0.95mm" H 7200 4200 50  0001 C CNN "Description"
 F 5 "LDFM33PUR" H 7200 4200 50  0001 C CNN "Mfr No."
@@ -6930,5 +6411,687 @@ F 6 "0.1" H 7675 10550 50  0001 C CNN "Price"
 F 7 "RR0816P-512-D" H 7675 10550 50  0001 C CNN "PartNumber"
 	1    7675 10550
 	0    -1   -1   0   
+$EndComp
+Text Notes 19000 6050 0    39   ~ 8
+Oscilloscope Channel 02
+Text Notes 15050 6050 0    39   ~ 8
+Oscilloscope Channel 01
+Text Notes 15075 8350 0    79   ~ 16
+01
+Wire Notes Line style solid rgb(255, 0, 0)
+	15025 8175 15300 8175
+Wire Notes Line style solid rgb(255, 0, 0)
+	15300 8175 15300 8425
+Text Notes 19025 8350 0    79   ~ 16
+02
+Wire Notes Line style solid rgb(255, 0, 0)
+	18975 8175 19250 8175
+Wire Notes Line style solid rgb(255, 0, 0)
+	19250 8175 19250 8425
+Text Notes 18475 5725 0    79   ~ 16
+03
+Wire Notes Line style solid rgb(255, 0, 0)
+	18425 5550 18700 5550
+Wire Notes Line style solid rgb(255, 0, 0)
+	18700 5550 18700 5800
+Text Notes 15075 5725 0    79   ~ 16
+04
+Wire Notes Line style solid rgb(255, 0, 0)
+	15025 5550 15300 5550
+Wire Notes Line style solid rgb(255, 0, 0)
+	15300 5550 15300 5800
+Connection ~ 3250 3100
+$Comp
+L Jumper:SolderJumper_3_Open JP1
+U 1 1 60EAA25F
+P 5875 4750
+F 0 "JP1" H 5875 4855 39  0000 C CNN
+F 1 "PowerPath" H 5875 4930 39  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 5875 4750 50  0001 C CNN
+F 3 "~" H 5875 4750 50  0001 C CNN
+	1    5875 4750
+	-1   0    0    1   
+$EndComp
+Text GLabel 5875 4600 1    39   Input ~ 8
++5V
+Text Label 6350 4750 2    39   ~ 0
+VINPUT
+Text Label 5450 4750 0    40   ~ 0
+VSYS
+Text Label 4700 2150 3    39   ~ 0
+VUSBIN
+Wire Wire Line
+	5450 4750 5675 4750
+Wire Wire Line
+	6075 4750 6350 4750
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 60FE82A9
+P 1500 4350
+F 0 "JP2" H 1500 4531 39  0000 C CNN
+F 1 "Enable" H 1500 4456 39  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1500 4350 50  0001 C CNN
+F 3 "~" H 1500 4350 50  0001 C CNN
+	1    1500 4350
+	1    0    0    -1  
+$EndComp
+Text Label 1075 4350 0    39   ~ 0
+VINPUT
+Text Label 1925 4350 2    39   ~ 0
+~VINPUT
+Wire Wire Line
+	1925 4350 1650 4350
+Wire Wire Line
+	1075 4350 1350 4350
+Text Label 1700 5250 0    39   ~ 0
+~VINPUT
+Text Label 4550 3900 3    39   ~ 0
+~VINPUT
+Connection ~ 5600 5725
+$Comp
+L Device:R R67
+U 1 1 60F43424
+P 13750 2075
+AR Path="/60F43424" Ref="R67"  Part="1" 
+AR Path="/5C4FD460/60F43424" Ref="R?"  Part="1" 
+F 0 "R67" V 13825 2075 39  0000 C CNN
+F 1 "10K" V 13750 2075 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13680 2075 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 13750 2075 50  0001 C CNN
+F 4 "1/16W 5%" H 13750 2075 50  0001 C CNN "Description"
+F 5 "RR0816P-103-D" H 13750 2075 50  0001 C CNN "Mfr No."
+F 6 "0.12" H 13750 2075 50  0001 C CNN "Price"
+F 7 "RR0816P-103-D" H 13750 2075 50  0001 C CNN "PartNumber"
+	1    13750 2075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13475 1875 13475 2075
+Wire Wire Line
+	13475 2075 13350 2075
+Wire Wire Line
+	13475 2075 13600 2075
+Connection ~ 13475 2075
+Wire Wire Line
+	13900 2075 13950 2075
+$Comp
+L power:+3.3V #PWR012
+U 1 1 610E5042
+P 13950 3025
+F 0 "#PWR012" H 13950 2875 50  0001 C CNN
+F 1 "+3.3V" H 13950 3175 39  0000 C CNN
+F 2 "" H 13950 3025 50  0001 C CNN
+F 3 "" H 13950 3025 50  0001 C CNN
+	1    13950 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13950 3025 13950 3375
+Connection ~ 13950 3375
+Text Label 2750 3350 1    39   ~ 0
+GND
+Wire Wire Line
+	2750 3075 2750 3350
+$Comp
+L Connector:TestPoint Z2
+U 1 1 60E3760F
+P 2750 3075
+F 0 "Z2" H 2635 3200 39  0000 C CNN
+F 1 "GND" H 2750 3300 39  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2950 3075 50  0001 C CNN
+F 3 "" H 2950 3075 50  0001 C CNN
+	1    2750 3075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20925 9300 21175 9300
+Wire Wire Line
+	21175 9200 20925 9200
+Wire Wire Line
+	20925 9100 21175 9100
+Text Label 20925 9300 0    40   ~ 0
+CAP
+Text Label 20925 9200 0    40   ~ 0
+RES
+Text Label 20925 9100 0    40   ~ 0
+VOL
+Wire Wire Line
+	21675 10500 21675 10400
+$Comp
+L power:GND #PWR038
+U 1 1 628BD4A5
+P 15525 10250
+F 0 "#PWR038" H 15525 10000 50  0001 C CNN
+F 1 "GND" H 15530 10085 39  0000 C CNN
+F 2 "" H 15525 10250 50  0001 C CNN
+F 3 "" H 15525 10250 50  0001 C CNN
+	1    15525 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15525 9850 15775 9850
+Wire Wire Line
+	15525 9575 15525 9850
+$Comp
+L Connector_Generic:Conn_01x04 J7
+U 1 1 62825FA3
+P 15975 9950
+F 0 "J7" H 15975 10150 50  0000 C CNN
+F 1 "UART" H 15975 9650 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 15975 9950 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 15975 9950 50  0001 C CNN
+F 4 "Straight female 2.54 mm 1row" H 15975 9950 50  0001 C CNN "Description"
+F 5 "SSW-104-01-T-S" H 15975 9950 50  0001 C CNN "Mfr No."
+F 6 "0.63" H 15975 9950 50  0001 C CNN "Price"
+F 7 "SSW-104-01-T-S" H 15975 9950 50  0001 C CNN "PartNumber"
+	1    15975 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13750 9950 13750 9450
+Wire Wire Line
+	13750 10275 13750 9950
+Wire Wire Line
+	13500 9950 13750 9950
+Connection ~ 13750 9950
+Wire Wire Line
+	13750 9450 13500 9450
+Wire Wire Line
+	19775 9850 20025 9850
+Wire Wire Line
+	19775 9575 19775 9850
+$Comp
+L power:+3.3V #PWR0122
+U 1 1 6257080F
+P 19775 9575
+F 0 "#PWR0122" H 19775 9425 50  0001 C CNN
+F 1 "+3.3V" H 19775 9725 39  0000 C CNN
+F 2 "" H 19775 9575 50  0001 C CNN
+F 3 "" H 19775 9575 50  0001 C CNN
+	1    19775 9575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19775 9950 20025 9950
+Wire Wire Line
+	19775 10250 19775 9950
+$Comp
+L power:GND #PWR0123
+U 1 1 625031A9
+P 19775 10250
+F 0 "#PWR0123" H 19775 10000 50  0001 C CNN
+F 1 "GND" H 19780 10085 39  0000 C CNN
+F 2 "" H 19775 10250 50  0001 C CNN
+F 3 "" H 19775 10250 50  0001 C CNN
+	1    19775 10250
+	1    0    0    -1  
+$EndComp
+Text GLabel 18975 9850 0    47   Input ~ 0
+SCL
+Wire Wire Line
+	18750 10050 18975 10050
+Wire Wire Line
+	18750 9575 18750 10050
+$Comp
+L power:+3.3V #PWR088
+U 1 1 6244652B
+P 18750 9575
+F 0 "#PWR088" H 18750 9425 50  0001 C CNN
+F 1 "+3.3V" H 18750 9725 39  0000 C CNN
+F 2 "" H 18750 9575 50  0001 C CNN
+F 3 "" H 18750 9575 50  0001 C CNN
+	1    18750 9575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18750 10150 18975 10150
+Wire Wire Line
+	18750 10250 18750 10150
+$Comp
+L power:GND #PWR0121
+U 1 1 62422723
+P 18750 10250
+F 0 "#PWR0121" H 18750 10000 50  0001 C CNN
+F 1 "GND" H 18755 10085 39  0000 C CNN
+F 2 "" H 18750 10250 50  0001 C CNN
+F 3 "" H 18750 10250 50  0001 C CNN
+	1    18750 10250
+	1    0    0    -1  
+$EndComp
+Text GLabel 18975 9950 0    47   Input ~ 0
+SDA
+Text GLabel 17950 10150 0    47   Input ~ 0
+SDA
+Text GLabel 17950 10050 0    47   Input ~ 0
+SCL
+Wire Wire Line
+	17725 9950 17725 10250
+Wire Wire Line
+	17950 9950 17725 9950
+Wire Wire Line
+	17725 9575 17725 9850
+Wire Wire Line
+	17950 9850 17725 9850
+$Comp
+L power:+3.3V #PWR049
+U 1 1 621B7F3F
+P 17725 9575
+F 0 "#PWR049" H 17725 9425 50  0001 C CNN
+F 1 "+3.3V" H 17725 9725 39  0000 C CNN
+F 2 "" H 17725 9575 50  0001 C CNN
+F 3 "" H 17725 9575 50  0001 C CNN
+	1    17725 9575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 5AD47B2C
+P 18150 9950
+F 0 "J5" H 18150 10150 50  0000 C CNN
+F 1 "I2C" H 18150 9650 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 18150 9950 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 18150 9950 50  0001 C CNN
+F 4 "Straight female 2.54 mm 1row" H 18150 9950 50  0001 C CNN "Description"
+F 5 "SSW-104-01-T-S" H 18150 9950 50  0001 C CNN "Mfr No."
+F 6 "0.63" H 18150 9950 50  0001 C CNN "Price"
+F 7 "SSW-104-01-T-S" H 18150 9950 50  0001 C CNN "PartNumber"
+	1    18150 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR087
+U 1 1 6215078E
+P 17725 10250
+F 0 "#PWR087" H 17725 10000 50  0001 C CNN
+F 1 "GND" H 17730 10085 39  0000 C CNN
+F 2 "" H 17725 10250 50  0001 C CNN
+F 3 "" H 17725 10250 50  0001 C CNN
+	1    17725 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16550 9650 16550 9575
+Wire Wire Line
+	16875 9650 16550 9650
+Wire Wire Line
+	16550 9750 16550 10250
+Wire Wire Line
+	16875 9750 16550 9750
+$Comp
+L power:GND #PWR045
+U 1 1 620C27DB
+P 16550 10250
+F 0 "#PWR045" H 16550 10000 50  0001 C CNN
+F 1 "GND" H 16555 10085 39  0000 C CNN
+F 2 "" H 16550 10250 50  0001 C CNN
+F 3 "" H 16550 10250 50  0001 C CNN
+	1    16550 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR044
+U 1 1 620BFA7A
+P 16550 9575
+F 0 "#PWR044" H 16550 9425 50  0001 C CNN
+F 1 "+3.3V" H 16550 9725 39  0000 C CNN
+F 2 "" H 16550 9575 50  0001 C CNN
+F 3 "" H 16550 9575 50  0001 C CNN
+	1    16550 9575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14875 9850 14875 9650
+Connection ~ 14875 9850
+Wire Wire Line
+	14625 9850 14875 9850
+Wire Wire Line
+	14875 9650 14875 9450
+Connection ~ 14875 9650
+Wire Wire Line
+	14625 9650 14875 9650
+Connection ~ 14875 10050
+Wire Wire Line
+	14875 9450 14625 9450
+Wire Wire Line
+	14875 10050 14875 9850
+Wire Wire Line
+	14875 10050 14875 10275
+Wire Wire Line
+	14625 10050 14875 10050
+$Comp
+L power:GND #PWR07
+U 1 1 60C69C18
+P 13750 10275
+F 0 "#PWR07" H 13750 10025 50  0001 C CNN
+F 1 "GND" H 13755 10110 39  0000 C CNN
+F 2 "" H 13750 10275 50  0001 C CNN
+F 3 "" H 13750 10275 50  0001 C CNN
+	1    13750 10275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 60C68FC6
+P 14875 10275
+F 0 "#PWR06" H 14875 10025 50  0001 C CNN
+F 1 "GND" H 14880 10110 39  0000 C CNN
+F 2 "" H 14875 10275 50  0001 C CNN
+F 3 "" H 14875 10275 50  0001 C CNN
+	1    14875 10275
+	1    0    0    -1  
+$EndComp
+Text GLabel 13500 10150 2    40   Input ~ 0
+SINE1
+Text GLabel 13500 10050 2    40   Input ~ 0
+SINE2
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 60BDDCE4
+P 13300 9850
+AR Path="/54260FB5/60BDDCE4" Ref="J?"  Part="1" 
+AR Path="/60BDDCE4" Ref="J3"  Part="1" 
+F 0 "J3" H 13300 10250 50  0000 C CNN
+F 1 "Wave Generator" V 13400 9800 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 13300 9850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 13300 9850 50  0001 C CNN
+F 4 "Straight female 2.54 mm 1row" H 13300 9850 50  0001 C CNN "Description"
+F 5 "SSW-108-01-T-S" H 13300 9850 50  0001 C CNN "Mfr No."
+F 6 "0.82" H 13300 9850 50  0001 C CNN "Price"
+F 7 "SSW-108-01-T-S" H 13300 9850 50  0001 C CNN "PartNumber"
+	1    13300 9850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 60BDDCC5
+P 14425 9750
+AR Path="/60BDDCC5" Ref="J2"  Part="1" 
+AR Path="/54260FB5/60BDDCC5" Ref="J?"  Part="1" 
+F 0 "J2" H 14425 10150 50  0000 C CNN
+F 1 "Power Pins" V 14525 9700 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 14425 9750 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 14425 9750 50  0001 C CNN
+F 4 "Straight female 2.54 mm 1row" H 14425 9750 50  0001 C CNN "Description"
+F 5 "SSW-108-01-T-S" H 14425 9750 50  0001 C CNN "Mfr No."
+F 6 "0.82" H 14425 9750 50  0001 C CNN "Price"
+F 7 "SSW-108-01-T-S" H 14425 9750 50  0001 C CNN "PartNumber"
+	1    14425 9750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 13500 9550 2    40   Input ~ 0
+SQR4
+Text GLabel 13500 9650 2    40   Input ~ 0
+SQR3
+Text GLabel 13500 9750 2    40   Input ~ 0
+SQR2
+Text GLabel 13500 9850 2    40   Input ~ 0
+SQR1
+Text GLabel 14625 10150 2    40   Input ~ 0
+PCS
+Text GLabel 14625 9550 2    40   Input ~ 0
+PVS3
+Text GLabel 14625 9750 2    40   Input ~ 0
+PVS2
+Text GLabel 14625 9950 2    40   Input ~ 0
+PVS1
+Text GLabel 15775 10050 0    40   Input ~ 0
+TxD2
+Text GLabel 15775 10150 0    40   Input ~ 0
+RxD2
+Text GLabel 21175 10100 0    40   Input ~ 0
+LA4
+Text GLabel 21175 10200 0    40   Input ~ 0
+LA3
+Text GLabel 21175 10300 0    40   Input ~ 0
+LA2
+Text GLabel 21175 10400 0    40   Input ~ 0
+LA1
+$Comp
+L Connector_Generic:Conn_02x14_Odd_Even J1
+U 1 1 6218336B
+P 21475 9700
+F 0 "J1" H 21525 10493 39  0000 C CNN
+F 1 "DoublePins" H 21525 10418 39  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x14_P2.54mm_Vertical" H 21475 9700 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 21475 9700 50  0001 C CNN
+F 4 "Straight female 2.54 mm 2row" H 21475 9700 50  0001 C CNN "Description"
+F 5 "SSW-114-01-T-D" H 21475 9700 50  0001 C CNN "Mfr No."
+F 6 "SSW-114-01-T-D" H 21475 9700 50  0001 C CNN "PartNumber"
+F 7 "2.28" H 21475 9700 50  0001 C CNN "Price"
+	1    21475 9700
+	-1   0    0    -1  
+$EndComp
+Connection ~ 21675 10400
+$Comp
+L power:GND #PWR?
+U 1 1 621E3B85
+P 21675 10500
+AR Path="/5ED254D7/621E3B85" Ref="#PWR?"  Part="1" 
+AR Path="/621E3B85" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 21675 10250 50  0001 C CNN
+F 1 "GND" H 21675 10350 39  0000 C CNN
+F 2 "" H 21675 10500 50  0001 C CNN
+F 3 "" H 21675 10500 50  0001 C CNN
+	1    21675 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21675 10300 21675 10400
+Connection ~ 21675 10300
+Wire Wire Line
+	21675 10200 21675 10300
+Connection ~ 21675 10200
+Wire Wire Line
+	21675 10100 21675 10200
+Connection ~ 21675 10100
+Wire Wire Line
+	21675 10000 21675 10100
+Connection ~ 21675 10000
+Wire Wire Line
+	21675 9900 21675 10000
+Connection ~ 21675 9900
+Wire Wire Line
+	21675 9800 21675 9900
+Connection ~ 21675 9800
+Wire Wire Line
+	21675 9700 21675 9800
+Connection ~ 21675 9700
+Wire Wire Line
+	21675 9600 21675 9700
+Connection ~ 21675 9600
+Wire Wire Line
+	21675 9500 21675 9600
+Connection ~ 21675 9500
+Wire Wire Line
+	21675 9400 21675 9500
+Connection ~ 21675 9400
+Wire Wire Line
+	21675 9300 21675 9400
+Connection ~ 21675 9300
+Wire Wire Line
+	21675 9200 21675 9300
+Connection ~ 21675 9200
+Wire Wire Line
+	21675 9100 21675 9200
+$Comp
+L Connector_Generic:Conn_01x06 J9
+U 1 1 5C4FD974
+P 17075 9950
+F 0 "J9" H 17075 10250 50  0000 C CNN
+F 1 "SPI" H 17075 9550 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 17075 9950 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 17075 9950 50  0001 C CNN
+F 4 "Straight female 2.54 mm 1row" H 17075 9950 50  0001 C CNN "Description"
+F 5 "SSW-106-01-T-S" H 17075 9950 50  0001 C CNN "Mfr No."
+F 6 "0.68" H 17075 9950 50  0001 C CNN "Price"
+F 7 "SSW-106-01-T-S" H 17075 9950 50  0001 C CNN "PartNumber"
+	1    17075 9950
+	1    0    0    1   
+$EndComp
+Text GLabel 16875 9850 0    47   Input ~ 0
+SDO
+Text GLabel 16875 10050 0    47   Input ~ 0
+SDI
+Text GLabel 16875 9950 0    47   Input ~ 0
+SCK
+Text GLabel 16875 10150 0    47   Input ~ 0
+SPI.CS
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5A584DF9
+P 19175 10050
+F 0 "J4" H 19175 9750 50  0000 C CNN
+F 1 "I2C" H 19175 10250 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 19175 10050 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf" H 19175 10050 50  0001 C CNN
+F 4 "Straight female 2.54 mm 1row" H 19175 10050 50  0001 C CNN "Description"
+F 5 "SSW-104-01-T-S" H 19175 10050 50  0001 C CNN "Mfr No."
+F 6 "0.63" H 19175 10050 50  0001 C CNN "Price"
+F 7 "SSW-104-01-T-S" H 19175 10050 50  0001 C CNN "PartNumber"
+	1    19175 10050
+	1    0    0    1   
+$EndComp
+Text GLabel 20025 9750 0    40   Input ~ 0
+MCLR
+$Comp
+L Connector_Generic:Conn_01x05 Z1
+U 1 1 5A56B55E
+P 20225 9950
+F 0 "Z1" H 20225 10250 50  0000 C CNN
+F 1 "Programmer" H 20100 9650 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 20225 9950 50  0001 C CNN
+F 3 "" H 20225 9950 50  0001 C CNN
+	1    20225 9950
+	1    0    0    -1  
+$EndComp
+Text GLabel 21175 9400 0    40   Input ~ 0
+FQy
+Text GLabel 21175 10000 0    40   Input ~ 0
+ACH1
+Text GLabel 21175 9900 0    40   Input ~ 0
+CH1
+Text GLabel 21175 9800 0    40   Input ~ 0
+CH2
+Text GLabel 21175 9700 0    40   Input ~ 0
+CH3
+Text GLabel 21175 9500 0    40   Input ~ 0
+MIC
+Text GLabel 20025 10150 0    40   Input ~ 0
+PGC2
+Text GLabel 20025 10050 0    40   Input ~ 0
+PGD2
+Text GLabel 21175 9600 0    40   Input ~ 0
+CH3.GAIN
+$Comp
+L power:+5V #PWR0101
+U 1 1 61648ABA
+P 15525 9575
+F 0 "#PWR0101" H 15525 9425 50  0001 C CNN
+F 1 "+5V" H 15525 9725 39  0000 C CNN
+F 2 "" H 15525 9575 50  0001 C CNN
+F 3 "" H 15525 9575 50  0001 C CNN
+	1    15525 9575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15525 9950 15775 9950
+Wire Wire Line
+	15525 9950 15525 10250
+Text Label 2000 6100 0    39   ~ 0
+DIRECT_SUPPLY
+Wire Wire Line
+	2875 3900 2875 4250
+Wire Wire Line
+	2875 4250 2950 4250
+Wire Wire Line
+	2700 4350 2700 4250
+Wire Wire Line
+	2700 4250 2600 4250
+Wire Wire Line
+	2600 4250 2600 4200
+Wire Wire Line
+	2600 4250 2600 4350
+Connection ~ 2600 4250
+Wire Wire Line
+	2500 3900 2600 3900
+Wire Wire Line
+	10050 9275 10275 9275
+Text GLabel 10875 9275 2    40   Input ~ 0
+SQR1
+Text Label 10050 9275 0    40   ~ 0
+SQR1_
+$Comp
+L power:+5V #PWR0109
+U 1 1 6107C2F4
+P 10575 9025
+F 0 "#PWR0109" H 10575 8875 50  0001 C CNN
+F 1 "+5V" H 10575 9175 39  0000 C CNN
+F 2 "" H 10575 9025 50  0001 C CNN
+F 3 "" H 10575 9025 50  0001 C CNN
+	1    10575 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS126 U2
+U 2 1 60F15995
+P 10575 9275
+F 0 "U2" H 10575 9492 39  0000 C CNN
+F 1 "74HC126" H 10575 9575 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 10575 9275 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 10575 9275 50  0001 C CNN
+F 4 "TSSOP-14" H 10575 9275 50  0001 C CNN "Description"
+F 5 "SN74HC126PW" H 10575 9275 50  0001 C CNN "Mfr No."
+F 6 "SN74HC126PW" H 10575 9275 50  0001 C CNN "PartNumber"
+F 7 "0.42" H 10575 9275 50  0001 C CNN "Price"
+	2    10575 9275
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2600 3900 2875 3900
+Connection ~ 2600 3900
+Wire Wire Line
+	11200 9275 11425 9275
+Text Label 11200 9275 0    40   ~ 0
+SQR2_
+Text GLabel 12025 9275 2    40   Input ~ 0
+SQR2
+$Comp
+L power:+5V #PWR0110
+U 1 1 6107CA9A
+P 11725 9025
+F 0 "#PWR0110" H 11725 8875 50  0001 C CNN
+F 1 "+5V" H 11725 9175 39  0000 C CNN
+F 2 "" H 11725 9025 50  0001 C CNN
+F 3 "" H 11725 9025 50  0001 C CNN
+	1    11725 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS126 U2
+U 1 1 60F1406B
+P 11725 9275
+F 0 "U2" H 11725 9492 39  0000 C CNN
+F 1 "74HC126" H 11725 9575 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 11725 9275 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126" H 11725 9275 50  0001 C CNN
+F 4 "TSSOP-14" H 11725 9275 50  0001 C CNN "Description"
+F 5 "SN74HC126PW" H 11725 9275 50  0001 C CNN "Mfr No."
+F 6 "SN74HC126PW" H 11725 9275 50  0001 C CNN "PartNumber"
+F 7 "0.42" H 11725 9275 50  0001 C CNN "Price"
+	1    11725 9275
+	1    0    0    1   
+$EndComp
+$Comp
+L PSLab:Logos Z?
+U 1 1 60EF9584
+P 4725 7725
+AR Path="/5C27B0EA/60EF9584" Ref="Z?"  Part="1" 
+AR Path="/60EF9584" Ref="Z6"  Part="1" 
+F 0 "Z6" H 4725 7605 39  0000 C CNN
+F 1 "eWaste" H 4725 7845 39  0000 C CNN
+F 2 "Symbol:WEEE-Logo_4.2x6mm_SilkScreen" H 4725 7725 60  0001 C CNN
+F 3 "" H 4725 7725 60  0001 C CNN
+	1    4725 7725
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

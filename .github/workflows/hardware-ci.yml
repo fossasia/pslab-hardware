@@ -67,11 +67,23 @@ jobs:
         with:
           name: pick-and-place
           path: docs/position_files/PositionFile.csv
+             
+      - name: Electric Rule Check
+        uses: actions/upload-artifact@v2
+        with:
+          name: electric-rule-check
+          path: schematics/PSLab-erc.txt
           
+      - name: Design Rule Check
+        uses: actions/upload-artifact@v2
+        with:
+          name: design-rule-check
+          path: schematics/PSLab-drc.txt
+
       - name: Setup board diff images
         run: |
           git config --global user.email "noreply@pslab.io"
-          git config --global user.name "PSLab"
+          git config --global user.name "github-actions"
           python scripts/pslab_gerber_generator.py
           git clone --quiet --branch=diff-img https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY diff-img > /dev/null
           cd diff-img
@@ -102,15 +114,3 @@ jobs:
           git branch -D diff-img
           git branch -m diff-img
           git push origin diff-img -f --quiet > /dev/null
-             
-      - name: Electric Rule Check
-        uses: actions/upload-artifact@v2
-        with:
-          name: electric-rule-check
-          path: schematics/PSLab-erc.txt
-          
-      - name: Design Rule Check
-        uses: actions/upload-artifact@v2
-        with:
-          name: design-rule-check
-          path: schematics/PSLab-drc.txt

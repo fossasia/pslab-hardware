@@ -73,6 +73,18 @@ jobs:
         with:
           name: pick-and-place
           path: docs/position_files/PositionFile.csv
+
+      - name: Electric Rule Check
+        uses: actions/upload-artifact@v2
+        with:
+          name: electric-rule-check
+          path: schematics/PSLab-erc.txt
+          
+      - name: Design Rule Check
+        uses: actions/upload-artifact@v2
+        with:
+          name: design-rule-check
+          path: schematics/PSLab-drc.txt
           
       - name: Setup board diff images
         run: |
@@ -108,18 +120,6 @@ jobs:
           CURRENTCOMMIT=$(git rev-parse HEAD)
           echo "current_commit=$CURRENTCOMMIT" >> $GITHUB_ENV
           echo "current_actor=$GITHUB_ACTOR" >> $GITHUB_ENV
-
-      - name: Electric Rule Check
-        uses: actions/upload-artifact@v2
-        with:
-          name: electric-rule-check
-          path: schematics/PSLab-erc.txt
-          
-      - name: Design Rule Check
-        uses: actions/upload-artifact@v2
-        with:
-          name: design-rule-check
-          path: schematics/PSLab-drc.txt
           
       - name: Pull request comment
         uses: actions/github-script@v4

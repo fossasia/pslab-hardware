@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.10-88a1d61d58~88~ubuntu20.04.1"
     },
-    "CreationDate":  "2021-05-30T17:39:30+02:00"
+    "CreationDate":  "2021-07-28T10:28:48+02:00"
   },
   "GeneralSpecs":
   {
@@ -41,7 +41,7 @@
       "PadToPad":  0.156,
       "PadToTrack":  0.156,
       "TrackToTrack":  0.156,
-      "MinLineWidth":  0.305,
+      "MinLineWidth":  0.254,
       "TrackToRegion":  0.156,
       "RegionToRegion":  0.156
     }

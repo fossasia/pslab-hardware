@@ -1,13 +1,13 @@
 References,Value,Footprint,Quantity,PartNumber,Price,Datasheet,Description
 BT1,CR1225,BatteryHolder_LINX_BAT-HLD-012-SMT,1,BAT-HLD-012-SMT,0.29,https://eu.mouser.com/datasheet/2/238/bat-hld-012-smt-1659340.pdf,Coin cell battery holder (CR1225/1216)
-BT2,CR1225,Battery_CR1225,1,,1,https://data.energizer.com/PDFs/cr1225.pdf,3V 12.5mm x 2.5 mm 48 mAh
+BT2,CR1225,Battery_CR1225,1,IEC-CR1225,1,https://data.energizer.com/PDFs/cr1225.pdf,3V 12.5mm x 2.5 mm 48 mAh
 C23 C29,0.5pF,C_0603_1608Metric,2,VJ0603A0R5BXJCW1BC,0.45,https://eu.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf,16V 20%
 C8 C10,33pF,C_0603_1608Metric,2,VJ0603A330JXJPW1BC,0.26,https://eu.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf,16V 10%
 C30 C36,1nF,C_0603_1608Metric,2,C0603C102J5RACAUTO,0.12,https://eu.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf,16V 5%
 C7 C40,10nF,C_0603_1608Metric,2,VJ0603Y103JXJPW1BC,0.37,https://eu.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf,16V 5%
 C1 C2 C3 C4 C5 C9 C13 C17 C22 C24 C25 C26 C27 C28 C31 C32 C34 C35 C37 C38 C39 C41 C43,0.1uF,C_0603_1608Metric,23,C0603C104J4RACTU,0.15,https://eu.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf,16V 10%
 C20 C42,1uF,C_0603_1608Metric,2,0603YD105KAT2A,0.18,https://eu.mouser.com/datasheet/2/40/cx5r-776519.pdf,16V 20%
-C45,2.2uF,C_0603_1608Metric,1,,,~,Unpolarized capacitor
+C45,2.2uF,C_0603_1608Metric,1,GRM188R61E225KA12J,0.192,https://www.mouser.fi/datasheet/2/281/1/GRM188R61E225KA12_04A-1985875.pdf,25V 10%
 C6 C15 C21 C33 C44 C46,10uF,C_0603_1608Metric,6,EMK107BC6106MA-T,0.46,https://eu.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf,16V 20%
 C12 C19,33uF,CP_EIA-3528-21_Kemet-B,2,293D336X9016B2TE3,0.81,https://eu.mouser.com/datasheet/2/427/293d-1763499.pdf,Tantalum 16V 3528-21
 C11 C14 C16 C18,100uF,CP_EIA-6032-28_Kemet-C,4,F931C107KCC,1.29,https://eu.mouser.com/datasheet/2/40/f93-776559.pdf,Tantalum 16V 6032-28
@@ -24,21 +24,23 @@ J4 J5 J7,I2C,PinSocket_1x04_P2.54mm_Vertical,3,SSW-104-01-T-S,0.63,https://eu.mo
 J11,Li-Ion Battery,JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical,1,,,~,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 J2 J3,Power Pins,PinSocket_1x08_P2.54mm_Vertical,2,SSW-108-01-T-S,0.82,https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf,Straight female 2.54 mm 1row
 J9,SPI,PinSocket_1x06_P2.54mm_Vertical,1,SSW-106-01-T-S,0.68,https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf,Straight female 2.54 mm 1row
-L2,2.2uH,L_Coilcraft_XAL5030,1,,,https://www.mouser.fi/datasheet/2/597/xal50xx-270657.pdf,Inductor
+JP2,Enable,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,1,,,~,"Solder Jumper, 2-pole, open"
+JP1,PowerPath,SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels,1,,,~,"Solder Jumper, 3-pole, open"
+L2,2.2uH,L_Coilcraft_XAL5030,1,XAL5030-222MEC,2.03,https://www.mouser.fi/datasheet/2/597/xal50xx-270657.pdf,Fixed Inductors 2.2uH Shld 20% 9.2A 14.5mOhms AECQ2
 L1,10uH,L_0603_1608Metric,1,MLZ1608N100LT000,0.17,https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz1608_en.pdf?ref_disty=mouser,300-500 mA Shielded
 P1,SDCard,microSD_HC_Hirose_DM3AT-SF-PEJM5,1,DM3AT-SF-PEJM5(11),2.45,https://eu.mouser.com/datasheet/2/185/DM3_catalog-939223.pdf,8P R/A SMT MICRO SD PUSH-PUSH
 Q2,MMBT3904,SOT-23,1,"MMBT3904,215",0.1,https://eu.mouser.com/datasheet/2/916/MMBT3904-1599187.pdf,"45V Vce, 0.8A Ic, NPN, SOT-23"
 Q1,MMBT3906,SOT-23,1,MMBT3906-7-F,0.11,https://eu.mouser.com/datasheet/2/115/ds30059-15980.pdf,"45V Vce, 0.8A Ic, PNP, SOT-23"
 Q3,MMBT3906,SOT-23,1,MMBT3906-7-F,0.11,https://eu.mouser.com/datasheet/2/115/ds30059-15980.pdf,"45V Vce, 0.8A Ic, PNP, SOT-23"
-Q4,Q_NMOS_DGS,PowerPAK_SO-8_Single,1,,,~,"N-MOSFET transistor, drain/gate/source"
+Q4,Q_NMOS_DGS,PowerPAK_SO-8_Single,1,SIR424DP-T1-GE3,0.99,https://www.mouser.fi/datasheet/2/427/sir424dp-1765120.pdf,MOSFET 20V Vds 20V Vgs PowerPAK SO-8
 R62,6m,R_0603_1608Metric,1,,,~,Resistor
 R4 R13 R54 R55 R56 R57,18,R_0603_1608Metric,6,RR0816Q-180-D,0.1,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
 R6 R7 R8 R9 R49,200,R_0603_1608Metric,5,RR0816P-201-D,0.1,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
 R5 R11 R27 R36 R47 R51,1K,R_0603_1608Metric,6,RR0816P-102-D,0.12,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
 R61,2K,R_0603_1608Metric,1,,,~,Resistor
 R2 R3 R12 R15 R26 R41 R43 R44 R48 R52 R53 R59 R60,5K1,R_0603_1608Metric,13,RR0816P-512-D,0.1,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
-R1 R10 R14 R16 R17 R18 R19 R21 R22 R23 R25 R28 R29 R31 R32 R33 R35 R37 R38 R39 R42 R58,10K,R_0603_1608Metric,22,RR0816P-103-D,0.12,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
-R66,60.4K,R_0603_1608Metric,1,,,~,Resistor
+R1 R10 R14 R16 R17 R18 R19 R21 R22 R23 R25 R28 R29 R31 R32 R33 R35 R37 R38 R39 R42 R58 R67,10K,R_0603_1608Metric,23,RR0816P-103-D,0.12,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
+R66,60K4,R_0603_1608Metric,1,,,~,Resistor
 R65,178K,R_0603_1608Metric,1,,,~,Resistor
 R20 R30 R40 R46 R50,200K,R_0603_1608Metric,5,RR0816P-204-D,0.1,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
 R64,324K,R_0603_1608Metric,1,,,~,Resistor
@@ -47,15 +49,15 @@ R63,1690K,R_0603_1608Metric,1,,,~,Resistor
 SW1,BOOT,SW_SPST_B3U-1000P,1,B3U-1000P,0.56,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf,Tactile Switches SPST SMD
 SW2,MCLR Reset,SW_SPST_B3U-1000P,1,B3U-1000P,0.56,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf,Tactile Switches SPST SMD
 SW3,USB_C - Generic,USB_C_Receptacle_XKB_U262-16XN-4BVC11,1,U262-161N-4BVC11,0.32,https://cdn.sparkfun.com/assets/8/6/b/4/5/A40-00119-A52-12.pdf,USB - Type C Female 16 SMT
-U2,74HC126,SOIC-14_3.9x8.7mm_P1.27mm,1,,,https://eu.mouser.com/datasheet/2/408/74HC126D_datasheet_en_20160804-959200.pdf,Quad buffer 3-State outputs
+U2,74HC126,TSSOP-14_4.4x5mm_P0.65mm,1,SN74HC126PW,0.42,http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126,TSSOP-14
 U15,CP2102N,QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,1,CP2102N-A02-GQFN24,1.35,https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf,QFN-24-1EP_4x4mm_Pitch0.5mm
 U4,DS1307Z+,SOIC-8_3.9x4.9mm_P1.27mm,1,DS1307Z+,3.69,https://eu.mouser.com/datasheet/2/256/DS1307-1513036.pdf,Real Time Clock IC
 U1,LDFM33PUR,DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm,1,LDFM33PUR,0.72,https://eu.mouser.com/datasheet/2/389/dm00063302-1797750.pdf,DFN-6-1EP_3x3mm_Pitch0.95mm
-U7,LM324,SOIC-14_3.9x8.7mm_P1.27mm,1,LM324D,,http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2FLM324,SOIC 14
-U18,LTC4040,LTC4040,1,,,https://www.analog.com/media/en/technical-documentation/data-sheets/4040fb.pdf,
-U12,MCP4728,MSOP-10_3x3mm_P0.5mm,1,,,http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf,"12-bit digital to analog converter, quad output, 2.048V internal reference, integrated EEPROM, I2C interface"
-U13 U14,MCP6S21,SOIC-8_3.9x4.9mm_P1.27mm,2,,,https://eu.mouser.com/datasheet/2/268/21117a-70287.pdf,
-U3,PIC24EP256GP204,TQFP-44_10x10mm_P0.8mm,1,PIC24EP256GP204-I/PT,3.35,https://eu.mouser.com/datasheet/2/268/70000657H-277982.pdf,
+U7,LM324,TSSOP-14_4.4x5mm_P0.65mm,1,LM324APT,0.45,https://eu.mouser.com/datasheet/2/389/cd00001046-1795623.pdf,TSSOP-14
+U18,LTC4040,LTC4040,1,LTC4040EUFD#PBF,7.02,https://www.analog.com/media/en/technical-documentation/data-sheets/4040fb.pdf,Battery Management 2.5A Battery Backup Power Manager
+U12,MCP4728,MSOP-10_3x3mm_P0.5mm,1,MCP4728-E/UN,2.00,http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf,DAC 12bit
+U13 U14,MCP6S21,SOIC-8_3.9x4.9mm_P1.27mm,2,MCP6S21-I/SN,1.21,https://eu.mouser.com/datasheet/2/268/21117a-70287.pdf,Special Purpose Amplifiers 1-Chan. 12 MHz SPI
+U3,PIC24EP256GP204,TQFP-44_10x10mm_P0.8mm,1,PIC24EP256GP204-I/PT,3.35,https://eu.mouser.com/datasheet/2/268/70000657H-277982.pdf,24bit Microcontroller
 U16,SP0503BAHT,SOT-143,1,SP0503BAHTG,0.8,https://eu.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_Array_SP05_Datasheet.pdf-777043.pdf,SOT-143
 U19,TC1240A,SOT-23-6,1,TC1240AECHTR,0.82,https://eu.mouser.com/datasheet/2/268/21516c-4387.pdf,SOT-23-6
 U5,TC7660,SOIC-8_3.9x4.9mm_P1.27mm,1,TC7660SEOA713,0.9,https://eu.mouser.com/datasheet/2/268/21467B-1180369.pdf,SOIC 8

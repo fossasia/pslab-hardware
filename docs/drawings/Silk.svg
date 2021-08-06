@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="11.313708"
-     inkscape:cx="31.598834"
-     inkscape:cy="362.87836"
+     inkscape:zoom="3.9999998"
+     inkscape:cx="115.37501"
+     inkscape:cy="226.37501"
      inkscape:window-width="1368"
      inkscape:window-height="836"
      inkscape:window-x="72"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g23"
+     inkscape:current-layer="g19"
      inkscape:snap-nodes="false" />
   <defs
      id="defs2">
@@ -75,29 +75,30 @@
          id="tspan150723">6</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:0.887626px;line-height:0.9;font-family:sans-serif;display:inline;stroke-width:0.16643"
-       x="48.959122"
-       y="96.086754"
+       style="font-size:1.13044px;line-height:0.9;font-family:sans-serif;display:inline;stroke-width:0.211958"
+       x="49.779949"
+       y="96.336334"
        id="text65466"
-       transform="matrix(0,1,1,0,0,0)"><tspan
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:label="design-padmal"><tspan
          sodipodi:role="line"
-         id="tspan65464"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.443813px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.16643"
-         x="48.959122"
-         y="96.086754">Designed by</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.635px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;stroke-width:0.211958"
+         x="49.779949"
+         y="96.336334"
+         id="tspan65534">Designed by</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.843249px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.16643"
-         x="48.959122"
-         y="96.894531"
-         id="tspan65534">Padmal</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.07393px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;stroke-width:0.211958"
+         x="49.779949"
+         y="97.365089"
+         id="tspan18133">Padmal</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.843249px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';stroke-width:0.16643"
-         x="48.959122"
-         y="97.693398"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.07393px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.211958"
+         x="49.779949"
+         y="98.382484"
          id="tspan88492" /></text>
     <g
        id="g180674"
-       transform="matrix(0,-0.00813546,0.00813546,0,99.673447,55.552198)"
+       transform="matrix(0,-0.00949711,0.00949711,0,100.49367,56.083746)"
        style="display:inline">
       <title
          id="title180668">Layer 1</title>
@@ -133,6 +134,29 @@
          x="55.019871"
          y="5.3131981"
          id="tspan150717">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.13044px;line-height:0.9;font-family:sans-serif;display:inline;stroke-width:0.211958"
+       x="49.779949"
+       y="96.336334"
+       id="text24467"
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:label="design-padmal"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.635px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;stroke-width:0.211958"
+         x="49.779949"
+         y="96.336334"
+         id="tspan24461">Designed by</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.07393px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;stroke-width:0.211958"
+         x="49.779949"
+         y="97.365089"
+         id="tspan24463">Padmal</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.07393px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.211958"
+         x="49.779949"
+         y="98.382484"
+         id="tspan24465" /></text>
   </g>
   <g
      inkscape:label="B.SilkS"
@@ -1218,6 +1242,54 @@
        height="0.25028893"
        x="95.76062"
        y="52.975368" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.719821px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.134966"
+       x="57.929111"
+       y="9.8492441"
+       id="text32271"
+       transform="matrix(0,1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan32269"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.719821px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.134966"
+         x="57.929111"
+         y="9.8492441">VUSB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.719821px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.134966"
+       x="60.508743"
+       y="9.8492441"
+       id="text32539"
+       transform="matrix(0,1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan32537"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.719821px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.134966"
+         x="60.508743"
+         y="9.8492441">DM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.719821px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.134966"
+       x="62.716286"
+       y="9.8492441"
+       id="text32645"
+       transform="matrix(0,1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan32643"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.719821px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.134966"
+         x="62.716286"
+         y="9.8492441">DP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.719821px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.134966"
+       x="64.783379"
+       y="9.8492441"
+       id="text32967"
+       transform="matrix(0,1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan32965"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.719821px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.134966"
+         x="64.783379"
+         y="9.8492441">GND</tspan></text>
   </g>
   <g
      inkscape:label="F.SilkS"
@@ -2260,54 +2332,6 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.719821px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.134966"
          x="73.795898"
          y="88.784981">+3V3</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.719821px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.134966"
-       x="57.929111"
-       y="9.8492441"
-       id="text32271"
-       transform="matrix(0,1,1,0,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan32269"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.719821px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.134966"
-         x="57.929111"
-         y="9.8492441">VUSB</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.719821px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.134966"
-       x="60.508743"
-       y="9.8492441"
-       id="text32539"
-       transform="matrix(0,1,1,0,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan32537"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.719821px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.134966"
-         x="60.508743"
-         y="9.8492441">DM</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.719821px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.134966"
-       x="62.716286"
-       y="9.8492441"
-       id="text32645"
-       transform="matrix(0,1,1,0,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan32643"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.719821px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.134966"
-         x="62.716286"
-         y="9.8492441">DP</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.719821px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.134966"
-       x="64.783379"
-       y="9.8492441"
-       id="text32967"
-       transform="matrix(0,1,1,0,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan32965"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.719821px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.134966"
-         x="64.783379"
-         y="9.8492441">GND</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:0.719821px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.134966"

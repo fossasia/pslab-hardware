@@ -22582,10 +22582,10 @@
       (net 63 /BATT))
     (pad 2 smd rect (at 1.655 0 90) (size 1.2 4.7) (layers L1.Front F.Paste F.Mask)
       (net 126 /L2))
-    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Bourns_SRP2313AA.step
+    (model ${KIPRJMOD}/3DModels/Coilcraft-XAL5030.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.25 0.25 0.25))
-      (rotate (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 

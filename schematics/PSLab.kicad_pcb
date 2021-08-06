@@ -381,6 +381,7 @@
   (module PSLab:Silk (layer L1.Front) (tedit 0) (tstamp 60E90103)
     (at 140.216 63.4785)
     (path /6067425C)
+    (attr virtual)
     (fp_text reference Z9 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )

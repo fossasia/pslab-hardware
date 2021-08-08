@@ -13,7 +13,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    environment: PSLAB
     steps:
       - name: Download project files
         uses: actions/checkout@v2
@@ -36,7 +36,7 @@ jobs:
           pip install --no-compile kibot
           wget https://github.com/INTI-CMNB/InteractiveHtmlBom/releases/download/v2.3.4-2/interactivehtmlbom.inti-cmnb_2.3.4-2_all.deb
           sudo dpkg -i interactivehtmlbom.inti-cmnb_2.3.4-2_all.deb
-          pip install pcb-tools image
+          pip install pcb-tools image cloudinary
           sudo apt install xvfb recordmydesktop xdotool libmagickwand-dev librsvg2-bin imagemagick poppler-utils
         
       - name: Run build
@@ -88,8 +88,6 @@ jobs:
           
       - name: Setup board diff images
         run: |
-          git config --global user.email "noreply@pslab.io"
-          git config --global user.name "github-actions"
           python3 scripts/pslab_gerber_generator.py
           git clone --quiet --branch=diff-img https://$GITHUB_ACTOR:${{ secrets.PSLAB_KEY }}@github.com/$GITHUB_REPOSITORY diff-img > /dev/null
           cd diff-img
@@ -114,12 +112,17 @@ jobs:
           convert -colorspace gray new-PSLab-1.png new-PSLab.png
           composite -stereo 0 old-PSLab.png new-PSLab.png diff-schematic.png
           rm -rf old-* new-*
-          git add .
-          git commit -m "chore: updating board diff images for #${{ github.event.number }}"
-          git push origin diff-img --quiet > /dev/null
-          CURRENTCOMMIT=$(git rev-parse HEAD)
-          echo "current_commit=$CURRENTCOMMIT" >> $GITHUB_ENV
-          echo "current_actor=$GITHUB_ACTOR" >> $GITHUB_ENV
+          cd ../scripts
+          DIFF_FRONT=$((python3 pslab_image_uploader.py ${{ secrets.CLOUDINARY_API_KEY }} ${{ secrets.CLOUDINARY_API_SECRET }} ../diff-img/diff-front.png) 2>&1)
+          DIFF_BOTTOM=$((python3 pslab_image_uploader.py ${{ secrets.CLOUDINARY_API_KEY }} ${{ secrets.CLOUDINARY_API_SECRET }} ../diff-img/diff-bottom.png) 2>&1) 
+          DIFF_SIGNAL=$((python3 pslab_image_uploader.py ${{ secrets.CLOUDINARY_API_KEY }} ${{ secrets.CLOUDINARY_API_SECRET }} ../diff-img/diff-signal.png) 2>&1)
+          DIFF_POWER=$((python3 pslab_image_uploader.py ${{ secrets.CLOUDINARY_API_KEY }} ${{ secrets.CLOUDINARY_API_SECRET }} ../diff-img/diff-power.png) 2>&1)
+          DIFF_SCHEMATIC=$((python3 pslab_image_uploader.py ${{ secrets.CLOUDINARY_API_KEY }} ${{ secrets.CLOUDINARY_API_SECRET }} ../diff-img/diff-schematic.png) 2>&1)
+          echo "diff_front=$DIFF_FRONT" >> $GITHUB_ENV
+          echo "diff_bottom=$DIFF_BOTTOM" >> $GITHUB_ENV
+          echo "diff_signal=$DIFF_SIGNAL" >> $GITHUB_ENV
+          echo "diff_power=$DIFF_POWER" >> $GITHUB_ENV
+          echo "diff_schematic=$DIFF_SCHEMATIC" >> $GITHUB_ENV          
           
       - name: Pull request comment
         uses: actions/github-script@v4
@@ -130,5 +133,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '👋 Thanks for sharing!<br /><table><tr><td><img src="https://github.com/${{env.current_actor}}/pslab-hardware/raw/${{env.current_commit}}/diff-front.png" alt="diff-front"></td><td><img src="https://github.com/${{env.current_actor}}/pslab-hardware/raw/${{env.current_commit}}/diff-bottom.png" alt="diff-bottom"></td></tr><tr><td><img src="https://github.com/${{env.current_actor}}/pslab-hardware/raw/${{env.current_commit}}/diff-power.png" alt="diff-power"></td><td><img src="https://github.com/${{env.current_actor}}/pslab-hardware/raw/${{env.current_commit}}/diff-signal.png" alt="diff-signal"></td></tr><tr><td colspan="2"><img src="https://github.com/${{env.current_actor}}/pslab-hardware/raw/${{env.current_commit}}/diff-schematic.png" alt="diff-schematic"></td></tr></table>'
+              body: '👋 Thanks for sharing!<br /><table><tr><td><img src="${{env.diff_front}}" alt="diff-front"></td><td><img src="${{env.diff_bottom}}" alt="diff-bottom"></td></tr><tr><td><img src="${{env.diff_power}}" alt="diff-power"></td><td><img src="${{env.diff_signal}}" alt="diff-signal"></td></tr><tr><td colspan="2"><img src="${{env.diff_schematic}}" alt="diff-schematic"></td></tr></table>'
             })

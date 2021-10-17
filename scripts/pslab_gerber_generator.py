@@ -58,7 +58,7 @@ Image.open(front_layer_png)
 
 print('Front layer image ready')
 
-bottom_path = os.path.join(GER_path, 'PSLab_L4_Ground.gbr')
+bottom_path = os.path.join(GER_path, 'PSLab_L4_Signal.gbr')
 bottom_layer = PCBLayer(bottom_path, 'bottom', common.read(bottom_path))
 
 bottomm_path = os.path.join(GER_path, 'PSLab_B_Mask.gbr')
@@ -79,7 +79,7 @@ Image.open(bottom_layer_png)
 
 print('Bottom layer image ready')
 
-signal_path = os.path.join(GER_path, 'PSLab_L2_Signal.gbr')
+signal_path = os.path.join(GER_path, 'PSLab_L2_Ground.gbr')
 signal_layer = PCBLayer(signal_path, 'internal_2', common.read(signal_path))
 
 #Cairo.render_layer(eco_layer)

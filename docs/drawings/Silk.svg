@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="3.9999998"
-     inkscape:cx="115.37501"
-     inkscape:cy="226.37501"
+     inkscape:zoom="15.999999"
+     inkscape:cx="376.15627"
+     inkscape:cy="188.09376"
      inkscape:window-width="1368"
      inkscape:window-height="836"
      inkscape:window-x="72"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g19"
+     inkscape:current-layer="g21"
      inkscape:snap-nodes="false" />
   <defs
      id="defs2">
@@ -73,32 +73,9 @@
          x="55.019871"
          y="5.3131981"
          id="tspan150723">6</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:1.13044px;line-height:0.9;font-family:sans-serif;display:inline;stroke-width:0.211958"
-       x="49.779949"
-       y="96.336334"
-       id="text65466"
-       transform="matrix(0,1,1,0,0,0)"
-       inkscape:label="design-padmal"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.635px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;stroke-width:0.211958"
-         x="49.779949"
-         y="96.336334"
-         id="tspan65534">Designed by</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.07393px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;stroke-width:0.211958"
-         x="49.779949"
-         y="97.365089"
-         id="tspan18133">Padmal</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.07393px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.211958"
-         x="49.779949"
-         y="98.382484"
-         id="tspan88492" /></text>
     <g
        id="g180674"
-       transform="matrix(0,-0.00949711,0.00949711,0,100.49367,56.083746)"
+       transform="matrix(0,-0.01068668,0.01114998,0,101.72189,57.015349)"
        style="display:inline">
       <title
          id="title180668">Layer 1</title>
@@ -116,6 +93,29 @@
            style="display:inline;fill:none;stroke-width:6.35129;stroke-miterlimit:4;stroke-dasharray:none" />
       </g>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:1.33019px;line-height:0.9;font-family:sans-serif;display:inline;stroke-width:0.249412"
+       x="49.918999"
+       y="96.905449"
+       id="text18921"
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:label="design-padmal"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.747208px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;stroke-width:0.249412"
+         x="49.918999"
+         y="96.905449"
+         id="tspan18915">Designed by</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.26371px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;stroke-width:0.249412"
+         x="49.918999"
+         y="98.115997"
+         id="tspan18917">Padmal</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.26371px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.249412"
+         x="49.918999"
+         y="99.313171"
+         id="tspan18919" /></text>
   </g>
   <g
      inkscape:label="B.Mask"
@@ -134,29 +134,26 @@
          x="55.019871"
          y="5.3131981"
          id="tspan150717">6</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:1.13044px;line-height:0.9;font-family:sans-serif;display:inline;stroke-width:0.211958"
-       x="49.779949"
-       y="96.336334"
-       id="text24467"
-       transform="matrix(0,1,1,0,0,0)"
-       inkscape:label="design-padmal"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.635px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;stroke-width:0.211958"
-         x="49.779949"
-         y="96.336334"
-         id="tspan24461">Designed by</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.07393px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;stroke-width:0.211958"
-         x="49.779949"
-         y="97.365089"
-         id="tspan24463">Padmal</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.07393px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.211958"
-         x="49.779949"
-         y="98.382484"
-         id="tspan24465" /></text>
+    <g
+       id="g3625"
+       transform="matrix(0,-0.01068668,0.01114998,0,101.72189,57.015348)"
+       style="display:inline">
+      <title
+         id="title3619">Layer 1</title>
+      <g
+         id="g3623">
+        <path
+           fill="#ffffff"
+           stroke="#000000"
+           stroke-width="10.8568"
+           stroke-linejoin="round"
+           stroke-miterlimit="4"
+           stroke-dashoffset="0"
+           id="path3621"
+           d="m 688.93558,-599.19478 c -32.81272,0 -61.27913,15.85826 -77.20291,39.27818 -14.77365,-9.35744 -32.68211,-15.01523 -52.13414,-15.01518 -50.06164,0 -90.73555,36.46242 -90.73555,81.34059 0,3.29786 0.68281,6.45007 1.10928,9.64548 -43.23463,6.18426 -76.42645,39.45776 -76.42645,79.94851 0,40.11986 32.55408,73.32483 75.20627,79.94849 -0.86424,4.50465 -1.55294,9.09724 -1.55294,13.82191 0,44.87825 40.67386,81.24117 90.73555,81.24117 24.52041,0 46.67584,-8.78041 63.00469,-22.97027 16.64059,17.74454 41.24173,29.33436 69.10545,29.33436 39.75548,0 73.17636,-23.15566 85.41118,-55.08887 9.79284,3.24633 20.23406,5.36968 31.28052,5.36968 50.06163,0 90.62462,-36.46243 90.62462,-81.34063 0,-22.56727 -10.2628,-42.93928 -26.84348,-57.67424 8.3707,-12.31137 13.53267,-26.5995 13.53267,-42.06249 0,-44.8782 -40.67392,-81.24122 -90.73571,-81.24114 -5.26979,0 -10.39383,0.51807 -15.41827,1.29268 -8.08387,-37.46795 -44.81524,-65.82823 -88.96078,-65.82823 z"
+           style="display:inline;fill:none;stroke-width:6.35129;stroke-miterlimit:4;stroke-dasharray:none" />
+      </g>
+    </g>
   </g>
   <g
      inkscape:label="B.SilkS"
@@ -815,19 +812,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.52505px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;stroke-width:0.285948"
          x="52.047691"
          y="7.5300808"
-         id="tspan141224">01.08.2021</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.9071px;line-height:0.85;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.732581"
-       x="55.019871"
-       y="5.3131981"
-       id="text149513"
-       transform="matrix(0,1,1,0,0,0)"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.9071px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;text-anchor:middle;stroke-width:0.732581"
-         x="55.019871"
-         y="5.3131981"
-         id="tspan149511">6</tspan></text>
+         id="tspan141224">01.01.2022</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1185,25 +1170,25 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.87136px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.53838"
-       x="4.1443071"
-       y="99.410149"
+       x="8.212862"
+       y="99.390961"
        id="text3682"><tspan
          sodipodi:role="line"
          id="tspan3680"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.87136px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.53838"
-         x="4.1443071"
-         y="99.410149">⊖</tspan></text>
+         x="8.212862"
+         y="99.390961">⊖</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.87136px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.53838"
-       x="6.6822639"
-       y="99.39357"
+       x="5.5028162"
+       y="99.421265"
        id="text22812"><tspan
          sodipodi:role="line"
          id="tspan22810"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.87136px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.53838"
-         x="6.6822639"
-         y="99.39357">⊕</tspan></text>
+         x="5.5028162"
+         y="99.421265">⊕</tspan></text>
     <rect
        style="display:inline;fill:#000000;stroke-width:0.145314;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect48005"
@@ -1295,7 +1280,7 @@
      inkscape:label="F.SilkS"
      inkscape:groupmode="layer"
      id="g25"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1989,25 +1974,25 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="4.3266916"
-       y="99.430824"
+       x="8.3476114"
+       y="99.356888"
        id="text211873"><tspan
          sodipodi:role="line"
          id="tspan211871"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.264583"
-         x="4.3266916"
-         y="99.430824">GND</tspan></text>
+         x="8.3476114"
+         y="99.356888">GND</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="6.798883"
-       y="99.430824"
+       x="5.6450481"
+       y="99.339668"
        id="text211877"><tspan
          sodipodi:role="line"
          id="tspan211875"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.264583"
-         x="6.798883"
-         y="99.430824">BAT</tspan></text>
+         x="5.6450481"
+         y="99.339668">BAT</tspan></text>
     <rect
        style="fill:#000000;stroke-width:0.270616"
        id="rect439411"

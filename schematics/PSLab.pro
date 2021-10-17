@@ -1,4 +1,4 @@
-update=Fri 04 Jun 2021 03:07:13 PM CEST
+update=Sun 17 Oct 2021 08:22:38 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -82,7 +82,7 @@ Name=L1.Front
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=L2.Signal
+Name=L2.Ground
 Type=0
 Enabled=1
 [pcbnew/Layer.In2.Cu]
@@ -202,7 +202,7 @@ Name=In30.Cu
 Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
-Name=L4.Ground
+Name=L4.Signal
 Type=1
 Enabled=1
 [pcbnew/Layer.B.Adhes]

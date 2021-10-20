@@ -25,7 +25,7 @@ Cairo = GerberCairoContext(scale=30)
 
 front_layer_png = os.path.join(IMG_path, 'front-layer.png')
 bottom_layer_png = os.path.join(IMG_path, 'bottom-layer.png')
-signal_layer_png = os.path.join(IMG_path, 'signal-layer.png')
+ground_layer_png = os.path.join(IMG_path, 'ground-layer.png')
 power_layer_png = os.path.join(IMG_path, 'power-layer.png')
 
 eco_path = os.path.join(GER_path, 'PSLab_Eco1_User.gbr')
@@ -79,18 +79,18 @@ Image.open(bottom_layer_png)
 
 print('Bottom layer image ready')
 
-signal_path = os.path.join(GER_path, 'PSLab_L2_Ground.gbr')
-signal_layer = PCBLayer(signal_path, 'internal_2', common.read(signal_path))
+ground_path = os.path.join(GER_path, 'PSLab_L2_Ground.gbr')
+ground_layer = PCBLayer(ground_path, 'internal_2', common.read(ground_path))
 
 #Cairo.render_layer(eco_layer)
-Cairo.render_layer(signal_layer)
+Cairo.render_layer(ground_layer)
 Cairo.render_layer(drill_layer)
 Cairo.render_layer(edge_layer)
-Cairo.dump(signal_layer_png)
+Cairo.dump(ground_layer_png)
 Cairo.clear()
-Image.open(signal_layer_png)
+Image.open(ground_layer_png)
 
-print('Signal layer image ready')
+print('Ground layer image ready')
 
 power_path = os.path.join(GER_path, 'PSLab_L3_Power.gbr')
 power_layer = PCBLayer(power_path, 'internal_3', common.read(power_path))

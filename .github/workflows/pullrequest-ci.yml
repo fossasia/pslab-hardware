@@ -93,16 +93,16 @@ jobs:
           cd diff-img
           convert -colorspace gray front-layer.png old-front.png
           convert -colorspace gray bottom-layer.png old-bottom.png
-          convert -colorspace gray signal-layer.png old-signal.png
+          convert -colorspace gray ground-layer.png old-ground.png
           convert -colorspace gray power-layer.png old-power.png
           mv ../output/Images/* .
           convert -colorspace gray front-layer.png new-front.png
           convert -colorspace gray bottom-layer.png new-bottom.png
-          convert -colorspace gray signal-layer.png new-signal.png
+          convert -colorspace gray ground-layer.png new-ground.png
           convert -colorspace gray power-layer.png new-power.png
           composite -stereo 0 old-front.png new-front.png diff-front.png
           composite -stereo 0 old-bottom.png new-bottom.png diff-bottom.png
-          composite -stereo 0 old-signal.png new-signal.png diff-signal.png
+          composite -stereo 0 old-ground.png new-ground.png diff-ground.png
           composite -stereo 0 old-power.png new-power.png diff-power.png
           mv PSLab.pdf old-PSLab.pdf
           cp ../docs/schematics/PSLab.pdf .
@@ -112,26 +112,9 @@ jobs:
           convert -colorspace gray new-PSLab-1.png new-PSLab.png
           composite -stereo 0 old-PSLab.png new-PSLab.png diff-schematic.png
           rm -rf old-* new-*
-          cd ../scripts
-          DIFF_FRONT=$((python3 pslab_image_uploader.py ${{ secrets.CLOUDINARY_API_KEY }} ${{ secrets.CLOUDINARY_API_SECRET }} ../diff-img/diff-front.png) 2>&1)
-          DIFF_BOTTOM=$((python3 pslab_image_uploader.py ${{ secrets.CLOUDINARY_API_KEY }} ${{ secrets.CLOUDINARY_API_SECRET }} ../diff-img/diff-bottom.png) 2>&1) 
-          DIFF_SIGNAL=$((python3 pslab_image_uploader.py ${{ secrets.CLOUDINARY_API_KEY }} ${{ secrets.CLOUDINARY_API_SECRET }} ../diff-img/diff-signal.png) 2>&1)
-          DIFF_POWER=$((python3 pslab_image_uploader.py ${{ secrets.CLOUDINARY_API_KEY }} ${{ secrets.CLOUDINARY_API_SECRET }} ../diff-img/diff-power.png) 2>&1)
-          DIFF_SCHEMATIC=$((python3 pslab_image_uploader.py ${{ secrets.CLOUDINARY_API_KEY }} ${{ secrets.CLOUDINARY_API_SECRET }} ../diff-img/diff-schematic.png) 2>&1)
-          echo "diff_front=$DIFF_FRONT" >> $GITHUB_ENV
-          echo "diff_bottom=$DIFF_BOTTOM" >> $GITHUB_ENV
-          echo "diff_signal=$DIFF_SIGNAL" >> $GITHUB_ENV
-          echo "diff_power=$DIFF_POWER" >> $GITHUB_ENV
-          echo "diff_schematic=$DIFF_SCHEMATIC" >> $GITHUB_ENV          
-          
-      - name: Pull request comment
-        uses: actions/github-script@v4
+      
+      - name: Upload board diff images
+        uses: actions/upload-artifact@v2
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            github.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: '👋 Thanks for sharing!<br /><table><tr><td><img src="${{env.diff_front}}" alt="diff-front"></td><td><img src="${{env.diff_bottom}}" alt="diff-bottom"></td></tr><tr><td><img src="${{env.diff_power}}" alt="diff-power"></td><td><img src="${{env.diff_signal}}" alt="diff-signal"></td></tr><tr><td colspan="2"><img src="${{env.diff_schematic}}" alt="diff-schematic"></td></tr></table>'
-            })
+          name: board-diff-images
+          path: diff-img/diff-*.png       

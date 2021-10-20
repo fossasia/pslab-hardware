@@ -18,14 +18,12 @@ D3,GREEN,LED_0805_2012Metric,1,HSMQ-C170-T0000,0.94,https://eu.mouser.com/datash
 D6,LL4148,D_MiniMELF,1,LL4448 L0,0.11,https://www.mouser.fi/datasheet/2/395/LL4148_SERIES_J15-1918261.pdf,General Purpose diode
 D5,WS2812B,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,1,WS2812B,3.35,https://www.mouser.fi/datasheet/2/737/4684_WS2812B_2020_V1_3_EN-1900866.pdf,RGB LED with integrated controller
 F1,1A,Fuse_1206_3216Metric,1,0ZCJ0025FF2E,0.11,https://www.mouser.fi/datasheet/2/240/Littelfuse_PTC_1812L_Datasheet.pdf-693388.pdf,"Hold 250mA, Trip 500mA"
+J8 J11,Battery Switch,PinHeader_1x02_P2.54mm_Vertical,2,,,~,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 J1,DoublePins,PinSocket_2x14_P2.54mm_Vertical,1,SSW-114-01-T-D,2.28,https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf,Straight female 2.54 mm 2row
 J6,ESP01,ESP-01,1,SSW-104-01-T-D,0.98,https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf,Straight female 2.54 mm 2row
 J4 J5 J7,I2C,PinSocket_1x04_P2.54mm_Vertical,3,SSW-104-01-T-S,0.63,https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf,Straight female 2.54 mm 1row
-J11,Li-Ion Battery,JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical,1,,,~,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 J2 J3,Power Pins,PinSocket_1x08_P2.54mm_Vertical,2,SSW-108-01-T-S,0.82,https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf,Straight female 2.54 mm 1row
 J9,SPI,PinSocket_1x06_P2.54mm_Vertical,1,SSW-106-01-T-S,0.68,https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf,Straight female 2.54 mm 1row
-JP2,Enable,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,1,,,~,"Solder Jumper, 2-pole, open"
-JP1,PowerPath,SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels,1,,,~,"Solder Jumper, 3-pole, open"
 L2,2.2uH,L_Coilcraft_XAL5030,1,XAL5030-222MEC,2.03,https://www.mouser.fi/datasheet/2/597/xal50xx-270657.pdf,Fixed Inductors 2.2uH Shld 20% 9.2A 14.5mOhms AECQ2
 L1,10uH,L_0603_1608Metric,1,MLZ1608N100LT000,0.17,https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz1608_en.pdf?ref_disty=mouser,300-500 mA Shielded
 P1,SDCard,microSD_HC_Hirose_DM3AT-SF-PEJM5,1,DM3AT-SF-PEJM5(11),2.45,https://eu.mouser.com/datasheet/2/185/DM3_catalog-939223.pdf,8P R/A SMT MICRO SD PUSH-PUSH

@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="15.999999"
-     inkscape:cx="376.15627"
-     inkscape:cy="188.09376"
+     inkscape:zoom="63.999997"
+     inkscape:cx="367.85158"
+     inkscape:cy="186.78907"
      inkscape:window-width="1368"
      inkscape:window-height="836"
      inkscape:window-x="72"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g21"
+     inkscape:current-layer="g19"
      inkscape:snap-nodes="false" />
   <defs
      id="defs2">
@@ -134,26 +134,6 @@
          x="55.019871"
          y="5.3131981"
          id="tspan150717">6</tspan></text>
-    <g
-       id="g3625"
-       transform="matrix(0,-0.01068668,0.01114998,0,101.72189,57.015348)"
-       style="display:inline">
-      <title
-         id="title3619">Layer 1</title>
-      <g
-         id="g3623">
-        <path
-           fill="#ffffff"
-           stroke="#000000"
-           stroke-width="10.8568"
-           stroke-linejoin="round"
-           stroke-miterlimit="4"
-           stroke-dashoffset="0"
-           id="path3621"
-           d="m 688.93558,-599.19478 c -32.81272,0 -61.27913,15.85826 -77.20291,39.27818 -14.77365,-9.35744 -32.68211,-15.01523 -52.13414,-15.01518 -50.06164,0 -90.73555,36.46242 -90.73555,81.34059 0,3.29786 0.68281,6.45007 1.10928,9.64548 -43.23463,6.18426 -76.42645,39.45776 -76.42645,79.94851 0,40.11986 32.55408,73.32483 75.20627,79.94849 -0.86424,4.50465 -1.55294,9.09724 -1.55294,13.82191 0,44.87825 40.67386,81.24117 90.73555,81.24117 24.52041,0 46.67584,-8.78041 63.00469,-22.97027 16.64059,17.74454 41.24173,29.33436 69.10545,29.33436 39.75548,0 73.17636,-23.15566 85.41118,-55.08887 9.79284,3.24633 20.23406,5.36968 31.28052,5.36968 50.06163,0 90.62462,-36.46243 90.62462,-81.34063 0,-22.56727 -10.2628,-42.93928 -26.84348,-57.67424 8.3707,-12.31137 13.53267,-26.5995 13.53267,-42.06249 0,-44.8782 -40.67392,-81.24122 -90.73571,-81.24114 -5.26979,0 -10.39383,0.51807 -15.41827,1.29268 -8.08387,-37.46795 -44.81524,-65.82823 -88.96078,-65.82823 z"
-           style="display:inline;fill:none;stroke-width:6.35129;stroke-miterlimit:4;stroke-dasharray:none" />
-      </g>
-    </g>
   </g>
   <g
      inkscape:label="B.SilkS"
@@ -1893,7 +1873,7 @@
          id="tspan211839"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.264583"
          x="3.0418384"
-         y="93.603882">VDD</tspan></text>
+         y="93.603882">TXD</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1904,7 +1884,7 @@
          id="tspan211843"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.264583"
          x="5.5305614"
-         y="93.603882">TXD</tspan></text>
+         y="93.603882">CEN</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -1941,17 +1921,6 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="5.5421262"
-       y="87.378227"
-       id="text211861"><tspan
-         sodipodi:role="line"
-         id="tspan211859"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.264583"
-         x="5.5421262"
-         y="87.378227">RXD</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="8.088624"
        y="87.378227"
        id="text211865"><tspan
@@ -1970,7 +1939,7 @@
          id="tspan211867"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.264583"
          x="10.676726"
-         y="87.378227">VDD</tspan></text>
+         y="87.378227">RXD</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -2329,6 +2298,17 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.719821px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.134966"
          x="-90.998436"
          y="99.130005">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="10.662434"
+       y="93.586784"
+       id="text12177"><tspan
+         sodipodi:role="line"
+         id="tspan12175"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.264583"
+         x="10.662434"
+         y="93.586784">VCC</tspan></text>
   </g>
   <g
      inkscape:label="Dwgs.User"

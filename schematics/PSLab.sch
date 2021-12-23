@@ -4366,7 +4366,7 @@ Text GLabel 10500 4500 0    40   Input ~ 0
 CS.CH2
 Text GLabel 10500 4600 0    40   Input ~ 0
 CS.CH3
-Text GLabel 19200 5400 2    40   Input ~ 0
+Text GLabel 19300 5400 2    40   Input ~ 0
 SPI.CS
 Text GLabel 10550 3400 0    40   Input ~ 0
 SQR4_
@@ -4480,7 +4480,7 @@ Wire Notes Line style solid rgb(255, 0, 0)
 Text Notes 20150 5725 0    79   ~ 16
 03
 Wire Notes Line style solid rgb(255, 0, 0)
-	20100 5550 20375 5550
+	20100 5550 20400 5550
 Wire Notes Line style solid rgb(255, 0, 0)
 	20400 5550 20400 5800
 Text Notes 15075 5725 0    79   ~ 16
@@ -6139,11 +6139,7 @@ Connection ~ 8500 10300
 Wire Wire Line
 	21000 3000 21000 3200
 Wire Wire Line
-	21000 2700 21000 2800
-Wire Wire Line
 	22100 2500 22200 2500
-Wire Wire Line
-	18700 2000 18800 2000
 $Comp
 L PSLab:MAX5400 U14
 U 1 1 61C718CB
@@ -6527,19 +6523,6 @@ F 3 "~" H 19700 4700 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:VDDA #PWR091
-U 1 1 61D5A696
-P 19900 4700
-F 0 "#PWR091" H 19900 4550 50  0001 C CNN
-F 1 "VDDA" H 19900 4850 39  0000 C CNN
-F 2 "" H 19900 4700 50  0001 C CNN
-F 3 "" H 19900 4700 50  0001 C CNN
-	1    19900 4700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	19900 4700 19800 4700
-$Comp
 L Device:R_Small R65
 U 1 1 61E93C79
 P 19700 5300
@@ -6565,32 +6548,6 @@ F 3 "~" H 19700 5000 50  0001 C CNN
 	1    19700 5000
 	0    -1   1    0   
 $EndComp
-$Comp
-L power:VDDA #PWR0155
-U 1 1 62020B48
-P 19900 5000
-F 0 "#PWR0155" H 19900 4850 50  0001 C CNN
-F 1 "VDDA" H 19900 5150 39  0000 C CNN
-F 2 "" H 19900 5000 50  0001 C CNN
-F 3 "" H 19900 5000 50  0001 C CNN
-	1    19900 5000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	19900 5000 19800 5000
-$Comp
-L power:VDDA #PWR054
-U 1 1 620E21AE
-P 19900 5300
-F 0 "#PWR054" H 19900 5150 50  0001 C CNN
-F 1 "VDDA" H 19900 5450 39  0000 C CNN
-F 2 "" H 19900 5300 50  0001 C CNN
-F 3 "" H 19900 5300 50  0001 C CNN
-	1    19900 5300
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	19900 5300 19800 5300
 Text GLabel 21400 1100 0    40   Input ~ 0
 SCK
 Text GLabel 21400 1300 0    47   Input ~ 0
@@ -6719,9 +6676,9 @@ PVS3
 Wire Wire Line
 	20100 1400 20300 1400
 Connection ~ 21600 2900
-Text Label 21000 2700 2    40   ~ 0
+Text Label 20800 2800 0    40   ~ 0
 DAC.2
-Text Label 18800 2000 2    40   ~ 0
+Text Label 18600 2000 0    40   ~ 0
 DAC.1
 Wire Wire Line
 	18600 1200 19100 1200
@@ -6979,12 +6936,59 @@ Wire Wire Line
 	18900 4800 19300 4800
 Wire Wire Line
 	18900 4900 19200 4900
-Text GLabel 19200 5500 2    47   Input ~ 0
+Text GLabel 19100 5500 0    47   Input ~ 0
 SD.CS
 Wire Wire Line
 	18900 5000 19100 5000
 Wire Wire Line
-	19100 5000 19100 5500
+	18600 2000 18800 2000
 Wire Wire Line
-	19100 5500 19200 5500
+	20800 2800 21000 2800
+$Comp
+L Device:R_Small R73
+U 1 1 61DC97A5
+P 19700 5600
+F 0 "R73" V 19504 5600 50  0000 C CNN
+F 1 "10k" V 19595 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 19700 5600 50  0001 C CNN
+F 3 "~" H 19700 5600 50  0001 C CNN
+	1    19700 5600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R72
+U 1 1 61DCA3AE
+P 19200 5700
+F 0 "R72" V 19004 5700 50  0000 C CNN
+F 1 "10k" V 19095 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 19200 5700 50  0001 C CNN
+F 3 "~" H 19200 5700 50  0001 C CNN
+	1    19200 5700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	19800 4400 19800 4700
+Connection ~ 19800 4400
+Connection ~ 19800 4700
+Wire Wire Line
+	19800 4700 19800 5000
+Connection ~ 19800 5000
+Wire Wire Line
+	19800 5000 19800 5300
+Connection ~ 19800 5300
+Wire Wire Line
+	19800 5300 19800 5600
+Wire Wire Line
+	19200 5400 19300 5400
+Wire Wire Line
+	19300 5400 19300 5600
+Wire Wire Line
+	19300 5600 19600 5600
+Wire Wire Line
+	19100 5000 19100 5700
+Wire Wire Line
+	19300 5700 19800 5700
+Wire Wire Line
+	19800 5700 19800 5600
+Connection ~ 19800 5600
 $EndSCHEMATC

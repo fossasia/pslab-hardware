@@ -8,8 +8,26 @@ $CMP CP2102
 F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
 $ENDCMP
 #
+$CMP CP2102N-xxx-xQFN20x
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
 $CMP ESP01
 F https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf
+$ENDCMP
+#
+$CMP FP6291
+D 1MHz, 2.5A Step-Up Current Mode PWM Converter
+K smps boost
+F http://www.feeling-tech.com.tw/km-master/ezcatfiles/cust/img/img/24/fp6291v070.pdf
+$ENDCMP
+#
+$CMP IP5189T
+F http://www.injoinic.com/wwwroot/uploads/files/20200220/3642884e4c0184d6c0173a5193cd56ce.pdf
+$ENDCMP
+#
+$CMP IP5219
+F http://www.injoinic.com/wwwroot/uploads/files/20200220/3642884e4c0184d6c0173a5193cd56ce.pdf
 $ENDCMP
 #
 $CMP LDFM33PUR
@@ -22,6 +40,12 @@ $ENDCMP
 #
 $CMP Logos
 F https://pslab.io
+$ENDCMP
+#
+$CMP MAX5400
+D Low-Drift Digital Potentiometer
+K digital potentiometer resistor variable
+F https://datasheets.maximintegrated.com/en/ds/MAX5436-MAX5439.pdf
 $ENDCMP
 #
 $CMP MCP6S21
@@ -42,6 +66,12 @@ $ENDCMP
 #
 $CMP TC7660
 F https://eu.mouser.com/datasheet/2/268/21467B-1180369.pdf
+$ENDCMP
+#
+$CMP TP7660H
+D Charge Pump Voltage Inverter
+K smps inverter charge_pump
+F http://www.tp-asic.com/res/tp-asic/pdres/201203/TP7660H.pdf
 $ENDCMP
 #
 $CMP USB_C_Receptacle

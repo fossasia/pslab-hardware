@@ -4669,7 +4669,7 @@
   (junction (at 449.58 30.48) (diameter 0) (color 0 0 0 0)
     (uuid 217d55ea-150f-4a96-9e50-3d66cb72f1e7)
   )
-  (junction (at 533.4 113.665) (diameter 0) (color 0 0 0 0)
+  (junction (at 533.4 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 21c846ec-9e14-4624-a5a3-ff5ad3b27ce0)
   )
   (junction (at 497.84 53.34) (diameter 0) (color 0 0 0 0)
@@ -4864,7 +4864,7 @@
   (junction (at 406.4 81.28) (diameter 0) (color 0 0 0 0)
     (uuid 93f4a21f-613c-42ad-95d3-478c85d5496f)
   )
-  (junction (at 518.16 113.665) (diameter 0) (color 0 0 0 0)
+  (junction (at 518.16 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 951c0f64-f061-4d38-ae3a-92fd182cafa8)
   )
   (junction (at 213.36 180.34) (diameter 0) (color 0 0 0 0)
@@ -7297,7 +7297,7 @@
   (image (at 43.815 302.895)
     (uuid 7bcf3db3-8ee1-4452-a8de-001bd477876b)
     (data
-      iVBORw0KGgoAAAANSUhEUgAAAggAAADMCAMAAAAhxKvaAAAAA3NCSVQICAjb4U/gAAADAFBMVEUB
+      iVBORw0KGgoAAAANSUhEUgAAAggAAADMCAMAAAAhxKvaAAAAA3NCSVQICAjb4U/gAAADAFBMVEUC
       AAD//+J5XZ0oXaUofc7i//+BXbal6v/GmaUomeL/6tZZXcLG//9ZtvL///KlfaUoXcbitraBzv//
       zsaBfdZVXaFZfb729vbm5uYYGBjOzs5xcXFISEhQUFAgICAwMDCNjY2urq7//751AAAAAAAASJ3u
       7u6+vr66urpdXV3a2trKysp1AEid4v++dQAAdb4oKChAQEA0NDQsLCwUFBT/4p1IAHW+//9hYWGd
@@ -7311,7 +7311,7 @@
       NDgUGBhtkcZpjZkUGByRytZZWVnG1uqJvsooSEh1oa4gLDAcICAMFBR1dXUgJCSBsr4wQERVVVVx
       kaFpaWlddZFAba5IYWnm6vKZvsYkCDDm7vKqvtqqwtpZhbq+dUhMebpxkbqd4r6dnXXm7vaZ0s5A
       ndbq7vZAXaUoXbp90t5Vrt4odcLK2uqZqrZlwt6FpcpMTEyhoaE8PDxhZWmlsr6Foc6RmaHu8vJ9
-      gYG2vsaRkZF9fYFQebbCwsKZsn1dtt76+vp2z9+MAAAAAXRSTlMAQObYZgAAFQhJREFUeJztnXuA
+      gYG2vsaRkZF9fYFQebbCwsKZsn1dtt76+vpKq5DCAAAAAXRSTlMAQObYZgAAFQhJREFUeJztnXuA
       FdV5wGeZpTGmJgWD7C77dmCbRPYBu8pDd/fGGB8QMTYbXUyCadYk1qAXysJuqy1syQYCbIpst12C
       kkJZMBFBNLkoIUkbax7iA6mgjY1pKaYPWk0fSZs2TeecOTN3XmfmzMyZmTN3v98f7DD37r0D85vz
       +s75jiQBAAAAAABkj7IpMqJ8atoXAqRL2a+8Bf244K1pXwiQLkSEC9/2q2lfCZAqIAKAgaoBwJDG
@@ -9232,7 +9232,7 @@
     (pin "1" (uuid 43250aa1-3e53-4e19-90f2-2c7939b02062))
   )
 
-  (symbol (lib_id "PSLab:Logos") (at 120.015 208.915 180)
+  (symbol (lib_id "PSLab:Logos") (at 120.015 208.915 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060674244)
     (property "Reference" "Z11" (id 0) (at 120.015 205.867 0)
@@ -9249,7 +9249,7 @@
     )
   )
 
-  (symbol (lib_id "PSLab:Logos") (at 100.33 208.915 180)
+  (symbol (lib_id "PSLab:Logos") (at 100.33 208.915 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006067424a)
     (property "Reference" "Z10" (id 0) (at 100.33 205.867 0)
@@ -9266,7 +9266,7 @@
     )
   )
 
-  (symbol (lib_id "PSLab:Logos") (at 100.33 182.88 180)
+  (symbol (lib_id "PSLab:Logos") (at 100.33 182.88 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060674250)
     (property "Reference" "Z7" (id 0) (at 100.33 179.832 0)
@@ -9283,7 +9283,7 @@
     )
   )
 
-  (symbol (lib_id "PSLab:Logos") (at 120.015 182.88 180)
+  (symbol (lib_id "PSLab:Logos") (at 120.015 182.88 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060674256)
     (property "Reference" "Z8" (id 0) (at 120.015 179.832 0)
@@ -9300,7 +9300,7 @@
     )
   )
 
-  (symbol (lib_id "PSLab:Logos") (at 100.33 196.215 180)
+  (symbol (lib_id "PSLab:Logos") (at 100.33 196.215 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006067425c)
     (property "Reference" "Z9" (id 0) (at 100.33 193.167 0)
@@ -9317,7 +9317,7 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 254 60.96 0)
+  (symbol (lib_id "power:GND") (at 254 60.96 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000607bc296)
     (property "Reference" "#PWR0107" (id 0) (at 254 67.31 0)
@@ -9335,7 +9335,7 @@
     (pin "1" (uuid c00a35a0-7354-4e74-9053-3a062a7b4ce6))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 81.28 78.74 270)
+  (symbol (lib_id "power:PWR_FLAG") (at 81.28 78.74 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000607d18ea)
     (property "Reference" "#FLG0105" (id 0) (at 83.185 78.74 0)
@@ -9371,13 +9371,13 @@
     (pin "1" (uuid ec72bdc3-8b93-4e8b-a59d-4599e176d60e))
   )
 
-  (symbol (lib_id "Device:R") (at 148.59 68.58 270)
+  (symbol (lib_id "Device:R") (at 148.59 68.58 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000608ab088)
     (property "Reference" "R51" (id 0) (at 148.717 73.025 90)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Value" "1K" (id 1) (at 148.717 71.12 90)
+    (property "Value" "1k" (id 1) (at 148.717 71.12 90)
       (effects (font (size 0.9906 0.9906)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 148.59 66.802 90)
@@ -9402,7 +9402,7 @@
     (pin "2" (uuid c2fad56b-9b9a-42e4-8785-17c03f26d33e))
   )
 
-  (symbol (lib_id "Device:R") (at 144.78 46.99 180)
+  (symbol (lib_id "Device:R") (at 144.78 46.99 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000608ab0be)
     (property "Reference" "R58" (id 0) (at 142.24 46.99 90)
@@ -9433,7 +9433,7 @@
     (pin "2" (uuid f2755b6d-8126-4a92-825c-f2268561f4e7))
   )
 
-  (symbol (lib_id "Device:R") (at 144.78 39.37 0)
+  (symbol (lib_id "Device:R") (at 144.78 39.37 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000608ab0c8)
     (property "Reference" "R48" (id 0) (at 142.24 39.37 90)
@@ -9482,10 +9482,10 @@
     (pin "1" (uuid 98bfe1b6-7639-473c-9349-d7044844593d))
   )
 
-  (symbol (lib_id "PSLab:USB_C_Receptacle") (at 63.5 33.02 270)
+  (symbol (lib_id "PSLab:USB_C_Receptacle") (at 63.5 33.02 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006096119e)
-    (property "Reference" "P2" (id 0) (at 88.265 21.59 90)
+    (property "Reference" "J12" (id 0) (at 88.265 21.59 90)
       (effects (font (size 0.9906 0.9906)) (justify left))
     )
     (property "Value" "USB_C - Generic" (id 1) (at 27.94 21.59 90)
@@ -9528,7 +9528,7 @@
     (pin "S1" (uuid b7542216-9856-4284-a507-29571c2ccf02))
   )
 
-  (symbol (lib_id "Device:R") (at 49.53 53.34 90)
+  (symbol (lib_id "Device:R") (at 49.53 53.34 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000609611a8)
     (property "Reference" "R59" (id 0) (at 51.181 48.768 90)
@@ -9559,7 +9559,7 @@
     (pin "2" (uuid 56930986-24fd-4b53-aaa1-4b4498e28696))
   )
 
-  (symbol (lib_id "Device:R") (at 49.53 58.42 90)
+  (symbol (lib_id "Device:R") (at 49.53 58.42 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000609611b2)
     (property "Reference" "R60" (id 0) (at 50.927 63.246 90)
@@ -9590,7 +9590,7 @@
     (pin "2" (uuid 5d697af7-8b1a-4668-a185-5f83f5c52124))
   )
 
-  (symbol (lib_id "power:GND") (at 22.86 58.42 0)
+  (symbol (lib_id "power:GND") (at 22.86 58.42 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000609611d6)
     (property "Reference" "#PWR0104" (id 0) (at 22.86 64.77 0)
@@ -9608,7 +9608,7 @@
     (pin "1" (uuid e3f22df7-7c82-4dca-a6e9-2ba4ab3e3636))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 88.9 58.42 180)
+  (symbol (lib_id "power:PWR_FLAG") (at 88.9 58.42 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000609611e6)
     (property "Reference" "#FLG0102" (id 0) (at 88.9 60.325 0)
@@ -9693,7 +9693,7 @@
     (pin "1" (uuid 2e22247e-f752-4aff-ba3f-1eee93c9d580))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 48.26 261.62 0)
+  (symbol (lib_id "Connector:TestPoint") (at 48.26 261.62 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060bddc97)
     (property "Reference" "TP5" (id 0) (at 48.26 254 0)
@@ -9709,7 +9709,7 @@
     (pin "1" (uuid a6bc6d43-2cc3-4606-9142-16cb85206ef2))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 53.34 261.62 0)
+  (symbol (lib_id "Connector:TestPoint") (at 53.34 261.62 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060bddc9d)
     (property "Reference" "TP6" (id 0) (at 53.34 254 0)
@@ -9725,7 +9725,7 @@
     (pin "1" (uuid c98cecc3-9483-4291-8162-ee6160a6b987))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x08") (at 366.395 247.65 0) (mirror y)
+  (symbol (lib_id "Connector_Generic:Conn_01x08") (at 366.395 247.65 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060bddcc5)
     (property "Reference" "J2" (id 0) (at 366.395 237.49 0))
@@ -9758,7 +9758,7 @@
     (pin "8" (uuid 0a03ff0f-eef3-4b28-963e-2b7ab659a0e5))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 38.1 261.62 0)
+  (symbol (lib_id "Connector:TestPoint") (at 38.1 261.62 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060bddccb)
     (property "Reference" "TP2" (id 0) (at 38.1 254 0)
@@ -9774,7 +9774,7 @@
     (pin "1" (uuid 63baf58c-4f1a-4643-b0fb-8d913bfd8396))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 43.18 261.62 0)
+  (symbol (lib_id "Connector:TestPoint") (at 43.18 261.62 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060bddcd1)
     (property "Reference" "TP3" (id 0) (at 43.18 254 0)
@@ -9790,7 +9790,7 @@
     (pin "1" (uuid c02c165c-7637-4251-a125-a825b3e23d4b))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 33.02 261.62 0)
+  (symbol (lib_id "Connector:TestPoint") (at 33.02 261.62 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060bddcd9)
     (property "Reference" "TP1" (id 0) (at 33.02 254 0)
@@ -9806,7 +9806,7 @@
     (pin "1" (uuid 28b308c9-77e0-489a-b14b-cf3ba798ef2c))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x08") (at 337.82 250.19 180)
+  (symbol (lib_id "Connector_Generic:Conn_01x08") (at 337.82 250.19 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060bddce4)
     (property "Reference" "J3" (id 0) (at 337.82 260.35 0))
@@ -9875,7 +9875,7 @@
     (pin "1" (uuid f1cc72fc-4ba0-45ab-898d-4ac958b587cc))
   )
 
-  (symbol (lib_id "Device:C") (at 327.025 192.405 0)
+  (symbol (lib_id "Device:C") (at 327.025 192.405 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060c30a81)
     (property "Reference" "C2" (id 0) (at 327.66 190.5 0)
@@ -10082,7 +10082,7 @@
     (pin "1" (uuid 04e66afc-2478-400e-8192-acc6b0c4d6f4))
   )
 
-  (symbol (lib_id "Power_Protection:SP0503BAHT") (at 116.84 66.04 0)
+  (symbol (lib_id "Power_Protection:SP0503BAHT") (at 116.84 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060dabe97)
     (property "Reference" "U16" (id 0) (at 110.49 66.04 90)
@@ -10115,7 +10115,7 @@
     (pin "4" (uuid 135bfa21-5829-4ca7-9d64-065b1552febe))
   )
 
-  (symbol (lib_id "power:GND") (at 116.84 71.12 0)
+  (symbol (lib_id "power:GND") (at 116.84 71.12 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060ddcb76)
     (property "Reference" "#PWR0106" (id 0) (at 116.84 77.47 0)
@@ -10232,13 +10232,13 @@
     (pin "2" (uuid 739d3371-d8b9-48b5-964e-3750efd16899))
   )
 
-  (symbol (lib_id "Device:R") (at 200.66 143.51 180)
+  (symbol (lib_id "Device:R") (at 200.66 143.51 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e7e49e)
     (property "Reference" "R5" (id 0) (at 198.755 142.24 90)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Value" "1K" (id 1) (at 198.755 144.78 90)
+    (property "Value" "1k" (id 1) (at 198.755 144.78 90)
       (effects (font (size 0.9906 0.9906)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 202.438 143.51 90)
@@ -10263,7 +10263,7 @@
     (pin "2" (uuid e96ce0a7-5a32-4112-97fa-75442a07fc48))
   )
 
-  (symbol (lib_id "PSLab:Logos") (at 120.015 196.215 180)
+  (symbol (lib_id "PSLab:Logos") (at 120.015 196.215 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060ef9584)
     (property "Reference" "Z6" (id 0) (at 120.015 193.167 0)
@@ -10431,7 +10431,7 @@
     (pin "7" (uuid 5f26df07-a45b-4f64-b773-0029b77a258f))
   )
 
-  (symbol (lib_id "Device:R") (at 349.25 53.34 90)
+  (symbol (lib_id "Device:R") (at 349.25 53.34 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f43424)
     (property "Reference" "R67" (id 0) (at 349.25 51.435 90)
@@ -10498,7 +10498,7 @@
     (pin "1" (uuid 8daad135-df7f-43fc-acfb-ff2c845475c1))
   )
 
-  (symbol (lib_id "Device:C") (at 426.72 74.93 0)
+  (symbol (lib_id "Device:C") (at 426.72 74.93 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd2693)
     (property "Reference" "C36" (id 0) (at 426.72 72.39 0)
@@ -10529,13 +10529,13 @@
     (pin "2" (uuid 6bac7901-3323-4d8c-aacd-57bffa5b5dc7))
   )
 
-  (symbol (lib_id "Device:R") (at 403.86 39.37 0) (mirror x)
+  (symbol (lib_id "Device:R") (at 403.86 39.37 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd269d)
     (property "Reference" "R50" (id 0) (at 401.955 39.37 90)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Value" "200K" (id 1) (at 404.0378 39.3954 90)
+    (property "Value" "200k" (id 1) (at 404.0378 39.3954 90)
       (effects (font (size 1.016 1.016)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 402.082 39.37 90)
@@ -10560,7 +10560,7 @@
     (pin "2" (uuid b2addbd8-e4d7-40dd-9acd-674e4152c707))
   )
 
-  (symbol (lib_id "Device:R") (at 420.37 81.28 90)
+  (symbol (lib_id "Device:R") (at 420.37 81.28 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd2704)
     (property "Reference" "R15" (id 0) (at 420.37 79.248 90)
@@ -10591,7 +10591,7 @@
     (pin "2" (uuid c76f46d5-5db0-4edf-b3b2-ae95f234db50))
   )
 
-  (symbol (lib_id "Device:R") (at 422.91 33.02 90)
+  (symbol (lib_id "Device:R") (at 422.91 33.02 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd2712)
     (property "Reference" "R41" (id 0) (at 422.91 30.988 90)
@@ -10622,7 +10622,7 @@
     (pin "2" (uuid 551afa83-5fee-4a10-a13a-df35ba07a4ed))
   )
 
-  (symbol (lib_id "Device:C") (at 426.72 29.21 0)
+  (symbol (lib_id "Device:C") (at 426.72 29.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd271c)
     (property "Reference" "C30" (id 0) (at 426.72 26.67 0)
@@ -10653,7 +10653,7 @@
     (pin "2" (uuid 95171811-beb2-49c5-ba3d-31f7f974e966))
   )
 
-  (symbol (lib_id "Device:C") (at 429.26 52.07 0) (mirror y)
+  (symbol (lib_id "Device:C") (at 429.26 52.07 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd2726)
     (property "Reference" "C38" (id 0) (at 428.625 49.53 0)
@@ -10684,7 +10684,7 @@
     (pin "2" (uuid ebf13fa5-0cef-47cf-8f40-a6f3434e5696))
   )
 
-  (symbol (lib_id "Device:R") (at 410.21 33.02 90) (mirror x)
+  (symbol (lib_id "Device:R") (at 410.21 33.02 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd2730)
     (property "Reference" "R43" (id 0) (at 410.21 31.115 90)
@@ -10715,7 +10715,7 @@
     (pin "2" (uuid 2afd456f-4b8a-429a-9562-707e6a456bd5))
   )
 
-  (symbol (lib_id "Device:R") (at 422.91 22.86 90) (mirror x)
+  (symbol (lib_id "Device:R") (at 422.91 22.86 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd273b)
     (property "Reference" "R42" (id 0) (at 422.91 20.955 90)
@@ -10746,7 +10746,7 @@
     (pin "2" (uuid 4162daa0-7cf6-48be-9cb2-0a00787025cf))
   )
 
-  (symbol (lib_id "Device:C") (at 414.02 85.09 0)
+  (symbol (lib_id "Device:C") (at 414.02 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd2745)
     (property "Reference" "C40" (id 0) (at 414.02 82.55 0)
@@ -10777,7 +10777,7 @@
     (pin "2" (uuid 830daec3-4a8d-40f0-8d9a-f20a844a4e5c))
   )
 
-  (symbol (lib_id "Device:R") (at 420.37 71.12 90)
+  (symbol (lib_id "Device:R") (at 420.37 71.12 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd2750)
     (property "Reference" "R21" (id 0) (at 420.37 69.088 90)
@@ -10808,7 +10808,7 @@
     (pin "2" (uuid dd0bfd84-726f-4be6-9967-7245a61127b8))
   )
 
-  (symbol (lib_id "Device:C") (at 444.5 52.07 0)
+  (symbol (lib_id "Device:C") (at 444.5 52.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd275c)
     (property "Reference" "C35" (id 0) (at 445.135 49.53 0)
@@ -10839,7 +10839,7 @@
     (pin "2" (uuid 15d3af7f-f1bf-49ac-b111-4640366d5181))
   )
 
-  (symbol (lib_id "Device:C") (at 400.05 33.02 90)
+  (symbol (lib_id "Device:C") (at 400.05 33.02 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd2767)
     (property "Reference" "C6" (id 0) (at 397.51 33.02 0)
@@ -10870,7 +10870,7 @@
     (pin "2" (uuid ca2239e4-48b7-4209-b57a-3411894a186b))
   )
 
-  (symbol (lib_id "Device:R") (at 410.21 81.28 270) (mirror x)
+  (symbol (lib_id "Device:R") (at 410.21 81.28 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd2771)
     (property "Reference" "R44" (id 0) (at 410.21 79.502 90)
@@ -10901,13 +10901,13 @@
     (pin "2" (uuid ea11186c-f35d-4b3a-9e16-626226a461fe))
   )
 
-  (symbol (lib_id "Device:R") (at 406.4 85.09 0) (mirror x)
+  (symbol (lib_id "Device:R") (at 406.4 85.09 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd277b)
     (property "Reference" "R40" (id 0) (at 404.495 85.09 90)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Value" "200K" (id 1) (at 406.5778 85.1154 90)
+    (property "Value" "200k" (id 1) (at 406.5778 85.1154 90)
       (effects (font (size 1.016 1.016)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 404.622 85.09 90)
@@ -10932,7 +10932,7 @@
     (pin "2" (uuid d4c533e9-10ea-4469-a4e4-eecbc9d8081c))
   )
 
-  (symbol (lib_id "Device:C") (at 416.56 39.37 0)
+  (symbol (lib_id "Device:C") (at 416.56 39.37 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fd2785)
     (property "Reference" "C7" (id 0) (at 416.56 36.83 0)
@@ -11185,7 +11185,7 @@
     (pin "8" (uuid efc63e2f-7cba-42c6-8efd-54fe7f6a9ce5))
   )
 
-  (symbol (lib_id "power:GND") (at 205.74 160.02 0)
+  (symbol (lib_id "power:GND") (at 205.74 160.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061159958)
     (property "Reference" "#PWR018" (id 0) (at 205.74 166.37 0)
@@ -11239,7 +11239,7 @@
     (pin "1" (uuid 65cdcd40-0f83-4440-a8e6-759bab903013))
   )
 
-  (symbol (lib_id "power:GND") (at 144.78 50.8 0)
+  (symbol (lib_id "power:GND") (at 144.78 50.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061236594)
     (property "Reference" "#PWR023" (id 0) (at 144.78 57.15 0)
@@ -11329,7 +11329,7 @@
     (pin "1" (uuid e02799c4-e1b7-431a-9506-01cbe2034e87))
   )
 
-  (symbol (lib_id "Device:C") (at 231.14 250.19 0)
+  (symbol (lib_id "Device:C") (at 231.14 250.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061345481)
     (property "Reference" "C9" (id 0) (at 231.775 248.285 0)
@@ -11450,7 +11450,7 @@
     (pin "1" (uuid 8a6dd9b2-289f-4e0b-b77f-a7a1f529f9a6))
   )
 
-  (symbol (lib_id "power:GND") (at 140.97 193.04 0)
+  (symbol (lib_id "power:GND") (at 140.97 193.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006169c923)
     (property "Reference" "#PWR014" (id 0) (at 140.97 199.39 0)
@@ -11499,7 +11499,7 @@
     (pin "2" (uuid 7a8c5c3c-4c73-43c7-b040-4d609d44fcea))
   )
 
-  (symbol (lib_id "power:GND") (at 284.48 132.08 0)
+  (symbol (lib_id "power:GND") (at 284.48 132.08 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000617658a5)
     (property "Reference" "#PWR09" (id 0) (at 284.48 138.43 0)
@@ -11571,7 +11571,7 @@
     (pin "1" (uuid 41fc72cc-894a-4865-878f-cb3d13e245a4))
   )
 
-  (symbol (lib_id "power:GND") (at 81.28 78.74 0)
+  (symbol (lib_id "power:GND") (at 81.28 78.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000617b18f5)
     (property "Reference" "#PWR019" (id 0) (at 81.28 85.09 0)
@@ -11762,7 +11762,7 @@
     (pin "1" (uuid f0015baa-8f1c-40c2-94f8-daf2f84c3f1d))
   )
 
-  (symbol (lib_id "power:GND") (at 172.72 190.5 0)
+  (symbol (lib_id "power:GND") (at 172.72 190.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000618d6f3a)
     (property "Reference" "#PWR031" (id 0) (at 172.72 196.85 0)
@@ -11843,7 +11843,7 @@
     (pin "3" (uuid e5085514-ccc7-4d18-aadc-f45c370232fa))
   )
 
-  (symbol (lib_id "power:GND") (at 208.28 200.66 0)
+  (symbol (lib_id "power:GND") (at 208.28 200.66 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b5f0b5)
     (property "Reference" "#PWR098" (id 0) (at 208.28 207.01 0)
@@ -11861,13 +11861,13 @@
     (pin "1" (uuid e6db09b5-7ac2-48eb-9cfb-259823893814))
   )
 
-  (symbol (lib_id "Device:R") (at 203.2 184.15 180)
+  (symbol (lib_id "Device:R") (at 203.2 184.15 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b5f6e7)
     (property "Reference" "R11" (id 0) (at 201.295 184.15 90)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Value" "1K" (id 1) (at 203.2 184.15 90)
+    (property "Value" "1k" (id 1) (at 203.2 184.15 90)
       (effects (font (size 0.9906 0.9906)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 204.978 184.15 90)
@@ -12021,7 +12021,7 @@
     (pin "8" (uuid 5d385a2c-4b84-4e44-808f-fb3fb11c614e))
   )
 
-  (symbol (lib_id "Timer_RTC:DS1307Z+") (at 269.24 193.04 0)
+  (symbol (lib_id "Timer_RTC:DS1307Z+") (at 269.24 193.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061c6f33a)
     (property "Reference" "U4" (id 0) (at 258.699 184.023 0)
@@ -12058,7 +12058,7 @@
     (pin "8" (uuid 0b9ed11c-97e2-4798-a24b-edcb8f5853db))
   )
 
-  (symbol (lib_id "Device:Crystal_Small") (at 247.015 198.12 270)
+  (symbol (lib_id "Device:Crystal_Small") (at 247.015 198.12 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061c6f344)
     (property "Reference" "X2" (id 0) (at 249.682 198.12 90)
@@ -12089,10 +12089,10 @@
     (pin "2" (uuid 69ab88e7-f037-4768-a502-9766b827c0b5))
   )
 
-  (symbol (lib_id "Device:Battery_Cell") (at 281.94 177.8 90)
+  (symbol (lib_id "Device:Battery_Cell") (at 281.94 177.8 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061c6f35c)
-    (property "Reference" "BT1" (id 0) (at 275.5646 176.53 90))
+    (property "Reference" "J13" (id 0) (at 275.5646 176.53 90))
     (property "Value" "CR1225" (id 1) (at 280.3906 173.9646 90))
     (property "Footprint" "PSLab:BatteryHolder_LINX_BAT-HLD-012-SMT" (id 2) (at 280.416 177.8 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -12116,10 +12116,10 @@
     (pin "2" (uuid 55ed73a7-51dc-499f-b11a-5ec63d0d43a0))
   )
 
-  (symbol (lib_id "PSLab:Battery") (at 301.625 192.405 0)
+  (symbol (lib_id "PSLab:Battery") (at 301.625 192.405 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061c6f391)
-    (property "Reference" "BT2" (id 0) (at 301.625 189.23 0)
+    (property "Reference" "Z1" (id 0) (at 301.625 189.23 0)
       (effects (font (size 0.9906 0.9906)))
     )
     (property "Value" "CR1225" (id 1) (at 301.625 195.58 0)
@@ -12413,7 +12413,7 @@
     (pin "2" (uuid e94d56e9-e348-40e1-a746-2af25fbfe2bb))
   )
 
-  (symbol (lib_id "power:GND") (at 269.24 203.2 0)
+  (symbol (lib_id "power:GND") (at 269.24 203.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061f3a107)
     (property "Reference" "#PWR0114" (id 0) (at 269.24 209.55 0)
@@ -12448,7 +12448,7 @@
     (pin "4" (uuid f05d3891-37d5-44b3-a138-a47d5acbfd34))
   )
 
-  (symbol (lib_id "Device:C") (at 231.14 192.405 0)
+  (symbol (lib_id "Device:C") (at 231.14 192.405 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061fb9259)
     (property "Reference" "C1" (id 0) (at 231.775 190.5 0)
@@ -12650,7 +12650,7 @@
     (pin "2" (uuid 7ce1c33b-aff8-4c24-87bf-2ad6fa2b0f8e))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 269.24 177.8 0)
+  (symbol (lib_id "power:PWR_FLAG") (at 269.24 177.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006209541a)
     (property "Reference" "#FLG03" (id 0) (at 269.24 175.895 0)
@@ -12727,7 +12727,7 @@
   (symbol (lib_id "Device:Crystal") (at 255.27 68.58 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000620c181d)
-    (property "Reference" "Y1" (id 0) (at 259.08 66.04 0))
+    (property "Reference" "X1" (id 0) (at 259.08 66.04 0))
     (property "Value" "12MHz" (id 1) (at 250.19 67.31 0))
     (property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" (id 2) (at 255.27 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12878,7 +12878,7 @@
     (pin "1" (uuid 74db026d-40e6-4f21-baa7-b26db6b914ad))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 53.34 104.14 0)
+  (symbol (lib_id "power:PWR_FLAG") (at 53.34 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062153b96)
     (property "Reference" "#FLG0103" (id 0) (at 53.34 102.235 0)
@@ -13118,7 +13118,7 @@
     (pin "2" (uuid 0957b253-b8b1-4aef-b2a3-f352673a06de))
   )
 
-  (symbol (lib_id "power:GND") (at 550.545 266.7 0)
+  (symbol (lib_id "power:GND") (at 550.545 266.7 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000621e3b85)
     (property "Reference" "#PWR029" (id 0) (at 550.545 273.05 0)
@@ -13136,7 +13136,7 @@
     (pin "1" (uuid 19924bb9-5c3b-47aa-a532-60a217dc51c5))
   )
 
-  (symbol (lib_id "power:GND") (at 193.04 71.12 0)
+  (symbol (lib_id "power:GND") (at 193.04 71.12 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006220816e)
     (property "Reference" "#PWR0154" (id 0) (at 193.04 77.47 0)
@@ -13154,7 +13154,7 @@
     (pin "1" (uuid 46c02b2f-5a87-4f2a-8882-544003098d82))
   )
 
-  (symbol (lib_id "power:GND") (at 469.9 137.16 0)
+  (symbol (lib_id "power:GND") (at 469.9 137.16 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062225ccc)
     (property "Reference" "#PWR069" (id 0) (at 469.9 143.51 0)
@@ -13245,7 +13245,7 @@
     (pin "1" (uuid 8e834462-c83b-45de-9762-8ea594d18ec8))
   )
 
-  (symbol (lib_id "Device:R") (at 472.44 201.93 0)
+  (symbol (lib_id "Device:R") (at 472.44 201.93 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000622a0ae9)
     (property "Reference" "R29" (id 0) (at 474.218 201.93 90)
@@ -13276,7 +13276,7 @@
     (pin "2" (uuid 357c1064-6862-44d5-90cf-3a7d9c1f2de6))
   )
 
-  (symbol (lib_id "Device:R") (at 472.44 194.31 180)
+  (symbol (lib_id "Device:R") (at 472.44 194.31 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000622a0af3)
     (property "Reference" "R22" (id 0) (at 474.345 194.31 90)
@@ -13482,7 +13482,7 @@
     (pin "2" (uuid b182f76f-150e-40e8-bbf8-d2aff3480d38))
   )
 
-  (symbol (lib_id "power:GND") (at 215.9 104.14 0) (mirror y)
+  (symbol (lib_id "power:GND") (at 215.9 104.14 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062405ec2)
     (property "Reference" "#PWR033" (id 0) (at 215.9 110.49 0)
@@ -13841,7 +13841,7 @@
     (pin "2" (uuid 2217adfc-1003-49f5-9af5-e5efa41b87e0))
   )
 
-  (symbol (lib_id "power:GND") (at 193.04 160.02 0)
+  (symbol (lib_id "power:GND") (at 193.04 160.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006268f2d6)
     (property "Reference" "#PWR015" (id 0) (at 193.04 166.37 0)
@@ -13946,7 +13946,7 @@
     (pin "1" (uuid 932b5ea7-94d6-4518-930e-525086f8925f))
   )
 
-  (symbol (lib_id "power:GND") (at 246.38 76.2 0)
+  (symbol (lib_id "power:GND") (at 246.38 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006273cf3c)
     (property "Reference" "#PWR027" (id 0) (at 246.38 82.55 0)
@@ -13964,7 +13964,7 @@
     (pin "1" (uuid 50486951-52d6-42d7-bdff-d651e4126f96))
   )
 
-  (symbol (lib_id "power:GND") (at 259.08 76.2 0)
+  (symbol (lib_id "power:GND") (at 259.08 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006273d67e)
     (property "Reference" "#PWR028" (id 0) (at 259.08 82.55 0)
@@ -14133,7 +14133,7 @@
     (pin "2" (uuid bf1d3c0c-69b2-48fb-a83a-d962e141ed57))
   )
 
-  (symbol (lib_id "Device:R") (at 194.31 256.54 90)
+  (symbol (lib_id "Device:R") (at 194.31 256.54 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000628326f2)
     (property "Reference" "R52" (id 0) (at 195.58 254.635 90)
@@ -14164,7 +14164,7 @@
     (pin "2" (uuid 8733917b-12ed-4dd2-89b2-d5ccd1d9b194))
   )
 
-  (symbol (lib_id "Device:R") (at 194.31 261.62 90)
+  (symbol (lib_id "Device:R") (at 194.31 261.62 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006283c7b9)
     (property "Reference" "R53" (id 0) (at 194.31 259.715 90)
@@ -14290,7 +14290,7 @@
     (pin "1" (uuid 13584c32-f8b4-4883-89be-814c5360fa6a))
   )
 
-  (symbol (lib_id "power:GND") (at 530.86 35.56 0)
+  (symbol (lib_id "power:GND") (at 530.86 35.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000628c846c)
     (property "Reference" "#PWR0137" (id 0) (at 530.86 41.91 0)
@@ -14308,7 +14308,7 @@
     (pin "1" (uuid 4c419aea-e4b8-4292-a5de-be4b523e51f1))
   )
 
-  (symbol (lib_id "power:GND") (at 556.26 43.18 0)
+  (symbol (lib_id "power:GND") (at 556.26 43.18 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000628c888e)
     (property "Reference" "#PWR0157" (id 0) (at 556.26 49.53 0)
@@ -14326,7 +14326,7 @@
     (pin "1" (uuid 3e660eb6-dab0-44b1-9db7-b94f92ec1bbf))
   )
 
-  (symbol (lib_id "power:GND") (at 497.84 43.18 0)
+  (symbol (lib_id "power:GND") (at 497.84 43.18 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000628c8a7b)
     (property "Reference" "#PWR096" (id 0) (at 497.84 49.53 0)
@@ -14362,7 +14362,7 @@
     (pin "1" (uuid fabc5a16-e767-4ab8-be01-8b1769de614e))
   )
 
-  (symbol (lib_id "Device:C") (at 253.365 142.24 0)
+  (symbol (lib_id "Device:C") (at 253.365 142.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000628cdc46)
     (property "Reference" "C17" (id 0) (at 254 140.335 0)
@@ -14393,7 +14393,7 @@
     (pin "2" (uuid ce983f6f-0f6d-4166-a665-4dbbdba2c1c8))
   )
 
-  (symbol (lib_id "power:GND") (at 253.365 146.05 0)
+  (symbol (lib_id "power:GND") (at 253.365 146.05 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000628d4e3f)
     (property "Reference" "#PWR0116" (id 0) (at 253.365 152.4 0)
@@ -14411,7 +14411,7 @@
     (pin "1" (uuid 4737e306-f133-47cb-8131-a5d15b774acf))
   )
 
-  (symbol (lib_id "Device:C") (at 245.745 142.24 0)
+  (symbol (lib_id "Device:C") (at 245.745 142.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006290065f)
     (property "Reference" "C4" (id 0) (at 246.38 140.335 0)
@@ -14442,7 +14442,7 @@
     (pin "2" (uuid 4881dae8-a60c-4b9d-aeba-4d77c63c56a0))
   )
 
-  (symbol (lib_id "power:GND") (at 245.745 146.05 0)
+  (symbol (lib_id "power:GND") (at 245.745 146.05 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062900a5d)
     (property "Reference" "#PWR05" (id 0) (at 245.745 152.4 0)
@@ -14478,7 +14478,7 @@
     (pin "1" (uuid 5d96378c-d824-4b24-8227-056968f5c9b4))
   )
 
-  (symbol (lib_id "power:GND") (at 152.4 157.48 0)
+  (symbol (lib_id "power:GND") (at 152.4 157.48 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062918c66)
     (property "Reference" "#PWR017" (id 0) (at 152.4 163.83 0)
@@ -14496,7 +14496,7 @@
     (pin "1" (uuid c1b47d40-8dea-4e89-a4cf-9f8045026a4f))
   )
 
-  (symbol (lib_id "power:GND") (at 170.18 149.86 0)
+  (symbol (lib_id "power:GND") (at 170.18 149.86 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062919415)
     (property "Reference" "#PWR026" (id 0) (at 170.18 156.21 0)
@@ -14533,7 +14533,7 @@
     (pin "2" (uuid cbef0113-ec6d-4328-a335-782ede5981be))
   )
 
-  (symbol (lib_id "Device:C") (at 238.125 142.24 0)
+  (symbol (lib_id "Device:C") (at 238.125 142.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000629346cb)
     (property "Reference" "C13" (id 0) (at 238.76 140.335 0)
@@ -14564,7 +14564,7 @@
     (pin "2" (uuid b3ae7041-b8a4-422f-aa79-0a9e58864a19))
   )
 
-  (symbol (lib_id "power:GND") (at 238.125 146.05 0)
+  (symbol (lib_id "power:GND") (at 238.125 146.05 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062934b25)
     (property "Reference" "#PWR02" (id 0) (at 238.125 152.4 0)
@@ -14810,7 +14810,7 @@
     (pin "2" (uuid 94877e7c-d814-4025-b107-869dbf402f43))
   )
 
-  (symbol (lib_id "power:GND") (at 139.7 157.48 0)
+  (symbol (lib_id "power:GND") (at 139.7 157.48 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062af107d)
     (property "Reference" "#PWR013" (id 0) (at 139.7 163.83 0)
@@ -14828,13 +14828,13 @@
     (pin "1" (uuid 0a47eb3f-75b8-4295-9322-c307728fa21b))
   )
 
-  (symbol (lib_id "Device:R") (at 472.44 34.29 0) (mirror x)
+  (symbol (lib_id "Device:R") (at 472.44 34.29 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b19fd2)
     (property "Reference" "R27" (id 0) (at 474.472 34.29 90)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Value" "1K" (id 1) (at 472.6178 34.3154 90)
+    (property "Value" "1k" (id 1) (at 472.6178 34.3154 90)
       (effects (font (size 1.016 1.016)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 470.662 34.29 90)
@@ -14859,7 +14859,7 @@
     (pin "2" (uuid b085169f-0de2-4de4-83f6-443fe258450e))
   )
 
-  (symbol (lib_id "Device:R") (at 486.41 60.96 270) (mirror x)
+  (symbol (lib_id "Device:R") (at 486.41 60.96 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b19fec)
     (property "Reference" "R19" (id 0) (at 486.41 62.865 90)
@@ -14890,7 +14890,7 @@
     (pin "2" (uuid f36fc6ab-da5e-4397-85a4-ff27abea96f4))
   )
 
-  (symbol (lib_id "Device:R") (at 477.52 64.77 0) (mirror x)
+  (symbol (lib_id "Device:R") (at 477.52 64.77 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b19ff6)
     (property "Reference" "R18" (id 0) (at 475.615 64.77 90)
@@ -14921,7 +14921,7 @@
     (pin "2" (uuid c6a93ee1-b353-4a98-97b3-f112f91fc473))
   )
 
-  (symbol (lib_id "Device:C") (at 477.52 85.09 0) (mirror x)
+  (symbol (lib_id "Device:C") (at 477.52 85.09 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b1a000)
     (property "Reference" "C24" (id 0) (at 476.25 80.645 90)
@@ -14952,7 +14952,7 @@
     (pin "2" (uuid 69439da8-34a8-4b34-b9c0-41b01e8287db))
   )
 
-  (symbol (lib_id "Device:R") (at 509.27 60.96 270) (mirror x)
+  (symbol (lib_id "Device:R") (at 509.27 60.96 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b1a010)
     (property "Reference" "R26" (id 0) (at 509.27 62.865 90)
@@ -14983,7 +14983,7 @@
     (pin "2" (uuid ae67239c-5560-48f6-b414-9af7c8ba8e68))
   )
 
-  (symbol (lib_id "Device:R") (at 500.38 64.77 0) (mirror x)
+  (symbol (lib_id "Device:R") (at 500.38 64.77 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b1a01a)
     (property "Reference" "R25" (id 0) (at 498.475 64.77 90)
@@ -15014,7 +15014,7 @@
     (pin "2" (uuid ef0850fe-4d23-47ff-8ae4-013ad2969fae))
   )
 
-  (symbol (lib_id "Device:R") (at 533.4 85.09 0) (mirror x)
+  (symbol (lib_id "Device:R") (at 533.4 85.09 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b1a02c)
     (property "Reference" "R35" (id 0) (at 531.495 85.09 90)
@@ -15045,7 +15045,7 @@
     (pin "2" (uuid 153f08f3-8392-48c9-80b5-1744b6081c6e))
   )
 
-  (symbol (lib_id "Device:R") (at 542.29 81.28 90)
+  (symbol (lib_id "Device:R") (at 542.29 81.28 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b1a037)
     (property "Reference" "R37" (id 0) (at 542.29 83.185 90)
@@ -15076,13 +15076,13 @@
     (pin "2" (uuid dee2c933-3b9b-4ff4-ba0f-6dfc525ae535))
   )
 
-  (symbol (lib_id "Device:R") (at 534.67 55.88 270)
+  (symbol (lib_id "Device:R") (at 534.67 55.88 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b1a043)
     (property "Reference" "R36" (id 0) (at 534.67 53.975 90)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Value" "1K" (id 1) (at 534.6954 56.0578 90)
+    (property "Value" "1k" (id 1) (at 534.6954 56.0578 90)
       (effects (font (size 1.016 1.016)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 534.67 54.102 90)
@@ -15107,7 +15107,7 @@
     (pin "2" (uuid ba8091ae-613e-4670-9bb6-3160c82ea327))
   )
 
-  (symbol (lib_id "Device:C") (at 508 85.09 0)
+  (symbol (lib_id "Device:C") (at 508 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b1a04e)
     (property "Reference" "C27" (id 0) (at 509.27 83.82 90)
@@ -15138,7 +15138,7 @@
     (pin "2" (uuid 27e58dbe-8dc3-4d07-8e56-0c8ccef8a4f6))
   )
 
-  (symbol (lib_id "Device:C") (at 492.76 85.09 0)
+  (symbol (lib_id "Device:C") (at 492.76 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b1a058)
     (property "Reference" "C32" (id 0) (at 491.49 83.82 90)
@@ -15169,7 +15169,7 @@
     (pin "2" (uuid c4560256-d772-4af2-b331-c2f6901e43d3))
   )
 
-  (symbol (lib_id "Transistor_BJT:MMBT3906") (at 558.8 58.42 0) (mirror x)
+  (symbol (lib_id "Transistor_BJT:MMBT3906") (at 558.8 58.42 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b1a0ac)
     (property "Reference" "Q1" (id 0) (at 563.626 60.706 0)
@@ -15358,7 +15358,7 @@
     (pin "4" (uuid d316a2a1-db54-4dfc-a1e2-cd8be95e4384))
   )
 
-  (symbol (lib_id "Device:R") (at 260.35 53.34 90)
+  (symbol (lib_id "Device:R") (at 260.35 53.34 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062c54eac)
     (property "Reference" "R1" (id 0) (at 260.35 50.8 90)
@@ -15445,7 +15445,7 @@
     (pin "2" (uuid c8514eb7-7a07-4ffc-a40d-fb220fba7279))
   )
 
-  (symbol (lib_id "power:GND") (at 472.44 38.1 0)
+  (symbol (lib_id "power:GND") (at 472.44 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062f26771)
     (property "Reference" "#PWR0124" (id 0) (at 472.44 44.45 0)
@@ -15482,7 +15482,7 @@
     (pin "2" (uuid 1d3cab2d-d1ef-4967-b2ac-94bb83cba639))
   )
 
-  (symbol (lib_id "Device:R") (at 349.25 86.36 90)
+  (symbol (lib_id "Device:R") (at 349.25 86.36 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063069809)
     (property "Reference" "R2" (id 0) (at 349.25 84.455 90)
@@ -15513,7 +15513,7 @@
     (pin "2" (uuid 3d96634b-5b5d-4f30-b20d-8aff3572c85a))
   )
 
-  (symbol (lib_id "Device:R") (at 349.25 88.9 90)
+  (symbol (lib_id "Device:R") (at 349.25 88.9 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063079a18)
     (property "Reference" "R3" (id 0) (at 349.25 91.44 90)
@@ -15587,7 +15587,7 @@
     (pin "1" (uuid 96953e1d-e257-47b8-9315-f69e30a5c576))
   )
 
-  (symbol (lib_id "Device:R") (at 346.71 99.06 90)
+  (symbol (lib_id "Device:R") (at 346.71 99.06 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063163286)
     (property "Reference" "R12" (id 0) (at 346.71 97.155 90)
@@ -15654,7 +15654,7 @@
     (pin "1" (uuid b5d75e0d-9324-43f8-a2c7-caca20e99af2))
   )
 
-  (symbol (lib_id "power:GND") (at 477.52 88.9 0)
+  (symbol (lib_id "power:GND") (at 477.52 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063265070)
     (property "Reference" "#PWR0126" (id 0) (at 477.52 95.25 0)
@@ -15672,7 +15672,7 @@
     (pin "1" (uuid 81975237-87d0-4ccf-948f-3491e3cf30f9))
   )
 
-  (symbol (lib_id "power:GND") (at 190.5 238.76 0)
+  (symbol (lib_id "power:GND") (at 190.5 238.76 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006331ec1d)
     (property "Reference" "#PWR036" (id 0) (at 190.5 245.11 0)
@@ -15717,7 +15717,7 @@
     (pin "9" (uuid 063b7489-4098-4987-af8a-fe46ae7d5e1f))
   )
 
-  (symbol (lib_id "Device:R") (at 346.71 101.6 90)
+  (symbol (lib_id "Device:R") (at 346.71 101.6 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063390af3)
     (property "Reference" "R10" (id 0) (at 346.71 103.505 90)
@@ -15859,7 +15859,7 @@
   (symbol (lib_id "Device:Battery_Cell") (at 109.22 119.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000636716e0)
-    (property "Reference" "BT3" (id 0) (at 112.2172 116.9416 0)
+    (property "Reference" "J11" (id 0) (at 112.2172 116.9416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Battery_Cell" (id 1) (at 112.2172 119.253 0)
@@ -15896,7 +15896,7 @@
     (pin "2" (uuid 452056c5-d74a-406f-b1eb-72aa1c667db5))
   )
 
-  (symbol (lib_id "power:GND") (at 500.38 68.58 0)
+  (symbol (lib_id "power:GND") (at 500.38 68.58 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006378bec9)
     (property "Reference" "#PWR0135" (id 0) (at 500.38 74.93 0)
@@ -16012,7 +16012,7 @@
     (pin "9" (uuid 25d3d5b7-7f09-4d88-8261-a571bf29a94f))
   )
 
-  (symbol (lib_id "power:GND") (at 121.92 259.08 0)
+  (symbol (lib_id "power:GND") (at 121.92 259.08 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000638ecb4f)
     (property "Reference" "#PWR0160" (id 0) (at 121.92 265.43 0)
@@ -16030,7 +16030,7 @@
     (pin "1" (uuid 64135e47-76f4-4c90-8f65-ab86c55ce4e2))
   )
 
-  (symbol (lib_id "power:GND") (at 459.74 111.76 0)
+  (symbol (lib_id "power:GND") (at 459.74 111.76 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006396fc22)
     (property "Reference" "#PWR0158" (id 0) (at 459.74 118.11 0)
@@ -16048,7 +16048,7 @@
     (pin "1" (uuid 64620c15-0148-47cc-9dde-9ac308422816))
   )
 
-  (symbol (lib_id "power:GND") (at 462.28 129.54 0)
+  (symbol (lib_id "power:GND") (at 462.28 129.54 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000639ac004)
     (property "Reference" "#PWR0159" (id 0) (at 462.28 135.89 0)
@@ -16066,7 +16066,7 @@
     (pin "1" (uuid e323601a-97c7-45c7-9380-4efb221c37e9))
   )
 
-  (symbol (lib_id "power:GND") (at 124.46 269.24 0)
+  (symbol (lib_id "power:GND") (at 124.46 269.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063a131e0)
     (property "Reference" "#PWR0161" (id 0) (at 124.46 275.59 0)
@@ -16138,7 +16138,7 @@
     (pin "1" (uuid 96d8895d-fe82-440f-a9c7-ed1e40555c35))
   )
 
-  (symbol (lib_id "power:GND") (at 492.76 88.9 0)
+  (symbol (lib_id "power:GND") (at 492.76 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063bee3a0)
     (property "Reference" "#PWR0128" (id 0) (at 492.76 95.25 0)
@@ -16156,7 +16156,7 @@
     (pin "1" (uuid ee349631-baa9-4062-a221-74f10e9c2728))
   )
 
-  (symbol (lib_id "power:GND") (at 508 88.9 0)
+  (symbol (lib_id "power:GND") (at 508 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063beea33)
     (property "Reference" "#PWR0132" (id 0) (at 508 95.25 0)
@@ -16211,10 +16211,10 @@
   (symbol (lib_id "Device:CircuitBreaker_1P") (at 210.82 124.46 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063fcca80)
-    (property "Reference" "CB1" (id 0) (at 211.9884 125.7808 0)
+    (property "Reference" "CB1" (id 0) (at 207.01 121.92 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "CircuitBreaker_1P" (id 1) (at 209.677 125.7808 0)
+    (property "Value" "CircuitBreaker_1P" (id 1) (at 203.2 127 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (id 2) (at 210.82 124.46 0)
@@ -16227,7 +16227,7 @@
     (pin "2" (uuid 148c75a4-8b2f-4d85-9536-9e3d007ed308))
   )
 
-  (symbol (lib_id "Device:R") (at 405.13 111.76 270)
+  (symbol (lib_id "Device:R") (at 405.13 111.76 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000643e4ee6)
     (property "Reference" "R39" (id 0) (at 405.13 113.792 90)
@@ -16258,13 +16258,13 @@
     (pin "2" (uuid 16846add-8613-4d5b-80f8-47bb821442f4))
   )
 
-  (symbol (lib_id "Device:R") (at 405.13 119.38 270)
+  (symbol (lib_id "Device:R") (at 405.13 119.38 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000643e4ef1)
     (property "Reference" "R46" (id 0) (at 405.13 121.285 90)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Value" "200K" (id 1) (at 405.13 119.38 90)
+    (property "Value" "200k" (id 1) (at 405.13 119.38 90)
       (effects (font (size 1.016 1.016)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 405.13 117.602 90)
@@ -16289,7 +16289,7 @@
     (pin "2" (uuid cbb04dbf-bf16-4003-926a-618c6768af3b))
   )
 
-  (symbol (lib_id "Device:R") (at 397.51 127 90) (mirror x)
+  (symbol (lib_id "Device:R") (at 397.51 127 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000643e4efb)
     (property "Reference" "R14" (id 0) (at 397.51 128.905 90)
@@ -16320,7 +16320,7 @@
     (pin "2" (uuid 913a8477-60d9-4126-b068-62ad94590f37))
   )
 
-  (symbol (lib_id "Device:R") (at 393.7 123.19 0) (mirror y)
+  (symbol (lib_id "Device:R") (at 393.7 123.19 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000643e4f05)
     (property "Reference" "R31" (id 0) (at 391.795 123.19 90)
@@ -16351,13 +16351,13 @@
     (pin "2" (uuid 343eb033-8ef7-429c-95a6-1f16f5bfe209))
   )
 
-  (symbol (lib_id "Device:R") (at 420.37 119.38 270) (mirror x)
+  (symbol (lib_id "Device:R") (at 420.37 119.38 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000643e4f15)
     (property "Reference" "R47" (id 0) (at 420.37 121.285 90)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Value" "1K" (id 1) (at 420.37 119.38 90)
+    (property "Value" "1k" (id 1) (at 420.37 119.38 90)
       (effects (font (size 1.016 1.016)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 420.37 121.158 90)
@@ -16382,7 +16382,7 @@
     (pin "2" (uuid 18541eb4-04c4-447c-a397-08412d73d8f1))
   )
 
-  (symbol (lib_id "Device:C") (at 427.99 119.38 90)
+  (symbol (lib_id "Device:C") (at 427.99 119.38 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000643e4f1f)
     (property "Reference" "C42" (id 0) (at 432.435 118.11 90)
@@ -16413,7 +16413,7 @@
     (pin "2" (uuid 482c5c38-459b-49a1-b02b-f3367977a8fe))
   )
 
-  (symbol (lib_id "Device:R") (at 546.1 118.11 0) (mirror x)
+  (symbol (lib_id "Device:R") (at 546.1 118.11 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000064436493)
     (property "Reference" "R32" (id 0) (at 544.195 118.237 90)
@@ -16444,7 +16444,7 @@
     (pin "2" (uuid 0a211c2a-5b4a-4985-baf8-81064f377a3e))
   )
 
-  (symbol (lib_id "Device:R") (at 549.91 121.92 90) (mirror x)
+  (symbol (lib_id "Device:R") (at 549.91 121.92 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006443649d)
     (property "Reference" "R33" (id 0) (at 549.91 120.015 90)
@@ -16475,69 +16475,69 @@
     (pin "2" (uuid 12dcb8e1-9b2f-43be-822d-0f14120ccd4a))
   )
 
-  (symbol (lib_id "Device:C") (at 518.16 117.475 0)
+  (symbol (lib_id "Device:C") (at 518.16 118.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000644364b3)
-    (property "Reference" "C34" (id 0) (at 518.16 114.935 0)
+    (property "Reference" "C34" (id 0) (at 518.16 115.57 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
-    (property "Value" "100nF" (id 1) (at 518.3124 119.634 0)
+    (property "Value" "100nF" (id 1) (at 518.3124 120.269 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 519.1252 121.285 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 519.1252 121.92 0)
       (effects (font (size 0.762 0.762)) hide)
     )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" (id 3) (at 518.16 117.475 0)
+    (property "Datasheet" "https://eu.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" (id 3) (at 518.16 118.11 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Description" "16V 10%" (id 4) (at 518.16 117.475 0)
+    (property "Description" "16V 10%" (id 4) (at 518.16 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr No." "C0603C104J4RACTU" (id 5) (at 518.16 117.475 0)
+    (property "Mfr No." "C0603C104J4RACTU" (id 5) (at 518.16 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Price" "0.15" (id 6) (at 518.16 117.475 0)
+    (property "Price" "0.15" (id 6) (at 518.16 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PartNumber" "C0603C104J4RACTU" (id 7) (at 518.16 117.475 0)
+    (property "PartNumber" "C0603C104J4RACTU" (id 7) (at 518.16 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bd7d7590-878b-4c5a-9350-b965e211902c))
     (pin "2" (uuid 2d5b1ab5-112b-486f-ac45-56a914e8dde8))
   )
 
-  (symbol (lib_id "Device:C") (at 533.4 117.475 0)
+  (symbol (lib_id "Device:C") (at 533.4 118.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000644364bd)
-    (property "Reference" "C37" (id 0) (at 533.4 114.935 0)
+    (property "Reference" "C37" (id 0) (at 533.4 115.57 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
-    (property "Value" "100nF" (id 1) (at 533.5524 119.634 0)
+    (property "Value" "100nF" (id 1) (at 533.5524 120.269 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 534.3652 121.285 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 534.3652 121.92 0)
       (effects (font (size 0.762 0.762)) hide)
     )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" (id 3) (at 533.4 117.475 0)
+    (property "Datasheet" "https://eu.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" (id 3) (at 533.4 118.11 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Description" "16V 10%" (id 4) (at 533.4 117.475 0)
+    (property "Description" "16V 10%" (id 4) (at 533.4 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr No." "C0603C104J4RACTU" (id 5) (at 533.4 117.475 0)
+    (property "Mfr No." "C0603C104J4RACTU" (id 5) (at 533.4 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Price" "0.15" (id 6) (at 533.4 117.475 0)
+    (property "Price" "0.15" (id 6) (at 533.4 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PartNumber" "C0603C104J4RACTU" (id 7) (at 533.4 117.475 0)
+    (property "PartNumber" "C0603C104J4RACTU" (id 7) (at 533.4 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f8178fd6-799d-43e6-b909-edefcfe90fb0))
     (pin "2" (uuid 865ed781-ba88-41cf-9399-c29bbb3dceef))
   )
 
-  (symbol (lib_id "Device:R") (at 562.61 114.3 270)
+  (symbol (lib_id "Device:R") (at 562.61 114.3 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000644364c9)
     (property "Reference" "R38" (id 0) (at 562.61 116.332 90)
@@ -16568,7 +16568,7 @@
     (pin "2" (uuid ba5c0012-fe2e-4b61-8863-d5b5e5744376))
   )
 
-  (symbol (lib_id "Device:R") (at 568.96 128.27 180)
+  (symbol (lib_id "Device:R") (at 568.96 128.27 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000644364d4)
     (property "Reference" "R45" (id 0) (at 566.928 128.27 90)
@@ -16627,27 +16627,27 @@
     (pin "3" (uuid 8d37b46f-a9b6-4c40-a77e-177e2949593d))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL082") (at 525.78 116.205 270) (unit 3)
+  (symbol (lib_id "Amplifier_Operational:TL082") (at 525.78 116.84 270) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006446f03b)
-    (property "Reference" "U11" (id 0) (at 525.78 109.855 90))
-    (property "Value" "TL082" (id 1) (at 525.78 116.205 90))
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 525.78 116.205 0)
+    (property "Reference" "U11" (id 0) (at 525.78 110.49 90))
+    (property "Value" "TL082" (id 1) (at 525.78 116.84 90))
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 525.78 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" (id 3) (at 525.78 116.205 0)
+    (property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082" (id 3) (at 525.78 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "SOIC 8" (id 4) (at 525.78 116.205 0)
+    (property "Description" "SOIC 8" (id 4) (at 525.78 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr No." "TL082CDR" (id 5) (at 525.78 116.205 0)
+    (property "Mfr No." "TL082CDR" (id 5) (at 525.78 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PartNumber" "TL082CDR" (id 6) (at 525.78 116.205 0)
+    (property "PartNumber" "TL082CDR" (id 6) (at 525.78 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Price" "0.41" (id 7) (at 525.78 116.205 0)
+    (property "Price" "0.41" (id 7) (at 525.78 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "4" (uuid 4b172523-09c9-4913-aab1-c89e9435735e))
@@ -16682,37 +16682,37 @@
     (pin "7" (uuid 8645eed8-b507-481d-aa2f-08aae1ddaf58))
   )
 
-  (symbol (lib_id "power:+6V") (at 533.4 113.665 0) (unit 1)
+  (symbol (lib_id "power:+6V") (at 533.4 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000644a0c6b)
-    (property "Reference" "#PWR067" (id 0) (at 533.4 117.475 0)
+    (property "Reference" "#PWR067" (id 0) (at 533.4 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+6V" (id 1) (at 533.4 109.855 0)
+    (property "Value" "+6V" (id 1) (at 533.4 110.49 0)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Footprint" "" (id 2) (at 533.4 113.665 0)
+    (property "Footprint" "" (id 2) (at 533.4 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 533.4 113.665 0)
+    (property "Datasheet" "" (id 3) (at 533.4 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 03ab5cc6-4d81-4a72-bf66-26168ef34386))
   )
 
-  (symbol (lib_id "power:-6V") (at 518.16 113.665 0) (unit 1)
+  (symbol (lib_id "power:-6V") (at 518.16 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000644c4ec3)
-    (property "Reference" "#PWR062" (id 0) (at 518.16 111.125 0)
+    (property "Reference" "#PWR062" (id 0) (at 518.16 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "-6V" (id 1) (at 516.255 109.855 0)
+    (property "Value" "-6V" (id 1) (at 516.255 110.49 0)
       (effects (font (size 0.9906 0.9906)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 518.16 113.665 0)
+    (property "Footprint" "" (id 2) (at 518.16 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 518.16 113.665 0)
+    (property "Datasheet" "" (id 3) (at 518.16 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0581ad6b-6ade-4503-be16-b5176820a87f))
@@ -16754,37 +16754,37 @@
     (pin "1" (uuid 925bf84b-6150-48eb-b981-81e473261ece))
   )
 
-  (symbol (lib_id "power:GND") (at 518.16 121.285 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 518.16 121.92 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000064a4efe2)
-    (property "Reference" "#PWR063" (id 0) (at 518.16 127.635 0)
+    (property "Reference" "#PWR063" (id 0) (at 518.16 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (id 1) (at 518.287 125.476 0)
+    (property "Value" "GND" (id 1) (at 518.287 126.111 0)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Footprint" "" (id 2) (at 518.16 121.285 0)
+    (property "Footprint" "" (id 2) (at 518.16 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 518.16 121.285 0)
+    (property "Datasheet" "" (id 3) (at 518.16 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aba548b2-d6aa-4065-bccf-c0b18bce0476))
   )
 
-  (symbol (lib_id "power:GND") (at 533.4 121.285 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 533.4 121.92 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000064a50676)
-    (property "Reference" "#PWR068" (id 0) (at 533.4 127.635 0)
+    (property "Reference" "#PWR068" (id 0) (at 533.4 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (id 1) (at 533.527 125.476 0)
+    (property "Value" "GND" (id 1) (at 533.527 126.111 0)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Footprint" "" (id 2) (at 533.4 121.285 0)
+    (property "Footprint" "" (id 2) (at 533.4 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 533.4 121.285 0)
+    (property "Datasheet" "" (id 3) (at 533.4 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 58ac60d2-4af9-44d2-96d3-11b58287d7ba))
@@ -16826,7 +16826,7 @@
     (pin "1" (uuid fb7a33f8-15cf-4195-94a7-e1e6bcda4c0c))
   )
 
-  (symbol (lib_id "Device:R") (at 547.37 157.48 90)
+  (symbol (lib_id "Device:R") (at 547.37 157.48 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000065724260)
     (property "Reference" "R30" (id 0) (at 547.37 155.448 90)
@@ -16857,7 +16857,7 @@
     (pin "2" (uuid 0b98c172-346e-4431-a9dc-f9d5eb808205))
   )
 
-  (symbol (lib_id "Device:R") (at 560.07 160.02 90)
+  (symbol (lib_id "Device:R") (at 560.07 160.02 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006572426a)
     (property "Reference" "R34" (id 0) (at 560.07 157.988 90)
@@ -16888,13 +16888,13 @@
     (pin "2" (uuid b6950e1f-7e51-4e71-8ecb-6a361fe9d634))
   )
 
-  (symbol (lib_id "Device:C") (at 547.37 165.1 90)
+  (symbol (lib_id "Device:C") (at 547.37 165.1 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000065724286)
     (property "Reference" "C29" (id 0) (at 551.815 163.83 90)
       (effects (font (size 1.016 1.016)) (justify left))
     )
-    (property "Value" "1pF" (id 1) (at 552.45 166.37 90)
+    (property "Value" "0.5pF" (id 1) (at 552.45 166.37 90)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 551.18 164.1348 0)
@@ -16919,7 +16919,7 @@
     (pin "2" (uuid 816f643a-39ec-45bd-beb5-7993889300ec))
   )
 
-  (symbol (lib_id "Device:R") (at 450.85 154.94 270)
+  (symbol (lib_id "Device:R") (at 450.85 154.94 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000657242cd)
     (property "Reference" "R20" (id 0) (at 450.85 152.908 90)
@@ -16950,7 +16950,7 @@
     (pin "2" (uuid 71972c23-1877-4707-a8b9-b0f5b832a4a6))
   )
 
-  (symbol (lib_id "Device:R") (at 463.55 160.02 90)
+  (symbol (lib_id "Device:R") (at 463.55 160.02 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000657242d7)
     (property "Reference" "R24" (id 0) (at 463.55 157.988 90)
@@ -16981,13 +16981,13 @@
     (pin "2" (uuid 91731142-a9d3-44a8-91a6-3290133282f0))
   )
 
-  (symbol (lib_id "Device:C") (at 450.85 162.56 90)
+  (symbol (lib_id "Device:C") (at 450.85 162.56 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000065724308)
     (property "Reference" "C23" (id 0) (at 455.295 161.29 90)
       (effects (font (size 1.016 1.016)) (justify left))
     )
-    (property "Value" "1pF" (id 1) (at 455.93 163.83 90)
+    (property "Value" "0.5pF" (id 1) (at 455.93 163.83 90)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 454.66 161.5948 0)
@@ -17012,7 +17012,7 @@
     (pin "2" (uuid 6e8cdc15-1d87-40f0-8567-da30489099bd))
   )
 
-  (symbol (lib_id "Device:C") (at 467.36 166.37 0)
+  (symbol (lib_id "Device:C") (at 467.36 166.37 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006572433a)
     (property "Reference" "C25" (id 0) (at 467.36 163.83 0)
@@ -17043,7 +17043,7 @@
     (pin "2" (uuid 3ccbe71d-67ed-4f78-b3a0-7f6b816f7f0d))
   )
 
-  (symbol (lib_id "Device:R") (at 434.34 194.31 180)
+  (symbol (lib_id "Device:R") (at 434.34 194.31 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000065724344)
     (property "Reference" "R16" (id 0) (at 436.245 194.31 90)
@@ -17074,7 +17074,7 @@
     (pin "2" (uuid 50172dd8-2159-435f-8fed-4ccbfb82a7a6))
   )
 
-  (symbol (lib_id "Device:R") (at 434.34 201.93 0)
+  (symbol (lib_id "Device:R") (at 434.34 201.93 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006572434e)
     (property "Reference" "R17" (id 0) (at 436.118 201.93 90)
@@ -17105,7 +17105,7 @@
     (pin "2" (uuid 1df16cc7-3c35-42e0-aef2-82235207e569))
   )
 
-  (symbol (lib_id "Device:C") (at 495.3 199.39 0)
+  (symbol (lib_id "Device:C") (at 495.3 199.39 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000657243b5)
     (property "Reference" "C41" (id 0) (at 495.3 196.85 0)
@@ -17136,7 +17136,7 @@
     (pin "2" (uuid b488042d-6b6c-4a55-8371-95d67c4d15ca))
   )
 
-  (symbol (lib_id "Device:C") (at 393.7 199.39 0)
+  (symbol (lib_id "Device:C") (at 393.7 199.39 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000657243c5)
     (property "Reference" "C39" (id 0) (at 393.7 196.85 0)
@@ -17279,7 +17279,7 @@
     (pin "3" (uuid f1805a3f-c64e-42c0-afb4-b69fb85cd430))
   )
 
-  (symbol (lib_id "Device:C") (at 505.46 199.39 0)
+  (symbol (lib_id "Device:C") (at 505.46 199.39 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000065a28bc2)
     (property "Reference" "C22" (id 0) (at 505.46 196.85 0)
@@ -17310,7 +17310,7 @@
     (pin "2" (uuid 0a34dfc1-6c85-4043-9d4e-e8d9d86dea51))
   )
 
-  (symbol (lib_id "Device:C") (at 520.7 199.39 0)
+  (symbol (lib_id "Device:C") (at 520.7 199.39 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000065a29832)
     (property "Reference" "C26" (id 0) (at 520.7 196.85 0)
@@ -17440,7 +17440,7 @@
     (pin "1" (uuid 31cfa003-7c3d-455e-b2a6-dc425086b718))
   )
 
-  (symbol (lib_id "Device:C") (at 546.1 199.39 0)
+  (symbol (lib_id "Device:C") (at 546.1 199.39 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000065a7a7b6)
     (property "Reference" "C28" (id 0) (at 546.1 196.85 0)
@@ -17471,7 +17471,7 @@
     (pin "2" (uuid c2d2aa70-0da8-473e-afeb-6e34f7a3121c))
   )
 
-  (symbol (lib_id "Device:C") (at 561.34 199.39 0)
+  (symbol (lib_id "Device:C") (at 561.34 199.39 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000065a7b518)
     (property "Reference" "C31" (id 0) (at 561.34 196.85 0)
@@ -17709,7 +17709,7 @@
     (pin "1" (uuid f627f73a-28c4-4807-90c1-f8be0ece8d2f))
   )
 
-  (symbol (lib_id "Device:C") (at 213.36 57.15 180)
+  (symbol (lib_id "Device:C") (at 213.36 57.15 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000068fed643)
     (property "Reference" "C3" (id 0) (at 214.63 59.055 90)
@@ -17830,7 +17830,7 @@
     (pin "1" (uuid ccaebec3-6f06-42fd-8b1d-3fe720b7567a))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 142.24 139.7 90)
+  (symbol (lib_id "power:PWR_FLAG") (at 142.24 139.7 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000069e5751d)
     (property "Reference" "#FLG0101" (id 0) (at 140.335 139.7 0)
@@ -17848,7 +17848,7 @@
     (pin "1" (uuid f1fb27da-3da6-4c8d-a02d-06ad8b9cb790))
   )
 
-  (symbol (lib_id "power:GND") (at 203.2 109.22 0) (mirror y)
+  (symbol (lib_id "power:GND") (at 203.2 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006b4017d9)
     (property "Reference" "#PWR0148" (id 0) (at 203.2 115.57 0)
@@ -18411,15 +18411,6 @@
     (path "/00000000-0000-0000-0000-000062153bb1"
       (reference "#PWR0165") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061c6f35c"
-      (reference "BT1") (unit 1) (value "CR1225") (footprint "PSLab:BatteryHolder_LINX_BAT-HLD-012-SMT")
-    )
-    (path "/00000000-0000-0000-0000-000061c6f391"
-      (reference "BT2") (unit 1) (value "CR1225") (footprint "Battery:Battery_CR1225")
-    )
-    (path "/00000000-0000-0000-0000-0000636716e0"
-      (reference "BT3") (unit 1) (value "Battery_Cell") (footprint "PSLab:2.0mm_connector_edge")
-    )
     (path "/00000000-0000-0000-0000-000061fb9259"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -18484,7 +18475,7 @@
       (reference "C22") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000065724308"
-      (reference "C23") (unit 1) (value "1pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C23") (unit 1) (value "0.5pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000062b1a000"
       (reference "C24") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -18502,7 +18493,7 @@
       (reference "C28") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000065724286"
-      (reference "C29") (unit 1) (value "1pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C29") (unit 1) (value "0.5pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000060fd271c"
       (reference "C30") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -18654,6 +18645,15 @@
     (path "/00000000-0000-0000-0000-00005a56b55e"
       (reference "J10") (unit 1) (value "Programmer") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical")
     )
+    (path "/00000000-0000-0000-0000-0000636716e0"
+      (reference "J11") (unit 1) (value "Battery_Cell") (footprint "PSLab:2.0mm_connector_edge")
+    )
+    (path "/00000000-0000-0000-0000-00006096119e"
+      (reference "J12") (unit 1) (value "USB_C - Generic") (footprint "incremental_library:USB_C_Receptacle_12pin_SMT")
+    )
+    (path "/00000000-0000-0000-0000-000061c6f35c"
+      (reference "J13") (unit 1) (value "CR1225") (footprint "PSLab:BatteryHolder_LINX_BAT-HLD-012-SMT")
+    )
     (path "/00000000-0000-0000-0000-000055c0f620"
       (reference "L1") (unit 1) (value "3.3uH") (footprint "Inductor_SMD:L_Taiyo-Yuden_MD-2020")
     )
@@ -18678,9 +18678,6 @@
     (path "/00000000-0000-0000-0000-00005424401d"
       (reference "MH4") (unit 1) (value "M") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
-    (path "/00000000-0000-0000-0000-00006096119e"
-      (reference "P2") (unit 1) (value "USB_C - Generic") (footprint "incremental_library:USB_C_Receptacle_12pin_SMT")
-    )
     (path "/00000000-0000-0000-0000-000062b1a0ac"
       (reference "Q1") (unit 1) (value "MMBT3906") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
@@ -18703,7 +18700,7 @@
       (reference "R4") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000060e7e49e"
-      (reference "R5") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061839b5e"
       (reference "R6") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -18721,7 +18718,7 @@
       (reference "R10") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061b5f6e7"
-      (reference "R11") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R11") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063163286"
       (reference "R12") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -18769,7 +18766,7 @@
       (reference "R26") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000062b19fd2"
-      (reference "R27") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R27") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006201451a"
       (reference "R28") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -18796,7 +18793,7 @@
       (reference "R35") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000062b1a043"
-      (reference "R36") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R36") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000062b1a037"
       (reference "R37") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -18808,7 +18805,7 @@
       (reference "R39") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000060fd277b"
-      (reference "R40") (unit 1) (value "200K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R40") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000060fd2712"
       (reference "R41") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -18826,10 +18823,10 @@
       (reference "R45") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000643e4ef1"
-      (reference "R46") (unit 1) (value "200K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R46") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000643e4f15"
-      (reference "R47") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R47") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608ab0c8"
       (reference "R48") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -18838,10 +18835,10 @@
       (reference "R49") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000060fd269d"
-      (reference "R50") (unit 1) (value "200K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R50") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000608ab088"
-      (reference "R51") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R51") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000628326f2"
       (reference "R52") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -19077,11 +19074,14 @@
     (path "/00000000-0000-0000-0000-00006219e3f6"
       (reference "U21") (unit 1) (value "IP5189T") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
+    (path "/00000000-0000-0000-0000-0000620c181d"
+      (reference "X1") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm")
+    )
     (path "/00000000-0000-0000-0000-000061c6f344"
       (reference "X2") (unit 1) (value "32.768 kHz") (footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")
     )
-    (path "/00000000-0000-0000-0000-0000620c181d"
-      (reference "Y1") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm")
+    (path "/00000000-0000-0000-0000-000061c6f391"
+      (reference "Z1") (unit 1) (value "CR1225") (footprint "Battery:Battery_CR1225")
     )
     (path "/00000000-0000-0000-0000-000060ef9584"
       (reference "Z6") (unit 1) (value "eWaste") (footprint "Symbol:WEEE-Logo_4.2x6mm_SilkScreen")

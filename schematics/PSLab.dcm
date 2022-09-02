@@ -52,6 +52,12 @@ $CMP MCP6S21
 F https://eu.mouser.com/datasheet/2/268/21117a-70287.pdf
 $ENDCMP
 #
+$CMP MT1470
+D High-Efficiency, 2A, 4.5V-21V, 500kHz Synchronous, Step-Down Converter, SOT-23-6
+K buck converter
+F https://www.rzxpoweric.com/data/upload/image/20210221/1613876184209693.pdf
+$ENDCMP
+#
 $CMP Micro_SD_Card_Det_9_pin
 D Micro SD Card Socket with card detection pins
 K connector SD microsd
@@ -90,6 +96,11 @@ $CMP USB_C_Receptacle
 D USB Full-Featured Type-C Receptacle connector
 K usb universal serial bus type-C full-featured
 F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
+$CMP XL6007
+D 400kHz 60V 2A boost, buck-boost converter
+K SMPS, buck, buck-boost, XL6007
 $ENDCMP
 #
 #End Doc Library

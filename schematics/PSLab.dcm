@@ -8,8 +8,26 @@ $CMP CP2102
 F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
 $ENDCMP
 #
+$CMP CP2102N-xxx-xQFN20x
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
 $CMP ESP01
 F https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf
+$ENDCMP
+#
+$CMP FP6291
+D 1MHz, 2.5A Step-Up Current Mode PWM Converter
+K smps boost
+F http://www.feeling-tech.com.tw/km-master/ezcatfiles/cust/img/img/24/fp6291v070.pdf
+$ENDCMP
+#
+$CMP IP5189T
+F http://www.injoinic.com/wwwroot/uploads/files/20200220/3642884e4c0184d6c0173a5193cd56ce.pdf
+$ENDCMP
+#
+$CMP IP5219
+F http://www.injoinic.com/wwwroot/uploads/files/20200220/3642884e4c0184d6c0173a5193cd56ce.pdf
 $ENDCMP
 #
 $CMP LDFM33PUR
@@ -24,8 +42,32 @@ $CMP Logos
 F https://pslab.io
 $ENDCMP
 #
+$CMP MAX5400
+D Low-Drift Digital Potentiometer
+K digital potentiometer resistor variable
+F https://datasheets.maximintegrated.com/en/ds/MAX5436-MAX5439.pdf
+$ENDCMP
+#
 $CMP MCP6S21
 F https://eu.mouser.com/datasheet/2/268/21117a-70287.pdf
+$ENDCMP
+#
+$CMP MT1470
+D High-Efficiency, 2A, 4.5V-21V, 500kHz Synchronous, Step-Down Converter, SOT-23-6
+K buck converter
+F https://www.rzxpoweric.com/data/upload/image/20210221/1613876184209693.pdf
+$ENDCMP
+#
+$CMP Micro_SD_Card_Det_9_pin
+D Micro SD Card Socket with card detection pins
+K connector SD microsd
+F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
+$ENDCMP
+#
+$CMP Micro_SD_Card_Det_Hirose_DM3AT
+D Micro SD Card Socket with card detection pins
+K connector SD microsd
+F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
 $ENDCMP
 #
 $CMP PIC24EP256GP204
@@ -44,10 +86,21 @@ $CMP TC7660
 F https://eu.mouser.com/datasheet/2/268/21467B-1180369.pdf
 $ENDCMP
 #
+$CMP TP7660H
+D Charge Pump Voltage Inverter
+K smps inverter charge_pump
+F http://www.tp-asic.com/res/tp-asic/pdres/201203/TP7660H.pdf
+$ENDCMP
+#
 $CMP USB_C_Receptacle
 D USB Full-Featured Type-C Receptacle connector
 K usb universal serial bus type-C full-featured
 F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
+$CMP XL6007
+D 400kHz 60V 2A boost, buck-boost converter
+K SMPS, buck, buck-boost, XL6007
 $ENDCMP
 #
 #End Doc Library

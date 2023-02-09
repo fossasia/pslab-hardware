@@ -11,6 +11,58 @@
   )
 
   (lib_symbols
+    (symbol "+3.3V_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V_1" (id 1) (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3.3V_1_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V_1_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3.3V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "74xx:74HC4051" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -5.08 11.43 0)
         (effects (font (size 1.27 1.27)))
@@ -9273,24 +9325,6 @@
     (pin "2" (uuid 1e892f66-c290-4324-8121-07a6ceab0a5e))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 368.3 182.88 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000060b70a10)
-    (property "Reference" "#PWR081" (id 0) (at 368.3 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (id 1) (at 368.3 179.07 0)
-      (effects (font (size 0.9906 0.9906)))
-    )
-    (property "Footprint" "" (id 2) (at 368.3 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 368.3 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2e22247e-f752-4aff-ba3f-1eee93c9d580))
-  )
-
   (symbol (lib_id "Connector:TestPoint") (at 48.26 261.62 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060bddc97)
@@ -9576,24 +9610,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cdd22fbc-6854-487e-9023-b3c0fd4ee64a))
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 327.66 187.96 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000060c7463f)
-    (property "Reference" "#PWR011" (id 0) (at 327.66 191.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (id 1) (at 327.66 184.15 0)
-      (effects (font (size 0.9906 0.9906)))
-    )
-    (property "Footprint" "" (id 2) (at 327.66 187.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 327.66 187.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9b6c44c3-9c67-4dc2-8aeb-59ad0c7ffa4e))
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 170.18 139.7 0) (unit 1)
@@ -16494,6 +16510,24 @@
     (pin "1" (uuid c63e4550-90ee-4e2f-b646-856db70636f9))
   )
 
+  (symbol (lib_name "+3.3V_1") (lib_id "power:+3.3V") (at 368.3 182.88 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 5a392d7a-d050-4a72-8316-f43f67405e5f)
+    (property "Reference" "#PWR?" (id 0) (at 368.3 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (id 1) (at 368.3 179.07 0)
+      (effects (font (size 1 1)))
+    )
+    (property "Footprint" "" (id 2) (at 368.3 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 368.3 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c3200122-d58c-4ca1-88d2-1bb8cdac596b))
+  )
+
   (symbol (lib_id "power:GND") (at 462.28 175.26 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 63c0f860-98ac-42de-a016-04aac69cb39d)
@@ -16798,6 +16832,24 @@
     (pin "9" (uuid 1fa75894-bc3e-4edf-abab-df9574bc50e8))
   )
 
+  (symbol (lib_name "+3.3V_1") (lib_id "power:+3.3V") (at 327.66 187.96 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid cf0a16f1-819c-4ac5-bdc9-ffad8ab030df)
+    (property "Reference" "#PWR0124" (id 0) (at 327.66 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (id 1) (at 327.66 184.15 0)
+      (effects (font (size 1 1)))
+    )
+    (property "Footprint" "" (id 2) (at 327.66 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 327.66 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b0927188-8cd6-42bd-9a60-9710ade3bca2))
+  )
+
   (symbol (lib_id "PSLab:MCP6S21") (at 520.7 176.53 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d4bc5ad7-ea94-4b35-8678-bc5fa48e5a08)
@@ -17078,9 +17130,6 @@
     (path "/00000000-0000-0000-0000-000061fe13da"
       (reference "#PWR010") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060c7463f"
-      (reference "#PWR011") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000610e5042"
       (reference "#PWR012") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -17261,9 +17310,6 @@
     (path "/00000000-0000-0000-0000-0000624d398b"
       (reference "#PWR080") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060b70a10"
-      (reference "#PWR081") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000066908e91"
       (reference "#PWR083") (unit 1) (value "VDDA") (footprint "")
     )
@@ -17365,6 +17411,9 @@
     )
     (path "/00000000-0000-0000-0000-0000625031a9"
       (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cf0a16f1-819c-4ac5-bdc9-ffad8ab030df"
+      (reference "#PWR0124") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000063263ec9"
       (reference "#PWR0125") (unit 1) (value "VDDA") (footprint "")
@@ -17488,6 +17537,9 @@
     )
     (path "/00000000-0000-0000-0000-000062153bb1"
       (reference "#PWR0165") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5a392d7a-d050-4a72-8316-f43f67405e5f"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061fb9259"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")

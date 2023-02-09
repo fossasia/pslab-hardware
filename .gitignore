@@ -33,3 +33,5 @@ fp-info-cache
 *.ogv
 
 .svg2shenzhen-cache
+
+schematics/PSLab-backups/*

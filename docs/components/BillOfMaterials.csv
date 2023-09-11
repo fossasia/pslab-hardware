@@ -1,64 +1,62 @@
-References,Value,Footprint,Quantity,PartNumber,Price,Datasheet,Description
-BT1,CR1225,BatteryHolder_LINX_BAT-HLD-012-SMT,1,BAT-HLD-012-SMT,0.29,https://eu.mouser.com/datasheet/2/238/bat-hld-012-smt-1659340.pdf,Coin cell battery holder (CR1225/1216)
-BT2,CR1225,Battery_CR1225,1,IEC-CR1225,1,https://data.energizer.com/PDFs/cr1225.pdf,3V 12.5mm x 2.5 mm 48 mAh
-C23 C29,0.5pF,C_0603_1608Metric,2,VJ0603A0R5BXJCW1BC,0.45,https://eu.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf,16V 20%
-C8 C10,33pF,C_0603_1608Metric,2,VJ0603A330JXJPW1BC,0.26,https://eu.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf,16V 10%
-C30 C36,1nF,C_0603_1608Metric,2,C0603C102J5RACAUTO,0.12,https://eu.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf,16V 5%
-C7 C40,10nF,C_0603_1608Metric,2,VJ0603Y103JXJPW1BC,0.37,https://eu.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf,16V 5%
-C1 C2 C3 C4 C5 C9 C13 C17 C22 C24 C25 C26 C27 C28 C31 C32 C34 C35 C37 C38 C39 C41 C43,0.1uF,C_0603_1608Metric,23,C0603C104J4RACTU,0.15,https://eu.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf,16V 10%
-C20 C42,1uF,C_0603_1608Metric,2,0603YD105KAT2A,0.18,https://eu.mouser.com/datasheet/2/40/cx5r-776519.pdf,16V 20%
-C45,2.2uF,C_0603_1608Metric,1,GRM188R61E225KA12J,0.192,https://www.mouser.fi/datasheet/2/281/1/GRM188R61E225KA12_04A-1985875.pdf,25V 10%
-C6 C15 C21 C33 C44 C46,10uF,C_0603_1608Metric,6,EMK107BC6106MA-T,0.46,https://eu.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf,16V 20%
-C12 C19,33uF,CP_EIA-3528-21_Kemet-B,2,293D336X9016B2TE3,0.81,https://eu.mouser.com/datasheet/2/427/293d-1763499.pdf,Tantalum 16V 3528-21
-C11 C14 C16 C18,100uF,CP_EIA-6032-28_Kemet-C,4,F931C107KCC,1.29,https://eu.mouser.com/datasheet/2/40/f93-776559.pdf,Tantalum 16V 6032-28
-C47,100uF,CP_EIA-6032-28_Kemet-C,1,F931C107KCC,1.29,https://eu.mouser.com/datasheet/2/40/f93-776559.pdf,Tantalum 16V 6032-28
-D1 D2,6.8V,D_MiniMELF,2,BZV55B6V8 L1,0.23,https://www.mouser.fi/datasheet/2/395/BZV55B2V4_Series_F1804-1918016.pdf,6.8V Zener
-D4,BLUE,LED_0805_2012Metric,1,HSMR-C170-R0000,0.85,https://eu.mouser.com/datasheet/2/678/av02-0977en-1827813.pdf,Blue 0805
-D3,GREEN,LED_0805_2012Metric,1,HSMQ-C170-T0000,0.94,https://eu.mouser.com/datasheet/2/678/av02-0977en-1827813.pdf,Green 0805
-D6,LL4148,D_MiniMELF,1,LL4448 L0,0.11,https://www.mouser.fi/datasheet/2/395/LL4148_SERIES_J15-1918261.pdf,General Purpose diode
-D5,WS2812B,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,1,WS2812B,3.35,https://www.mouser.fi/datasheet/2/737/4684_WS2812B_2020_V1_3_EN-1900866.pdf,RGB LED with integrated controller
-F1,1A,Fuse_1206_3216Metric,1,0ZCJ0025FF2E,0.11,https://www.mouser.fi/datasheet/2/240/Littelfuse_PTC_1812L_Datasheet.pdf-693388.pdf,"Hold 250mA, Trip 500mA"
-J8 J11,Battery Switch,PinHeader_1x02_P2.54mm_Vertical,2,,,~,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-J1,DoublePins,PinSocket_2x14_P2.54mm_Vertical,1,SSW-114-01-T-D,2.28,https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf,Straight female 2.54 mm 2row
-J6,ESP01,ESP-01,1,SSW-104-01-T-D,0.98,https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf,Straight female 2.54 mm 2row
-J4 J5 J7,I2C,PinSocket_1x04_P2.54mm_Vertical,3,SSW-104-01-T-S,0.63,https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf,Straight female 2.54 mm 1row
-J2 J3,Power Pins,PinSocket_1x08_P2.54mm_Vertical,2,SSW-108-01-T-S,0.82,https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf,Straight female 2.54 mm 1row
-J9,SPI,PinSocket_1x06_P2.54mm_Vertical,1,SSW-106-01-T-S,0.68,https://eu.mouser.com/datasheet/2/527/ssw_th-1507658.pdf,Straight female 2.54 mm 1row
-L2,2.2uH,L_Coilcraft_XAL5030,1,XAL5030-222MEC,2.03,https://www.mouser.fi/datasheet/2/597/xal50xx-270657.pdf,Fixed Inductors 2.2uH Shld 20% 9.2A 14.5mOhms AECQ2
-L1,10uH,L_0603_1608Metric,1,MLZ1608N100LT000,0.17,https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz1608_en.pdf?ref_disty=mouser,300-500 mA Shielded
-P1,SDCard,microSD_HC_Hirose_DM3AT-SF-PEJM5,1,DM3AT-SF-PEJM5(11),2.45,https://eu.mouser.com/datasheet/2/185/DM3_catalog-939223.pdf,8P R/A SMT MICRO SD PUSH-PUSH
-Q2,MMBT3904,SOT-23,1,"MMBT3904,215",0.1,https://eu.mouser.com/datasheet/2/916/MMBT3904-1599187.pdf,"45V Vce, 0.8A Ic, NPN, SOT-23"
-Q1,MMBT3906,SOT-23,1,MMBT3906-7-F,0.11,https://eu.mouser.com/datasheet/2/115/ds30059-15980.pdf,"45V Vce, 0.8A Ic, PNP, SOT-23"
-Q3,MMBT3906,SOT-23,1,MMBT3906-7-F,0.11,https://eu.mouser.com/datasheet/2/115/ds30059-15980.pdf,"45V Vce, 0.8A Ic, PNP, SOT-23"
-Q4,Q_NMOS_DGS,PowerPAK_SO-8_Single,1,SIR424DP-T1-GE3,0.99,https://www.mouser.fi/datasheet/2/427/sir424dp-1765120.pdf,MOSFET 20V Vds 20V Vgs PowerPAK SO-8
-R62,6m,R_0603_1608Metric,1,,,~,Resistor
-R4 R13 R54 R55 R56 R57,18,R_0603_1608Metric,6,RR0816Q-180-D,0.1,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
-R6 R7 R8 R9 R49,200,R_0603_1608Metric,5,RR0816P-201-D,0.1,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
-R5 R11 R27 R36 R47 R51,1K,R_0603_1608Metric,6,RR0816P-102-D,0.12,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
-R61,2K,R_0603_1608Metric,1,,,~,Resistor
-R2 R3 R12 R15 R26 R41 R43 R44 R48 R52 R53 R59 R60,5K1,R_0603_1608Metric,13,RR0816P-512-D,0.1,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
-R1 R10 R14 R16 R17 R18 R19 R21 R22 R23 R25 R28 R29 R31 R32 R33 R35 R37 R38 R39 R42 R58 R67,10K,R_0603_1608Metric,23,RR0816P-103-D,0.12,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
-R66,60K4,R_0603_1608Metric,1,,,~,Resistor
-R65,178K,R_0603_1608Metric,1,,,~,Resistor
-R20 R30 R40 R46 R50,200K,R_0603_1608Metric,5,RR0816P-204-D,0.1,https://eu.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf,1/16W 5%
-R64,324K,R_0603_1608Metric,1,,,~,Resistor
-R24 R34 R45,1M,R_0603_1608Metric,3,RT0603FRE071ML,0.1,https://www.mouser.fi/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_11-1669912.pdf,1/16W 5%
-R63,1690K,R_0603_1608Metric,1,,,~,Resistor
-SW1,BOOT,SW_SPST_B3U-1000P,1,B3U-1000P,0.56,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf,Tactile Switches SPST SMD
-SW2,MCLR Reset,SW_SPST_B3U-1000P,1,B3U-1000P,0.56,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf,Tactile Switches SPST SMD
-SW3,USB_C - Generic,USB_C_Receptacle_XKB_U262-16XN-4BVC11,1,U262-161N-4BVC11,0.32,https://cdn.sparkfun.com/assets/8/6/b/4/5/A40-00119-A52-12.pdf,USB - Type C Female 16 SMT
-U2,74HC126,TSSOP-14_4.4x5mm_P0.65mm,1,SN74HC126PW,0.42,http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc126,TSSOP-14
-U15,CP2102N,QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,1,CP2102N-A02-GQFN24,1.35,https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf,QFN-24-1EP_4x4mm_Pitch0.5mm
-U4,DS1307Z+,SOIC-8_3.9x4.9mm_P1.27mm,1,DS1307Z+,3.69,https://eu.mouser.com/datasheet/2/256/DS1307-1513036.pdf,Real Time Clock IC
-U1,LDFM33PUR,DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm,1,LDFM33PUR,0.72,https://eu.mouser.com/datasheet/2/389/dm00063302-1797750.pdf,DFN-6-1EP_3x3mm_Pitch0.95mm
-U7,LM324,TSSOP-14_4.4x5mm_P0.65mm,1,LM324APT,0.45,https://eu.mouser.com/datasheet/2/389/cd00001046-1795623.pdf,TSSOP-14
-U18,LTC4040,LTC4040,1,LTC4040EUFD#PBF,7.02,https://www.analog.com/media/en/technical-documentation/data-sheets/4040fb.pdf,Battery Management 2.5A Battery Backup Power Manager
-U12,MCP4728,MSOP-10_3x3mm_P0.5mm,1,MCP4728-E/UN,2.00,http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf,DAC 12bit
-U13 U14,MCP6S21,SOIC-8_3.9x4.9mm_P1.27mm,2,MCP6S21-I/SN,1.21,https://eu.mouser.com/datasheet/2/268/21117a-70287.pdf,Special Purpose Amplifiers 1-Chan. 12 MHz SPI
-U3,PIC24EP256GP204,TQFP-44_10x10mm_P0.8mm,1,PIC24EP256GP204-I/PT,3.35,https://eu.mouser.com/datasheet/2/268/70000657H-277982.pdf,24bit Microcontroller
-U16,SP0503BAHT,SOT-143,1,SP0503BAHTG,0.8,https://eu.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_Array_SP05_Datasheet.pdf-777043.pdf,SOT-143
-U19,TC1240A,SOT-23-6,1,TC1240AECHTR,0.82,https://eu.mouser.com/datasheet/2/268/21516c-4387.pdf,SOT-23-6
-U5,TC7660,SOIC-8_3.9x4.9mm_P1.27mm,1,TC7660SEOA713,0.9,https://eu.mouser.com/datasheet/2/268/21467B-1180369.pdf,SOIC 8
-U8 U9 U10 U11,TL082,SOIC-8_3.9x4.9mm_P1.27mm,4,TL082CDR,0.41,http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl082,SOIC 8
-X2,32.768 kHz,Crystal_SMD_3215-2Pin_3.2x1.5mm,1,ABS07-166-32.768KHZ-T,0.66,https://eu.mouser.com/datasheet/2/3/ABS07-166-32.768kHz-T-1359238.pdf,RTC Crystal 32.768 kHz
-Y1,12 MHz,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,,,~,"Four pin crystal, GND on pins 2 and 4, small symbol"
+Reference,Quantity,Value,Component,Footprint,Description,Vendor
+"C1, C2, C3, C4, C9, C13, C17, C18, C24, C25, C27, C32, C34, C35, C37, C38, C39, C43, ",18,100nF,C_Small,Capacitor_SMD:C_0603_1608Metric,"Unpolarized capacitor, small symbol",
+"C5, C7, C23, C40, ",4,10nF,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,
+"C6, C12, C14, C15, C21, C33, C44, ",7,10uF,C_Small,Capacitor_SMD:C_0603_1608Metric,"Unpolarized capacitor, small symbol",
+"C8, C10, C53, ",3,12pF,C_Small,Capacitor_SMD:C_0603_1608Metric,"Unpolarized capacitor, small symbol",
+"C11, ",1,2.2uF,C_Small,Capacitor_SMD:C_0603_1608Metric,"Unpolarized capacitor, small symbol",
+"C20, C42, C52, ",3,1uF,C_Small,Capacitor_SMD:C_0603_1608Metric,"Unpolarized capacitor, small symbol",
+"C30, C36, ",2,1nF,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,
+"C45, C46, C47, C48, C49, C50, C51, C54, ",8,22uF,C_Small,Capacitor_SMD:C_0603_1608Metric,"Unpolarized capacitor, small symbol",
+"D1, D2, ",2,6.8V,D_Zener_Small_ALT,Diode_SMD:D_MiniMELF,,
+"D3, ",1,GREEN,LED_Filled,LED_SMD:LED_0805_2012Metric,"Light emitting diode, filled shape",
+"D4, ",1,BLUE,LED_Filled,LED_SMD:LED_0805_2012Metric,"Light emitting diode, filled shape",
+"D5, ",1,WS2812B,WS2812B,LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,RGB LED with integrated controller,
+"D7, ",1,K1N5817HW-7-F,D_Schottky,Diode_SMD:D_SOD-123,Schottky diode,
+"D8, D9, ",2,1N4148W,1N4148W,Diode_SMD:D_MiniMELF,"75V 0.15A Fast Switching Diode, SOD-123",
+"D10, D11, D12, D13, ",4,White,LED_Small,LED_SMD:LED_0603_1608Metric,"Light emitting diode, small symbol",
+"F1, ",1,1A,Polyfuse,Fuse:Fuse_1206_3216Metric,"Resettable fuse, polymeric positive temperature coefficient",
+"J1, ",1,DoublePins,Conn_02x14_Odd_Even,Connector_PinSocket_2.54mm:PinSocket_2x14_P2.54mm_Vertical,"Generic connector, double row, 02x14, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",
+"J6, ",1,ESP01,ESP01,PSLab:ESP-01,,
+"J8, ",1,DM3AT-SF-PEJM5(11),Micro_SD_Card_Det_9_pin,PSLab:TF-015,Micro SD Card Socket with card detection pins,
+"J10, ",1,Programmer,Conn_01x05,Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",
+J4 J5 J7,3,SSW-104-01-T-S,I2C,PinSocket_1x04_P2.54mm_Vertical,,
+J9,1,SSW-106-01-T-S,SPI,PinSocket_1x06_P2.54mm_Vertical,,
+J2 J3,2,SSW-108-01-T-S,Power Pins,PinSocket_1x08_P2.54mm_Vertical,,
+"J11, ",1,IEC-CR1225,Battery_Cell,PSLab:2.0mm_connector_edge,3V 12.5mm x 2.5 mm 48 mAh,
+"J12, ",1,U262-161N-4BVC11,USB_C_Receptacle,incremental_library:USB_C_Receptacle_12pin_SMT,"400kHz 60V 2A boost, buck-boost converter",
+"J13, ",1,CR1225,Battery_Cell,PSLab:BatteryHolder_A359,Single-cell battery,
+"L1, L3, L4, ",3,3.3uH,L_Small,Inductor_SMD:L_Taiyo-Yuden_MD-2020,"Inductor, small symbol",
+"L2, ",1,4.7uH,L_Small,Inductor_SMD:L_Taiyo-Yuden_MD-2020,"Inductor, small symbol",
+"MH1, MH2, MH3, MH4, ",4,M,MountingHole_Pad,MountingHole:MountingHole_3.2mm_M3_DIN965_Pad,Mounting Hole with connection,
+"Q1, Q3, ",2,MMBT3906,Q_PNP_BEC,Package_TO_SOT_SMD:SOT-23,"PNP transistor, base/emitter/collector",
+"Q2, ",1,MMBT3904,Q_NPN_BEC,Package_TO_SOT_SMD:SOT-23,"NPN transistor, base/emitter/collector",
+"R1, R4, R10, R14, R16, R17, R18, R19, R21, R23, R25, R29, R31, R32, R33, R35, R37, R38, R39, R42, R58, R64, R66, R67, R70, R71, R72, R73, R76, R78, R79, ",31,10k,R,Resistor_SMD:R_0603_1608Metric,Resistor,
+"R2, R3, R12, R15, R26, R41, R43, R44, R48, R52, R53, R59, R60, ",13,5.1k,R,Resistor_SMD:R_0603_1608Metric,Resistor,
+"R5, R11, R36, R47, R51, ",5,1k,R,Resistor_SMD:R_0603_1608Metric,Resistor,
+"R6, R7, R8, R9, R49, ",5,200,R,Resistor_SMD:R_0603_1608Metric,Resistor,
+"R20, R30, R40, R46, R50, R63, R77, ",7,200k,R_Small,Resistor_SMD:R_0603_1608Metric,"Resistor, small symbol",
+"R22, ",1,12k,R,Resistor_SMD:R_0603_1608Metric,Resistor,
+"R24, R34, R45, ",3,1M,R,Resistor_SMD:R_0603_1608Metric,Resistor,
+"R54, R55, R56, R57, ",4,18,R,Resistor_SMD:R_0603_1608Metric,Resistor,
+"R61, ",1,51k,R_Small,Resistor_SMD:R_0603_1608Metric,"Resistor, small symbol",
+"R68, ",1,180k,R_Small,Resistor_SMD:R_0603_1608Metric,"Resistor, small symbol",
+"R69, ",1,30k,R_Small,Resistor_SMD:R_0603_1608Metric,"Resistor, small symbol",
+"R75, ",1,100k,R_Small,Resistor_SMD:R_0603_1608Metric,"Resistor, small symbol",
+"SW1, SW2, SW3, ",3,SW_MEC_5E,SW_MEC_5E,PSLab:button_SPST_3x4x2.5,MEC 5E single pole normally-open tactile switch,
+"U1, ",1,AP3015A,AP3015A,Package_TO_SOT_SMD:SOT-23-5,Micro Power Step-Up DC-DC Converter,
+"U2, ",1,74HC126,74LS126,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,Quad buffer 3-State outputs,
+"U3, ",1,PIC24EP256GP204,PIC24EP256GP204,Package_QFP:TQFP-44_10x10mm_P0.8mm,,
+"U4, ",1,DS1307Z+T&R,DS1307Z+,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,"64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, 0°C to +70°C, SOIC-8",
+"U6, ",1,AMS1117-3.3,AMS1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,"1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",
+"U7, ",1,LM324,LM324,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,"Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14",
+"U9, U10, U11, U13, ",4,TL082,TL082,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,"Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8",
+"U12, ",1,74HC4051,74HC4051,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,"8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16",
+"U14, U18, ",2,MCP6S21,MCP6S21,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,"High-Efficiency, 2A, 4.5V-21V, 500kHz Synchronous, Step-Down Converter, SOT-23-6",
+"U15, ",1,CP2102N-xxx-xQFN20x,CP2102N-xxx-xQFN20x,PSLab:QFN-20_EP_3x3_Pitch0.5mm,,
+"U16, ",1,SP0503BAHT,SP0503BAHT,Package_TO_SOT_SMD:SOT-143,"TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package",
+"U17, ",1,MT1470,MT1470,Package_TO_SOT_SMD:SOT-23-6,"High-Efficiency, 2A, 4.5V-21V, 500kHz Synchronous, Step-Down Converter, SOT-23-6",
+"U20, ",1,MCP4822,MCP4822,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V),
+"U21, ",1,IP5189T,IP5189T,Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,,
+"X1, ",1,12MHz,Crystal,Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm,Two pin crystal,
+"X2, ",1,32.768 kHz,Crystal_Small,Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm,"Two pin crystal, small symbol",
+"Z1, ",1,CR1225,Battery,Battery:Battery_CR1225,,

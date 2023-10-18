@@ -14,7 +14,7 @@ filters:
 preflight:
   check_zone_fills: true
   ignore_unconnected: false
-  run_drc: true
+  run_drc: true 
   run_erc: true
   update_xml: false
   
@@ -64,6 +64,22 @@ outputs:
       use_alt: false
       variant: ''
 ###############################################################################
+  - name: 'diff_checker_sch'
+    comment: "Checking difference between schematics"
+    type: diff
+    dir: '../docs/components'
+    options:
+      output: 'diff_schematic.pdf'
+      pcb: false
+###############################################################################
+  - name: 'diff_checker_pcb'
+    comment: "Checking difference between pcb layouts"
+    type: diff
+    dir: '../docs/components'
+    options:
+      output: 'diff_pcb.pdf'
+      pcb: true
+###############################################################################
   - name: 'interactive_bom'
     comment: "Interactive Bill of Materials"
     type: ibom
@@ -93,7 +109,6 @@ outputs:
       variants_whitelist: ''
       variants_blacklist: ''
       dnp_field: ''
-
 ###############################################################################
   - name: 'gerber_generator'
     comment: "Gerbers files"
@@ -124,12 +139,14 @@ outputs:
     layers:
       - 'F.SilkS'
       - 'F.Mask'
+      - 'F.Paste'
       - 'L1.Front'
       - 'L2.Ground'
       - 'L3.Power'
       - 'L4.Signal'
       - 'B.Mask'
       - 'B.SilkS'
+      - 'B.Paste'
       - 'Edge.Cuts'
       - 'Eco1.User'
 

@@ -11,6 +11,10 @@ filters:
       - MH*
       - FID*
 
+global:
+  kiauto_time_out_scale: 4.0
+  kiauto_wait_start: 120
+
 preflight:
   check_zone_fills: true
   ignore_unconnected: false
@@ -71,6 +75,7 @@ outputs:
     options:
       output: 'diff_schematic.pdf'
       pcb: false
+      old: 'HEAD'
 ###############################################################################
   - name: 'diff_checker_pcb'
     comment: "Checking difference between pcb layouts"
@@ -79,6 +84,7 @@ outputs:
     options:
       output: 'diff_pcb.pdf'
       pcb: true
+      old: 'HEAD'
 ###############################################################################
   - name: 'interactive_bom'
     comment: "Interactive Bill of Materials"

@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Download project files
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
         
       - name: Install KiCAD
         run: |
@@ -41,7 +43,13 @@ jobs:
 
       - name: Change Imagemagic Policy
         run: sudo sed -i 's/<policy domain="coder" rights="none" pattern="PDF"/<policy domain="coder" rights="read|write" pattern="PDF"/g' /etc/ImageMagick-6/policy.xml
-        
+      
+      - name: Update kibot configuration
+        run: |
+          commit_id=$(git ls-remote https://github.com/fossasia/pslab-hardware.git refs/heads/pslab-v6 | cut -f 1)
+          commit_id_escaped=$(sed 's/[&/\]/\\&/g' <<< "$commit_id")
+          sed -i "s/old: 'HEAD'/old: '$commit_id_escaped'/g" schematics/CI.kibot.yaml
+      
       - name: Run build
         run: |
           cd schematics

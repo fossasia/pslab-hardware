@@ -17,6 +17,7 @@ _autosave-*
 fp-info-cache
 *erc.txt
 *drc.txt
+*.lck
 
 # Netlist files (exported from Eeschema)
 *.net

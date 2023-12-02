@@ -1,0 +1,2197 @@
+KiAuto:Waiting for `['GTK:Window Title:', 'PANGO:0:']` starts=True times=1
+* wrapping fopen
+IO:open:/proc/filesystems
+IO:fopen:re
+* wrapping fclose
+* next_func : 0x7f2c053c38b0
+IO:close:/proc/filesystems
+* wrapping open64
+IO:open:/usr/share/drirc.d/00-mesa-defaults.conf
+IO:open64:0x107A130
+* wrapping close
+IO:close:/usr/share/drirc.d/00-mesa-defaults.conf
+IO:open:/etc/drirc
+IO:open64:0x107A130
+IO:open:/root/.drirc
+IO:open64:0x107A130
+IO:open:/usr/share/drirc.d/00-mesa-defaults.conf
+IO:open64:0x107A130
+IO:close:/usr/share/drirc.d/00-mesa-defaults.conf
+IO:open:/etc/drirc
+IO:open64:0x107A130
+IO:open:/root/.drirc
+IO:open64:0x107A130
+* wrapping open
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:close:socket:[29068]
+IO:open:/var/lib/dbus/machine-id
+IO:open:0xC81E4420
+IO:close:/var/lib/dbus/machine-id
+IO:close:pipe:[29070]
+IO:close:pipe:[29071]
+IO:open:/dev/null
+IO:open:0x5527A98
+IO:close:/dev/null
+IO:close:pipe:[29070]
+IO:close:pipe:[29071]
+IO:close:pipe:[29070]
+IO:close:pipe:[29071]
+* wrapping fopen64
+IO:open:/usr/lib/ssl/openssl.cnf
+IO:fopen64:rb
+IO:close:/etc/ssl/openssl.cnf
+IO:open:/usr/share/kicad/internat/en/kicad.mo
+IO:open64:0x1B6
+IO:close:/usr/share/kicad/internat/en/kicad.mo
+IO:open:/root/.config/kicad/7.0/kicad_common.json
+IO:fopen64:rt
+IO:close:/root/.config/kicad/7.0/kicad_common.json
+IO:open:/usr/share/kicad/internat/en/kicad.mo
+IO:open64:0x1B6
+IO:close:/usr/share/kicad/internat/en/kicad.mo
+IO:open:/usr/pyvenv.cfg
+IO:fopen64:rb
+IO:open:/usr/bin/pyvenv.cfg
+IO:fopen64:rb
+IO:open:/usr/bin/python3._pth
+IO:fopen64:rb
+IO:open:/usr/bin/python3.11._pth
+IO:fopen64:rb
+IO:open:/usr/bin/pybuilddir.txt
+IO:fopen64:rb
+IO:open:/usr/lib/python3.11/encodings/__pycache__/__init__.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/encodings/__pycache__/__init__.cpython-311.pyc
+IO:open:/usr/lib/python3.11/encodings/__pycache__/aliases.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/encodings/__pycache__/aliases.cpython-311.pyc
+IO:open:/usr/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.pyc
+IO:open:/usr/lib/python3/dist-packages/distutils-precedence.pth
+IO:open64:0x1B6
+IO:open:/usr/lib/python3/dist-packages/_distutils_hack/__pycache__/__init__.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/_distutils_hack/__pycache__/__init__.cpython-311.pyc
+IO:close:/usr/lib/python3/dist-packages/distutils-precedence.pth
+IO:open:/usr/lib/python3.11/__pycache__/sitecustomize.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/__pycache__/sitecustomize.cpython-311.pyc
+IO:open:/usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache
+IO:open64:0x0
+IO:close:/usr/lib/x86_64-linux-gnu/gio/modules/giomodule.cache
+IO:open:/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache
+IO:open64:0x1B6
+IO:close:/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache
+IO:open:/root/.config/kicad/7.0/kicad.json
+IO:fopen64:rt
+IO:close:/root/.config/kicad/7.0/kicad.json
+IO:open:/root/.config/kicad/7.0/symbol_editor.json
+IO:fopen64:rt
+IO:close:/root/.config/kicad/7.0/symbol_editor.json
+IO:open:/root/.config/kicad/7.0/eeschema.json
+IO:fopen64:rt
+IO:close:/root/.config/kicad/7.0/eeschema.json
+IO:open:/root/.config/kicad/7.0/sym-lib-table
+IO:fopen64:rt
+IO:close:/root/.config/kicad/7.0/sym-lib-table
+* wrapping window title change
+GTK:Window Title:Eeschema
+KiAuto:match
+KiAuto:Waiting for `['GTK:Window Title:', 'PANGO:0:']` starts=True times=1
+* wrapping widget show
+IO:close:/etc/fonts/fonts.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-hinting-slight.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-yes-antialias.conf
+IO:close:/usr/share/fontconfig/conf.avail/11-lcdfilter-default.conf
+IO:close:/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans-mono.conf
+IO:close:/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans.conf
+IO:close:/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-serif.conf
+IO:close:/etc/fonts/conf.avail/20-unhint-small-dejavu-sans-mono.conf
+IO:close:/etc/fonts/conf.avail/20-unhint-small-dejavu-sans.conf
+IO:close:/etc/fonts/conf.avail/20-unhint-small-dejavu-serif.conf
+IO:close:/usr/share/fontconfig/conf.avail/20-unhint-small-vera.conf
+IO:close:/usr/share/fontconfig/conf.avail/30-metric-aliases.conf
+IO:close:/usr/share/fontconfig/conf.avail/40-nonlatin.conf
+IO:close:/usr/share/fontconfig/conf.avail/45-generic.conf
+IO:close:/usr/share/fontconfig/conf.avail/45-latin.conf
+IO:close:/usr/share/fontconfig/conf.avail/48-spacing.conf
+IO:close:/usr/share/fontconfig/conf.avail/49-sansserif.conf
+IO:close:/usr/share/fontconfig/conf.avail/50-user.conf
+IO:close:/usr/share/fontconfig/conf.avail/51-local.conf
+IO:close:/etc/fonts/conf.avail/57-dejavu-sans-mono.conf
+IO:close:/etc/fonts/conf.avail/57-dejavu-sans.conf
+IO:close:/etc/fonts/conf.avail/57-dejavu-serif.conf
+IO:close:/etc/fonts/conf.avail/58-dejavu-lgc-sans-mono.conf
+IO:close:/etc/fonts/conf.avail/58-dejavu-lgc-sans.conf
+IO:close:/etc/fonts/conf.avail/58-dejavu-lgc-serif.conf
+IO:close:/usr/share/fontconfig/conf.avail/60-generic.conf
+IO:close:/usr/share/fontconfig/conf.avail/60-latin.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-bookman.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-c059.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-d050000l.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-fallback-backwards.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-fallback-generics.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-gothic.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-nimbus-mono-ps.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-nimbus-roman.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-nimbus-sans.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-p052.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-standard-symbols-ps.conf
+IO:close:/usr/share/fontconfig/conf.avail/urw-z003.conf
+IO:close:/usr/share/fontconfig/conf.avail/65-fonts-persian.conf
+IO:close:/usr/share/fontconfig/conf.avail/65-nonlatin.conf
+IO:close:/usr/share/fontconfig/conf.avail/69-unifont.conf
+IO:close:/usr/share/fontconfig/conf.avail/70-no-bitmaps.conf
+IO:close:/usr/share/fontconfig/conf.avail/80-delicious.conf
+IO:close:/usr/share/fontconfig/conf.avail/90-synthetic.conf
+IO:close:/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf
+IO:close:/usr/share/fontconfig/conf.avail/09-autohint-if-no-hinting.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-autohint.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-hinting-full.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-hinting-medium.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-hinting-none.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-no-antialias.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-no-sub-pixel.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-sub-pixel-bgr.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-sub-pixel-vbgr.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-sub-pixel-vrgb.conf
+IO:close:/usr/share/fontconfig/conf.avail/10-unhinted.conf
+IO:close:/usr/share/fontconfig/conf.avail/11-lcdfilter-legacy.conf
+IO:close:/usr/share/fontconfig/conf.avail/11-lcdfilter-light.conf
+IO:close:/usr/share/fontconfig/conf.avail/25-unhint-nonlatin.conf
+IO:close:/usr/share/fontconfig/conf.avail/35-lang-normalize.conf
+IO:close:/usr/share/fontconfig/conf.avail/65-khmer.conf
+IO:close:/usr/share/fontconfig/conf.avail/70-force-bitmaps.conf
+IO:close:/usr/share/fontconfig/conf.avail/70-yes-bitmaps.conf
+IO:close:/usr/local/share/fonts
+IO:close:/var/cache/fontconfig/4c599c202bc5c08e2d34565a40eac3b2-le64.cache-8
+IO:close:/usr/share/fonts
+IO:close:/var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-8
+IO:close:/usr/share/fonts/X11
+IO:close:/var/cache/fontconfig/c855463f699352c367813e37f3f70ea7-le64.cache-8
+IO:close:/usr/share/fonts/cMap
+IO:close:/var/cache/fontconfig/32b6488e5b8292a2e95c79d947e009e8-le64.cache-8
+IO:close:/usr/share/fonts/cmap
+IO:close:/var/cache/fontconfig/57e423e26b20ab21d0f2f29c145174c3-le64.cache-8
+IO:close:/usr/share/fonts/opentype
+IO:close:/var/cache/fontconfig/573ec803664ed168555e0e8b6d0f0c7f-le64.cache-8
+IO:close:/usr/share/fonts/truetype
+IO:close:/var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-8
+IO:close:/usr/share/fonts/type1
+IO:close:/var/cache/fontconfig/d82eb4fd963d448e2fcb7d7b793b5df3-le64.cache-8
+IO:close:/usr/share/fonts/X11/Type1
+IO:close:/var/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-8
+IO:close:/usr/share/fonts/X11/encodings
+IO:close:/var/cache/fontconfig/707971e003b4ae6c8121c3a920e507f5-le64.cache-8
+IO:close:/usr/share/fonts/X11/util
+IO:close:/var/cache/fontconfig/fe547fea3a41b43a38975d292a2b19c7-le64.cache-8
+IO:close:/usr/share/poppler/cMap/Adobe-CNS1
+IO:close:/var/cache/fontconfig/f1f2465696798768e9653f19e17ccdc8-le64.cache-8
+IO:close:/usr/share/poppler/cMap/Adobe-GB1
+IO:close:/var/cache/fontconfig/95530828ff6c81d309f8258d8d02a23e-le64.cache-8
+IO:close:/usr/share/poppler/cMap/Adobe-Japan1
+IO:close:/var/cache/fontconfig/d3e5c4ee2ceb1fc347f91d4cefc53bc0-le64.cache-8
+IO:close:/usr/share/poppler/cMap/Adobe-Japan2
+IO:close:/var/cache/fontconfig/e52a45a1c8c8fe895fc0fc8c4e6999b8-le64.cache-8
+IO:close:/usr/share/poppler/cMap/Adobe-Korea1
+IO:close:/var/cache/fontconfig/188ac73a183f12857f63bb60a4a6d603-le64.cache-8
+IO:close:/usr/share/fonts/opentype/urw-base35
+IO:close:/var/cache/fontconfig/6cc790b63b123a6a96ee260fcdad32a9-le64.cache-8
+IO:close:/usr/share/fonts/truetype/dejavu
+IO:close:/var/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-8
+IO:close:/usr/share/fonts/type1/urw-base35
+IO:close:/var/cache/fontconfig/a4e60e8d1e10d2fdff3fe3037a1845fb-le64.cache-8
+IO:close:/usr/share/fonts/X11/encodings/large
+IO:close:/var/cache/fontconfig/6333f38776742d18e214673cd2c24e34-le64.cache-8
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.icons/default/cursors/col-resize
+IO:fopen:r
+IO:open:/root/.icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/icons/default/cursors/col-resize
+IO:fopen:r
+IO:open:/usr/share/icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/cursors/col-resize
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/index.theme
+IO:fopen:r
+IO:open:/root/.icons/default/cursors/h_double_arrow
+IO:fopen:r
+IO:open:/root/.icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/icons/default/cursors/h_double_arrow
+IO:fopen:r
+IO:open:/usr/share/icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/cursors/h_double_arrow
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/index.theme
+IO:fopen:r
+IO:open:/root/.icons/default/cursors/left_ptr
+IO:fopen:r
+IO:open:/root/.icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/icons/default/cursors/left_ptr
+IO:fopen:r
+IO:open:/usr/share/icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/cursors/left_ptr
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/index.theme
+IO:fopen:r
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+IO:open:/root/.Xdefaults
+IO:open:0xFFB
+IO:open:/root/.Xdefaults-032b1e1b554d
+IO:open:0x62316531
+* wrapping PANGO
+PANGO:W
+IO:open:/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+IO:open64:0x0
+IO:close:/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+IO:open:/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+IO:open:0x50
+IO:close:/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+PANGO:The quick brown fox jumps over the lazy dog.
+PANGO:0123456789
+PANGO:H
+PANGO:The quick brown fox jumps over the lazy dog.
+PANGO:0123456789
+PANGO:H
+PANGO:M
+PANGO:Z 762000
+PANGO:X 1234.1234  Y 1234.1234
+PANGO:dx 1234.1234  dy 1234.1234  dist 1234.1234
+PANGO:grid X 1234.1234  Y 1234.1234
+PANGO:Inches
+PANGO:Add layer alignment target
+PANGO:Constrain to H, V, 45
+PANGO:W
+GTK:Window Title:
+KiAuto:match
+KiAuto:Waiting for `['GTK:Window Title:', 'PANGO:0:']` starts=True times=1
+IO:open:/root/.cache/mesa_shader_cache/index
+IO:open64:0x1A4
+IO:close:/root/.cache/mesa_shader_cache/index
+IO:open:/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules.cache
+IO:fopen64:r
+IO:close:/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules.cache
+GTK:Window Show:
+IO:open:/root/.cache/mesa_shader_cache/76/7e50900196ce6bcd11177c5f2125e411e6780e
+IO:open64:0xC81E47E8
+IO:open:/root/.cache/mesa_shader_cache/76/7e50900196ce6bcd11177c5f2125e411e6780e.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/76/7e50900196ce6bcd11177c5f2125e411e6780e.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/76/7e50900196ce6bcd11177c5f2125e411e6780e
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/76/7e50900196ce6bcd11177c5f2125e411e6780e
+* wrapping widget destroy
+GTK:Window Destroy:
+IO:open:/usr/share/kicad/resources/images.tar.gz
+IO:fopen64:rb
+IO:close:/usr/share/kicad/resources/images.tar.gz
+IO:close:socket:[29080]
+* wrapping label set text
+GTK:Label Set Text 2:Grid: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Grid: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Grid: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Grid: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Grid: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:User grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Grid: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Grid: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Grid: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Grid: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:User grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Grid: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Grid: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Grid: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Grid: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:User grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Grid: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Grid: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Grid: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Grid: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:User grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Grid: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Grid: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Grid: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Grid: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:User grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Grid: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Grid: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Grid: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Grid: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:User grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Grid: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Grid: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Grid: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Grid: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:User grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Grid: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Grid: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Grid: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Grid: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:User grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Grid: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Grid: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Grid: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Grid: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:User grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Grid: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Grid: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Grid: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Grid: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:User grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Grid: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Grid: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Grid: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Grid: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:User grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 2.5400 mm (0.1000 in)
+GTK:Label Set Text 2:Grid: 1.2700 mm (0.0500 in)
+GTK:Label Set Text 2:Grid: 0.6350 mm (0.0250 in)
+GTK:Label Set Text 2:Grid: 0.2540 mm (0.0100 in)
+GTK:Label Set Text 2:Grid: 0.1270 mm (0.0050 in)
+GTK:Label Set Text 2:Grid: 0.0508 mm (0.0020 in)
+GTK:Label Set Text 2:Grid: 0.0254 mm (0.0010 in)
+GTK:Label Set Text 2:User grid: 1.2700 mm (0.0500 in)
+IO:open:/root/.config/kicad/7.0/user.hotkeys
+IO:fopen64:rb
+IO:close:/root/.config/kicad/7.0/user.hotkeys
+IO:open:/usr/lib/python3.11/__pycache__/textwrap.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/__pycache__/textwrap.cpython-311.pyc
+IO:open:/usr/lib/python3.11/re/__pycache__/__init__.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/re/__pycache__/__init__.cpython-311.pyc
+IO:open:/usr/lib/python3.11/__pycache__/enum.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/__pycache__/enum.cpython-311.pyc
+IO:open:/usr/lib/python3.11/__pycache__/types.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/__pycache__/types.cpython-311.pyc
+IO:open:/usr/lib/python3.11/__pycache__/operator.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/__pycache__/operator.cpython-311.pyc
+IO:open:/usr/lib/python3.11/__pycache__/functools.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/__pycache__/functools.cpython-311.pyc
+IO:open:/usr/lib/python3.11/collections/__pycache__/__init__.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/collections/__pycache__/__init__.cpython-311.pyc
+IO:open:/usr/lib/python3.11/__pycache__/keyword.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/__pycache__/keyword.cpython-311.pyc
+IO:open:/usr/lib/python3.11/__pycache__/reprlib.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/__pycache__/reprlib.cpython-311.pyc
+IO:open:/usr/lib/python3.11/re/__pycache__/_compiler.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/re/__pycache__/_compiler.cpython-311.pyc
+IO:open:/usr/lib/python3.11/re/__pycache__/_parser.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/re/__pycache__/_parser.cpython-311.pyc
+IO:open:/usr/lib/python3.11/re/__pycache__/_constants.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/re/__pycache__/_constants.cpython-311.pyc
+IO:open:/usr/lib/python3.11/re/__pycache__/_casefix.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/re/__pycache__/_casefix.cpython-311.pyc
+IO:open:/usr/lib/python3.11/__pycache__/copyreg.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/__pycache__/copyreg.cpython-311.pyc
+IO:open:/usr/lib/python3/dist-packages/wx/__pycache__/__init__.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/wx/__pycache__/__init__.cpython-311.pyc
+IO:open:/usr/lib/python3/dist-packages/wx/__pycache__/__version__.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/wx/__pycache__/__version__.cpython-311.pyc
+IO:open:/usr/lib/python3/dist-packages/wx/__pycache__/core.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/wx/__pycache__/core.cpython-311.pyc
+IO:open:/usr/lib/python3.11/__pycache__/datetime.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/__pycache__/datetime.cpython-311.pyc
+IO:open:/usr/lib/python3.11/__pycache__/warnings.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3.11/__pycache__/warnings.cpython-311.pyc
+IO:open:/usr/lib/python3/dist-packages/wx/__pycache__/adv.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/wx/__pycache__/adv.cpython-311.pyc
+IO:open:/usr/lib/python3/dist-packages/wx/__pycache__/html.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/wx/__pycache__/html.cpython-311.pyc
+IO:open:/usr/lib/python3/dist-packages/wx/__pycache__/richtext.cpython-311.pyc
+IO:open64:0x1B6
+IO:close:/usr/lib/python3/dist-packages/wx/__pycache__/richtext.cpython-311.pyc
+PANGO:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+GTK:Label Set Text 2:Grid Properties...
+PANGO:Root (page 1)
+IO:open:/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+IO:open64:0x0
+IO:close:/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+IO:open:/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+IO:open:0x50
+IO:close:/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+PANGO:The quick brown fox jumps over the lazy dog.
+PANGO:0123456789
+IO:open:/usr/share/icons/hicolor/index.theme
+IO:open64:0x0
+IO:close:/usr/share/icons/hicolor/index.theme
+IO:open:/usr/share/locale/locale.alias
+IO:fopen64:r
+IO:open:/usr/share/icons/hicolor/icon-theme.cache
+IO:open64:0x0
+IO:open:/usr/share/icons/hicolor/icon-theme.cache
+IO:open64:0x0
+IO:close:/usr/share/icons/hicolor/icon-theme.cache
+IO:close:/usr/share/icons/hicolor/icon-theme.cache
+IO:open:/usr/share/icons/icon-theme.cache
+IO:open64:0x0
+IO:open:/usr/share/pixmaps/icon-theme.cache
+IO:open64:0x0
+IO:open:/root/.local/share/mime//aliases
+IO:fopen64:r
+IO:open:/root/.local/share/mime//subclasses
+IO:fopen64:r
+IO:open:/root/.local/share/mime//icons
+IO:fopen64:r
+IO:open:/root/.local/share/mime//generic-icons
+IO:fopen64:r
+IO:open:/usr/local/share//mime//aliases
+IO:fopen64:r
+IO:open:/usr/local/share//mime//subclasses
+IO:fopen64:r
+IO:open:/usr/local/share//mime//icons
+IO:fopen64:r
+IO:open:/usr/local/share//mime//generic-icons
+IO:fopen64:r
+IO:open:/usr/share//mime//mime.cache
+IO:open64:0x0
+IO:close:/usr/share/mime/mime.cache
+GTK:Window Title:[no schematic loaded] — Schematic Editor
+KiAuto:match
+KiAuto:Waiting for `['GTK:Window Title:', 'PANGO:0:']` starts=True times=1
+IO:open:/usr/lib/x86_64-linux-gnu/charset.alias
+IO:fopen64:r
+IO:open:/usr/share/X11/locale/locale.alias
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.alias
+IO:open:/usr/share/X11/locale/locale.dir
+IO:fopen:r
+IO:close:/usr/share/X11/locale/locale.dir
+IO:open:/usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE
+IO:fopen:r
+IO:close:/usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE
+PANGO:The quick brown fox jumps over the lazy dog.
+PANGO:0123456789
+PANGO:Schematic Hierarchy
+PANGO:Root (page 1)
+PANGO:Z 0.98
+PANGO:X 0.0000  Y 0.0000
+PANGO:dx 0.0000  dy 0.0000  dist 0.0000
+PANGO:grid 1.2700
+PANGO:mm
+PANGO:Schematic Hierarchy
+PANGO:Root (page 1)
+PANGO:Z 0.98
+PANGO:X 0.0000  Y 0.0000
+PANGO:dx 0.0000  dy 0.0000  dist 0.0000
+PANGO:grid 1.2700
+PANGO:mm
+PANGO:Schematic Hierarchy
+IO:open:/root/.cache/mesa_shader_cache/76/7e50900196ce6bcd11177c5f2125e411e6780e
+IO:open64:0xC81E4208
+IO:close:/root/.cache/mesa_shader_cache/76/7e50900196ce6bcd11177c5f2125e411e6780e
+IO:open:/root/.cache/mesa_shader_cache/eb/6794d55e1fd261478c07eb934d1a7ec7329c15
+IO:open64:0xC81E3D48
+IO:open:/root/.cache/mesa_shader_cache/eb/6794d55e1fd261478c07eb934d1a7ec7329c15.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/eb/6794d55e1fd261478c07eb934d1a7ec7329c15.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/eb/6794d55e1fd261478c07eb934d1a7ec7329c15
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/eb/6794d55e1fd261478c07eb934d1a7ec7329c15
+IO:open:/root/.cache/mesa_shader_cache/0c/42a80780e5b5def36ec0dd9f4b483d2a3d061a
+IO:open64:0xC81E3B38
+IO:open:/root/.cache/mesa_shader_cache/0c/42a80780e5b5def36ec0dd9f4b483d2a3d061a.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/0c/42a80780e5b5def36ec0dd9f4b483d2a3d061a.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/0c/42a80780e5b5def36ec0dd9f4b483d2a3d061a
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/0c/42a80780e5b5def36ec0dd9f4b483d2a3d061a
+IO:open:/root/.cache/mesa_shader_cache/be/faac65d0e9ac56811ff76d0f55e01665fd69f0
+IO:open64:0xC81E3D48
+IO:open:/root/.cache/mesa_shader_cache/be/faac65d0e9ac56811ff76d0f55e01665fd69f0.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/be/faac65d0e9ac56811ff76d0f55e01665fd69f0.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/be/faac65d0e9ac56811ff76d0f55e01665fd69f0
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/be/faac65d0e9ac56811ff76d0f55e01665fd69f0
+IO:open:/root/.cache/mesa_shader_cache/c5/54fc2ff784b94abf488c591c73032c6f3c359d
+IO:open64:0xC81E2248
+IO:open:/root/.cache/mesa_shader_cache/c5/54fc2ff784b94abf488c591c73032c6f3c359d.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/c5/54fc2ff784b94abf488c591c73032c6f3c359d.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/c5/54fc2ff784b94abf488c591c73032c6f3c359d
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/c5/54fc2ff784b94abf488c591c73032c6f3c359d
+IO:open:/root/.cache/mesa_shader_cache/84/03f7313d9a3741a8486c624e512e88d5ca3c3d
+IO:open64:0xC81E2198
+IO:open:/root/.cache/mesa_shader_cache/84/03f7313d9a3741a8486c624e512e88d5ca3c3d.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/84/03f7313d9a3741a8486c624e512e88d5ca3c3d.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/84/03f7313d9a3741a8486c624e512e88d5ca3c3d
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/84/03f7313d9a3741a8486c624e512e88d5ca3c3d
+IO:open:/root/.cache/mesa_shader_cache/7a/83e559fb9a69e3314112bfc4b5f1fbadecc302
+IO:open64:0xC81E1F88
+IO:open:/root/.cache/mesa_shader_cache/7a/83e559fb9a69e3314112bfc4b5f1fbadecc302.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/7a/83e559fb9a69e3314112bfc4b5f1fbadecc302.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/7a/83e559fb9a69e3314112bfc4b5f1fbadecc302
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/7a/83e559fb9a69e3314112bfc4b5f1fbadecc302
+* wrapping GLX
+IO:open:/root/.cache/mesa_shader_cache/35/4610ad179263a7e456bb35c744d48355855cc9
+IO:open64:0xC81E2128
+IO:open:/root/.cache/mesa_shader_cache/35/4610ad179263a7e456bb35c744d48355855cc9.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/35/4610ad179263a7e456bb35c744d48355855cc9.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/35/4610ad179263a7e456bb35c744d48355855cc9
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/35/4610ad179263a7e456bb35c744d48355855cc9
+IO:open:/root/.cache/mesa_shader_cache/6c/33e85d5a58baadee2a602d983e3b62df0be4cb
+IO:open64:0xC81E1F18
+IO:open:/root/.cache/mesa_shader_cache/6c/33e85d5a58baadee2a602d983e3b62df0be4cb.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/6c/33e85d5a58baadee2a602d983e3b62df0be4cb.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/6c/33e85d5a58baadee2a602d983e3b62df0be4cb
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/6c/33e85d5a58baadee2a602d983e3b62df0be4cb
+GLX:Swap 0
+GTK:Label Set Text 2:No Files
+GTK:Label Set Text 2:Clear Recent Files
+GTK:Label Set Text 2:Clear Recent Files
+GTK:Label Set Text 2:New...
+GTK:Label Set Text 2:Open...
+GTK:Label Set Text 2:No Files
+GTK:Label Set Text 2:Clear Recent Files
+GTK:Label Set Text 2:Open Recent
+GTK:Label Set Text 2:No Files
+GTK:Label Set Text 2:Clear Recent Files
+GTK:Label Set Text 2:Save
+GTK:Label Set Text 2:Save As…
+GTK:Label Set Text 2:Revert
+GTK:Label Set Text 2:Insert Schematic Sheet Content...
+GTK:Label Set Text 2:Non-KiCad Schematic...
+GTK:Label Set Text 2:Footprint Assignments...
+GTK:Label Set Text 2:Import
+GTK:Label Set Text 2:Non-KiCad Schematic...
+GTK:Label Set Text 2:Footprint Assignments...
+GTK:Label Set Text 2:Drawing to Clipboard
+GTK:Label Set Text 2:Netlist...
+GTK:Label Set Text 2:Symbols to Library...
+GTK:Label Set Text 2:Symbols to New Library...
+GTK:Label Set Text 2:E_xport
+GTK:Label Set Text 2:Drawing to Clipboard
+GTK:Label Set Text 2:Netlist...
+GTK:Label Set Text 2:Symbols to Library...
+GTK:Label Set Text 2:Symbols to New Library...
+GTK:Label Set Text 2:Schematic Setup...
+GTK:Label Set Text 2:Page Settings...
+GTK:Label Set Text 2:Print...
+GTK:Label Set Text 2:Plot...
+GTK:Label Set Text 2:Quit
+GTK:Label Set Text 2:Undo
+GTK:Label Set Text 2:Redo
+GTK:Label Set Text 2:Cut
+GTK:Label Set Text 2:Copy
+GTK:Label Set Text 2:Paste
+GTK:Label Set Text 2:Paste Special...
+GTK:Label Set Text 2:Delete
+GTK:Label Set Text 2:Select All
+GTK:Label Set Text 2:Find
+GTK:Label Set Text 2:Find and Replace
+GTK:Label Set Text 2:Interactive Delete Tool
+GTK:Label Set Text 2:Edit Text & Graphics Properties...
+GTK:Label Set Text 2:Change Symbols...
+GTK:Label Set Text 2:Edit Sheet Page Number...
+GTK:Label Set Text 2:Symbol Library Browser
+GTK:Label Set Text 2:Hierarchy Navigator
+GTK:Label Set Text 2:Navigate Back
+GTK:Label Set Text 2:Navigate Up
+GTK:Label Set Text 2:Navigate Forward
+GTK:Label Set Text 2:Previous Sheet
+GTK:Label Set Text 2:Next Sheet
+GTK:Label Set Text 2:Zoom In
+GTK:Label Set Text 2:Zoom Out
+GTK:Label Set Text 2:Zoom to Fit
+GTK:Label Set Text 2:Zoom to Objects
+GTK:Label Set Text 2:Zoom to Selection
+GTK:Label Set Text 2:Refresh
+GTK:Label Set Text 2:Show Grid
+GTK:Label Set Text 2:Grid Properties...
+GTK:Label Set Text 2:Inches
+GTK:Label Set Text 2:Mils
+GTK:Label Set Text 2:Millimeters
+GTK:Label Set Text 2:_Units
+GTK:Label Set Text 2:Inches
+GTK:Label Set Text 2:Mils
+GTK:Label Set Text 2:Millimeters
+GTK:Label Set Text 2:Full-Window Crosshairs
+GTK:Label Set Text 2:Show Hidden Pins
+GTK:Label Set Text 2:Show Hidden Fields
+GTK:Label Set Text 2:Show ERC Errors
+GTK:Label Set Text 2:Show ERC Warnings
+GTK:Label Set Text 2:Show ERC Exclusions
+GTK:Label Set Text 2:Add Symbol
+GTK:Label Set Text 2:Add Power
+GTK:Label Set Text 2:Add Wire
+GTK:Label Set Text 2:Add Bus
+GTK:Label Set Text 2:Add Wire to Bus Entry
+GTK:Label Set Text 2:Add No Connect Flag
+GTK:Label Set Text 2:Add Junction
+GTK:Label Set Text 2:Add Label
+GTK:Label Set Text 2:Add Net Class Directive
+GTK:Label Set Text 2:Add Global Label
+GTK:Label Set Text 2:Add Hierarchical Label
+GTK:Label Set Text 2:Add Sheet
+GTK:Label Set Text 2:Import Sheet Pin
+GTK:Label Set Text 2:Add Text
+GTK:Label Set Text 2:Add Text Box
+GTK:Label Set Text 2:Add Rectangle
+GTK:Label Set Text 2:Add Circle
+GTK:Label Set Text 2:Add Arc
+GTK:Label Set Text 2:Add Lines
+GTK:Label Set Text 2:Add Image
+GTK:Label Set Text 2:Electrical Rules Checker
+GTK:Label Set Text 2:Previous Marker
+GTK:Label Set Text 2:Next Marker
+GTK:Label Set Text 2:Exclude Marker
+GTK:Label Set Text 2:Simulator...
+GTK:Label Set Text 2:Update PCB from Schematic…
+GTK:Label Set Text 2:Switch to PCB Editor
+GTK:Label Set Text 2:Symbol Editor
+GTK:Label Set Text 2:Update Symbols from Library...
+GTK:Label Set Text 2:Rescue Symbols...
+GTK:Label Set Text 2:Remap Legacy Library Symbols...
+GTK:Label Set Text 2:Edit Symbol Fields...
+GTK:Label Set Text 2:Edit Symbol Library Links...
+GTK:Label Set Text 2:Annotate Schematic...
+GTK:Label Set Text 2:Assign Footprints...
+GTK:Label Set Text 2:Generate BOM...
+GTK:Label Set Text 2:Update Schematic from PCB...
+GTK:Label Set Text 2:Configure Paths…
+GTK:Label Set Text 2:Manage Symbol Libraries…
+GTK:Label Set Text 2:Preferences...
+GTK:Label Set Text 2:Default
+GTK:Label Set Text 2:Čeština
+GTK:Label Set Text 2:Dansk
+GTK:Label Set Text 2:Deutsch
+GTK:Label Set Text 2:Ελληνικά
+GTK:Label Set Text 2:English
+GTK:Label Set Text 2:Español
+GTK:Label Set Text 2:Español (Latinoamericano)
+GTK:Label Set Text 2:Français
+GTK:Label Set Text 2:한국어
+GTK:Label Set Text 2:Italiano
+GTK:Label Set Text 2:Lietuvių
+GTK:Label Set Text 2:Nederlandse
+GTK:Label Set Text 2:日本語
+GTK:Label Set Text 2:ภาษาไทย
+GTK:Label Set Text 2:Polski
+GTK:Label Set Text 2:Português
+GTK:Label Set Text 2:Português (Brasil)
+GTK:Label Set Text 2:Русский
+GTK:Label Set Text 2:Suomi
+GTK:Label Set Text 2:Svenska
+GTK:Label Set Text 2:Українська
+GTK:Label Set Text 2:简体中文
+GTK:Label Set Text 2:繁體中文
+GTK:Label Set Text 2:Set Language
+GTK:Label Set Text 2:Default
+GTK:Label Set Text 2:Čeština
+GTK:Label Set Text 2:Dansk
+GTK:Label Set Text 2:Deutsch
+GTK:Label Set Text 2:Ελληνικά
+GTK:Label Set Text 2:English
+GTK:Label Set Text 2:Español
+GTK:Label Set Text 2:Español (Latinoamericano)
+GTK:Label Set Text 2:Français
+GTK:Label Set Text 2:한국어
+GTK:Label Set Text 2:Italiano
+GTK:Label Set Text 2:Lietuvių
+GTK:Label Set Text 2:Nederlandse
+GTK:Label Set Text 2:日本語
+GTK:Label Set Text 2:ภาษาไทย
+GTK:Label Set Text 2:Polski
+GTK:Label Set Text 2:Português
+GTK:Label Set Text 2:Português (Brasil)
+GTK:Label Set Text 2:Русский
+GTK:Label Set Text 2:Suomi
+GTK:Label Set Text 2:Svenska
+GTK:Label Set Text 2:Українська
+GTK:Label Set Text 2:简体中文
+GTK:Label Set Text 2:繁體中文
+GTK:Label Set Text 2:Help
+GTK:Label Set Text 2:Getting Started with KiCad
+GTK:Label Set Text 2:List Hotkeys...
+GTK:Label Set Text 2:Get Involved
+GTK:Label Set Text 2:Donate
+GTK:Label Set Text 2:Report Bug
+GTK:Label Set Text 2:_About KiCad
+IO:open:/root/.cache/mesa_shader_cache/9a/68adf60502aead1208cb1278a1987dfb545683
+IO:open64:0xC81E2028
+IO:open:/root/.cache/mesa_shader_cache/9a/68adf60502aead1208cb1278a1987dfb545683.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/9a/68adf60502aead1208cb1278a1987dfb545683.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/9a/68adf60502aead1208cb1278a1987dfb545683
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/9a/68adf60502aead1208cb1278a1987dfb545683
+GLX:Swap 1
+GLX:Swap 2
+GLX:Swap 3
+PANGO:File
+PANGO:Edit
+PANGO:View
+PANGO:Place
+PANGO:Inspect
+PANGO:Tools
+PANGO:Preferences
+PANGO:Help 
+PANGO:Schematic Hierarchy
+GLX:Swap 4
+PANGO:Root (page 1)
+PANGO:Z 0.98
+PANGO:X 0.0000  Y 0.0000
+PANGO:dx 0.0000  dy 0.0000  dist 0.0000
+PANGO:grid 1.2700
+PANGO:mm
+PANGO:Schematic Hierarchy
+PANGO:Root (page 1)
+PANGO:Schematic Hierarchy
+IO:open:/root/.cache/mesa_shader_cache/97/d00ac887d49fba628a62dac61cce0809a1e39a
+IO:open64:0xC81DFF68
+IO:open:/root/.cache/mesa_shader_cache/97/d00ac887d49fba628a62dac61cce0809a1e39a.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/97/d00ac887d49fba628a62dac61cce0809a1e39a.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/97/d00ac887d49fba628a62dac61cce0809a1e39a
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/97/d00ac887d49fba628a62dac61cce0809a1e39a
+GLX:Swap 5
+GLX:Swap 6
+PANGO:Root (page 1)
+PANGO:Z 0.98
+PANGO:X 0.0000  Y 0.0000
+PANGO:dx 0.0000  dy 0.0000  dist 0.0000
+PANGO:grid 1.2700
+PANGO:mm
+PANGO:Schematic Hierarchy
+GLX:Swap 7
+PANGO:Root (page 1)
+GLX:Swap 8
+GLX:Swap 9
+GLX:Swap 10
+GLX:Swap 11
+GLX:Swap 12
+GLX:Swap 13
+IO:open:/opt/schematics/~PSLab.kicad_sch.lck
+IO:open64:0x1B6
+IO:open:/opt/schematics/~PSLab.kicad_sch.lck
+IO:open64:0x1B6
+IO:close:/opt/schematics/~PSLab.kicad_sch.lck
+GTK:Window Title:File Open Warning
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Open Anyway
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Cancel
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Schematic 'PSLab.kicad_sch' is already open.
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:The quick brown fox jumps over the lazy dog.
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:0123456789
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Interleaved saves may produce very unexpected results.
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Schematic 'PSLab.kicad_sch' is already open.
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Interleaved saves may produce very unexpected results.
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Schematic 'PSLab.kicad_sch' is already open.
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Interleaved saves may produce very unexpected results.
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+IO:open:/root/.icons/default/cursors/xterm
+IO:fopen:r
+IO:open:/root/.icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/icons/default/cursors/xterm
+IO:fopen:r
+IO:open:/usr/share/icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/cursors/xterm
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/index.theme
+IO:fopen:r
+PANGO:Schematic Hierarchy
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+GLX:Swap 14
+PANGO:Root (page 1)
+KiAuto:match
+KiAuto:Waiting for `['GTK:Window Title:', 'PANGO:0:']` starts=True times=1
+PANGO:Z 0.98
+PANGO:X 0.0000  Y 0.0000
+PANGO:dx 0.0000  dy 0.0000  dist 0.0000
+PANGO:grid 1.2700
+PANGO:mm
+GLX:Swap 15
+GLX:Swap 16
+PANGO:Schematic Hierarchy
+GTK:Window Destroy:File Open Warning
+IO:open:/opt/schematics/~PSLab.kicad_sch.lck
+IO:open64:0x1B6
+IO:close:/opt/schematics/~PSLab.kicad_sch.lck
+GTK:Window Title:Loading Schematic
+KiAuto:match
+KiAuto:Waiting for `['GTK:Window Title:', 'PANGO:0:']` starts=True times=1
+GTK:Label Set Text 2: 
+PANGO: 
+GTK:Label Set Text 2:Elapsed time:
+PANGO:Elapsed time:
+GTK:Label Set Text 2:unknown
+PANGO:unknown
+* wrapping button label
+GTK:Button Label:gtk-cancel
+PANGO:Cancel
+PANGO: 
+PANGO:Elapsed time:
+PANGO:unknown
+PANGO: 
+PANGO:Elapsed time:
+PANGO:unknown
+GTK:Window Show:Loading Schematic
+GTK:Label Set Text 2:0:00:00
+PANGO:0:00:00
+KiAuto:match
+KiAuto:Waiting for `['GTK:Window Title:', 'PANGO:0:']` starts=True times=1
+IO:open:/opt/schematics/~PSLab.kicad_pro.lck
+IO:open64:0x1B6
+IO:close:/host_virtiofs/Users/padmal/Desktop/FOSSASIA/pslab-hardware/schematics/~PSLab.kicad_pro.lck
+IO:open:/opt/schematics/PSLab.kicad_pro
+IO:fopen64:rt
+IO:close:/opt/schematics/PSLab.kicad_pro
+IO:open:/opt/schematics/PSLab.kicad_prl
+IO:fopen64:rt
+IO:close:/opt/schematics/PSLab.kicad_prl
+IO:open:/opt/schematics/~PSLab.kicad_pro.lck
+IO:open64:0x1B6
+IO:close:/opt/schematics/~PSLab.kicad_pro.lck
+IO:open:/opt/schematics/sym-lib-table
+IO:fopen64:rt
+IO:close:/opt/schematics/sym-lib-table
+IO:open:/root/.icons/default/cursors/watch
+IO:fopen:r
+IO:open:/root/.icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/icons/default/cursors/watch
+IO:fopen:r
+IO:open:/usr/share/icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/cursors/watch
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/index.theme
+IO:fopen:r
+IO:open:/opt/schematics/PSLab.kicad_sch
+IO:fopen64:rt
+PANGO:Loading /opt/schematics/PSLab.kicad_sch...
+PANGO:Schematic Hierarchy
+GLX:Swap 17
+PANGO:Root (page 1)
+PANGO:Z 0.98
+PANGO:X 0.0000  Y 0.0000
+PANGO:dx 0.0000  dy 0.0000  dist 0.0000
+PANGO:grid 1.2700
+PANGO:mm
+PANGO: 
+PANGO:Elapsed time:
+PANGO:0:00:00
+KiAuto:match
+KiAuto:Waiting for `['GTK:Window Title:', 'PANGO:0:']` starts=True times=1
+PANGO:Cancel
+PANGO:0:00:00
+KiAuto:match
+KiAuto:Waiting for `['GTK:Window Title:', 'PANGO:0:']` starts=True times=1
+GTK:Label Set Text 2:Loading /opt/schematics/PSLab.kicad__sch...
+PANGO:Loading /opt/schematics/PSLab.kicad_sch...
+IO:open:/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+IO:open:0x50
+IO:close:/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+IO:close:/opt/schematics/PSLab.kicad_sch
+GTK:Label Set Text 2: 
+GTK:Label Set Text 2:_1 PSLab.kicad__sch
+IO:open:/root/.local/share/recently-used.xbel
+IO:open64:0xC81E3A30
+GTK:Label Set Text 2:Clear Recent Files
+IO:open:/root/.cache/mesa_shader_cache/e3/bbc87a0b95e585a1d951aacdae62604f433619
+IO:open64:0xDC763098
+IO:open:/root/.cache/mesa_shader_cache/e3/bbc87a0b95e585a1d951aacdae62604f433619.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/e3/bbc87a0b95e585a1d951aacdae62604f433619.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/e3/bbc87a0b95e585a1d951aacdae62604f433619
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/e3/bbc87a0b95e585a1d951aacdae62604f433619
+IO:open:/root/.cache/mesa_shader_cache/20/b1c114eecca7ecefe371a369d7f2c087a9f1d1
+IO:open64:0xDC762E88
+IO:open:/root/.cache/mesa_shader_cache/20/b1c114eecca7ecefe371a369d7f2c087a9f1d1.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/20/b1c114eecca7ecefe371a369d7f2c087a9f1d1.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/20/b1c114eecca7ecefe371a369d7f2c087a9f1d1
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/20/b1c114eecca7ecefe371a369d7f2c087a9f1d1
+IO:open:/root/.cache/mesa_shader_cache/e6/945a82e7beabdf3d712f238b175da577a48d61
+IO:open64:0xDC761C78
+IO:open:/root/.cache/mesa_shader_cache/e6/945a82e7beabdf3d712f238b175da577a48d61.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/e6/945a82e7beabdf3d712f238b175da577a48d61.tmp
+IO:open64:0x1A4
+IO:open:/root/.cache/mesa_shader_cache/e6/945a82e7beabdf3d712f238b175da577a48d61
+IO:open64:0x1
+IO:close:/root/.cache/mesa_shader_cache/e6/945a82e7beabdf3d712f238b175da577a48d61
+GLX:Swap 18
+PANGO:Schematic Hierarchy
+GLX:Swap 19
+PANGO:Root (page 1)
+PANGO:Z 0.49
+PANGO:X 0.0000  Y 0.0000
+PANGO:dx 0.0000  dy 0.0000  dist 0.0000
+PANGO:grid 1.2700
+PANGO:mm
+PANGO:Root (page 1)
+GTK:Window Title:PSLab — Schematic Editor
+KiAuto:match
+KiAuto:Waiting for `['GTK:Main:In']` starts=False times=1
+GTK:Window Destroy:Loading Schematic
+* wrapping gtk_main
+GTK:Main:In
+KiAuto:match
+KiAuto:Waiting for `['GLX:Swap']` starts=True times=1
+GLX:Swap 20
+KiAuto:match
+KiAuto:Waiting for `['GLX:Swap']` starts=True times=1
+PANGO:Schematic Hierarchy
+GLX:Swap 21
+KiAuto:match
+KiAuto:Waiting for `['GLX:Swap']` starts=True times=1
+PANGO:Root (page 1)
+PANGO:Z 0.49
+PANGO:X 0.0000  Y 0.0000
+PANGO:dx 0.0000  dy 0.0000  dist 0.0000
+PANGO:grid 1.2700
+PANGO:mm
+GLX:Swap 22
+KiAuto:match
+KiAuto:Waiting for `['GLX:Swap']` starts=True times=1
+GLX:Swap 23
+KiAuto:match
+KiAuto:Waiting for `['GLX:Swap']` starts=True times=1
+GLX:Swap 24
+KiAuto:match
+KiAuto:Waiting for `['GLX:Swap']` starts=True times=1
+GLX:Swap 25
+KiAuto:match
+KiAuto:Waiting for `['GLX:Swap']` starts=True times=1
+GLX:Swap 26
+KiAuto:match
+KiAuto:Waiting for `['GLX:Swap']` starts=True times=1
+GTK:Label Set Text 2:Clear Recent Files
+GTK:Label Set Text 2:New...
+GTK:Label Set Text 2:Open...
+GTK:Label Set Text 2:_1 PSLab.kicad__sch
+GTK:Label Set Text 2:Clear Recent Files
+GTK:Label Set Text 2:Open Recent
+GTK:Label Set Text 2:_1 PSLab.kicad__sch
+GTK:Label Set Text 2:Clear Recent Files
+GTK:Label Set Text 2:Save
+GTK:Label Set Text 2:Save As…
+GTK:Label Set Text 2:Revert
+GTK:Label Set Text 2:Insert Schematic Sheet Content...
+GTK:Label Set Text 2:Non-KiCad Schematic...
+GTK:Label Set Text 2:Footprint Assignments...
+GTK:Label Set Text 2:Import
+GTK:Label Set Text 2:Non-KiCad Schematic...
+GTK:Label Set Text 2:Footprint Assignments...
+GTK:Label Set Text 2:Drawing to Clipboard
+GTK:Label Set Text 2:Netlist...
+GTK:Label Set Text 2:Symbols to Library...
+GTK:Label Set Text 2:Symbols to New Library...
+GTK:Label Set Text 2:E_xport
+GTK:Label Set Text 2:Drawing to Clipboard
+GTK:Label Set Text 2:Netlist...
+GTK:Label Set Text 2:Symbols to Library...
+GTK:Label Set Text 2:Symbols to New Library...
+GTK:Label Set Text 2:Schematic Setup...
+GTK:Label Set Text 2:Page Settings...
+GTK:Label Set Text 2:Print...
+GTK:Label Set Text 2:Plot...
+GTK:Label Set Text 2:Quit
+GTK:Label Set Text 2:Undo
+GTK:Label Set Text 2:Redo
+GTK:Label Set Text 2:Cut
+GTK:Label Set Text 2:Copy
+GTK:Label Set Text 2:Paste
+GTK:Label Set Text 2:Paste Special...
+GTK:Label Set Text 2:Delete
+GTK:Label Set Text 2:Select All
+GTK:Label Set Text 2:Find
+GTK:Label Set Text 2:Find and Replace
+GTK:Label Set Text 2:Interactive Delete Tool
+GTK:Label Set Text 2:Edit Text & Graphics Properties...
+GTK:Label Set Text 2:Change Symbols...
+GTK:Label Set Text 2:Edit Sheet Page Number...
+GTK:Label Set Text 2:Symbol Library Browser
+GTK:Label Set Text 2:Hierarchy Navigator
+GTK:Label Set Text 2:Navigate Back
+GTK:Label Set Text 2:Navigate Up
+GTK:Label Set Text 2:Navigate Forward
+GTK:Label Set Text 2:Previous Sheet
+GTK:Label Set Text 2:Next Sheet
+GTK:Label Set Text 2:Zoom In
+GTK:Label Set Text 2:Zoom Out
+GTK:Label Set Text 2:Zoom to Fit
+GTK:Label Set Text 2:Zoom to Objects
+GTK:Label Set Text 2:Zoom to Selection
+GTK:Label Set Text 2:Refresh
+GTK:Label Set Text 2:Show Grid
+GTK:Label Set Text 2:Grid Properties...
+GTK:Label Set Text 2:Inches
+GTK:Label Set Text 2:Mils
+GTK:Label Set Text 2:Millimeters
+GTK:Label Set Text 2:_Units
+GTK:Label Set Text 2:Inches
+GTK:Label Set Text 2:Mils
+GTK:Label Set Text 2:Millimeters
+GTK:Label Set Text 2:Full-Window Crosshairs
+GTK:Label Set Text 2:Show Hidden Pins
+GTK:Label Set Text 2:Show Hidden Fields
+GTK:Label Set Text 2:Show ERC Errors
+GTK:Label Set Text 2:Show ERC Warnings
+GTK:Label Set Text 2:Show ERC Exclusions
+GTK:Label Set Text 2:Add Symbol
+GTK:Label Set Text 2:Add Power
+GTK:Label Set Text 2:Add Wire
+GTK:Label Set Text 2:Add Bus
+GTK:Label Set Text 2:Add Wire to Bus Entry
+GTK:Label Set Text 2:Add No Connect Flag
+GTK:Label Set Text 2:Add Junction
+GTK:Label Set Text 2:Add Label
+GTK:Label Set Text 2:Add Net Class Directive
+GTK:Label Set Text 2:Add Global Label
+GTK:Label Set Text 2:Add Hierarchical Label
+GTK:Label Set Text 2:Add Sheet
+GTK:Label Set Text 2:Import Sheet Pin
+GTK:Label Set Text 2:Add Text
+GTK:Label Set Text 2:Add Text Box
+GTK:Label Set Text 2:Add Rectangle
+GTK:Label Set Text 2:Add Circle
+GTK:Label Set Text 2:Add Arc
+GTK:Label Set Text 2:Add Lines
+GTK:Label Set Text 2:Add Image
+GTK:Label Set Text 2:Electrical Rules Checker
+GTK:Label Set Text 2:Previous Marker
+GTK:Label Set Text 2:Next Marker
+GTK:Label Set Text 2:Exclude Marker
+GTK:Label Set Text 2:Simulator...
+GTK:Label Set Text 2:Update PCB from Schematic…
+GTK:Label Set Text 2:Switch to PCB Editor
+GTK:Label Set Text 2:Symbol Editor
+GTK:Label Set Text 2:Update Symbols from Library...
+GTK:Label Set Text 2:Rescue Symbols...
+GTK:Label Set Text 2:Remap Legacy Library Symbols...
+GTK:Label Set Text 2:Edit Symbol Fields...
+GTK:Label Set Text 2:Edit Symbol Library Links...
+GTK:Label Set Text 2:Annotate Schematic...
+GTK:Label Set Text 2:Assign Footprints...
+GTK:Label Set Text 2:Generate BOM...
+GTK:Label Set Text 2:Update Schematic from PCB...
+GTK:Label Set Text 2:Configure Paths…
+GTK:Label Set Text 2:Manage Symbol Libraries…
+GTK:Label Set Text 2:Preferences...
+GTK:Label Set Text 2:Default
+GTK:Label Set Text 2:Čeština
+GTK:Label Set Text 2:Dansk
+GTK:Label Set Text 2:Deutsch
+GTK:Label Set Text 2:Ελληνικά
+GTK:Label Set Text 2:English
+GTK:Label Set Text 2:Español
+GTK:Label Set Text 2:Español (Latinoamericano)
+GTK:Label Set Text 2:Français
+GTK:Label Set Text 2:한국어
+GTK:Label Set Text 2:Italiano
+GTK:Label Set Text 2:Lietuvių
+GTK:Label Set Text 2:Nederlandse
+GTK:Label Set Text 2:日本語
+GTK:Label Set Text 2:ภาษาไทย
+GTK:Label Set Text 2:Polski
+GTK:Label Set Text 2:Português
+GTK:Label Set Text 2:Português (Brasil)
+GTK:Label Set Text 2:Русский
+GTK:Label Set Text 2:Suomi
+GTK:Label Set Text 2:Svenska
+GTK:Label Set Text 2:Українська
+GTK:Label Set Text 2:简体中文
+GTK:Label Set Text 2:繁體中文
+GTK:Label Set Text 2:Set Language
+GTK:Label Set Text 2:Default
+GTK:Label Set Text 2:Čeština
+GTK:Label Set Text 2:Dansk
+GTK:Label Set Text 2:Deutsch
+GTK:Label Set Text 2:Ελληνικά
+GTK:Label Set Text 2:English
+GTK:Label Set Text 2:Español
+GTK:Label Set Text 2:Español (Latinoamericano)
+GTK:Label Set Text 2:Français
+GTK:Label Set Text 2:한국어
+GTK:Label Set Text 2:Italiano
+GTK:Label Set Text 2:Lietuvių
+GTK:Label Set Text 2:Nederlandse
+GTK:Label Set Text 2:日本語
+GTK:Label Set Text 2:ภาษาไทย
+GTK:Label Set Text 2:Polski
+GTK:Label Set Text 2:Português
+GTK:Label Set Text 2:Português (Brasil)
+GTK:Label Set Text 2:Русский
+GTK:Label Set Text 2:Suomi
+GTK:Label Set Text 2:Svenska
+GTK:Label Set Text 2:Українська
+GTK:Label Set Text 2:简体中文
+GTK:Label Set Text 2:繁體中文
+GTK:Label Set Text 2:Help
+GTK:Label Set Text 2:Getting Started with KiCad
+GTK:Label Set Text 2:List Hotkeys...
+GTK:Label Set Text 2:Get Involved
+GTK:Label Set Text 2:Donate
+GTK:Label Set Text 2:Report Bug
+GTK:Label Set Text 2:_About KiCad
+GTK:Window Title:KiCad Schematic Editor Warning
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:OK
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Font 'Tahoma' not found; substituting 'DejaVu Sans:Book'.
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:File
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Edit
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:View
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Place
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Inspect
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Tools
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Preferences
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Help 
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+PANGO:Schematic Hierarchy
+KiAuto:match
+KiAuto:Waiting for `['PANGO:']` starts=True times=1
+GLX:Swap 27
+PANGO:Root (page 1)
+KiAuto:match
+PANGO:Z 0.49
+PANGO:X 0.0000  Y 0.0000
+PANGO:dx 0.0000  dy 0.0000  dist 0.0000
+PANGO:grid 1.2700
+PANGO:mm
+PANGO:OK
+PANGO:Font 'Tahoma' not found; substituting 'DejaVu Sans:Book'.
+GLX:Swap 28
+KiAuto:match
+KiAuto:Waiting for `['GTK:Window Show:Electrical Rules Checker', 'GTK:Window Title:KiCad Schematic Editor Warning', 'GTK:Window Title:KiCad PCB Editor Information', 'GTK:Window Title:KiCad PCB Editor Warning', 'GTK:Window Title:KiCad Schematic Editor Information']` starts=False times=1
+GLX:Swap 29
+IO:open:/root/.local/share/recently-used.xbel.3VX8C2
+IO:open64:0x1B6
+IO:close:/root/.local/share/recently-used.xbel.3VX8C2
+PANGO:Schematic Hierarchy
+GTK:Window Destroy:KiCad Schematic Editor Warning
+GLX:Swap 30
+GLX:Swap 31
+GTK:Window Title:Electrical Rules Checker
+PANGO:H
+PANGO:Tests Running...
+PANGO:H
+PANGO:Violations (%s)
+PANGO:Ignored Tests (%s)
+GTK:Label Set Text 2:Show:
+PANGO:Show:
+GTK:Label Set Text 2:All
+PANGO:All
+GTK:Label Set Text 2:Errors
+PANGO:Errors
+PANGO:m9
+GTK:Label Set Text 2:Warnings
+PANGO:Warnings
+PANGO:m9
+GTK:Label Set Text 2:Exclusions
+PANGO:Exclusions
+PANGO:m9
+GTK:Button Label:_Save
+GTK:Button Label:**Changed from Save…
+PANGO:Save
+GTK:Button Label:Delete Marker
+PANGO:Delete Marker
+GTK:Button Label:Delete All Markers
+PANGO:Delete All Markers
+GTK:Button Label:gtk-ok
+PANGO:OK
+GTK:Button Label:gtk-cancel
+PANGO:Cancel
+IO:open:/dev/urandom
+IO:fopen64:rb
+IO:close:/dev/urandom
+GTK:Button Label:Run ERC
+GTK:Button Label:C_lose
+GTK:Button Label:**Changed from Close
+PANGO:Close
+PANGO:Run ERC
+PANGO:m99
+PANGO:m9
+PANGO:Violations 
+PANGO:Ignored Tests 
+PANGO:Show:
+GTK:Window Show:Electrical Rules Checker
+KiAuto:match
+KiAuto:Waiting for `['GLX:Swap']` starts=True times=1
+GLX:Swap 32
+KiAuto:match
+KiAuto:Waiting for `['GLX:Swap']` starts=True times=1
+PANGO:Schematic Hierarchy
+PANGO:Violations 
+PANGO:Ignored Tests 
+PANGO:Show:
+PANGO:All
+PANGO:Errors
+PANGO:Warnings
+PANGO:Exclusions
+PANGO:Save
+PANGO:Delete Marker
+PANGO:Delete All Markers
+PANGO:Run ERC
+PANGO:Close
+IO:open:/root/.icons/default/cursors/left_ptr
+IO:fopen:r
+IO:open:/root/.icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/icons/default/cursors/left_ptr
+IO:fopen:r
+IO:open:/usr/share/icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/cursors/left_ptr
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/index.theme
+IO:fopen:r
+GLX:Swap 33
+KiAuto:match
+KiAuto:Waiting for `['GLX:Swap']` starts=True times=1
+KiAuto:Waiting for `['GTK:Button Label:C_lose', 'GTK:Window Destroy:Electrical Rules Checker']` starts=False times=1
+IO:open:/root/.local/share/recently-used.xbel
+IO:open64:0xC81E5120
+IO:close:/root/.local/share/recently-used.xbel
+IO:open:/root/.icons/default/cursors/text
+IO:fopen:r
+IO:open:/root/.icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/icons/default/cursors/text
+IO:fopen:r
+IO:open:/usr/share/icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/cursors/text
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/index.theme
+IO:fopen:r
+IO:open:/root/.icons/default/cursors/xterm
+IO:fopen:r
+IO:open:/root/.icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/icons/default/cursors/xterm
+IO:fopen:r
+IO:open:/usr/share/icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/cursors/xterm
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/index.theme
+IO:fopen:r
+PANGO:Z 0.49
+PANGO:X 238.7600  Y 163.8300
+PANGO:dx 0.0000  dy 0.0000  dist 0.0000
+PANGO:grid 1.2700
+PANGO:mm
+PANGO:Z 0.49
+PANGO:X 238.7600  Y 163.8300
+PANGO:dx 238.7600  dy 163.8300  dist 289.5628
+PANGO:grid 1.2700
+PANGO:mm
+PANGO:Show:
+PANGO:Schematic Hierarchy
+GLX:Swap 34
+PANGO:Root (page 1)
+PANGO:Z 0.49
+PANGO:X 238.7600  Y 163.8300
+PANGO:dx 238.7600  dy 163.8300  dist 289.5628
+PANGO:grid 1.2700
+PANGO:mm
+PANGO:Schematic Hierarchy
+GLX:Swap 35
+PANGO:Root (page 1)
+PANGO:Z 0.49
+PANGO:X 238.7600  Y 163.8300
+PANGO:dx 238.7600  dy 163.8300  dist 289.5628
+PANGO:grid 1.2700
+PANGO:mm
+PANGO:Schematic Hierarchy
+GLX:Swap 36
+GLX:Swap 37
+GLX:Swap 38
+PANGO: • SPICE model issue
+PANGO:Tests Running...
+PANGO:Show:
+PANGO:Schematic Hierarchy
+GLX:Swap 39
+PANGO:Root (page 1)
+PANGO:Z 0.49
+PANGO:X 238.7600  Y 163.8300
+PANGO:dx 238.7600  dy 163.8300  dist 289.5628
+PANGO:grid 1.2700
+PANGO:mm
+GLX:Swap 40
+GLX:Swap 41
+GTK:Button Label:gtk-cancel
+PANGO:H
+PANGO:Checking 
+PANGO:sheet 
+PANGO:names...
+PANGO:H
+PANGO:Checking 
+PANGO:sheet 
+PANGO:names...
+PANGO:Checking 
+PANGO:bus 
+PANGO:conflicts...
+PANGO:H
+PANGO:Checking 
+PANGO:sheet 
+PANGO:names...
+PANGO:Checking 
+PANGO:bus 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:conflicts...
+PANGO:H
+PANGO:Checking 
+PANGO:sheet 
+PANGO:names...
+PANGO:Checking 
+PANGO:bus 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:units...
+PANGO:H
+PANGO:Checking 
+PANGO:sheet 
+PANGO:names...
+PANGO:Checking 
+PANGO:bus 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:units...
+PANGO:Checking 
+PANGO:footprints...
+PANGO:H
+PANGO:Checking 
+PANGO:sheet 
+PANGO:names...
+PANGO:Checking 
+PANGO:bus 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:units...
+PANGO:Checking 
+PANGO:footprints...
+PANGO:Checking 
+PANGO:pins...
+PANGO:H
+PANGO:Checking 
+PANGO:sheet 
+PANGO:names...
+PANGO:Checking 
+PANGO:bus 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:units...
+PANGO:Checking 
+PANGO:footprints...
+PANGO:Checking 
+PANGO:pins...
+PANGO:Checking 
+PANGO:labels...
+PANGO:H
+PANGO:Checking 
+PANGO:sheet 
+PANGO:names...
+PANGO:Checking 
+PANGO:bus 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:units...
+PANGO:Checking 
+PANGO:footprints...
+PANGO:Checking 
+PANGO:pins...
+PANGO:Checking 
+PANGO:labels...
+PANGO:Checking 
+PANGO:for 
+PANGO:unresolved 
+PANGO:variables...
+PANGO:H
+PANGO:Checking 
+PANGO:sheet 
+PANGO:names...
+PANGO:Checking 
+PANGO:bus 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:units...
+PANGO:Checking 
+PANGO:footprints...
+PANGO:Checking 
+PANGO:pins...
+PANGO:Checking 
+PANGO:labels...
+PANGO:Checking 
+PANGO:for 
+PANGO:unresolved 
+PANGO:variables...
+PANGO:Checking 
+PANGO:no 
+PANGO:connect 
+PANGO:pins 
+PANGO:for 
+PANGO:connections...
+PANGO:H
+PANGO:Checking 
+PANGO:sheet 
+PANGO:names...
+PANGO:Checking 
+PANGO:bus 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:units...
+PANGO:Checking 
+PANGO:footprints...
+PANGO:Checking 
+PANGO:pins...
+PANGO:Checking 
+PANGO:labels...
+PANGO:Checking 
+PANGO:for 
+PANGO:unresolved 
+PANGO:variables...
+PANGO:Checking 
+PANGO:no 
+PANGO:connect 
+PANGO:pins 
+PANGO:for 
+PANGO:connections...
+PANGO:Checking 
+PANGO:for 
+PANGO:library 
+PANGO:symbol 
+PANGO:issues...
+IO:open:/usr/share/kicad/symbols/Mechanical.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/Mechanical.kicad_sym
+IO:open:/usr/share/kicad/symbols/power.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/power.kicad_sym
+IO:open:/opt/schematics/PSLab.kicad_sym
+IO:fopen64:rt
+IO:close:/opt/schematics/PSLab.kicad_sym
+IO:open:/usr/share/kicad/symbols/Connector.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/Connector.kicad_sym
+IO:open:/usr/share/kicad/symbols/Switch.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/Switch.kicad_sym
+IO:open:/usr/share/kicad/symbols/Device.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/Device.kicad_sym
+IO:open:/usr/share/kicad/symbols/Diode.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/Diode.kicad_sym
+IO:open:/usr/share/kicad/symbols/LED.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/LED.kicad_sym
+IO:open:/usr/share/kicad/symbols/Timer_RTC.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/Timer_RTC.kicad_sym
+IO:open:/usr/share/kicad/symbols/74xx.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/74xx.kicad_sym
+IO:open:/usr/share/kicad/symbols/Amplifier_Operational.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/Amplifier_Operational.kicad_sym
+IO:open:/usr/share/kicad/symbols/Connector_Generic.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/Connector_Generic.kicad_sym
+IO:open:/usr/share/kicad/symbols/Power_Protection.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/Power_Protection.kicad_sym
+IO:open:/usr/share/kicad/symbols/Regulator_Linear.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/Regulator_Linear.kicad_sym
+IO:open:/usr/share/kicad/symbols/Transistor_BJT.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/Transistor_BJT.kicad_sym
+IO:open:/usr/share/kicad/symbols/Analog_DAC.kicad_sym
+IO:fopen64:rt
+IO:close:/usr/share/kicad/symbols/Analog_DAC.kicad_sym
+PANGO:H
+PANGO:Checking 
+PANGO:sheet 
+PANGO:names...
+PANGO:Checking 
+PANGO:bus 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:units...
+PANGO:Checking 
+PANGO:footprints...
+PANGO:Checking 
+PANGO:pins...
+PANGO:Checking 
+PANGO:labels...
+PANGO:Checking 
+PANGO:for 
+PANGO:unresolved 
+PANGO:variables...
+PANGO:Checking 
+PANGO:no 
+PANGO:connect 
+PANGO:pins 
+PANGO:for 
+PANGO:connections...
+PANGO:Checking 
+PANGO:for 
+PANGO:library 
+PANGO:symbol 
+PANGO:issues...
+PANGO:Checking 
+PANGO:for 
+PANGO:off 
+PANGO:grid 
+PANGO:pins 
+PANGO:and 
+PANGO:wires...
+GLX:Swap 42
+PANGO:H
+PANGO:Checking 
+PANGO:sheet 
+PANGO:names...
+PANGO:Checking 
+PANGO:bus 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:units...
+PANGO:Checking 
+PANGO:footprints...
+PANGO:Checking 
+PANGO:pins...
+PANGO:Checking 
+PANGO:labels...
+PANGO:Checking 
+PANGO:for 
+PANGO:unresolved 
+PANGO:variables...
+PANGO:Checking 
+PANGO:no 
+PANGO:connect 
+PANGO:pins 
+PANGO:for 
+PANGO:connections...
+PANGO:Checking 
+PANGO:for 
+PANGO:library 
+PANGO:symbol 
+PANGO:issues...
+PANGO:Checking 
+PANGO:for 
+PANGO:off 
+PANGO:grid 
+PANGO:pins 
+PANGO:and 
+PANGO:wires...
+PANGO:Done.
+PANGO:Cancel
+PANGO:Checking 
+PANGO:pins...
+PANGO:Checking 
+PANGO:labels...
+PANGO:Checking 
+PANGO:for 
+PANGO:unresolved 
+PANGO:variables...
+PANGO:Checking 
+PANGO:no 
+PANGO:connect 
+PANGO:pins 
+PANGO:for 
+PANGO:connections...
+PANGO:Checking 
+PANGO:for 
+PANGO:library 
+PANGO:symbol 
+PANGO:issues...
+PANGO:Checking 
+PANGO:for 
+PANGO:off 
+PANGO:grid 
+PANGO:pins 
+PANGO:and 
+PANGO:wires...
+PANGO:Done.
+GTK:Button Label:C_lose
+KiAuto:match
+KiAuto:Waiting for `['GTK:Window Show:Save Report to File', 'GTK:Window Destroy:Electrical Rules Checker', 'GTK:Window Title:KiCad Schematic Editor Warning', 'GTK:Window Title:KiCad PCB Editor Information', 'GTK:Window Title:KiCad PCB Editor Warning', 'GTK:Window Title:KiCad Schematic Editor Information']` starts=False times=1
+GTK:Button Label:**Changed from Close
+GLX:Swap 43
+PANGO:m9
+PANGO:Violations (0)
+PANGO:Ignored Tests (1)
+PANGO:Close
+PANGO:0
+GLX:Swap 44
+IO:open:/proc/self/mountinfo
+IO:open64:0x1B6
+IO:open:/etc/fstab
+IO:fopen:re
+IO:close:/etc/fstab
+IO:open:/proc/self/mountinfo
+IO:fopen:re
+IO:close:/proc/1608/mountinfo
+IO:open:/root/.config/gtk-3.0/bookmarks
+IO:open64:0x0
+IO:open:/root/.gtk-bookmarks
+IO:open64:0x0
+IO:open:/var/lib/dbus/machine-id
+IO:open64:0x0
+IO:close:/var/lib/dbus/machine-id
+IO:close:pipe:[26150]
+IO:close:pipe:[26150]
+IO:close:pipe:[26148]
+IO:close:pipe:[26149]
+IO:open:/dev/null
+IO:open64:0xA
+IO:close:/dev/null
+IO:close:pipe:[26148]
+IO:close:pipe:[26148]
+IO:close:pipe:[26149]
+IO:close:pipe:[26149]
+IO:close:pipe:[26150]
+IO:close:socket:[28055]
+IO:open:/root/.config/user-dirs.dirs
+IO:open64:0x0
+PANGO:Home
+PANGO:Desktop
+PANGO:Trash
+PANGO:Computer
+PANGO:Enter server address…
+IO:open:/root/.config/gtk-3.0/servers
+IO:open64:0xC81E2F00
+IO:open:/root/.config/gtk-3.0/servers
+IO:open64:0xC81E2F70
+IO:open:/root/.config/gtk-3.0/bookmarks
+IO:open64:0x0
+IO:open:/root/.gtk-bookmarks
+IO:open64:0x0
+IO:open:/.hidden
+IO:open64:0x0
+IO:open:/usr/share/glib-2.0/schemas/gschemas.compiled
+IO:open64:0x0
+IO:close:/usr/share/glib-2.0/schemas/gschemas.compiled
+IO:open:/usr/local/share/glib-2.0/schemas/gschemas.compiled
+IO:open64:0x0
+IO:open:/root/.local/share/glib-2.0/schemas/gschemas.compiled
+IO:open64:0x0
+IO:open:/run/dconf/user/0
+IO:fopen64:r
+IO:open:/root/.cache/dconf/profile
+IO:fopen64:r
+IO:open:/etc/dconf/profile/user
+IO:fopen64:r
+IO:open:/usr/local/share/dconf/profile/user
+IO:fopen64:r
+IO:open:/usr/share/dconf/profile/user
+IO:fopen64:r
+IO:open:/root/.cache/dconf/user
+IO:open64:0x180
+IO:close:/root/.cache/dconf/user
+IO:open:/root/.config/dconf/user
+IO:open64:0x0
+IO:open:/var/lib/dbus/machine-id
+IO:open64:0x0
+IO:close:/var/lib/dbus/machine-id
+IO:close:pipe:[29135]
+IO:close:pipe:[29133]
+IO:close:pipe:[29135]
+IO:close:pipe:[29134]
+IO:open:/dev/null
+IO:open64:0xB
+IO:close:/dev/null
+PANGO:ERC.rpt
+* wrapping set modal
+GTK:Window Set Modal:Save Report to File 1
+IO:close:pipe:[29133]
+IO:close:pipe:[29133]
+IO:close:pipe:[29134]
+IO:close:pipe:[29134]
+IO:close:pipe:[29135]
+PANGO:Cancel
+PANGO:Save
+PANGO:Name:
+PANGO:Home
+PANGO:Desktop
+PANGO:Other Locations
+PANGO:Name
+PANGO:The quick brown fox jumps over the lazy dog.
+PANGO:0123456789
+PANGO:Size
+PANGO:Type
+PANGO:Modified
+PANGO:Computer
+PANGO:/
+PANGO:On This Computer
+PANGO:No results found
+PANGO:The quick brown fox jumps over the lazy dog.
+PANGO:0123456789
+PANGO:Try a different search
+PANGO:No Results Found
+PANGO:Report files (*.rpt)
+PANGO:ERC.rpt
+PANGO:Home
+PANGO:Desktop
+PANGO:New bookmark
+PANGO:Other Locations
+GTK:Window Show:Save Report to File
+KiAuto:match
+KiAuto:Waiting for `['GTK:Main:In']` starts=False times=1
+GTK:Main:In
+KiAuto:match
+KiAuto:Waiting for `['GLX:Swap']` starts=True times=1
+IO:open:/proc/self/mountinfo
+IO:fopen:re
+IO:close:/proc/1608/mountinfo
+IO:open:/root/.icons/default/cursors/progress
+IO:fopen:r
+IO:open:/root/.icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/icons/default/cursors/progress
+IO:fopen:r
+IO:open:/usr/share/icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/cursors/progress
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/index.theme
+IO:fopen:r
+IO:open:/root/.icons/default/cursors/left_ptr_watch
+IO:fopen:r
+IO:open:/root/.icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/icons/default/cursors/left_ptr_watch
+IO:fopen:r
+IO:open:/usr/share/icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/cursors/left_ptr_watch
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/index.theme
+IO:fopen:r
+IO:open:/root/.icons/default/cursors/left_ptr
+IO:fopen:r
+IO:open:/root/.icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/icons/default/cursors/left_ptr
+IO:fopen:r
+IO:open:/usr/share/icons/default/index.theme
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/cursors/left_ptr
+IO:fopen:r
+IO:open:/usr/share/pixmaps/default/index.theme
+IO:fopen:r
+IO:open:/opt/.hidden
+IO:open64:0x0
+PANGO:schematics
+IO:open:/proc/self/mountinfo
+IO:fopen:re
+IO:close:/proc/1608/mountinfo
+IO:open:/opt/schematics/.hidden
+IO:open64:0x0
+IO:open:/opt/schematics/PSLab-cache.lib
+IO:open64:0x0
+IO:open:/opt/schematics/PSLab-cache.lib
+IO:open64:0x0
+PANGO:0
+IO:close:/opt/schematics/PSLab-cache.lib
+IO:close:/opt/schematics/PSLab-cache.lib
+IO:open:/opt/schematics/PSLab-rescue.lib
+IO:open64:0x0
+IO:open:/opt/schematics/PSLab-rescue.lib
+IO:open64:0x0
+IO:close:/opt/schematics/PSLab-rescue.lib
+IO:close:/opt/schematics/PSLab-rescue.lib
+PANGO:Cancel
+PANGO:Save
+PANGO:Name:
+IO:open:/opt/schematics/PSLab.lib
+IO:open64:0x0
+PANGO:Home
+PANGO:Desktop
+PANGO:Other Locations
+PANGO:schematics
+PANGO:opt
+IO:open:/opt/schematics/PSLab.lib
+IO:open64:0x0
+PANGO:Name
+PANGO:Size
+PANGO:Type
+PANGO:Modified
+PANGO:Computer
+IO:close:/opt/schematics/PSLab.lib
+PANGO:48.0 GB / 62.7 GB available
+PANGO:/
+PANGO:On This Computer
+IO:close:/opt/schematics/PSLab.lib
+PANGO:No results found
+PANGO:Try a different search
+PANGO:No Results Found
+IO:open:/opt/schematics/PSLab.step
+IO:open64:0x0
+IO:open:/opt/schematics/PSLab.step
+IO:open64:0x0
+IO:close:/opt/schematics/PSLab.step
+IO:close:/opt/schematics/PSLab.step
+IO:open:/opt/schematics/fp-lib-table
+IO:open64:0x0
+IO:open:/opt/schematics/fp-lib-table
+IO:open64:0x0
+IO:close:/opt/schematics/fp-lib-table
+IO:close:/opt/schematics/fp-lib-table
+IO:open:/opt/schematics/sym-lib-table
+IO:open64:0x0
+IO:open:/opt/schematics/sym-lib-table
+IO:open64:0x0
+IO:close:/opt/schematics/sym-lib-table
+IO:close:/opt/schematics/sym-lib-table
+IO:open:/opt/schematics/.DS_Store
+IO:open64:0x0
+PANGO:Report files (*.rpt)
+IO:open:/opt/schematics/.DS_Store
+IO:open64:0x0
+IO:close:/opt/schematics/.DS_Store
+IO:close:/opt/schematics/.DS_Store
+IO:open:/opt/schematics/PSLab.kicad_prl
+IO:open64:0x0
+IO:open:/opt/schematics/PSLab.kicad_prl
+IO:open64:0x0
+IO:close:/opt/schematics/PSLab.kicad_prl
+IO:close:/opt/schematics/PSLab.kicad_prl
+IO:open:/opt/schematics/~PSLab.kicad_sch.lck
+IO:open64:0x0
+IO:open:/opt/schematics/~PSLab.kicad_sch.lck
+IO:open64:0x0
+IO:close:/opt/schematics/~PSLab.kicad_sch.lck
+IO:close:/opt/schematics/~PSLab.kicad_sch.lck
+IO:open:/opt/schematics/fp-info-cache
+IO:open:/opt/schematics/fp-info-cache
+IO:open64:0x0
+IO:open64:0x0
+IO:close:/opt/schematics/fp-info-cache
+IO:close:/opt/schematics/fp-info-cache
+IO:open:/opt/schematics/PSLab.kicad_sym
+IO:open64:0x0
+IO:open:/opt/schematics/PSLab.kicad_sym
+IO:open64:0x0
+IO:close:/opt/schematics/PSLab.kicad_sym
+IO:close:/opt/schematics/PSLab.kicad_sym
+PANGO:3DModels
+IO:open:/usr/share/zoneinfo/Etc/UTC
+IO:open64:0x0
+IO:close:/usr/share/zoneinfo/Etc/UTC
+PANGO:Fri
+PANGO:PSLab.pretty
+PANGO:Fri
+PANGO:PSLab-backups
+PANGO:Thu
+PANGO:Name
+PANGO:3DModels
+PANGO:Fri
+PANGO:PSLab.pretty
+PANGO:Fri
+PANGO:PSLab-backups
+PANGO:Thu
+PANGO:3DModels
+PANGO:Fri
+PANGO:PSLab.pretty
+PANGO:Fri
+PANGO:PSLab-backups
+PANGO:Thu
+PANGO:3DModels
+PANGO:Fri
+PANGO:PSLab.pretty
+PANGO:Fri
+PANGO:PSLab-backups
+PANGO:Thu
+KiAuto:Waiting for `['PANGO:#']` starts=False times=1
+PANGO:ERC.rpt
+PANGO:#
+KiAuto:match
+KiAuto:Waiting for `['GLX:Swap']` starts=True times=1
+KiAuto:Waiting for `['GTK:Window Destroy:Save Report to File']` starts=False times=1
+* wrapping file chooser get filename
+GTK:Filename:/opt/schematics/PSLab-erc.txt
+GTK:Filename:**Changed from /opt/schematics/#
+IO:open:/root/.local/share/recently-used.xbel.CSWKD2
+IO:open64:0x1B6
+IO:close:/root/.local/share/recently-used.xbel.CSWKD2
+IO:open:/root/.local/share
+IO:open64:0x0
+IO:close:/root/.local/share
+GTK:Main:Out
+GTK:Window Set Modal:Save Report to File 0
+GTK:Filename:/opt/schematics/PSLab-erc.txt
+GTK:Filename:**Changed from /opt/schematics/#
+IO:open:/opt/schematics/PSLab-erc.txt
+IO:fopen64:wt
+IO:close:/host_virtiofs/Users/padmal/Desktop/FOSSASIA/pslab-hardware/schematics/PSLab-erc.txt
+PANGO:H
+PANGO:Checking 
+PANGO:sheet 
+PANGO:names...
+PANGO:Checking 
+PANGO:bus 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:conflicts...
+PANGO:Checking 
+PANGO:units...
+PANGO:Checking 
+PANGO:footprints...
+PANGO:Checking 
+PANGO:pins...
+PANGO:Checking 
+PANGO:labels...
+PANGO:Checking 
+PANGO:for 
+PANGO:unresolved 
+PANGO:variables...
+PANGO:Checking 
+PANGO:no 
+PANGO:connect 
+PANGO:pins 
+PANGO:for 
+PANGO:connections...
+PANGO:Checking 
+PANGO:for 
+PANGO:library 
+PANGO:symbol 
+PANGO:issues...
+PANGO:Checking 
+PANGO:for 
+PANGO:off 
+PANGO:grid 
+PANGO:pins 
+PANGO:and 
+PANGO:wires...
+PANGO:Done.
+PANGO:Report 
+PANGO:file 
+PANGO:'/opt/schematics/PSLab-erc.txt' 
+PANGO:created.
+PANGO:#
+IO:open:/proc/self/mountinfo
+IO:fopen:re
+IO:close:/proc/1608/mountinfo
+PANGO:Enter server address…
+IO:close:/proc/1608/mountinfo
+GTK:Window Destroy:Save Report to File
+KiAuto:match
+KiAuto:Waiting for `['IO:close:/opt/schematics/PSLab-erc.txt']` starts=True times=1
+IO:open:/root/.local/share/recently-used.xbel.N6ILD2
+IO:open64:0x1B6
+IO:close:/root/.local/share/recently-used.xbel.N6ILD2
+IO:open:/root/.local/share
+IO:open64:0x0
+IO:close:/root/.local/share
+GTK:Main:Out
+GTK:Main:In
+PANGO:0
+PANGO:Schematic Hierarchy
+PANGO:Root (page 1)
+GLX:Swap 45
+IO:open:/root/.local/share/recently-used.xbel
+IO:open64:0xC81E5120
+IO:close:/root/.local/share/recently-used.xbel
+PANGO:Click on items to highlight them on the board.

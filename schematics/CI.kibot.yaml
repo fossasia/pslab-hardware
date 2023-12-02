@@ -12,14 +12,13 @@ filters:
       - FID*
 
 global:
-  kiauto_time_out_scale: 4.0
-  kiauto_wait_start: 120
+  kiauto_time_out_scale: 2.0
 
 preflight:
   check_zone_fills: true
   ignore_unconnected: false
+  run_erc: false
   run_drc: true 
-  run_erc: true
   update_xml: false
   
 outputs:
@@ -67,6 +66,7 @@ outputs:
       source_by_id: false
       use_alt: false
       variant: ''
+
 ###############################################################################
   - name: 'diff_checker_sch'
     comment: "Checking difference between schematics"
@@ -76,6 +76,7 @@ outputs:
       output: 'diff_schematic.pdf'
       pcb: false
       old: 'HEAD'
+      only_different: true
 ###############################################################################
   - name: 'diff_checker_pcb'
     comment: "Checking difference between pcb layouts"
@@ -85,6 +86,8 @@ outputs:
       output: 'diff_pcb.pdf'
       pcb: true
       old: 'HEAD'
+      only_different: true
+
 ###############################################################################
   - name: 'interactive_bom'
     comment: "Interactive Bill of Materials"
@@ -115,6 +118,7 @@ outputs:
       variants_whitelist: ''
       variants_blacklist: ''
       dnp_field: ''
+
 ###############################################################################
   - name: 'gerber_generator'
     comment: "Gerbers files"
@@ -155,7 +159,6 @@ outputs:
       - 'B.Paste'
       - 'Edge.Cuts'
       - 'Eco1.User'
-
 ###############################################################################
   - name: 'drill_output'
     comment: 'Drill output'

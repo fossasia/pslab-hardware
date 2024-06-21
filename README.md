@@ -13,7 +13,7 @@ Front Side                        | Back Side
 
 
 ## Pin-outs
-- Find the pin-out diagram of PSLab v6 [here](docs/pin_layouts/PSLab_Pin_Layout.pdf)!
+- Find the pin-out diagram of PSLab V6 [here](docs/pin_layouts/PSLab_Pin_Layout.pdf)!
 
 ## Applications and Firmware Source Repositories
 

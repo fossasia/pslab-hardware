@@ -13,7 +13,7 @@ Front Side                        | Back Side
 
 
 ## Pin-outs
-- Find the pin-out diagram of PSLab V6 [here](docs/pin_layouts/PSLab_Pin_Layout.pdf)!
+- A PSLab V6 pin-out diagram is planned for [docs/pin_layouts](docs/pin_layouts/). For now, see the [board schematic](docs/schematics/PSLab.pdf) for pin and connector details.
 
 ## Applications and Firmware Source Repositories
 
@@ -54,9 +54,7 @@ The following software components are available:
  ┃ ┃ ┣ 📂pslab_version_previews
  ┃ ┃ ┣ 📜 ...
  ┃ ┃ ┗ 📜PSLab_v6_top.png
- ┃ ┣ 📂pin_layouts                              # Pin labels and specifications
- ┃ ┃ ┣ 📜PSLab_Pin_Layout.pdf
- ┃ ┃ ┗ 📜PSLab_Pin_Layout.svg
+ ┃ ┣ 📂pin_layouts                              # Pin-out diagram (V6 to be added); see schematic for now
  ┃ ┣ 📂position_files
  ┃ ┃ ┗ 📜PositionFile.csv                       # Pick and place information
  ┃ ┣ 📂reference                                # TeX documentation (stale)

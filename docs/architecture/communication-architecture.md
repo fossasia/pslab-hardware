@@ -1,4 +1,11 @@
 # Revamping PSLab Communication Architecture
+> ⚠️ *Status: Draft Proposal*
+> 
+>This document describes a proposed communication architecture for PSLab.
+> It is *not implemented* in current hardware or firmware and is intended
+> only as a reference for discussion and future development.
+> 
+>Target: PSLab v6 (conceptual)
 
 ## Overview
 

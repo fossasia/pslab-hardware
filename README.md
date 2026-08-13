@@ -17,13 +17,14 @@ Front Side                        | Back Side
 
 ## Applications and Firmware Source Repositories
 
-| [![](docs/images/getfirmware.png)](https://github.com/fossasia/pslab-firmware)	|[![](docs/images/getonfdroid.png)](https://f-droid.org/en/packages/io.pslab/)	| [![](docs/images/getongoogleplay.png)](https://play.google.com/store/apps/details?id=io.pslab)	| [![](docs/images/getonlinux.png)](https://github.com/fossasia/pslab-desktop/tree/install)	| [![](docs/images/getonwindows.png)](https://github.com/fossasia/pslab-desktop/tree/install)	|
+| [![](docs/images/getfirmware.png)](https://github.com/fossasia/pslab-firmware)	|[![](docs/images/getonfdroid.png)](https://f-droid.org/en/packages/io.pslab/)	| [![](docs/images/getongoogleplay.png)](https://play.google.com/store/apps/details?id=io.pslab)	| [![](docs/images/getonlinux.png)](https://github.com/fossasia/pslab-app/tree/app)	| [![](docs/images/getonwindows.png)](https://github.com/fossasia/pslab-app/tree/app)	|
 |---	|---	|---	|---	|---	|
 
 The following software components are available:
+* Bootloader: https://github.com/fossasia/pslab-bootloader
 * Firmware: https://github.com/fossasia/pslab-firmware
-* Android app: https://github.com/fossasia/pslab-android
-* Desktop app: https://github.com/fossasia/pslab-desktop
+* Python library: https://github.com/fossasia/pslab-python
+* PSLab app: https://github.com/fossasia/pslab-app
 
 ## Buy Device
 
